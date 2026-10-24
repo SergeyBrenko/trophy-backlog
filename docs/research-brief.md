@@ -68,6 +68,7 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
   "disc_note": "Диск PS5; DLC отдельно",
   "pros": ["…", "…", "…"],
   "cons": ["…", "…"],
+  "about": "3–4 sentences in Russian: genre and studio, setting and premise, what to expect (pace, length, open world or linear); no trophies, no praise, no addressing the reader",
   "trophy_summary": "1-2 предложения: что самое нудное/сложное в платине и DLC",
   "sources": [{"name": "Stratege", "url": "…"}, {"name": "PowerPyx", "url": "…"}]
 }
