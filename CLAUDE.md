@@ -80,3 +80,6 @@ docs/research-brief.md           как собирать карточку игр
 - Outer Worlds: Spacer's Choice — диска для PS5 нет (только PS4-диск + платный апгрейд).
 - Mafia: Definitive Edition — версия для PS5 и наличие диска не проверены.
 - Распределение трофеев по DLC у части игр выведено вычитанием из общего числа.
+- Кандидаты из групп «Сюжетные AA» и «Эксклюзивы Sony»: в `quality` нет поправки по отзывам stratege (комментарии грузятся скриптом).
+- Мало голосов за сложность на stratege, оценка может сдвинуться: The Blood of Dawnwalker (6), Avowed (8), Disciples: Domination (3), Star Wars Zero Company (2). У DLC Rogue Trader и Atomfall оценки сложности ещё нет.
+- Диск не подтверждён или его нет: Avowed, South of Midnight, The Sinking City (PS5), Sherlock Holmes: Chapter One (только азиатское издание), King's Bounty II (PS5 — через PS4-диск с апгрейдом), The Alters (диск Complete Edition выходит 20.11.2026).
