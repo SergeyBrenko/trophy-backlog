@@ -31,6 +31,7 @@ img/covers/                обложки: иконки трофейных ли�
 scripts/sync_profile.py    выгружает профиль stratege без браузера → library_raw.txt + library.json → totals, synced
 scripts/fetch_stratege.py  докачивает аватар, обложки и тип издания/язык для новых игр (нужен Pillow; --force — всё заново)
 scripts/recalc.py          пересчёт производных полей games.json и статистики library.json
+mockups/                   временные макеты интерфейса на согласование с владельцем; после решения удалять
 docs/research-brief.md     как собирать карточку игры: источники, русский язык, формула оценки, схема JSON (на английском)
 ```
 Локальный просмотр: `python3 -m http.server 8000` в корне → http://localhost:8000 (через file:// fetch не работает).
