@@ -65,3 +65,6 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
 }
 ```
 Keep pros/cons to 2–4 short bullets each (≤ 12 words each). Be efficient: don't over-fetch.
+
+Covers are not part of the card: after the cards are merged into data/games.json, run `python3 scripts/fetch_images.py`.
+It finds the trophy-list icon by `stratege_url` and records it in data/covers.json, so `stratege_url` must point to the exact trophy list used.
