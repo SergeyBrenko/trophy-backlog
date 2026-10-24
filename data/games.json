@@ -1790,93 +1790,6 @@
  },
  {
   "added": "2026-10-24",
-  "avg_completion": 26,
-  "avg_plat_hours": 129,
-  "cand_group": "Пропущенное",
-  "cons": [
-   "Нет русского языка",
-   "Очень длинная — 100–130 ч",
-   "Нужно планировать календарь"
-  ],
-  "critic": 94,
-  "critic_src": "OpenCritic",
-  "developer": "Atlus",
-  "diff_base": 3,
-  "diff_base_votes": null,
-  "diff_dlc": null,
-  "difficulty_trophy": "Нет",
-  "disc_note": "Диск PS5 есть (PS4-диск даёт PS4-список); DLC с трофеями нет",
-  "dlc_count": 0,
-  "dlc_pending": false,
-  "dlc_pending_note": null,
-  "dlcs": [],
-  "dur_base": "100+",
-  "dur_dlc": null,
-  "est_100_hours": 129,
-  "full_count": 185,
-  "full_pct": null,
-  "genre": "JRPG / симулятор жизни",
-  "glitched": "Нет известных",
-  "id": "persona_5_royal",
-  "missables": "Да — привязанные к календарю события, концовки, соц. статы; нужен гайд по дням и несколько сейвов",
-  "my_rating": null,
-  "notes": "",
-  "online": false,
-  "online_note": null,
-  "owners": 980,
-  "plat_count": 185,
-  "plat_pct": 18.9,
-  "platform": "PS5",
-  "playthroughs": "1 (с гайдом), иначе 2 через NG+",
-  "priority": null,
-  "pros": [
-   "Одна из лучших JRPG в истории",
-   "Стиль, музыка, персонажи",
-   "Платина простая (3.00)"
-  ],
-  "quality": 9.2,
-  "quality_note": "OC 94 (MC 94), MC user 8.8; комментарии stratege не читались (0)",
-  "release": "2022-10-21",
-  "ru_loc": "Нет",
-  "section": "backlog",
-  "sources": [
-   {
-    "name": "Stratege — трофеи",
-    "url": "https://stratege.ru/ps5/games/persona_5_royal/trophies"
-   },
-   {
-    "name": "TheGamer — гайд по трофеям",
-    "url": "https://www.thegamer.com/persona-5-royal-trophy-guide/"
-   },
-   {
-    "name": "DekuDeals (MC/OC/HLTB/диск)",
-    "url": "https://www.dekudeals.com/items/persona5-royal"
-   },
-   {
-    "name": "PS Store (языки)",
-    "url": "https://store.playstation.com/en-gb/concept/10002771"
-   }
-  ],
-  "status": "planned",
-  "stratege_url": "https://stratege.ru/ps5/games/persona_5_royal/trophies",
-  "title": "Persona 5 Royal",
-  "trophies": {
-   "base": 53,
-   "bronze": 44,
-   "dlc": 0,
-   "gold": 1,
-   "plat": 1,
-   "silver": 7,
-   "total": 53
-  },
-  "trophy_summary": "Сложности нет — только время и планирование: максимальные соц. статы, конфиданты, экзамены и все концовки по календарному гайду.",
-  "updated": "2026-10-24",
-  "user_score": 8.8,
-  "why": "Ты закрыл Clair Obscur — Persona 5 Royal ещё одна пошаговая RPG мирового уровня (OC 94) с очень простой, хоть и долгой платиной.",
-  "ru": "none"
- },
- {
-  "added": "2026-10-24",
   "avg_completion": 41,
   "avg_plat_hours": 11,
   "cons": [
@@ -2442,103 +2355,6 @@
   "trophy_summary": "Самое сложное — «Сверхновая» в начале игры (Монарх, Тартар) и много пропускаемого из-за отсутствия NG+; DLC несложные (3.62), но требуют ~10+ ч и определённых проверок навыков.",
   "updated": "2026-10-24",
   "user_score": 6.7,
-  "ru": "subs"
- },
- {
-  "added": "2026-10-24",
-  "avg_completion": 45,
-  "avg_plat_hours": 23,
-  "cons": [
-   "Скучные сюжет и персонажи",
-   "Устаревшая графика, слабые оценки",
-   "Продолжения не будет — задел в финале повисает"
-  ],
-  "critic": 62,
-  "critic_src": "OpenCritic",
-  "developer": "Reflector Entertainment",
-  "diff_base": 3.2,
-  "diff_base_votes": 5,
-  "diff_dlc": null,
-  "difficulty_trophy": "Нет (можно играть на самой лёгкой)",
-  "disc_note": "Диск PS5 (у PS4-версии отдельный трофейный лист — брать PS5); DLC только косметические, без трофеев",
-  "dlc_count": 0,
-  "dlc_pending": false,
-  "dlc_pending_note": null,
-  "dlcs": [],
-  "dur_base": "10+",
-  "dur_dlc": null,
-  "est_100_hours": 23,
-  "full_count": 47,
-  "full_pct": null,
-  "genre": "Экшен-приключение",
-  "glitched": "Нет известных",
-  "id": "unknown_9_awakening",
-  "missables": "Нет критичных — есть выбор глав; нюанс: если в гл. 7 не построить мост в Изнанке, в гл. 12 не взять предмет (лечится переигрыванием глав)",
-  "my_rating": null,
-  "notes": "",
-  "online": false,
-  "online_note": null,
-  "owners": 132,
-  "plat_count": 47,
-  "plat_pct": 35.6,
-  "platform": "PS5",
-  "playthroughs": "1",
-  "priority": null,
-  "pros": [
-   "Лёгкая и короткая платина",
-   "Интересная боёвка со способностями Изнанки",
-   "Есть выбор глав для коллекционок"
-  ],
-  "quality": 4.8,
-  "quality_note": "OC 62 (MC PS5 59), MC user 1.9 (массово низкие оценки) → 4.5; +0.3: на stratege отзывы умеренно положительные («просто, весело», «боёвка интересная», но сюжет и персонажи скучные)",
-  "release": "2024-10-18",
-  "ru_loc": "Субтитры",
-  "section": "backlog",
-  "sources": [
-   {
-    "name": "Stratege (трофеи)",
-    "url": "https://stratege.ru/ps5/games/unknown_9_awakening/trophies"
-   },
-   {
-    "name": "Stratege (сложность)",
-    "url": "https://stratege.ru/ps5/games/unknown_9_awakening/difficulty"
-   },
-   {
-    "name": "DekuDeals (HLTB/MC/OC)",
-    "url": "https://www.dekudeals.com/items/unknown-9-awakening"
-   },
-   {
-    "name": "Metacritic",
-    "url": "https://www.metacritic.com/game/unknown-9-awakening/"
-   },
-   {
-    "name": "OpenCritic",
-    "url": "https://opencritic.com/game/17472/unknown-9-awakening"
-   },
-   {
-    "name": "VGTimes (локализация)",
-    "url": "https://vgtimes.ru/games/unknown-9-awakening/"
-   },
-   {
-    "name": "PS Store (языки)",
-    "url": "https://www.playstation.com/en-gb/games/unknown-9-awakening/"
-   }
-  ],
-  "status": "planned",
-  "stratege_url": "https://stratege.ru/ps5/games/unknown_9_awakening/trophies",
-  "title": "Unknown 9: Awakening",
-  "trophies": {
-   "base": 38,
-   "bronze": 24,
-   "dlc": 0,
-   "gold": 4,
-   "plat": 1,
-   "silver": 9,
-   "total": 38
-  },
-  "trophy_summary": "Сюжет + коллекционки по текстовому гайду и ситуативные трофеи за способности (вселение в босса и т.п.); единственный подвох — мост в гл. 7, влияющий на предмет в гл. 12.",
-  "updated": "2026-10-24",
-  "user_score": 1.9,
   "ru": "subs"
  },
  {
@@ -11509,6 +11325,104 @@
  },
  {
   "added": "2026-10-24",
+  "avg_completion": 45,
+  "avg_plat_hours": 23,
+  "cons": [
+   "Скучные сюжет и персонажи",
+   "Устаревшая графика, слабые оценки",
+   "Продолжения не будет — задел в финале повисает"
+  ],
+  "critic": 62,
+  "critic_src": "OpenCritic",
+  "developer": "Reflector Entertainment",
+  "diff_base": 3.2,
+  "diff_base_votes": 5,
+  "diff_dlc": null,
+  "difficulty_trophy": "Нет (можно играть на самой лёгкой)",
+  "disc_note": "Диск PS5 (у PS4-версии отдельный трофейный лист — брать PS5); DLC только косметические, без трофеев",
+  "dlc_count": 0,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "dlcs": [],
+  "dur_base": "10+",
+  "dur_dlc": null,
+  "est_100_hours": 23,
+  "full_count": 47,
+  "full_pct": null,
+  "genre": "Экшен-приключение",
+  "glitched": "Нет известных",
+  "id": "unknown_9_awakening",
+  "missables": "Нет критичных — есть выбор глав; нюанс: если в гл. 7 не построить мост в Изнанке, в гл. 12 не взять предмет (лечится переигрыванием глав)",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "owners": 132,
+  "plat_count": 47,
+  "plat_pct": 35.6,
+  "platform": "PS5",
+  "playthroughs": "1",
+  "priority": null,
+  "pros": [
+   "Лёгкая и короткая платина",
+   "Интересная боёвка со способностями Изнанки",
+   "Есть выбор глав для коллекционок"
+  ],
+  "quality": 4.8,
+  "quality_note": "OC 62 (MC PS5 59), MC user 1.9 (массово низкие оценки) → 4.5; +0.3: на stratege отзывы умеренно положительные («просто, весело», «боёвка интересная», но сюжет и персонажи скучные)",
+  "release": "2024-10-18",
+  "ru_loc": "Субтитры",
+  "section": "candidate",
+  "sources": [
+   {
+    "name": "Stratege (трофеи)",
+    "url": "https://stratege.ru/ps5/games/unknown_9_awakening/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/unknown_9_awakening/difficulty"
+   },
+   {
+    "name": "DekuDeals (HLTB/MC/OC)",
+    "url": "https://www.dekudeals.com/items/unknown-9-awakening"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/unknown-9-awakening/"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/17472/unknown-9-awakening"
+   },
+   {
+    "name": "VGTimes (локализация)",
+    "url": "https://vgtimes.ru/games/unknown-9-awakening/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://www.playstation.com/en-gb/games/unknown-9-awakening/"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps5/games/unknown_9_awakening/trophies",
+  "title": "Unknown 9: Awakening",
+  "trophies": {
+   "base": 38,
+   "bronze": 24,
+   "dlc": 0,
+   "gold": 4,
+   "plat": 1,
+   "silver": 9,
+   "total": 38
+  },
+  "trophy_summary": "Сюжет + коллекционки по текстовому гайду и ситуативные трофеи за способности (вселение в босса и т.п.); единственный подвох — мост в гл. 7, влияющий на предмет в гл. 12.",
+  "updated": "2026-10-24",
+  "user_score": 1.9,
+  "ru": "subs",
+  "cand_group": "Из вашего списка"
+ },
+ {
+  "added": "2026-10-24",
   "avg_completion": 21,
   "avg_plat_hours": 278,
   "cand_group": "Тактика и RPG",
@@ -12124,5 +12038,92 @@
   "user_score": 8.2,
   "why": "Лучший супергеройский экшен до Spider-Man от Insomniac с комфортной базовой платиной — но 100% упирается в сложные DLC-испытания, так что брать ради платины, а DLC — по настроению.",
   "ru": "subs"
+ },
+ {
+  "added": "2026-10-24",
+  "avg_completion": 26,
+  "avg_plat_hours": 129,
+  "cand_group": "Пропущенное",
+  "cons": [
+   "Нет русского языка",
+   "Очень длинная — 100–130 ч",
+   "Нужно планировать календарь"
+  ],
+  "critic": 94,
+  "critic_src": "OpenCritic",
+  "developer": "Atlus",
+  "diff_base": 3,
+  "diff_base_votes": null,
+  "diff_dlc": null,
+  "difficulty_trophy": "Нет",
+  "disc_note": "Диск PS5 есть (PS4-диск даёт PS4-список); DLC с трофеями нет",
+  "dlc_count": 0,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "dlcs": [],
+  "dur_base": "100+",
+  "dur_dlc": null,
+  "est_100_hours": 129,
+  "full_count": 185,
+  "full_pct": null,
+  "genre": "JRPG / симулятор жизни",
+  "glitched": "Нет известных",
+  "id": "persona_5_royal",
+  "missables": "Да — привязанные к календарю события, концовки, соц. статы; нужен гайд по дням и несколько сейвов",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "owners": 980,
+  "plat_count": 185,
+  "plat_pct": 18.9,
+  "platform": "PS5",
+  "playthroughs": "1 (с гайдом), иначе 2 через NG+",
+  "priority": null,
+  "pros": [
+   "Одна из лучших JRPG в истории",
+   "Стиль, музыка, персонажи",
+   "Платина простая (3.00)"
+  ],
+  "quality": 9.2,
+  "quality_note": "OC 94 (MC 94), MC user 8.8; комментарии stratege не читались (0)",
+  "release": "2022-10-21",
+  "ru_loc": "Нет",
+  "section": "rejected",
+  "sources": [
+   {
+    "name": "Stratege — трофеи",
+    "url": "https://stratege.ru/ps5/games/persona_5_royal/trophies"
+   },
+   {
+    "name": "TheGamer — гайд по трофеям",
+    "url": "https://www.thegamer.com/persona-5-royal-trophy-guide/"
+   },
+   {
+    "name": "DekuDeals (MC/OC/HLTB/диск)",
+    "url": "https://www.dekudeals.com/items/persona5-royal"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10002771"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps5/games/persona_5_royal/trophies",
+  "title": "Persona 5 Royal",
+  "trophies": {
+   "base": 53,
+   "bronze": 44,
+   "dlc": 0,
+   "gold": 1,
+   "plat": 1,
+   "silver": 7,
+   "total": 53
+  },
+  "trophy_summary": "Сложности нет — только время и планирование: максимальные соц. статы, конфиданты, экзамены и все концовки по календарному гайду.",
+  "updated": "2026-10-24",
+  "user_score": 8.8,
+  "why": "Ты закрыл Clair Obscur — Persona 5 Royal ещё одна пошаговая RPG мирового уровня (OC 94) с очень простой, хоть и долгой платиной.",
+  "ru": "none"
  }
 ]

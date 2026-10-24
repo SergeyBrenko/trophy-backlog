@@ -214,6 +214,7 @@ footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:
 .stats.n6{grid-template-columns:repeat(2,minmax(0,1.5fr)) repeat(4,minmax(0,1fr))}
 .stats.n5{grid-template-columns:minmax(0,1.5fr) repeat(4,minmax(0,1fr))}
 .stat.tro .tline{flex-wrap:nowrap}
+.stat b small{font:500 13px var(--f-body);color:var(--muted)}
 @media (max-width:1100px){.stats.n6,.stats.n5{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}.stat.tro .tline{flex-wrap:wrap}}
 @media (max-width:720px){.stats.n6,.stats.n5{grid-template-columns:repeat(2,minmax(0,1fr))}.stat.tro{grid-column:1/-1}}
 /* proposed: DLC variant A */
@@ -255,16 +256,11 @@ footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:
   </section>
 
   <section class="mk">
-    <h2>2. Дополнения, вариант А — крупные карточки</h2>
+    <h2>2. Дополнения</h2>
     <p class="hint">Две карточки в ряд, на телефоне одна. Сверху название и дата, ниже цифры, описание, заметка и трофеи DLC в том же формате, что в плитках.</p>
     <div id="dlcA"></div>
   </section>
 
-  <section class="mk">
-    <h2>3. Дополнения, вариант Б — лента по датам</h2>
-    <p class="hint">Одна строка на дополнение, слева дата: удобно смотреть, что и когда вышло или выйдет. Трофеи и цифры справа.</p>
-    <div id="dlcB"></div>
-  </section>
 </div>
 
 <script>
@@ -312,22 +308,23 @@ function tlines(t){
   if(has(t.off)&&has(t.on))return line(t.off,"офлайн")+line(t.on,"онлайн");
   return has(t.on)?line(t.on,"онлайн"):line(t.off,"");
 }
+const plural=(n,f)=>{n=Math.abs(n)%100;const n1=n%10;if(n>10&&n<20)return f[2];if(n1>1&&n1<5)return f[1];if(n1===1)return f[0];return f[2]};
 const sum=o=>Object.values(o||{}).reduce((a,b)=>a+(b||0),0);
 function troTile(label,t){const n=sum(t.off)+sum(t.on);
-  return `<div class="stat tro">${cup("p","l")}<div><b>${n}</b><span>${label}</span>${tlines(t)}</div></div>`}
+  return `<div class="stat tro">${cup("p","l")}<div><b>${n} <small>${plural(n,["трофей","трофея","трофеев"])}</small></b><span>${label}</span>${tlines(t)}</div></div>`}
 function stat(icon,v,l){return `<div class="stat">${icon}<div><b>${v}</b><span>${l}</span></div></div>`}
 
 const GAMES=[
  {title:"Kingdom Come: Deliverance II",cover:"../img/covers/ps5_kingdom_come_deliverance_ii.jpg",note:"DLC есть, всё офлайн: по одной строке без подписи",
-  base:{off:{p:1,g:2,s:12,b:34}},dlc:{off:{s:9,b:26}},dlcN:5,diff:"4.06 / 4.90",plat:"192 ч",pp:"12.4%",q:"9.3"},
+  base:{off:{p:1,g:2,s:12,b:34}},dlc:{off:{s:9,b:26}},dlcN:5,diff:"4.06 / 4.90",votes:"83 / 10",plat:"192 ч",pp:"12.4%",q:"9.3"},
  {title:"Ghost of Tsushima: Director's Cut",cover:"../img/covers/ps5_ghost_of_tsushima.jpg",note:"Онлайн только в DLC: у DLC две строки",
-  base:{off:{p:1,g:2,s:9,b:40}},dlc:{off:{g:1,s:2,b:12},on:{g:1,s:2,b:7}},dlcN:5,diff:"3.30 / 5.29",plat:"56 ч",pp:"49.3%",q:"—"},
+  base:{off:{p:1,g:2,s:9,b:40}},dlc:{off:{g:1,s:2,b:12},on:{g:1,s:2,b:7}},dlcN:5,diff:"3.30 / 5.29",votes:"1 666 / 146",plat:"56 ч",pp:"49.3%",q:"—"},
  {title:"Death Stranding 2: On the Beach",cover:"../img/covers/ps5_death_stranding_2_on_the_beach.jpg",note:"DLC нет, онлайн в основной игре: плиток пять, у основной игры две строки",
-  base:{off:{p:1,g:2,s:5,b:45},on:{s:1,b:1}},diff:"3.64",plat:"140 ч",pp:"31%",q:"8.7"}
+  base:{off:{p:1,g:2,s:5,b:45},on:{s:1,b:1}},diff:"3.64",votes:"268",plat:"140 ч",pp:"31%",q:"8.7"}
 ];
 document.getElementById("tiles").innerHTML=GAMES.map(g=>`<div class="mkgame"><div class="mkhead"><img class="cv" src="${g.cover}" alt=""><div><b>${esc(g.title)}</b><div class="hint">${esc(g.note)}</div></div></div>
  <div class="stats ${g.dlc?"n6":"n5"}">${troTile("основная игра",g.base)}${g.dlc?troTile(`DLC · ${g.dlcN} ${g.dlcN===1?"дополнение":"дополнений"}`,g.dlc):""}
- ${stat(ic("gauge","l"),g.diff,"сложность"+(g.dlc?" / DLC":"")+" на stratege")}${stat(ic("clock","l"),g.plat,"среднее время платины")}${stat(ic("users","l"),g.pp,"получили платину")}${stat(ic("star","l"),g.q,"итоговая оценка")}</div></div>`).join("");
+ ${stat(ic("gauge","l"),g.diff,"сложность"+(g.dlc?" / DLC":"")+(g.votes?`<br>${g.votes} ${plural(+String(g.votes).split(" / ").pop().replace(/\s/g,""),["голос","голоса","голосов"])}`:""))}${stat(ic("clock","l"),g.plat,"среднее время платины")}${stat(ic("users","l"),g.pp,"получили платину")}${stat(ic("star","l"),g.q,"итоговая оценка")}</div></div>`).join("");
 
 const KCD=[
  {name:"Hardcore Mode",ru:"Жёсткий режим",date:"15.04.2025",free:true,tro:{off:{s:1,b:1}},diff:null,hours:null,
@@ -357,14 +354,10 @@ function cardA(d){return `<article class="dA${d.date?"":" pending"}">${d.game?ex
   <div class="dmeta">${dmeta(d)}</div>
   <p>${esc(d.about)}</p>${d.note?`<div class="dnote">${ic("bulb","s")}${esc(d.note)}</div>`:""}
   <div class="dtro">${tlines(d.tro)}</div></article>`}
-function rowB(d){return `<div class="dB${d.date?"":" pending"}">
-  <div class="when">${d.date?`<b>${d.date.slice(0,5)}</b><span>${d.date.slice(6)}</span>`:`${ic("hourglass","")}<span>${esc(d.soon)}</span>`}</div>
-  <div class="what">${d.game?extraHead(d):""}<h3>${dname(d)}</h3><p>${esc(d.about)}</p>${d.note?`<div class="dnote">${ic("bulb","s")}${esc(d.note)}</div>`:""}</div>
-  <div class="tro">${tlines(d.tro)}<div class="dmeta">${dmeta(d)}</div></div></div>`}
+
 document.getElementById("dlcA").innerHTML=`<div class="mkgame"><div class="mkhead"><img class="cv" src="../img/covers/ps5_kingdom_come_deliverance_ii.jpg" alt=""><b>Kingdom Come: Deliverance II</b></div><div class="gridA">${KCD.map(cardA).join("")}</div>
   <h4 class="mksub">Особые случаи из других игр</h4><div class="gridA">${EXTRA.map(cardA).join("")}</div></div>`;
-document.getElementById("dlcB").innerHTML=`<div class="mkgame"><div class="mkhead"><img class="cv" src="../img/covers/ps5_kingdom_come_deliverance_ii.jpg" alt=""><b>Kingdom Come: Deliverance II</b></div><div class="listB">${KCD.map(rowB).join("")}</div>
-  <h4 class="mksub">Особые случаи из других игр</h4><div class="listB">${EXTRA.map(rowB).join("")}</div></div>`;
+
 </script>
 
 </body></html>
