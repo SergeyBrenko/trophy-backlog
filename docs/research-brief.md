@@ -48,7 +48,8 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
   "developer": "…",
   "stratege_url": "https://stratege.ru/ps5/games/…/trophies",
   "trophies": {"total": 62, "base": 54, "dlc": 8, "plat": 1, "gold": 2, "silver": 12, "bronze": 47},
-  "dlcs": [ {"name": "In Tanta We Trust", "trophies": 8, "released": true, "release_date": "2023-05-26", "difficulty": 3, "hours": 6, "note": "сюжетное, ~6 ч"} ],
+  "dlcs": [ {"name": "In Tanta We Trust", "trophies": 8, "released": true, "release_date": "2023-05-26", "difficulty": 3, "hours": 6,
+             "note": "trophy pain points, ~6 ч", "about": "1–2 sentences: what the DLC is about", "free": false, "expected": null} ],  // expected: text deadline for unreleased DLC
   "dlc_pending": false,            // true if any trophy DLC is announced but not yet out
   "dlc_pending_note": null,
   "diff_base": 3.56, "diff_base_votes": 101, "dur_base": "50+",

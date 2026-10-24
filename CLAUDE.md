@@ -10,7 +10,7 @@
 - Цель в каждой игре: платина + 100% всех DLC с трофеями.
 - Играет с **физического диска**, DLC докупает цифрой (PS Store Турция или Украина). Игры без диска помечать (`disc_note`).
 - Комфортная сложность — до 6.0 по stratege (основная игра и DLC). Сложные игры тоже добавляются в кандидаты: страница подсвечивает сложность цветом (красная — выше 6). В `why`/`trophy_summary` прямо пиши, что делает платину сложной.
-- Онлайн-трофеи допустимы, но всегда `online: true` + пояснение в `online_note` + список `online_trophies` (показывается в раскрытой карточке).
+- Онлайн-трофеи допустимы, но всегда `online: true` + пояснение в `online_note` + список `online_trophies`: по нему плитки трофеев делятся на офлайн и онлайн.
 - Наличие русского языка важно: у каждой игры должно быть поле `ru` (см. ниже), неизвестное ищи по источникам из `docs/research-brief.md`.
 - Платформы: PS5 и PS4. Если у игры отдельные списки PS4/PS5 — бери PS5.
 - Скучные игры (как Forspoken) по умолчанию не предлагать, но держать в списке не запрещено.
@@ -25,13 +25,14 @@ data/games.json            все игры: список, кандидаты, н
 data/library.json          профиль: итоги, аватар, пройденные игры
 data/library_raw.txt       выгрузка профиля stratege (источник для library.json)
 data/covers.json           путь stratege (/ps5/games/<slug>) → img/covers/<платформа>_<slug>.jpg
-data/stratege.json         путь stratege → {type, lang} со страницы игры: подсказка при проверке диска и языка
+data/stratege.json         путь stratege → {type, lang, votes}: тип издания и язык (подсказка при проверке диска и русского), голоса за сложность
+data/trophies.json         путь stratege → списки трофеев основной игры и каждой группы DLC со stratege (имя, тип кубка, пометка онлайн)
 img/avatar.png             аватар PSN владельца
 img/covers/                обложки: иконки трофейных листов PSN, квадрат 256×256 JPEG
 scripts/sync_profile.py    выгружает профиль stratege без браузера → library_raw.txt + library.json → totals, synced
-scripts/fetch_stratege.py  докачивает аватар, обложки и тип издания/язык для новых игр (нужен Pillow; --force — всё заново)
+scripts/fetch_stratege.py  докачивает аватар, обложки, тип издания/язык, голоса и списки трофеев (нужен Pillow; --trophies — перечитать трофеи и голоса, --force — всё заново)
 scripts/recalc.py          пересчёт производных полей games.json и статистики library.json
-mockups/                   временные макеты интерфейса на согласование с владельцем; после решения удалять
+mockups/                   (создаётся по необходимости) временные макеты интерфейса на согласование; после решения удалять
 docs/research-brief.md     как собирать карточку игры: источники, русский язык, формула оценки, схема JSON (на английском)
 ```
 Локальный просмотр: `python3 -m http.server 8000` в корне → http://localhost:8000 (через file:// fetch не работает).
@@ -42,10 +43,11 @@ docs/research-brief.md     как собирать карточку игры: и
 - `section`: `backlog` (основной список) · `candidate` (предложено, ждёт решения) · `unfinished` (игры из профиля не на 100%) · `rejected` (точно не буду).
 - `status`: `planned` · `playing` · `paused` · `done`. Плюс поля владельца `priority` (1–3|null), `my_rating` (1–10|null), `notes`: на странице показываются в раскрытой карточке, если заполнены.
 - `cand_group` у кандидатов: «Новинки», «Пропущенное», «По вашей просьбе», «Тактика и RPG», «Сюжетные AA», «Эксклюзивы Sony» (группы в фильтре строятся автоматически).
-- `online_trophies`: `[{name, grade: "platinum|gold|silver|bronze", part: "Основная игра" | название DLC, note, got}]`; `got` (true/false) — только у `unfinished`, иначе `null`. Пометка «онлайн» у трофея на stratege бывает неверной: сверяй с гайдом.
+- `online_trophies`: `[{name, grade: "platinum|gold|silver|bronze", part: "Основная игра" | название DLC, note, got}]` — имена как на stratege, по ним `recalc.py` отделяет онлайн-трофеи; `got` (true/false) — только у `unfinished`, иначе `null`. Пометка «онлайн» у трофея на stratege бывает неверной: сверяй с гайдом.
 - `ru`: `"voice"` (озвучка, зелёный) · `"subs"` (только текст, оранжевый) · `"none"` (нет, красный) · `null` (не установлено, серый «русский?»); `ru_loc` — подробности текстом.
 - Карточка игры — полная схема в `docs/research-brief.md`: `trophies{total,base,dlc,plat,gold,silver,bronze}`, `dlcs[]` (`released:false` = ещё не вышло), `dlc_pending`, `diff_base`, `diff_dlc`, `dur_base`, `avg_plat_hours`, `owners`, `plat_count`, `full_count`, `critic`, `user_score`, `quality`, `quality_note`, `online`, `missables`, `playthroughs`, `difficulty_trophy`, `glitched`, `ru`, `ru_loc`, `disc_note`, `pros[]`, `cons[]`, `trophy_summary`, `why` (для кандидатов), `sources[]`.
-- Производные (не править руками, их считает `scripts/recalc.py`): `plat_pct`, `est_100_hours`, `dlc_count`.
+- У DLC в `dlcs[]` кроме цифр и `note`: `about` (о чём дополнение, 1–2 предложения), `free` (бесплатное), `expected` (срок для невышедших, текстом), `group` (точное имя группы DLC на stratege; `recalc.py` подбирает его сам по названию и пишет о несовпадениях — тогда поправь руками).
+- Производные (не править руками, их считает `scripts/recalc.py`): `plat_pct`, `est_100_hours`, `dlc_count`, `tro_split` (плитки трофеев: основная игра и DLC, по типам, офлайн/онлайн), `dlcs[].grades` и `dlcs[].trophies` (из списка stratege), `diff_base_votes`, `diff_dlc_votes`.
 - Недоделанные (`unfinished`) имеют свою схему: `got`, `total`, `plat_done`, `missing[{part,trophies,note}]`, `diff_dlc`, `online`, `online_note`, `est_hours`, `feasible` ("да"|"сложно"|"нет"), `summary`, плюс `ru`/`ru_loc`.
 
 Оценка качества `quality` (1–10): 0.6 × оценка критиков (OpenCritic/Metacritic, /10) + 0.4 × оценка игроков (Metacritic user /10 или Steam %/10), поправка до ±0.5 по отзывам на stratege и свежим отзывам. Входные данные — в `quality_note`.
@@ -74,7 +76,7 @@ docs/research-brief.md     как собирать карточку игры: и
 
    Большой объём делай параллельными агентами по группам игр, каждый пишет результат во временный файл, сливаешь сам и проверяешь схему.
 4. **Новые кандидаты** (только при варианте «б» и по прямой просьбе): заметные релизы за период; сложные тоже. Исключай всё из `library_raw.txt` и `games.json` (включая `rejected`). Полная карточка по `docs/research-brief.md`, `section: "candidate"`, заполни `why`.
-5. `python3 scripts/fetch_stratege.py`, затем `python3 scripts/recalc.py`.
+5. `python3 scripts/fetch_stratege.py --trophies` (новые DLC, голоса за сложность), затем `python3 scripts/recalc.py` — проверь его вывод «DLC: …» о несовпадениях групп.
 6. Покажи владельцу сводку (что пройдено, что изменилось, новые кандидаты с ключевыми цифрами), обнови «Известные пробелы данных» ниже, затем commit, push и ссылка на сайт.
 
 Подсказки по stratege:

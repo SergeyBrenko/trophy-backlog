@@ -17,7 +17,11 @@
  },
  "/ps4/games/assassins_creed_iv_black_flag": {
   "type": "Диск",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   603,
+   267
+  ]
  },
  "/ps4/games/assassins_creed_liberation_remastered": {
   "type": "Цифровая версия",
@@ -37,7 +41,11 @@
  },
  "/ps4/games/assassins_creed_unity": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   963,
+   613
+  ]
  },
  "/ps4/games/assassins_creed_victory": {
   "type": "Диск",
@@ -109,7 +117,11 @@
  },
  "/ps4/games/gravity_rush_2": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   177,
+   111
+  ]
  },
  "/ps4/games/heavy_rain": {
   "type": "Диск, Цифровая версия",
@@ -117,7 +129,11 @@
  },
  "/ps4/games/hellblade": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   878,
+   null
+  ]
  },
  "/ps4/games/horizon_zero_dawn": {
   "type": "Диск, Цифровая версия",
@@ -125,11 +141,19 @@
  },
  "/ps4/games/infamous_first_light": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   1351,
+   null
+  ]
  },
  "/ps4/games/infamous_second_son": {
   "type": "Диск",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   2206,
+   null
+  ]
  },
  "/ps4/games/inside": {
   "type": "Диск, Цифровая версия",
@@ -153,7 +177,11 @@
  },
  "/ps4/games/mafia_ii_definitive_edition": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   451,
+   137
+  ]
  },
  "/ps4/games/marvels_spider-man": {
   "type": "Диск, Цифровая версия",
@@ -173,7 +201,11 @@
  },
  "/ps4/games/mutant_year_zero_road_to_eden": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   42,
+   20
+  ]
  },
  "/ps4/games/oceanhorn_monster_of_uncharted_seas": {
   "type": "Цифровая версия",
@@ -189,7 +221,11 @@
  },
  "/ps4/games/red_dead_redemption_2": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   541,
+   null
+  ]
  },
  "/ps4/games/resident_evil_village": {
   "type": "Диск, Цифровая версия",
@@ -197,7 +233,11 @@
  },
  "/ps4/games/shadow_of_the_tomb_raider": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   641,
+   232
+  ]
  },
  "/ps4/games/sniper_ghost_warrior_3": {
   "type": "Диск",
@@ -205,11 +245,19 @@
  },
  "/ps4/games/spintires_mudrunner": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   144,
+   64
+  ]
  },
  "/ps4/games/spiritfarer": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   30,
+   null
+  ]
  },
  "/ps4/games/subnautica": {
   "type": "Диск, Цифровая версия",
@@ -221,7 +269,11 @@
  },
  "/ps4/games/the_last_guardian": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   99,
+   null
+  ]
  },
  "/ps4/games/the_last_of_us_part_ii": {
   "type": "Диск, Цифровая версия",
@@ -229,7 +281,11 @@
  },
  "/ps4/games/the_order_1886": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   2021,
+   null
+  ]
  },
  "/ps4/games/the_wolf_among_us": {
   "type": "Диск, Цифровая версия",
@@ -241,11 +297,19 @@
  },
  "/ps4/games/uncharted_4": {
   "type": "Диск",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   1746,
+   298
+  ]
  },
  "/ps4/games/uncharted_the_lost_legacy": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   1131,
+   null
+  ]
  },
  "/ps4/games/undertale": {
   "type": "Цифровая версия",
@@ -257,15 +321,27 @@
  },
  "/ps4/games/wasteland_3": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   15,
+   8
+  ]
  },
  "/ps4/games/xcom_2": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   76,
+   24
+  ]
  },
  "/ps5/games/007_first_light": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   141,
+   null
+  ]
  },
  "/ps5/games/a_plague_tale_requiem": {
   "type": "Диск, Цифровая версия",
@@ -277,7 +353,11 @@
  },
  "/ps5/games/alan_wake_remastered": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   356,
+   209
+  ]
  },
  "/ps5/games/as_dusk_falls": {
   "type": "Цифровая версия",
@@ -289,7 +369,11 @@
  },
  "/ps5/games/assassins_creed_shadows": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   173,
+   9
+  ]
  },
  "/ps5/games/assassins_creed_valhalla": {
   "type": "Диск, Цифровая версия",
@@ -297,31 +381,59 @@
  },
  "/ps5/games/astro_bot": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   437,
+   107
+  ]
  },
  "/ps5/games/astros_playroom": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   1028,
+   53
+  ]
  },
  "/ps5/games/atomfall": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   16,
+   null
+  ]
  },
  "/ps5/games/atomic_heart": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   316,
+   30
+  ]
  },
  "/ps5/games/avatar_frontiers_of_pandora": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   58,
+   6
+  ]
  },
  "/ps5/games/avowed": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   8,
+   null
+  ]
  },
  "/ps5/games/baldurs_gate_3": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   83,
+   27
+  ]
  },
  "/ps5/games/banishers_ghosts_of_new_eden": {
   "type": "Диск, Цифровая версия",
@@ -329,7 +441,11 @@
  },
  "/ps5/games/black_myth_wukong": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   225,
+   null
+  ]
  },
  "/ps5/games/bugsnax": {
   "type": "Диск, Цифровая версия",
@@ -345,7 +461,11 @@
  },
  "/ps5/games/control_resonant": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   45,
+   null
+  ]
  },
  "/ps5/games/control_ultimate_edition": {
   "type": "Диск, Цифровая версия",
@@ -353,11 +473,19 @@
  },
  "/ps5/games/crimson_desert": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   21,
+   null
+  ]
  },
  "/ps5/games/cronos_the_new_dawn": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   86,
+   null
+  ]
  },
  "/ps5/games/cyberpunk_2077": {
   "type": "Диск, Цифровая версия",
@@ -365,59 +493,115 @@
  },
  "/ps5/games/days_gone_remastered": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   null,
+   null
+  ]
  },
  "/ps5/games/dead_space": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   202,
+   null
+  ]
  },
  "/ps5/games/death_stranding_2_on_the_beach": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   268,
+   null
+  ]
  },
  "/ps5/games/deathloop": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   207,
+   93
+  ]
  },
  "/ps5/games/demons_souls_remake": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   634,
+   null
+  ]
  },
  "/ps5/games/directive_8020": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   14,
+   null
+  ]
  },
  "/ps5/games/disciples_domination": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   3,
+   null
+  ]
  },
  "/ps5/games/disciples_liberation": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   26,
+   null
+  ]
  },
  "/ps5/games/disco_elysium": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   65,
+   28
+  ]
  },
  "/ps5/games/dispatch": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   28,
+   null
+  ]
  },
  "/ps5/games/divinity_original_sin_ii": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   88,
+   null
+  ]
  },
  "/ps5/games/doom_the_dark_ages": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   167,
+   25
+  ]
  },
  "/ps5/games/dragon_age_dreadwolf": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   138,
+   null
+  ]
  },
  "/ps5/games/dragons_dogma_ii": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   94,
+   null
+  ]
  },
  "/ps5/games/dredge": {
   "type": "Диск, Цифровая версия",
@@ -425,11 +609,19 @@
  },
  "/ps5/games/dying_light_the_beast": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   41,
+   3
+  ]
  },
  "/ps5/games/eriksholm_the_stolen_dream": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   14,
+   null
+  ]
  },
  "/ps5/games/far_changing_tides": {
   "type": "Цифровая версия",
@@ -437,19 +629,35 @@
  },
  "/ps5/games/final_fantasy_xvi": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   189,
+   42
+  ]
  },
  "/ps5/games/ghost_of_tsushima": {
   "type": "PS ПК, Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   1666,
+   146
+  ]
  },
  "/ps5/games/ghost_of_yotei": {
   "type": "Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   312,
+   4
+  ]
  },
  "/ps5/games/ghostwire_tokyo": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   199,
+   48
+  ]
  },
  "/ps5/games/god_of_war_ragnarok": {
   "type": "PS ПК, Диск, Цифровая версия",
@@ -457,7 +665,11 @@
  },
  "/ps5/games/greedfall_2_the_dying_world": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   1,
+   null
+  ]
  },
  "/ps5/games/gris": {
   "type": "Диск, Цифровая версия",
@@ -465,7 +677,11 @@
  },
  "/ps5/games/halo_campaign_evolved": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   10,
+   null
+  ]
  },
  "/ps5/games/hardspace_shipbreaker": {
   "type": "Цифровая версия",
@@ -473,7 +689,11 @@
  },
  "/ps5/games/hell_is_us": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   57,
+   null
+  ]
  },
  "/ps5/games/hogwarts_legacy": {
   "type": "Диск, Цифровая версия",
@@ -485,11 +705,19 @@
  },
  "/ps5/games/horizon_zero_dawn": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   3618,
+   1053
+  ]
  },
  "/ps5/games/indiana_jones_and_the_great_circle": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   202,
+   42
+  ]
  },
  "/ps5/games/indika": {
   "type": "Диск, Цифровая версия",
@@ -497,71 +725,139 @@
  },
  "/ps5/games/it_takes_two": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   667,
+   null
+  ]
  },
  "/ps5/games/jagged_alliance_3": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   8,
+   null
+  ]
  },
  "/ps5/games/jusant": {
   "type": "Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   95,
+   null
+  ]
  },
  "/ps5/games/kena_bridge_of_spirits": {
   "type": "Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   352,
+   null
+  ]
  },
  "/ps5/games/king_arthur_knights_tale": {
   "type": "Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   3,
+   null
+  ]
  },
  "/ps5/games/kingdom_come_deliverance_ii": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   83,
+   10
+  ]
  },
  "/ps5/games/kings_bounty_2": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   31,
+   null
+  ]
  },
  "/ps5/games/lego_batman_legacy_of_the_dark_knight": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   20,
+   2
+  ]
  },
  "/ps5/games/lego_horizon_adventures": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   123,
+   null
+  ]
  },
  "/ps5/games/life_is_strange_true_colors": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   174,
+   null
+  ]
  },
  "/ps5/games/like_a_dragon_infinite_wealth": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   98,
+   12
+  ]
  },
  "/ps5/games/little_nightmares_iii": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   23,
+   null
+  ]
  },
  "/ps5/games/lost_records_bloom_rage": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   85,
+   null
+  ]
  },
  "/ps5/games/mafia_3": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   677,
+   296
+  ]
  },
  "/ps5/games/mafia_definitive_edition": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   839,
+   null
+  ]
  },
  "/ps5/games/mafia_the_old_country": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   204,
+   11
+  ]
  },
  "/ps5/games/martha_is_dead": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   8,
+   null
+  ]
  },
  "/ps5/games/marvels_guardians_of_the_galaxy": {
   "type": "Диск, Цифровая версия",
@@ -569,7 +865,11 @@
  },
  "/ps5/games/marvels_midnight_suns": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   41,
+   13
+  ]
  },
  "/ps5/games/marvels_spider-man_2": {
   "type": "Цифровая версия",
@@ -581,15 +881,27 @@
  },
  "/ps5/games/marvels_wolverine": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   128,
+   null
+  ]
  },
  "/ps5/games/metal_gear_solid_delta_snake_eater": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   54,
+   null
+  ]
  },
  "/ps5/games/miasma_chronicles": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   15,
+   null
+  ]
  },
  "/ps5/games/neva": {
   "type": "Диск, Цифровая версия",
@@ -597,11 +909,19 @@
  },
  "/ps5/games/ninja_gaiden_4": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   25,
+   8
+  ]
  },
  "/ps5/games/onimusha_way_of_the_sword": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   54,
+   null
+  ]
  },
  "/ps5/games/pacific_drive": {
   "type": "Диск, Цифровая версия",
@@ -609,7 +929,11 @@
  },
  "/ps5/games/pathfinder_wrath_of_the_righteous": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   2,
+   2
+  ]
  },
  "/ps5/games/persona_5_royal": {
   "type": "Цифровая версия",
@@ -617,7 +941,11 @@
  },
  "/ps5/games/pragmata": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   101,
+   null
+  ]
  },
  "/ps5/games/project_eve": {
   "type": "Диск, Цифровая версия",
@@ -629,7 +957,11 @@
  },
  "/ps5/games/reanimal": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   59,
+   4
+  ]
  },
  "/ps5/games/remnant_ii": {
   "type": "Диск, Цифровая версия",
@@ -637,19 +969,35 @@
  },
  "/ps5/games/resident_evil_2": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   803,
+   271
+  ]
  },
  "/ps5/games/resident_evil_requiem": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   276,
+   null
+  ]
  },
  "/ps5/games/resonance_a_plague_tale_legacy": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   38,
+   null
+  ]
  },
  "/ps5/games/returnal": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   376,
+   209
+  ]
  },
  "/ps5/games/rise_of_the_ronin": {
   "type": "Диск, Цифровая версия",
@@ -657,31 +1005,59 @@
  },
  "/ps5/games/robocop_rogue_city": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   481,
+   null
+  ]
  },
  "/ps5/games/romeo_is_a_dead_man": {
   "type": "Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   3,
+   null
+  ]
  },
  "/ps5/games/sackboy_a_big_adventure": {
   "type": "PS ПК, Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   178,
+   null
+  ]
  },
  "/ps5/games/saros": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   73,
+   null
+  ]
  },
  "/ps5/games/scars_above": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   24,
+   null
+  ]
  },
  "/ps5/games/senuas_saga_hellblade_ii": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   16,
+   null
+  ]
  },
  "/ps5/games/sherlock_holmes_chapter_one": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   43,
+   null
+  ]
  },
  "/ps5/games/silent_hill_2": {
   "type": "Диск, Цифровая версия",
@@ -689,19 +1065,35 @@
  },
  "/ps5/games/silent_hill_f": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   97,
+   null
+  ]
  },
  "/ps5/games/silent_hill_townfall": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   18,
+   null
+  ]
  },
  "/ps5/games/south_of_midnight": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   17,
+   null
+  ]
  },
  "/ps5/games/stalker_2_heart_of_chornobyl": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   45,
+   4
+  ]
  },
  "/ps5/games/star_wars_jedi_fallen_order": {
   "type": "Диск, Цифровая версия",
@@ -709,7 +1101,11 @@
  },
  "/ps5/games/star_wars_jedi_survivor": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   267,
+   null
+  ]
  },
  "/ps5/games/star_wars_outlaws": {
   "type": "Диск, Цифровая версия",
@@ -721,7 +1117,11 @@
  },
  "/ps5/games/steelrising": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   80,
+   29
+  ]
  },
  "/ps5/games/still_wakes_the_deep": {
   "type": "Диск, Цифровая версия",
@@ -741,11 +1141,19 @@
  },
  "/ps5/games/tales_of_arise": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   115,
+   11
+  ]
  },
  "/ps5/games/tchia": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   84,
+   null
+  ]
  },
  "/ps5/games/thank_goodness_youre_here_voskl": {
   "type": "Цифровая версия",
@@ -753,11 +1161,19 @@
  },
  "/ps5/games/the_alters": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   15,
+   2
+  ]
  },
  "/ps5/games/the_blood_of_dawnwalker": {
   "type": "Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   7,
+   null
+  ]
  },
  "/ps5/games/the_dark_pictures_anthology_house_of_ashes": {
   "type": "Цифровая версия",
@@ -777,19 +1193,35 @@
  },
  "/ps5/games/the_outer_worlds_2": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   4,
+   null
+  ]
  },
  "/ps5/games/the_outer_worlds_spacers_choise_edition": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   218,
+   68
+  ]
  },
  "/ps5/games/the_quarry": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   155,
+   null
+  ]
  },
  "/ps5/games/the_sinking_city": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   138,
+   null
+  ]
  },
  "/ps5/games/the_thaumaturge": {
   "type": "Цифровая версия",
@@ -797,7 +1229,11 @@
  },
  "/ps5/games/the_witcher_3_wild_hunt_-_game_of_the_year_edition": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   1246,
+   312
+  ]
  },
  "/ps5/games/under_the_waves": {
   "type": "Диск, Цифровая версия",
@@ -805,14 +1241,26 @@
  },
  "/ps5/games/unicorn_overlord": {
   "type": "Диск, Цифровая версия",
-  "lang": "Английский"
+  "lang": "Английский",
+  "votes": [
+   14,
+   null
+  ]
  },
  "/ps5/games/unknown_9_awakening": {
   "type": "Диск, Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   5,
+   null
+  ]
  },
  "/ps5/games/warhammer_40000_rogue_trader": {
   "type": "Цифровая версия",
-  "lang": "Русский"
+  "lang": "Русский",
+  "votes": [
+   7,
+   null
+  ]
  }
 }

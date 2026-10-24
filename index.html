@@ -60,7 +60,8 @@ button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-vis
 
 .toolbar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
 .toolbar label{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--muted)}
-input[type=search],select,input[type=number],textarea{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:6px 10px}
+input[type=search],select,input[type=number],textarea{font:inherit;font-size:14px;color:var(--ink);background-color:var(--surface);border:1px solid var(--line);border-radius:7px;padding:6px 10px}
+select{appearance:none;-webkit-appearance:none;padding-right:26px;cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a93a3' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 8px center;background-size:12px}
 input[type=search]{width:240px;max-width:100%}
 input[type=range]{accent-color:var(--accent);width:110px}
 .hint{font-size:13px;color:var(--muted)}
@@ -124,6 +125,30 @@ tr.detail>td{background:var(--surface-2);white-space:normal;padding:18px 18px 22
 .stat .ic{color:var(--accent);margin-top:3px}
 .stat b{display:block;font:600 17px/1.25 var(--f-mono)}
 .stat span{display:block;font-size:12px;color:var(--muted);line-height:1.35}
+.stat b small{font:500 13px var(--f-body);color:var(--muted)}
+.stats.n6{grid-template-columns:repeat(2,minmax(0,1.5fr)) repeat(4,minmax(0,1fr))}
+.stats.n5{grid-template-columns:minmax(0,1.5fr) repeat(4,minmax(0,1fr))}
+.stat.tro .tline,.dA .tline{display:flex;flex-wrap:nowrap;align-items:center;gap:2px 10px;font:500 13px var(--f-mono);color:var(--ink);margin-top:4px}
+.stat.tro .tline.muted,.dA .tline.muted{color:var(--muted);font-family:var(--f-body)}
+.cupn{display:inline-flex;align-items:center;gap:3px}
+.ttag{font:500 11px var(--f-body);color:var(--muted);background:var(--surface-2);border-radius:4px;padding:0 6px;min-width:52px;text-align:center}
+.ttag.on{color:var(--bad);background:var(--bad-soft)}
+@media (max-width:1100px){.stats.n6,.stats.n5{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}.stat.tro .tline{flex-wrap:wrap}}
+.gridA{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:12px}
+.dA{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;display:flex;flex-direction:column;gap:10px}
+.dA.pending{border-style:dashed;border-color:var(--warn)}
+.dA header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.dA h3{font:600 16px/1.3 var(--f-body);margin:0}
+.dA p{margin:0;font-size:14px;line-height:1.5}
+.dchip{display:inline-flex;align-items:center;gap:5px;font:500 12.5px var(--f-mono);color:var(--muted);white-space:nowrap;background:var(--surface-2);border-radius:999px;padding:2px 9px}
+.dchip.soon{color:var(--warn);background:var(--warn-soft)}
+.dmeta{display:flex;flex-wrap:wrap;gap:4px 14px;font:13px var(--f-mono);color:var(--muted)}
+.dmeta span{display:inline-flex;align-items:center;gap:4px}
+.dmeta .free{color:var(--ok);font-family:var(--f-body)}
+.dnote{display:flex;gap:6px;align-items:flex-start;font-size:13px;color:var(--muted);line-height:1.4}
+.dnote .ic{margin-top:2px}
+.dtro{border-top:1px solid var(--line);padding-top:10px}
+.dtro:empty{display:none}
 .why{display:flex;gap:10px;align-items:flex-start;font-size:15px;padding:12px 14px;background:var(--accent-soft);border-radius:8px}
 .why .ic{color:var(--accent);margin-top:3px}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px 24px}
@@ -131,12 +156,6 @@ tr.detail>td{background:var(--surface-2);white-space:normal;padding:18px 18px 22
 .cp{appearance:none;border:0;background:none;color:var(--muted);padding:2px;margin:-2px 0 -2px 2px;border-radius:5px;cursor:pointer;display:inline-flex;line-height:0;opacity:.55}
 .cp:hover,.cp:focus-visible{opacity:1;color:var(--accent);background:var(--surface-2)}
 .cp.done{opacity:1;color:var(--ok)}
-.osum{font:500 13px var(--f-mono);color:var(--muted);margin:-2px 0 8px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
-.olist{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px 18px}
-.olist li{display:flex;gap:8px;align-items:flex-start;line-height:1.4;font-size:14px}
-.olist li .ic{margin-top:2px}
-.olist li.got b{color:var(--muted)}
-.olist .muted{font-size:13px}
 .vlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
 .vlist li{display:flex;gap:8px;align-items:flex-start;line-height:1.4}
 .vlist li .ic{margin-top:2px}
@@ -145,13 +164,6 @@ tr.detail>td{background:var(--surface-2);white-space:normal;padding:18px 18px 22
 .check .ic{margin-top:2px;color:var(--muted)}
 .check dt{color:var(--muted);white-space:nowrap}.check dd{margin:0;min-width:0;line-height:1.4}
 .summary{font-size:15px;line-height:1.55;margin:0}
-.dlcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
-.dlc{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:5px}
-.dlc.pending{border-style:dashed;border-color:var(--warn)}
-.dlc .n{font-weight:600;line-height:1.3}
-.dlc .m{display:flex;flex-wrap:wrap;gap:4px 12px;font:13px var(--f-mono);color:var(--muted)}
-.dlc .m span{display:inline-flex;align-items:center;gap:4px}
-.dlc .note{font-size:13px;color:var(--muted);line-height:1.4}
 .info{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:14px}
 .info span{display:inline-flex;align-items:center;gap:6px}
 .info .ic{color:var(--muted)}
@@ -198,6 +210,8 @@ footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:
   .check>.ic{display:none}
   .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
   .tile .v{font-size:22px}
+  .stats.n6,.stats.n5{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stat.tro{grid-column:1/-1}
 }
 </style>
 </head>
@@ -212,7 +226,7 @@ footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:
   <nav class="tabs" role="tablist" id="tabs">
     <button role="tab" data-tab="list" aria-selected="true">Список <span class="ct" id="ct-list"></span></button>
     <button role="tab" data-tab="candidates" aria-selected="false">Кандидаты <span class="ct" id="ct-candidates"></span></button>
-    <button role="tab" data-tab="unfinished" aria-selected="false">Доделать <span class="ct" id="ct-unfinished"></span></button>
+    <button role="tab" data-tab="unfinished" aria-selected="false">Добить <span class="ct" id="ct-unfinished"></span></button>
     <button role="tab" data-tab="done" aria-selected="false">Пройдено <span class="ct" id="ct-done"></span></button>
   </nav>
   <section id="view"><div class="empty">Загружаю данные…</div></section>
@@ -260,7 +274,7 @@ const cup=(t,c="")=>`<svg class="ic ${c} t-${t}" viewBox="0 0 24 24" aria-hidden
 
 const STATUS={planned:"В планах",playing:"Играю",paused:"Отложено",done:"Пройдено"};
 const S={games:[],meta:null,covers:{},tab:"list",sort:{list:{k:"quality",d:-1},candidates:{k:"quality",d:-1},unfinished:{k:"missing_n",d:1},done:{k:"last",d:-1}},
-  f:{q:"",status:"active",maxDiff:10,hideOnline:false,pending:false,group:"all"},open:new Set(),ready:false};
+  f:{q:"",status:"active",maxDiff:10,hideOnline:false,noPending:false,voice:false,group:"all"},open:new Set(),ready:false};
 try{const t=localStorage.getItem("tb_tab");if(t)S.tab=t;}catch(e){}
 const hh=location.hash.replace("#","");if(["list","candidates","unfinished","done"].includes(hh))S.tab=hh;
 
@@ -338,7 +352,8 @@ function filtered(section){
     if(section!=="unfinished"){
       if(f.maxDiff<10&&Math.max(g.diff_base||0,g.diff_dlc||0)>f.maxDiff)return false;
       if(f.hideOnline&&g.online)return false;
-      if(f.pending&&!g.dlc_pending)return false;
+      if(f.noPending&&g.dlc_pending)return false;
+      if(section==="candidate"&&f.voice&&g.ru!=="voice")return false;
       if(section==="candidate"&&f.group!=="all"&&g.cand_group!==f.group)return false}
     return true});
 }
@@ -350,11 +365,19 @@ function toolbar(kind){
     h+=`<label>Группа <select id="fgr"><option value="all">Все</option>${groups.map(k=>`<option value="${esc(k)}" ${f.group===k?"selected":""}>${esc(k)}</option>`).join("")}</select></label>`}
   if(kind!=="unfinished")h+=`<label>${ic("gauge","s")} до <input type="range" id="fmd" min="3" max="10" step="0.5" value="${f.maxDiff}"><span class="num" id="fmdv">${f.maxDiff>=10?"любой":f.maxDiff}</span></label>
     <label><input type="checkbox" id="fon" ${f.hideOnline?"checked":""}> без онлайна</label>
-    <label><input type="checkbox" id="fpd" ${f.pending?"checked":""}> ждём DLC</label>`;
+    <label><input type="checkbox" id="fpd" ${f.noPending?"checked":""}> не ждём DLC</label>`;
+  if(kind==="candidates")h+=`<label><input type="checkbox" id="fvo" ${f.voice?"checked":""}> с озвучкой</label>`;
   h+=`${sortSelect(kind)}<span class="hint" id="fcount"></span></div>`;
   if(kind!=="unfinished")h+=`<div class="legend"><span>${ic("wifi","s")} онлайн-трофеи</span><span>${ic("hourglass","s")} DLC ещё выходят</span><span>${ic("disc","s")} проблема с диском</span><span>${ic("lang","s")} русский: <span class="flag ok">озвучка</span> · <span class="flag warn">субтитры</span> · <span class="flag bad">нет</span></span><span>${ic("users","s")} доля владельцев с платиной</span></div>`;
   return h;
 }
+/* a select is as wide as its chosen option, so the arrow sits right after the text */
+function fitSelects(){
+  const cv=fitSelects.c||(fitSelects.c=document.createElement("canvas").getContext("2d"));
+  document.querySelectorAll(".toolbar select").forEach(el=>{const cs=getComputedStyle(el);cv.font=`${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
+    const t=el.options[el.selectedIndex]?.text||"";el.style.width=Math.ceil(cv.measureText(t).width+parseFloat(cs.paddingLeft)+parseFloat(cs.paddingRight)+2)+"px"})}
+document.addEventListener("change",e=>{if(e.target.matches(".toolbar select"))fitSelects()});
+document.fonts&&document.fonts.ready.then(fitSelects);
 function bindToolbar(){
   const on=(id,ev,fn)=>{const el=$("#"+id);if(el)el.addEventListener(ev,fn)};
   on("fq","input",e=>{S.f.q=e.target.value;renderBody()});
@@ -362,7 +385,8 @@ function bindToolbar(){
   on("fgr","change",e=>{S.f.group=e.target.value;renderBody()});
   on("fmd","input",e=>{S.f.maxDiff=+e.target.value;$("#fmdv").textContent=S.f.maxDiff>=10?"любой":S.f.maxDiff;renderBody()});
   on("fon","change",e=>{S.f.hideOnline=e.target.checked;renderBody()});
-  on("fpd","change",e=>{S.f.pending=e.target.checked;renderBody()});
+  on("fpd","change",e=>{S.f.noPending=e.target.checked;renderBody()});
+  on("fvo","change",e=>{S.f.voice=e.target.checked;renderBody()});
   on("fso","change",e=>{const [k,d]=e.target.value.split(":");S.sort[S.tab]={k,d:+d};renderBody()});
 }
 
@@ -399,9 +423,12 @@ function detail(g,kind){
     <div class="info"><span>${ic("cal","s")}${fmt(g.release)}</span><span>${ic("studio","s")}${fmt(g.developer)}</span>${g.genre?`<span>${ic("chart","s")}${esc(g.genre)}</span>`:""}</div>
     ${g.why?`<div class="why">${ic("bulb","l")}<div>${esc(g.why)}</div></div>`:""}
     ${g.trophy_summary?`<p class="summary">${esc(g.trophy_summary)}</p>`:""}</div></div>`;
-  h+=`<div class="stats">
-    ${stat(cup("p","l"),`${fmt(t.total)}`,`${cup("g","s")} ${t.gold??"?"} ${cup("s","s")} ${t.silver??"?"} ${cup("b","s")} ${t.bronze??"?"}`)}
-    ${stat(ic("gauge","l"),`${has(g.diff_base)?(+g.diff_base).toFixed(2):"—"}${has(g.diff_dlc)?` / ${(+g.diff_dlc).toFixed(2)}`:""}`,`сложность${has(g.diff_dlc)?" / DLC":""} на stratege${g.diff_base_votes?`, ${g.diff_base_votes} голосов`:""}`)}
+  const sp=g.tro_split||{base:{off:{p:t.plat,g:t.gold,s:t.silver,b:t.bronze}}},dn=sp.dlc_groups||0,hasDlc=sumG(sp.dlc?.off)+sumG(sp.dlc?.on)>0;
+  const votes=[g.diff_base_votes,has(g.diff_dlc)?g.diff_dlc_votes:null].filter(has);
+  h+=`<div class="stats ${hasDlc?"n6":"n5"}">
+    ${troTile(sp.base,["трофей","трофея","трофеев"],"основная игра")}
+    ${hasDlc?troTile(sp.dlc,["DLC трофей","DLC трофея","DLC трофеев"],`${dn} ${plural(dn,["дополнение","дополнения","дополнений"])}`):""}
+    ${stat(ic("gauge","l"),`${has(g.diff_base)?(+g.diff_base).toFixed(2):"—"}${has(g.diff_dlc)?` / ${(+g.diff_dlc).toFixed(2)}`:""}`,`сложность${has(g.diff_dlc)?" / DLC":""}${votes.length?`<br>${votes.map(v=>(+v).toLocaleString("ru")).join(" / ")} ${plural(+votes[votes.length-1],["голос","голоса","голосов"])}`:""}`)}
     ${stat(ic("clock","l"),`${fmt(g.avg_plat_hours," ч")}`,`среднее время платины${g.est_100_hours&&g.est_100_hours!==g.avg_plat_hours?`, 100% ≈ ${g.est_100_hours} ч`:""}`)}
     ${stat(ic("users","l"),`${fmt(g.plat_pct,"%")}`,`получили платину: ${has(g.plat_count)?g.plat_count.toLocaleString("ru"):"—"} из ${has(g.owners)?g.owners.toLocaleString("ru"):"—"}${t.dlc&&has(g.full_count)?`; 100%: ${g.full_count}`:""}`)}
     ${stat(ic("star","l"),`${fmt(g.quality)}`,`итоговая оценка; критики ${fmt(g.critic)}${g.critic_src?" ("+esc(g.critic_src)+")":""}, игроки ${fmt(g.user_score)}`)}
@@ -416,9 +443,8 @@ function detail(g,kind){
       ${ic("bug","s")}<dt>Глючные</dt><dd>${fmt(g.glitched)}</dd>
       ${ic("wifi","s")}<dt>Онлайн</dt><dd>${g.online?esc(g.online_note||"да"):"нет"}</dd>
     </dl></div></div>`;
-  h+=onlineBlock(g);
   const dl=g.dlcs||[];
-  h+=`<div><h4>${ic("box","s")}Дополнения</h4>${dl.length?`<div class="dlcs">${dl.map(d=>`<div class="dlc${d.released===false?" pending":""}"><div class="n">${esc(d.name)}</div><div class="m">${has(d.trophies)?`<span>${cup("b","s")}${d.trophies}</span>`:""}${has(d.difficulty)?`<span>${ic("gauge","s")}${d.difficulty}</span>`:""}${has(d.hours)?`<span>${ic("clock","s")}${d.hours} ч</span>`:""}${d.released===false?`<span style="color:var(--warn)">${ic("hourglass","s")}ожидается${d.release_date?" "+esc(d.release_date):""}</span>`:d.release_date?`<span>${ic("cal","s")}${esc(d.release_date)}</span>`:""}</div>${d.note?`<div class="note">${esc(d.note)}</div>`:""}</div>`).join("")}</div>`:'<span class="muted">DLC с трофеями нет</span>'}${g.dlc_pending_note?`<p class="hint" style="margin:8px 0 0">${esc(g.dlc_pending_note)}</p>`:""}</div>`;
+  h+=`<div><h4>${ic("box","s")}Дополнения</h4>${dl.length?`<div class="gridA">${dl.map(dlcCard).join("")}</div>`:'<span class="muted">DLC с трофеями нет</span>'}${g.dlc_pending_note?`<p class="hint" style="margin:8px 0 0">${esc(g.dlc_pending_note)}</p>`:""}</div>`;
   h+=`<div class="info"><span class="flag ${(RU[g.ru]||[""])[0]}">${ic("lang","s")}${g.ru_loc?esc(g.ru_loc):"Наличие русского языка не установлено"}</span><span>${ic("disc","s")}${fmt(g.disc_note)}</span></div>`;
   if(g.quality_note)h+=`<div class="hint">${ic("star","s")} ${esc(g.quality_note)}</div>`;
   h+=notes(g);
@@ -431,16 +457,27 @@ async function copyText(t){
   try{await navigator.clipboard.writeText(t);return true}catch(_){}
   const ta=document.createElement("textarea");ta.value=t;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();
   let ok=false;try{ok=document.execCommand("copy")}catch(_){}ta.remove();return ok}
-/* online trophies: grade split, base game vs DLC, and (for unfinished games) what is already earned */
-const GRADES=[["platinum","p"],["gold","g"],["silver","s"],["bronze","b"]];
-function onlineBlock(g){
-  const ot=(g.online_trophies||[]).slice().sort((a,b)=>(a.got?1:0)-(b.got?1:0));if(!ot.length)return "";
-  const by=GRADES.map(([k,c])=>[c,ot.filter(t=>t.grade===k).length]).filter(x=>x[1]);
-  const base=ot.filter(t=>t.part==="Основная игра").length,dlc=ot.length-base,got=ot.filter(t=>t.got).length;
-  const sum=[`${ot.length} ${plural(ot.length,["трофей","трофея","трофеев"])}: ${by.map(([c,n])=>`${cup(c,"s")}${n}`).join(" ")}`,
-    dlc?`основная игра ${base}, DLC ${dlc}`:"все в основной игре"];
-  if(ot.some(t=>t.got!==null&&t.got!==undefined))sum.push(`получено ${got} из ${ot.length}`);
-  return `<div><h4>${ic("wifi","s")}Онлайн-трофеи</h4><div class="osum">${sum.join(" · ")}</div><ul class="olist">${ot.map(t=>`<li class="${t.got?"got":""}">${cup(GRADES.find(x=>x[0]===t.grade)?.[1]||"b","s")}<div><b>${esc(t.name)}</b>${t.got?` <span class="flag ok">${ic("ok","s")}получен</span>`:""}${t.part&&t.part!=="Основная игра"?` <span class="grp">${esc(t.part)}</span>`:""}${t.note?`<div class="muted">${esc(t.note)}</div>`:""}</div></li>`).join("")}</ul></div>`;
+/* trophy split: {off:{p,g,s,b}, on:{...}}; one line per kind, labelled only when needed (a lone offline line is not) */
+const GR=["p","g","s","b"];
+const sumG=o=>GR.reduce((a,k)=>a+(+(o||{})[k]||0),0);
+function tlines(t){
+  const line=(o,tag)=>`<div class="tline">${tag?`<span class="ttag${tag==="онлайн"?" on":""}">${tag}</span>`:""}${GR.filter(k=>o[k]).map(k=>`<span class="cupn">${cup(k,"s")}${o[k]}</span>`).join("")}</div>`;
+  const off=sumG(t?.off),on=sumG(t?.on);
+  if(!off&&!on)return `<div class="tline muted">трофеи ещё не объявлены</div>`;
+  if(off&&on)return line(t.off,"офлайн")+line(t.on,"онлайн");
+  return on?line(t.on,"онлайн"):line(t.off,"");
+}
+function troTile(t,forms,label){const n=sumG(t?.off)+sumG(t?.on);
+  return `<div class="stat tro">${cup("p","l")}<div><b>${n} <small>${plural(n,forms)}</small></b><span>${label}</span>${tlines(t)}</div></div>`}
+const dmy=d=>/^\d{4}-\d\d-\d\d$/.test(d||"")?d.split("-").reverse().join("."):d;
+function dlcCard(d){
+  const m=/^(.*?)\s*\(([^()]*)\)$/.exec(d.name||""),nm=m?`${esc(m[1])} <span class="muted">(${esc(m[2])})</span>`:esc(d.name);
+  const pend=d.released===false,n=d.grades?sumG(d.grades.off)+sumG(d.grades.on):d.trophies;
+  const when=pend?`<span class="dchip soon">${ic("hourglass","s")}${d.release_date?"выйдет "+esc(dmy(d.release_date)):esc(d.expected||"дата не объявлена")}</span>`:d.release_date?`<span class="dchip">${ic("cal","s")}${esc(dmy(d.release_date))}</span>`:"";
+  const meta=[has(n)?`<span>${cup("b","s")}${n}</span>`:"",has(d.difficulty)?`<span>${ic("gauge","s")}${d.difficulty}</span>`:"",has(d.hours)?`<span>${ic("clock","s")}≈${d.hours} ч</span>`:"",d.free?`<span class="free">бесплатно</span>`:""].join("");
+  return `<article class="dA${pend?" pending":""}"><header><h3>${nm}</h3>${when}</header>${meta?`<div class="dmeta">${meta}</div>`:""}
+    ${d.about?`<p>${esc(d.about)}</p>`:""}${d.note?`<div class="dnote">${ic("bulb","s")}${esc(d.note)}</div>`:""}
+    <div class="dtro">${d.grades?tlines(d.grades):pend?tlines({}):has(d.trophies)?`<div class="tline">${cup("b","s")}${d.trophies}</div>`:""}</div></article>`;
 }
 /* owner's own notes, rating and priority (read-only; edited in data/games.json) */
 function notes(g){
@@ -469,8 +506,8 @@ function unfinishedTable(){
      <td><span class="flag ${fe}">${ic(fe==="ok"?"check":"alert","s")}${esc(g.feasible||"?")}</span></td>
      <td><span class="st ${esc(g.status||"planned")}">${STATUS[g.status||"planned"]}</span></td></tr>`;
     if(open)r+=`<tr class="detail"><td colspan="6"><div class="sheet"><p class="summary">${esc(g.summary||"")}</p>
-      <div><h4>${ic("box","s")}Что осталось</h4><div class="dlcs">${(g.missing||[]).map(m=>`<div class="dlc"><div class="n">${esc(m.part)}</div><div class="m"><span>${cup("b","s")}${m.trophies}</span></div>${m.note?`<div class="note">${esc(m.note)}</div>`:""}</div>`).join("")}</div></div>
-      ${g.online_note?`<div class="why">${ic("wifi","l")}<div>${esc(g.online_note)}</div></div>`:""}${onlineBlock(g)}
+      <div><h4>${ic("box","s")}Что осталось</h4><div class="gridA">${(g.missing||[]).map(m=>`<article class="dA"><header><h3>${esc(m.part)}</h3></header><div class="dmeta"><span>${cup("b","s")}${m.trophies}</span></div>${m.note?`<p>${esc(m.note)}</p>`:""}</article>`).join("")}</div></div>
+      ${g.online_note?`<div class="why">${ic("wifi","l")}<div>${esc(g.online_note)}</div></div>`:""}
       ${notes(g)}<div class="links"><a href="${esc(g.stratege_url)}" target="_blank" rel="noopener">${ic("link","s")}Трофеи на stratege</a></div></div></td></tr>`;
     return r}).join("")||`<tr><td colspan="6" class="empty">Всё доделано.</td></tr>`;
   return [h+`</tbody></table></div>`,list.length];
@@ -479,9 +516,9 @@ function unfinishedTable(){
 /* ---------- done ---------- */
 function doneView(){
   const m=S.meta;if(!m)return['<div class="empty">Статистика ещё не загружена.</div>',0];
-  const t=m.totals||{},c=m.computed||{};const s=S.sort.done;const q=S.f.q.trim().toLowerCase();
+  const t=m.totals||{},c=m.computed||{};const s=S.sort.done;
   const fv={title:x=>x.title.toLowerCase(),got:x=>x.got,diff:x=>x.diff,hours:x=>x.hours,last:x=>x.last,platform:x=>x.platform};
-  const list=(m.games||[]).filter(x=>x.complete&&(!q||x.title.toLowerCase().includes(q))).sort((a,b)=>{const f=fv[s.k]||(x=>x[s.k]);const x=f(a),y=f(b);if(!has(x)&&!has(y))return 0;if(!has(x))return 1;if(!has(y))return -1;return (x>y?1:x<y?-1:0)*s.d});
+  const list=(m.games||[]).filter(x=>x.complete).sort((a,b)=>{const f=fv[s.k]||(x=>x[s.k]);const x=f(a),y=f(b);if(!has(x)&&!has(y))return 0;if(!has(x))return 1;if(!has(y))return -1;return (x>y?1:x<y?-1:0)*s.d});
   const h=`<div class="tiles">
     <div class="tile">${cup("p")}<div><span class="v num">${t.complete100??c.done_count}</span><span class="l">игр на 100% из ${t.games}</span></div></div>
     <div class="tile">${cup("g")}<div><span class="v num">${(t.trophies||0).toLocaleString("ru")}</span><span class="l">трофеев, из них ${t.plat} платин</span></div></div>
@@ -489,7 +526,7 @@ function doneView(){
     <div class="tile">${ic("gauge")}<div><span class="v num">${c.avg_diff}</span><span class="l">средняя сложность пройденного</span></div></div>
     <div class="tile">${ic("disc")}<div><span class="v num">${c.ps5} / ${c.ps4}</span><span class="l">PS5 / PS4</span></div></div>
   </div>
-  <div class="toolbar"><input type="search" id="fq" placeholder="Поиск по пройденным" value="${esc(S.f.q)}" aria-label="Поиск">${sortSelect("done")}<span class="hint" id="fcount"></span></div>
+  <div class="toolbar">${sortSelect("done")}<span class="hint" id="fcount"></span></div>
   <div class="tablebox"><table><thead><tr>${th("done","title","Игра")}${th("done","platform","Платф.")}${th("done","got","Трофеи","r")}${th("done","diff","Сложн.","r")}${th("done","hours","Часы","r")}${th("done","last","Финиш","r")}</tr></thead><tbody>
   ${list.map(x=>`<tr class="lrow"><td class="title lnk"><div class="gcell">${cover(x.url,x.title,"sm")}<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>${copyBtn(x.title)}</div></td><td><span class="pf">${esc(x.platform)}</span></td><td class="r"><span class="tc">${cup("p","s")}${x.got}</span></td><td class="r">${dpill(x.diff)}</td><td class="r"><span class="tc">${ic("clock","s")}${fmt(x.hours," ч")}</span></td><td class="r num">${ic("cal","s")} ${esc(x.last.split("-").reverse().join("."))}</td></tr>`).join("")}
   </tbody></table></div>`;
@@ -509,11 +546,11 @@ function render(){
   counts();
   if(!S.ready){$("#view").innerHTML='<div class="empty">Загружаю данные…</div>';return}
   $("#view").innerHTML=`<div class="stack">${S.tab==="done"?"":toolbar(S.tab)}<div id="body" class="stack"></div></div>`;
-  bindToolbar();renderBody();
+  bindToolbar();renderBody();fitSelects();
 }
 function renderBody(){
   const kind=S.tab;
-  if(kind==="done"){const [h,n]=doneView();$("#body").innerHTML=h;const el=$("#fq");if(el)el.addEventListener("input",e=>{S.f.q=e.target.value;const p=el.selectionStart;renderBody();const n2=$("#fq");n2.focus();n2.setSelectionRange(p,p)});
+  if(kind==="done"){const [h,n]=doneView();$("#body").innerHTML=h;fitSelects();
     const so=$("#fso");if(so)so.addEventListener("change",e=>{const [k,d]=e.target.value.split(":");S.sort.done={k,d:+d};renderBody()});
     const fc=$("#fcount");if(fc)fc.textContent=`${n} ${plural(n,["игра","игры","игр"])}`;return}
   const out=kind==="unfinished"?unfinishedTable():gameTable(kind);

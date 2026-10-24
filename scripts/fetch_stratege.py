@@ -4,15 +4,20 @@
 Usage:
   python3 scripts/fetch_stratege.py            # only what is missing
   python3 scripts/fetch_stratege.py --force    # re-download everything
+  python3 scripts/fetch_stratege.py --trophies # re-read trophy lists only (new DLC after an update)
 
 - Avatar: stratege profile AJAX -> img/avatar.png, path saved to library.json "avatar".
 - Covers: trophy-list icon (ICON0) of every game in games.json and library.json, cropped to a square
   256x256 JPEG -> img/covers/<platform>_<slug>.jpg; map {"/ps5/games/<slug>": "img/covers/..."} in data/covers.json.
-- Game page facts: release type (disc/digital) and language from /<platform>/games/<slug>
-  -> data/stratege.json {"/ps5/games/<slug>": {"type": "...", "lang": "..."}}; a hint when checking discs and Russian.
+- Game page facts: release type (disc/digital) and language from /<platform>/games/<slug>, difficulty vote counts
+  (base, DLC) from .../difficulty -> data/stratege.json {"/ps5/games/<slug>": {"type", "lang", "votes": [base, dlc]}}.
+  type/lang are a hint when checking discs and Russian; recalc.py copies votes into games.json.
+- Trophy lists of games in games.json (not rejected): base game and every DLC group as stratege shows them,
+  each trophy {name, grade, online} -> data/trophies.json {"/ps5/games/<slug>": {"base": [...], "dlcs": [{"name", "trophies"}]}}.
+  stratege's online mark is often wrong; recalc.py corrects it with the verified games.json -> online_trophies.
 index.html looks covers up by the stratege path. Requires Pillow.
 """
-import io, json, pathlib, re, sys, time, urllib.parse, urllib.request
+import html, io, json, pathlib, re, sys, time, urllib.parse, urllib.request
 
 from PIL import Image
 
@@ -24,11 +29,12 @@ PROFILE = "https://stratege.ru/playstation/users/dannymadcat"
 PROFILE_UID = 134267
 PATH_RE = re.compile(r"/(ps[345]|psvita)/games/([^/?#]+)")
 FORCE = "--force" in sys.argv
+TROPHIES = FORCE or "--trophies" in sys.argv
 
 
-def get(url, data=None, tries=4):
+def get(url, data=None, tries=4, referer=PROFILE):
     for i in range(tries):
-        req = urllib.request.Request(url, data=data, headers={"User-Agent": UA, "Referer": PROFILE,
+        req = urllib.request.Request(url, data=data, headers={"User-Agent": UA, "Referer": referer,
                                                               "X-Requested-With": "XMLHttpRequest"})
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
@@ -88,6 +94,45 @@ def game_facts(p):
     return {"type": field("Тип"), "lang": field("Язык")}
 
 
+def trophy_lists(p):
+    """Base game (filter 103 = hide all DLC) and each DLC group (filter N) from the AJAX trophy list."""
+    h = page(p + "/trophies")
+    blk = h[h.find("var tl_global_bx_settings"):]
+    blk = blk[:blk.find("};")]
+    vals = dict(re.findall(r"(\w+)\s*:\s*'([^']*)'", blk))
+    if "settings" not in vals:
+        raise ValueError("trophy list settings not found")
+
+    def one(flt):
+        q = dict(ajax_mode="trophies_list_loader", filter=flt, sort=0, helps=0, settings=vals["settings"], p_show_user="",
+                 guest=1, players=vals.get("players", ""), compare_one="", shag=0)
+        time.sleep(2)
+        r = get("https://stratege.ru/ajax_loader/trophies_sp_list", urllib.parse.urlencode(q).encode(),
+                referer="https://stratege.ru" + p + "/trophies").decode("utf-8", "replace")
+        out = []
+        for part in r.split('id="tltstplid_bx_trophies_')[1:]:
+            g = re.search(r"tltstpl_border_(\w+)_trophies", part)
+            t = re.search(r'tltstpl_tt_trops_title">.*?<a[^>]*>(.*?)</a>', part, re.S)
+            out.append({"name": html.unescape(re.sub(r"<[^>]+>", "", t.group(1))).strip() if t else None,
+                        "grade": g.group(1) if g else None, "online": "trophies_icon/online.png" in part})
+        return out
+
+    groups = []
+    for n, name in re.findall(r'filter=(\d+)" title="Показать DLC «(.*?)»"', h):
+        if n not in [x[0] for x in groups]:
+            groups.append((n, name))
+    return {"base": one(103), "dlcs": [{"name": html.unescape(name), "trophies": one(n)} for n, name in groups]}
+
+
+def difficulty_votes(p):
+    h = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page(p + "/difficulty")))
+    out = []
+    for label in ("Оценка основных трофеев", "Оценка трофеев из DLC"):
+        m = re.search(label + r" [\d.]+ [^(]*\(([\d\s]+) голос", h)
+        out.append(int(m.group(1).replace(" ", "")) if m else None)
+    return out
+
+
 def main():
     IMG.mkdir(exist_ok=True)
     COVERS.mkdir(exist_ok=True)
@@ -130,13 +175,29 @@ def main():
             if FORCE or p not in facts:
                 facts[p] = game_facts(p)
                 print("facts", p, facts[p])
+            if (TROPHIES or "votes" not in facts[p]) and any(PATH_RE.search(g.get("stratege_url") or "") and PATH_RE.search(g["stratege_url"]).group(0) == p
+                                                         and g.get("section") != "rejected" for g in games):
+                facts[p]["votes"] = difficulty_votes(p)
+                print("votes", p, facts[p]["votes"])
         except Exception as e:
             failed.append(f"{p}: {e}")
             print("FAIL", p, e)
         # keep progress if the run is interrupted
         dump("covers.json", covers)
         dump("stratege.json", facts)
-    print(f"covers: {len(covers)}, facts: {len(facts)} of {len(paths)} games; failed: {len(failed)}")
+    tro = load("trophies.json")
+    for g in games:
+        m = PATH_RE.search(g.get("stratege_url") or "")
+        if g.get("section") == "rejected" or not m or (m.group(0) in tro and not TROPHIES):
+            continue
+        try:
+            tro[m.group(0)] = trophy_lists(m.group(0))
+            print("trophies", m.group(0), len(tro[m.group(0)]["base"]), [len(d["trophies"]) for d in tro[m.group(0)]["dlcs"]])
+        except Exception as e:
+            failed.append(f"{m.group(0)} trophies: {e}")
+            print("FAIL", m.group(0), e)
+        dump("trophies.json", tro)
+    print(f"covers: {len(covers)}, facts: {len(facts)} of {len(paths)} games, trophy lists: {len(tro)}; failed: {len(failed)}")
     for f in failed:
         print("  ", f)
 
