@@ -93,10 +93,10 @@ docs/research-brief.md     как собирать карточку игры: и
 
 ## Известные пробелы данных (на 2026-10-24)
 - S.T.A.L.K.E.R. 2 — карточка предварительная: нет оценок критиков, пропускаемых трофеев, наличия диска.
-- Outer Worlds: Spacer's Choice — диска для PS5 нет (только PS4-диск + платный апгрейд).
 - Mafia: Definitive Edition — версия для PS5 и наличие диска не проверены.
 - Распределение трофеев по DLC у части игр выведено вычитанием из общего числа.
-- Кандидаты из групп «Сюжетные AA» и «Эксклюзивы Sony»: в `quality` нет поправки по отзывам stratege (комментарии грузятся скриптом).
-- Мало голосов за сложность на stratege, оценка может сдвинуться: The Blood of Dawnwalker (6), Avowed (8), Disciples: Domination (3), Star Wars Zero Company (2). У DLC Rogue Trader и Atomfall оценки сложности ещё нет.
-- Диск не подтверждён или его нет: Avowed, South of Midnight, The Sinking City (PS5), Sherlock Holmes: Chapter One (только азиатское издание), King's Bounty II (PS5 — через PS4-диск с апгрейдом), The Alters (диск Complete Edition выходит 20.11.2026).
+- В `quality` у кандидатов, добавленных 2026-10-24, нет поправки по комментариям stratege (они грузятся скриптом), кроме групп «Тактика и RPG» и запасных.
+- Мало голосов за сложность, оценка может сдвинуться: The Blood of Dawnwalker, Avowed, Disciples: Domination, Star Wars Zero Company, King Arthur, Romeo is a Dead Man, GreedFall II, Pathfinder (2 голоса), DLC Dying Light: The Beast (2 голоса). Нет оценки: Days Gone Remastered (в карточке цифры PS4-оригинала), DLC Rogue Trader, Atomfall, Little Nightmares III, King Arthur.
+- Диска нет или он не подтверждён: Outer Worlds: Spacer's Choice (только PS4-диск + платный апгрейд), Avowed, South of Midnight, Sherlock Holmes: Chapter One (только азиатское издание), King's Bounty II и Divinity: OS2 (PS5 через PS4-диск), Pathfinder: WotR, King Arthur, Romeo is a Dead Man, Days Gone Remastered, Hellblade II (анонсирован LRG), The Alters (Complete Edition выходит 20.11.2026), Dying Light: The Beast (Definitive, декабрь 2026).
+- Русский язык: у Assassin's Creed Unity зависит от региона копии (`ru: null`), у Dying Light: The Beast PS Store пишет «субтитры», а Steam и пресса — озвучка. Hellblade (PS4): русский текст есть только в европейской версии.
 - `plat_speed` в `library_raw.txt` из профиля больше не приходит: у старых игр сохранён, у новых «—» (на странице не используется).

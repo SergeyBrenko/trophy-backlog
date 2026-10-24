@@ -224,6 +224,14 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps4/games/gravity_rush_2": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps4/games/heavy_rain": {
   "genres": [
    "Cinematographic",
@@ -522,6 +530,22 @@
   "type": "Диск",
   "lang": "Русский"
  },
+ "/ps4/games/wasteland_3": {
+  "genres": [
+   "Tactical",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/xcom_2": {
+  "genres": [
+   "Tactical",
+   "Strategy"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps5/games/007_first_light": {
   "genres": [
    "Action",
@@ -643,6 +667,14 @@
   "type": "Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/baldurs_gate_3": {
+  "genres": [
+   "Tactical",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps5/games/banishers_ghosts_of_new_eden": {
   "genres": [
    "Action",
@@ -700,6 +732,15 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/crimson_desert": {
+  "genres": [
+   "Action",
+   "Adventure",
+   "Open World"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps5/games/cronos_the_new_dawn": {
   "genres": [
    "Survival",
@@ -715,6 +756,14 @@
    "First-person"
   ],
   "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/days_gone_remastered": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Цифровая версия",
   "lang": "Русский"
  },
  "/ps5/games/dead_space": {
@@ -737,6 +786,15 @@
    "First-person",
    "Stealth",
    "Shooter"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/demons_souls_remake": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "RPG"
   ],
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
@@ -782,6 +840,14 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/divinity_original_sin_ii": {
+  "genres": [
+   "Tactical",
+   "Action"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps5/games/doom_the_dark_ages": {
   "genres": [
    "First-person",
@@ -808,6 +874,24 @@
  "/ps5/games/dredge": {
   "genres": [
    "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/dying_light_the_beast": {
+  "genres": [
+   "3D",
+   "Action",
+   "Horror",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/eriksholm_the_stolen_dream": {
+  "genres": [
+   "Isometric",
+   "Stealth"
   ],
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
@@ -862,10 +946,26 @@
   "type": "PS ПК, Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/greedfall_2_the_dying_world": {
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps5/games/gris": {
   "genres": [
    "2D",
    "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/halo_campaign_evolved": {
+  "genres": [
+   "First-person",
+   "Shooter"
   ],
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
@@ -940,10 +1040,36 @@
   "type": "Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/jagged_alliance_3": {
+  "genres": [
+   "Turn-Based",
+   "Tactical"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
  "/ps5/games/jusant": {
   "genres": [
    "Action",
    "Puzzle"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/kena_bridge_of_spirits": {
+  "genres": [
+   "3D",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/king_arthur_knights_tale": {
+  "genres": [
+   "Turn-Based",
+   "Tactical",
+   "RPG"
   ],
   "type": "Цифровая версия",
   "lang": "Английский"
@@ -966,6 +1092,15 @@
   "type": "Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/lego_batman_legacy_of_the_dark_knight": {
+  "genres": [
+   "Open World",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
  "/ps5/games/lego_horizon_adventures": {
   "genres": [
    "Adventure"
@@ -986,6 +1121,13 @@
   "genres": [
    "Turn-Based",
    "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/little_nightmares_iii": {
+  "genres": [
+   "Adventure"
   ],
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
@@ -1016,6 +1158,15 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/martha_is_dead": {
+  "genres": [
+   "First-person",
+   "Psychological",
+   "Thriller"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
  "/ps5/games/marvels_guardians_of_the_galaxy": {
   "genres": [
    "Third-person",
@@ -1024,6 +1175,14 @@
   ],
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
+ },
+ "/ps5/games/marvels_midnight_suns": {
+  "genres": [
+   "Tactical",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
  },
  "/ps5/games/marvels_spider-man_2": {
   "genres": [
@@ -1059,10 +1218,34 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/miasma_chronicles": {
+  "genres": [
+   "Tactical",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps5/games/neva": {
   "genres": [
    "Adventure",
    "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/ninja_gaiden_4": {
+  "genres": [
+   "Action",
+   "Slasher"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/onimusha_way_of_the_sword": {
+  "genres": [
+   "Action",
+   "RPG"
   ],
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
@@ -1074,6 +1257,15 @@
    "Driving"
   ],
   "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/pathfinder_wrath_of_the_righteous": {
+  "genres": [
+   "Tactical",
+   "RPG",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
   "lang": "Русский"
  },
  "/ps5/games/persona_5_royal": {
@@ -1150,6 +1342,14 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/returnal": {
+  "genres": [
+   "Rogue-like",
+   "Shooter"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps5/games/rise_of_the_ronin": {
   "genres": [
    "Action",
@@ -1166,12 +1366,45 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/romeo_is_a_dead_man": {
+  "genres": [
+   "Action"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/sackboy_a_big_adventure": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "PS ПК, Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps5/games/saros": {
   "genres": [
    "Third-person",
    "Action"
   ],
   "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/scars_above": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/senuas_saga_hellblade_ii": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
   "lang": "Русский"
  },
  "/ps5/games/sherlock_holmes_chapter_one": {
