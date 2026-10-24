@@ -5,7 +5,7 @@ Usage:
   python3 scripts/recalc.py            # games.json derived fields + library.json stats
 
 games.json: plat_pct, est_100_hours, dlc_count, dlc_pending (from dlcs[].released == false).
-library.json: games list, by_year and computed stats are rebuilt from data/library_raw.txt;
+library.json: games list and computed stats are rebuilt from data/library_raw.txt;
 totals (profile header numbers) are kept as-is — update them by hand from the stratege profile.
 """
 import collections, datetime, json, pathlib
@@ -55,15 +55,8 @@ def recalc_library():
                         url="https://stratege.ru" + p[7] + "/trophies",
                         hours=float(p[8]) if len(p) > 8 and p[8] else None, complete=got == tot))
     done = [x for x in lib if x["complete"]]
-    by_year = collections.OrderedDict()
-    for x in sorted(done, key=lambda x: x["last"]):
-        b = by_year.setdefault(x["last"][:4], {"year": x["last"][:4], "games": 0, "trophies": 0, "hours": 0})
-        b["games"] += 1; b["trophies"] += x["got"]; b["hours"] += x["hours"] or 0
-    for b in by_year.values():
-        b["hours"] = round(b["hours"])
     diffs = [x["diff"] for x in done if x["diff"]]
     meta["games"] = lib
-    meta["by_year"] = list(by_year.values())
     meta["computed"] = dict(done_count=len(done), done_trophies=sum(x["got"] for x in done),
                             done_hours=round(sum(x["hours"] or 0 for x in done)),
                             avg_diff=round(sum(diffs) / len(diffs), 2) if diffs else None,

@@ -1,48 +1,4 @@
 {
- "by_year": [
-  {
-   "year": "2020",
-   "games": 4,
-   "trophies": 231,
-   "hours": 216
-  },
-  {
-   "year": "2021",
-   "games": 22,
-   "trophies": 864,
-   "hours": 581
-  },
-  {
-   "year": "2022",
-   "games": 8,
-   "trophies": 306,
-   "hours": 158
-  },
-  {
-   "year": "2023",
-   "games": 10,
-   "trophies": 406,
-   "hours": 778
-  },
-  {
-   "year": "2024",
-   "games": 10,
-   "trophies": 475,
-   "hours": 701
-  },
-  {
-   "year": "2025",
-   "games": 14,
-   "trophies": 759,
-   "hours": 718
-  },
-  {
-   "year": "2026",
-   "games": 21,
-   "trophies": 901,
-   "hours": 692
-  }
- ],
  "computed": {
   "done_count": 89,
   "done_trophies": 3942,

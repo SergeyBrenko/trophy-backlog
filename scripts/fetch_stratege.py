@@ -8,11 +8,11 @@ Usage:
 - Avatar: stratege profile AJAX -> img/avatar.png, path saved to library.json "avatar".
 - Covers: trophy-list icon (ICON0) of every game in games.json and library.json, cropped to a square
   256x256 JPEG -> img/covers/<platform>_<slug>.jpg; map {"/ps5/games/<slug>": "img/covers/..."} in data/covers.json.
-- Game page facts: genre tags, release type (disc/digital) and language from /<platform>/games/<slug>
-  -> data/stratege.json {"/ps5/games/<slug>": {"genres": [...], "type": "...", "lang": "..."}}.
-index.html looks both maps up by the stratege path. Requires Pillow.
+- Game page facts: release type (disc/digital) and language from /<platform>/games/<slug>
+  -> data/stratege.json {"/ps5/games/<slug>": {"type": "...", "lang": "..."}}; a hint when checking discs and Russian.
+index.html looks covers up by the stratege path. Requires Pillow.
 """
-import html as htmllib, io, json, pathlib, re, sys, time, urllib.parse, urllib.request
+import io, json, pathlib, re, sys, time, urllib.parse, urllib.request
 
 from PIL import Image
 
@@ -84,10 +84,8 @@ def cover_src(p, known):
 
 def game_facts(p):
     h = page(p)
-    block = re.search(r"Жанр:</div>(.*?)<div class=\"clear\">", h, re.S)
-    genres = [htmllib.unescape(x).strip() for x in re.findall(r'_counter">([^<]+)<', block.group(1))] if block else []
     field = lambda name: (m := re.search(rf"<span>{name}:</span>\s*([^<]+)<", h)) and m.group(1).strip()
-    return {"genres": genres, "type": field("Тип"), "lang": field("Язык")}
+    return {"type": field("Тип"), "lang": field("Язык")}
 
 
 def main():

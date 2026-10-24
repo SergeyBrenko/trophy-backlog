@@ -72,6 +72,5 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
 ```
 Keep pros/cons to 2–4 short bullets each (≤ 12 words each). Be efficient: don't over-fetch.
 
-Covers and genres for the statistics are not part of the card: after the cards are merged into data/games.json, run
-`python3 scripts/fetch_stratege.py`. It finds the trophy-list icon and the genre tags by `stratege_url`, so `stratege_url` must point
-to the exact trophy list used.
+Covers are not part of the card: after the cards are merged into data/games.json, run `python3 scripts/fetch_stratege.py`.
+It finds the trophy-list icon by `stratege_url`, so `stratege_url` must point to the exact trophy list used.

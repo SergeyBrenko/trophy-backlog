@@ -22,14 +22,14 @@
 ```
 index.html                 приложение (один файл, без сборки; читает data/*.json)
 data/games.json            все игры: список, кандидаты, недоделанные, «не буду» (rejected)
-data/library.json          профиль: итоги, аватар, пройденные игры, статистика по годам
+data/library.json          профиль: итоги, аватар, пройденные игры
 data/library_raw.txt       выгрузка профиля stratege (источник для library.json)
 data/covers.json           путь stratege (/ps5/games/<slug>) → img/covers/<платформа>_<slug>.jpg
-data/stratege.json         путь stratege → {genres, type, lang} со страницы игры; genres — для статистики жанров
+data/stratege.json         путь stratege → {type, lang} со страницы игры: подсказка при проверке диска и языка
 img/avatar.png             аватар PSN владельца
 img/covers/                обложки: иконки трофейных листов PSN, квадрат 256×256 JPEG
 scripts/sync_profile.py    выгружает профиль stratege без браузера → library_raw.txt + library.json → totals, synced
-scripts/fetch_stratege.py  докачивает аватар, обложки и жанры/тип/язык для новых игр (нужен Pillow; --force — всё заново)
+scripts/fetch_stratege.py  докачивает аватар, обложки и тип издания/язык для новых игр (нужен Pillow; --force — всё заново)
 scripts/recalc.py          пересчёт производных полей games.json и статистики library.json
 docs/research-brief.md     как собирать карточку игры: источники, русский язык, формула оценки, схема JSON (на английском)
 ```
@@ -51,8 +51,8 @@ docs/research-brief.md     как собирать карточку игры: и
 ## Правки владельца
 Владелец пишет правки в чат («Atomic Heart начал», «Dispatch в список», «Persona 5 не хочу»). Меняй соответствующие поля в `data/games.json`: `status`, `priority`, `my_rating`, `notes`, а `section` — `backlog` при одобрении кандидата, `rejected` при отказе. Затем `recalc.py`, commit, push.
 
-## Обложки, жанры, аватар
-Страница ищет обложку и жанры по пути stratege из `stratege_url` (у игр) или `url` (у пройденных) в `data/covers.json` и `data/stratege.json`. Отдельных полей в карточке нет. Если обложки нет, показываются инициалы.
+## Обложки и аватар
+Страница ищет обложку по пути stratege из `stratege_url` (у игр) или `url` (у пройденных) в `data/covers.json`. Отдельного поля в карточке нет. Если обложки нет, показываются инициалы.
 После добавления новых игр или синхронизации профиля запусти `python3 scripts/fetch_stratege.py`: он докачает только недостающее (пауза 2 с между запросами, при 429 ждёт и повторяет).
 
 ## Процедура «актуализируй»
@@ -78,7 +78,7 @@ docs/research-brief.md     как собирать карточку игры: и
 Подсказки по stratege:
 - Трофеи: `https://stratege.ru/ps5/games/<slug>/trophies` (поля «Трофеев», «Основных», «Из DLC», «Игра есть у», «Получили платину», «Среднее время платины», «Получили 100%», «Дополнения с трофеями»).
 - Сложность: `.../difficulty` («Оценка основных трофеев», «Оценка трофеев из DLC» — одна общая на все DLC). Комментарии на странице грузятся скриптом: WebFetch и curl их не видят.
-- Страница игры `.../games/<slug>`: «Жанр», «Тип» (диск / цифровая версия), «Язык» (не различает озвучку и субтитры).
+- Страница игры `.../games/<slug>`: «Тип» (диск / цифровая версия), «Язык» (не различает озвучку и субтитры).
 - Трофеи отдельного DLC: фильтр на странице трофеев `?nax=1&filter=N` («Показать DLC «…»»).
 - Чего не хватает владельцу в игре: `.../trophies?nax=1&filter=101&show_user=dannymadcat`.
 - Профиль: POST `https://stratege.ru/ajax_loader/users_profile_fw` с `ajax_mode=profile_all_loader&action=all_page&firmware=1&uid=134267&sort=0&type=current&compare=&page=0` (`type=time` — время в играх). Им пользуются `sync_profile.py` и `fetch_stratege.py`.
