@@ -1,6 +1,133 @@
 [
  {
   "added": "2026-10-24",
+  "avg_completion": 68,
+  "avg_plat_hours": 37,
+  "cand_group": "Пропущенное",
+  "cons": [
+   "Пара челлендж-уровней требует много попыток",
+   "Сюжета почти нет"
+  ],
+  "critic": 94,
+  "critic_src": "OpenCritic",
+  "developer": "Team Asobi",
+  "diff_base": 3.88,
+  "diff_base_votes": 437,
+  "diff_dlc": 4.62,
+  "difficulty_trophy": "Нет, но есть сложные челлендж-уровни (□△○✕ и «Золотая статуя»)",
+  "disc_note": "Диск PS5 есть; все DLC с трофеями бесплатные",
+  "dlc_count": 0,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "dlcs": [
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "ASTRO BOT [Звёздная магистраль]",
+    "note": "бесплатное обновление (спидран-уровни)",
+    "release_date": null,
+    "released": true,
+    "trophies": null
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "ASTRO BOT [Зимнее чудо]",
+    "note": "бесплатный новогодний уровень",
+    "release_date": "2024-12-12",
+    "released": true,
+    "trophies": null
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "ASTRO BOT [Бешеная бездна]",
+    "note": "бесплатное обновление",
+    "release_date": null,
+    "released": true,
+    "trophies": null
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "ASTRO BOT [Бешеная бездна 2]",
+    "note": "бесплатное обновление; всего в 4 DLC 19 трофеев",
+    "release_date": null,
+    "released": true,
+    "trophies": null
+   }
+  ],
+  "dur_base": "10+",
+  "dur_dlc": "0+",
+  "est_100_hours": 37,
+  "full_count": 1884,
+  "full_pct": 18.7,
+  "genre": "3D-платформер",
+  "glitched": "Нет известных",
+  "id": "astro_bot",
+  "missables": "Нет (уровни перепроходятся, есть локатор секретов)",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "owners": 10073,
+  "plat_count": 6254,
+  "plat_pct": 62.1,
+  "platform": "PS5",
+  "playthroughs": "1",
+  "priority": null,
+  "pros": [
+   "Игра года TGA 2024",
+   "Любовное письмо истории PlayStation",
+   "Короткая, без гринда"
+  ],
+  "quality": 9.3,
+  "quality_note": "OC 94 (MC 94), MC user 9.0; на stratege почти единодушный восторг (+0.1)",
+  "release": "2024-09-06",
+  "ru_loc": "Текст (речи в игре нет)",
+  "section": "backlog",
+  "sources": [
+   {
+    "name": "Stratege — трофеи",
+    "url": "https://stratege.ru/ps5/games/astro_bot/trophies"
+   },
+   {
+    "name": "Stratege — сложность",
+    "url": "https://stratege.ru/ps5/games/astro_bot/difficulty"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/astro-bot/"
+   },
+   {
+    "name": "DekuDeals (OC/HLTB/диск)",
+    "url": "https://www.dekudeals.com/items/astro-bot"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://www.playstation.com/en-gb/games/astro-bot/"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps5/games/astro_bot/trophies",
+  "title": "ASTRO BOT",
+  "trophies": {
+   "base": 44,
+   "bronze": 41,
+   "dlc": 19,
+   "gold": 2,
+   "plat": 1,
+   "silver": 19,
+   "total": 63
+  },
+  "trophy_summary": "Всё основное выпадает по ходу; потеть придётся лишь на уровнях-испытаниях □△○✕ и финальном испытании после 300 ботов. DLC-уровни бесплатные, сложность ~4.6.",
+  "updated": "2026-10-24",
+  "user_score": 9,
+  "why": "Самый оценённый эксклюзив PS5 последних лет и идеальная «передышка» между длинными сюжетными играми — платина за 15–20 часов без гринда.",
+  "ru": "subs"
+ },
+ {
+  "added": "2026-10-24",
   "avg_completion": 30,
   "avg_plat_hours": 61,
   "cons": [
@@ -268,6 +395,96 @@
   "trophy_summary": "Платина лёгкая, но долгая (~75 ч): зачистка всех аванпостов, пожертвования кланам и коллектиблс; DLC добавляют ещё ~20–25 ч, самое насыщенное — «Из пепла».",
   "updated": "2026-10-24",
   "user_score": 7,
+  "ru": "subs"
+ },
+ {
+  "added": "2026-10-24",
+  "avg_completion": 54,
+  "avg_plat_hours": 46,
+  "cand_group": "Новинки",
+  "cons": [
+   "Длинный чек-лист побочных задач",
+   "Диск местами в дефиците"
+  ],
+  "critic": 84,
+  "critic_src": "Metacritic (PS5)",
+  "developer": "Remedy Entertainment",
+  "diff_base": 3.53,
+  "diff_base_votes": null,
+  "diff_dlc": null,
+  "difficulty_trophy": "Нет; Assist Mode не блокирует трофеи",
+  "disc_note": "Диск PS5 вышел 15.10.2026 (перенос с 24.09); есть SteelBook, тираж ограничен",
+  "dlc_count": 0,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "dlcs": [],
+  "dur_base": "25+",
+  "dur_dlc": null,
+  "est_100_hours": 46,
+  "full_count": null,
+  "full_pct": null,
+  "genre": "Экшен-адвенчура",
+  "glitched": "Не найдено в гайдах",
+  "id": "control_resonant",
+  "missables": "1 полу-пропускаемый (возвращается загрузкой автосейва после квеста)",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "owners": 1668,
+  "plat_count": 610,
+  "plat_pct": 36.6,
+  "platform": "PS5",
+  "playthroughs": "1 (свободное исследование после финала)",
+  "priority": null,
+  "pros": [
+   "Продолжение Control и вселенной Alan Wake",
+   "Лёгкая платина без сложностей",
+   "Сильные оценки критиков и игроков"
+  ],
+  "quality": 8.6,
+  "quality_note": "MC 84 (PS5), MC user 8.8, Steam ~91%",
+  "release": "2026-09-24",
+  "ru_loc": "Субтитры",
+  "section": "backlog",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/control_resonant/trophies"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://powerpyx.com/control-resonant-trophy-guide-roadmap/"
+   },
+   {
+    "name": "Dark Horizons (MC)",
+    "url": "https://www.darkhorizons.com/?p=194650"
+   },
+   {
+    "name": "RPG Site (диск)",
+    "url": "https://rpgsite.net/news/21137-control-resonant-physical-release-delay-october-15-ps5-xbox-series-x-ps5-pro-steelbook"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://www.playstation.com/en-gb/games/control-resonant/"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps5/games/control_resonant/trophies",
+  "title": "Control Resonant",
+  "trophies": {
+   "base": 50,
+   "bronze": 32,
+   "dlc": 0,
+   "gold": 1,
+   "plat": 1,
+   "silver": 16,
+   "total": 50
+  },
+  "trophy_summary": "Платина — чистый чек-лист: улучшения зон, задания FBC, тайники, скетчбук и крафт артефактов. Сложных или онлайн-трофеев нет.",
+  "updated": "2026-10-24",
+  "user_score": 8.8,
+  "why": "Сиквел Control от Remedy: пользователь закрыл на 100% Control, Alan Wake и Alan Wake 2, а здесь простая платина и свежий диск.",
   "ru": "subs"
  },
  {
@@ -571,7 +788,30 @@
   "trophy_summary": "Сложность почти нулевая, но платина длинная (в среднем 140 ч на stratege): почти всё время уходит на прокачку всех узлов до 5 звёзд (Connecting Hearts and Minds) и Seasoned Porter. Последние узлы приходится ждать из-за отката заказов.",
   "updated": "2026-10-24",
   "user_score": 8.7,
-  "ru": "voice"
+  "ru": "voice",
+  "online_trophies": [
+   {
+    "name": "Homo Liberans: The Saviour of Humanity / Homo Liberans: спаситель человечества",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые (без «Благоприятных знаков» и «Первосортного курьера» не получить)",
+    "got": null
+   },
+   {
+    "name": "Promising Signs / Благоприятные знаки",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Впервые поставить знак сетевого запроса о помощи: работает только при подключении к сети (PS Plus не нужен)",
+    "got": null
+   },
+   {
+    "name": "A Premier Porter / Первосортный курьер",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "Класс курьера 40+ во всех категориях, включая Bridge Link: он растёт только от взаимодействия с постройками и грузами других игроков в сети. Stratege помечает трофей как офлайн, PowerPyx — онлайн",
+    "got": null
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -1041,6 +1281,384 @@
   "ru": "subs"
  },
  {
+  "id": "mafia_ii_definitive_edition",
+  "title": "Mafia II: Definitive Edition",
+  "section": "backlog",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": "",
+  "added": "2026-10-24",
+  "updated": "2026-10-24",
+  "why": null,
+  "platform": "PS4",
+  "release": "2020-05-19",
+  "genre": "Экшен-адвенчура, криминальная драма",
+  "developer": "Hangar 13",
+  "stratege_url": "https://stratege.ru/ps4/games/mafia_ii_definitive_edition/trophies",
+  "trophies": {
+   "total": 68,
+   "base": 48,
+   "dlc": 20,
+   "plat": 1,
+   "gold": 2,
+   "silver": 14,
+   "bronze": 51
+  },
+  "dlcs": [
+   {
+    "name": "Jimmy's Vendetta",
+    "trophies": 10,
+    "released": true,
+    "release_date": "2020-05-19",
+    "difficulty": null,
+    "hours": null,
+    "note": "Входит в Definitive Edition, докупать не нужно. Аркадные задания за Джимми: гринд 1 000 000 очков, 1000 миль, 1000 убийств, все заказы автодилеров"
+   },
+   {
+    "name": "Joe's Adventures",
+    "trophies": 10,
+    "released": true,
+    "release_date": "2020-05-19",
+    "difficulty": null,
+    "hours": null,
+    "note": "Входит в Definitive Edition, докупать не нужно. Задания за Джо с подсчётом очков: заносы, прыжки, скоростные пробеги"
+   }
+  ],
+  "dlc_pending": false,
+  "dlc_pending_note": "Новых DLC нет. Нативная PS5-версия пока не вышла (в 2026 появился рейтинг ESRB для PS5, дата не объявлена) — с ней может появиться отдельный PS5-лист",
+  "diff_base": 3.76,
+  "diff_base_votes": 451,
+  "dur_base": "25+",
+  "diff_dlc": 3.72,
+  "dur_dlc": "25+",
+  "avg_plat_hours": 49,
+  "owners": 17395,
+  "plat_count": 5083,
+  "full_count": 1030,
+  "avg_completion": 43,
+  "plat_pct": 29.2,
+  "full_pct": null,
+  "est_100_hours": 49,
+  "dlc_count": 2,
+  "critic": 64,
+  "critic_src": "OpenCritic",
+  "user_score": 6.1,
+  "quality": 6.3,
+  "quality_note": "OC 64 (MC PS4 56), MC user PS4 6.1 (общий 6.8) → 6.3; рецензия stratege 65/100; без поправки (комментарии stratege грузятся скриптом)",
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "missables": "Полу-пропускаемые Mirror Breaker и Trapped; всё добирается через выбор глав после финала",
+  "playthroughs": "1 на «Высокой» + добор через выбор глав",
+  "difficulty_trophy": "Да — Tough Nut (сюжет на «Высокой»), Made Man (не ниже «Средней»); по гайдам — терпимо, если пользоваться укрытиями",
+  "glitched": "Трофейных глюков не найдено; у ремастера на PS4 много багов после режима покоя — лечится перезапуском игры",
+  "ru": "voice",
+  "ru_loc": "Озвучка и субтитры",
+  "disc_note": "Отдельного диска нет: на PS4-диске только в Mafia: Trilogy (физическое издание для Европы/Азии, 2020; что именно на диске, официально не подтверждено). Оба DLC с трофеями входят в издание. PS5-версии пока нет, в Omertà Collection на PS5 идёт PS4-версия",
+  "pros": [
+   "Классический сюжет Вито и Джо",
+   "Полная русская озвучка",
+   "Лёгкая платина, DLC уже в издании",
+   "Выбор глав — пропущенное добирается"
+  ],
+  "cons": [
+   "Баги ремастера на PS4",
+   "Сбор 50 журналов и 189 плакатов",
+   "Гринд очков и миль в Jimmy's Vendetta",
+   "Нет диска отдельно от трилогии"
+  ],
+  "trophy_summary": "Сюжет на «Высокой» (даёт и Made Man) плюс коллекционные — 50 журналов «Плейбой» и 189 плакатов «Розыск» — через выбор глав. Самое нудное — Jimmy's Vendetta: 1 млн очков, 1000 миль и 1000 убийств; Joe's Adventures короче.",
+  "sources": [
+   {
+    "name": "Stratege — трофеи",
+    "url": "https://stratege.ru/ps4/games/mafia_ii_definitive_edition/trophies"
+   },
+   {
+    "name": "Stratege — сложность",
+    "url": "https://stratege.ru/ps4/games/mafia_ii_definitive_edition/difficulty"
+   },
+   {
+    "name": "Stratege — страница игры",
+    "url": "https://stratege.ru/ps4/games/mafia_ii_definitive_edition"
+   },
+   {
+    "name": "PlatGet (гайд DE)",
+    "url": "https://platget.com/guides/mafia-ii-trophy-guide"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/9470/mafia-ii-definitive-edition"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/mafia-ii-definitive-edition/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://www.playstation.com/en-gb/games/mafia-ii-remaster/"
+   },
+   {
+    "name": "2K — FAQ Mafia: Trilogy",
+    "url": "https://support.2k.com/hc/en-us/articles/360048665073-Mafia-Trilogy-FAQ"
+   },
+   {
+    "name": "tbreak — Omertà Collection",
+    "url": "https://tbreak.com/mafia-the-omerta-collection/"
+   }
+  ]
+ },
+ {
+  "id": "mafia_iii_definitive_edition",
+  "title": "Mafia III: Definitive Edition",
+  "section": "backlog",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": "",
+  "added": "2026-10-24",
+  "updated": "2026-10-24",
+  "why": null,
+  "platform": "PS5",
+  "release": "2016-10-07",
+  "genre": "Экшен-адвенчура в открытом мире",
+  "developer": "Hangar 13",
+  "stratege_url": "https://stratege.ru/ps5/games/mafia_3/trophies",
+  "trophies": {
+   "total": 86,
+   "base": 56,
+   "dlc": 30,
+   "plat": 1,
+   "gold": 1,
+   "silver": 7,
+   "bronze": 77
+  },
+  "dlcs": [
+   {
+    "name": "Быстрее, детка! (Faster, Baby!)",
+    "trophies": 10,
+    "released": true,
+    "release_date": "2026-10-08",
+    "difficulty": null,
+    "hours": null,
+    "note": "Сюжетное (2017), входит в Definitive Edition. Охота на шерифа Бомонта: плантация травы (макс. травничество, улучшения), 10 автоловушек, 30 убийств минами, 10 щитов"
+   },
+   {
+    "name": "Старые счёты (Stones Unturned)",
+    "trophies": 10,
+    "released": true,
+    "release_date": "2026-10-08",
+    "difficulty": null,
+    "hours": null,
+    "note": "Сюжетное (2017), входит в Definitive Edition. С Донованом за боеголовкой: все «Охоты за головами», 30 усыплений дротиками, 30 убийств снайперской поддержкой, 50 убийств из пулемёта в костюме «Король вечеринок»"
+   },
+   {
+    "name": "Знамения времён (Sign of the Times)",
+    "trophies": 10,
+    "released": true,
+    "release_date": "2026-10-08",
+    "difficulty": null,
+    "hours": null,
+    "note": "Сюжетное (2017), входит в Definitive Edition. Расследование секты: 3 «места тьмы», реставрация бара Сэмми, 20 убийств метательными ножами, 50 км на Samson Harrier"
+   }
+  ],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_base": 3.78,
+  "diff_base_votes": 677,
+  "dur_base": "50+",
+  "diff_dlc": 3.23,
+  "dur_dlc": "25+",
+  "avg_plat_hours": 56,
+  "owners": 688,
+  "plat_count": 29,
+  "full_count": 19,
+  "avg_completion": 12,
+  "plat_pct": 4.2,
+  "full_pct": null,
+  "est_100_hours": 56,
+  "dlc_count": 3,
+  "critic": 68,
+  "critic_src": "Metacritic",
+  "user_score": 5.4,
+  "quality": 6.3,
+  "quality_note": "MC PS4 68 (OC 66), MC user PS4 5.4 → 6.2; +0.1 за нативную PS5-версию с 60 FPS (главные претензии были к технике); рецензия stratege 65/100",
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "missables": "Да, ~15 (PowerPyx): всё, что связано с раздачей районов подручным, вербовкой/убийством боссов бизнесов и информаторов, побочки подручных (подручный может погибнуть), Flambé, Never Saw It Coming",
+  "playthroughs": "2 (в одном переманить всех боссов, завербовать 15 информаторов и сохранить подручных; во втором — убить всех и оставить одного подручного)",
+  "difficulty_trophy": "Нет — всё берётся на лёгкой",
+  "glitched": "На PS4 (PowerPyx): The New Boss, Baby You're a Rich Man, Combat Specialist, Closed Casket, Family. PS5-лист новый (с 08.10.2026), его состояние пока не известно",
+  "ru": "subs",
+  "ru_loc": "Субтитры (озвучки нет)",
+  "disc_note": "PS4-диск Mafia III (2016) или Mafia: Trilogy (Европа/Азия). Владельцам Mafia III (диск или цифра) Definitive Edition со всеми тремя сюжетными DLC выдаётся бесплатно. С 08.10.2026 нативная PS5-версия с отдельным листом: бесплатный апгрейд с PS4-версии, с диска — нужна PS5 с дисководом и диск в приводе, сейвы не переносятся. Отдельного PS5-диска нет (stratege: цифровая); работает ли апгрейд с диска трилогии, не проверено",
+  "pros": [
+   "Сильный сюжет в стиле документального фильма",
+   "Отличный саундтрек 60-х",
+   "Новый PS5-лист с 60 FPS",
+   "Нет сложностных трофеев, DLC бесплатно с игрой"
+  ],
+  "cons": [
+   "Однообразный захват районов",
+   "Два прохождения из-за взаимоисключающих трофеев",
+   "Только русские субтитры",
+   "Глючные трофеи на PS4"
+  ],
+  "trophy_summary": "Сложных трофеев нет, но платина длинная: нужно 2 прохождения с противоположными решениями по боссам бизнесов, информаторам и подручным, много пропускаемого — строго по гайду. DLC — короткие сюжетки с гриндом убийств определённым способом.",
+  "sources": [
+   {
+    "name": "Stratege — трофеи (PS5)",
+    "url": "https://stratege.ru/ps5/games/mafia_3/trophies"
+   },
+   {
+    "name": "Stratege — сложность",
+    "url": "https://stratege.ru/ps5/games/mafia_3/difficulty"
+   },
+   {
+    "name": "Stratege — трофеи (PS4)",
+    "url": "https://stratege.ru/ps4/games/mafia_3/trophies"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/mafia-3-trophy-guide-roadmap/"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/mafia-iii/"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/1539/mafia-iii/reviews"
+   },
+   {
+    "name": "PS Store (языки, состав DE)",
+    "url": "https://www.playstation.com/en-gb/games/mafia-iii/"
+   },
+   {
+    "name": "Game Informer — PS5-версия",
+    "url": "https://www.gameinformer.com/2026/10/08/mafia-iii-gets-surprise-ps5-xbox-series-xs-60-fps-update-today-and-its-free-if-you"
+   },
+   {
+    "name": "Push Square — PS5-апгрейд",
+    "url": "https://www.pushsquare.com/news/2026/10/mafia-3-definitive-editions-native-60fps-ps5-upgrade-is-out-now-free-for-existing-owners"
+   },
+   {
+    "name": "2K — FAQ Mafia: Trilogy",
+    "url": "https://support.2k.com/hc/en-us/articles/360048665073-Mafia-Trilogy-FAQ"
+   }
+  ]
+ },
+ {
+  "added": "2026-10-24",
+  "avg_completion": 36,
+  "avg_plat_hours": 21,
+  "cand_group": "Пропущенное",
+  "cons": [
+   "Гонка на «Классике» — главный затык",
+   "Нудный сбор 50 лис и журналов",
+   "Деревянная стрельба"
+  ],
+  "critic": 78,
+  "critic_src": "Metacritic",
+  "developer": "Hangar 13",
+  "diff_base": 4.49,
+  "diff_base_votes": 839,
+  "diff_dlc": null,
+  "difficulty_trophy": "Да — «Классика» (Made Man): гонка в 5-й главе и перестрелки (отель, аэропорт)",
+  "disc_note": "Диск PS4: отдельное издание и Mafia: Trilogy (Европа/Азия); DLC с трофеями нет. С 14.08.2026 нативная PS5-версия с отдельным списком трофеев (60 FPS) — только цифровая (stratege: «Цифровая версия», Omertà Collection тоже цифровая), PS5-диска нет. Владельцы PS4-диска получают PS5-версию бесплатно на PS5 с дисководом, диск должен быть в приводе; сейвы не переносятся",
+  "dlc_count": 0,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "dlcs": [],
+  "dur_base": "25+",
+  "dur_dlc": null,
+  "est_100_hours": 21,
+  "full_count": null,
+  "full_pct": null,
+  "genre": "Экшен-адвенчура, криминальная драма",
+  "glitched": "Не найдено в гайдах",
+  "id": "mafia_definitive_edition",
+  "missables": "Нет (выбор глав + режим «Свободная езда»)",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "owners": 1353,
+  "plat_count": 309,
+  "plat_pct": 22.8,
+  "platform": "PS5",
+  "playthroughs": "1 на «Классике» + добор коллекционных через выбор глав",
+  "priority": null,
+  "pros": [
+   "Отличный ремейк классики, «гангстерское кино»",
+   "Короткая платина ~21 ч, без DLC",
+   "Полная русская озвучка",
+   "Новый PS5-список — можно взять даже после PS4"
+  ],
+  "quality": 7.9,
+  "quality_note": "MC 78 (OC 77–78), MC user 7.7; на stratege тепло: «отличный ремейк, приятная платина», минусы — стрельба и нудные лисы (+0.1)",
+  "release": "2020-09-25",
+  "ru_loc": "Озвучка и субтитры",
+  "section": "backlog",
+  "sources": [
+   {
+    "name": "Stratege (PS5)",
+    "url": "https://stratege.ru/ps5/games/mafia_definitive_edition/trophies"
+   },
+   {
+    "name": "Stratege — PS4 (тип издания)",
+    "url": "https://stratege.ru/ps4/games/mafia_definitive_edition"
+   },
+   {
+    "name": "Stratege (сложность PS4)",
+    "url": "https://stratege.ru/ps4/games/mafia_definitive_edition/difficulty"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/mafia-1-remake-definitive-edition-trophy-guide-roadmap/"
+   },
+   {
+    "name": "DekuDeals (HLTB/MC/OC)",
+    "url": "https://www.dekudeals.com/items/mafia-definitive-edition"
+   },
+   {
+    "name": "2K Support (апгрейд PS5)",
+    "url": "https://support.2k.com/hc/articles/53873172436371"
+   },
+   {
+    "name": "Push Square (PS5-версия)",
+    "url": "https://pushsquare.com/news/2026/08/mafia-remake-joins-the-old-country-on-ps5-in-full-series-collection-with-60fps-visual-upgrades"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/235302"
+   },
+   {
+    "name": "tbreak — Omertà Collection",
+    "url": "https://tbreak.com/mafia-the-omerta-collection/"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps5/games/mafia_definitive_edition/trophies",
+  "title": "Mafia: Definitive Edition",
+  "trophies": {
+   "base": 44,
+   "bronze": 33,
+   "dlc": 0,
+   "gold": 3,
+   "plat": 1,
+   "silver": 7,
+   "total": 44
+  },
+  "trophy_summary": "Единственная заноза — гонка в 5-й главе на «Классике» (после неё везите Полли к девушкам, а не домой, иначе гонку переигрывать) и пара перестрелок. Остальное — коллекционные (50 лис, журналы, вкладыши) по гайду через выбор глав.",
+  "updated": "2026-10-24",
+  "user_score": 7.7,
+  "why": "Раз Mafia: The Old Country уже в списке — ремейк первой части даёт ту же атмосферу гангстерского кино, короткую платину без DLC и теперь ещё свежий PS5-список трофеев.",
+  "ru": "voice",
+  "online_trophies": []
+ },
+ {
   "added": "2026-10-24",
   "avg_completion": 45,
   "avg_plat_hours": 35,
@@ -1169,6 +1787,93 @@
   "updated": "2026-10-24",
   "user_score": 7.5,
   "ru": "voice"
+ },
+ {
+  "added": "2026-10-24",
+  "avg_completion": 26,
+  "avg_plat_hours": 129,
+  "cand_group": "Пропущенное",
+  "cons": [
+   "Нет русского языка",
+   "Очень длинная — 100–130 ч",
+   "Нужно планировать календарь"
+  ],
+  "critic": 94,
+  "critic_src": "OpenCritic",
+  "developer": "Atlus",
+  "diff_base": 3,
+  "diff_base_votes": null,
+  "diff_dlc": null,
+  "difficulty_trophy": "Нет",
+  "disc_note": "Диск PS5 есть (PS4-диск даёт PS4-список); DLC с трофеями нет",
+  "dlc_count": 0,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "dlcs": [],
+  "dur_base": "100+",
+  "dur_dlc": null,
+  "est_100_hours": 129,
+  "full_count": 185,
+  "full_pct": null,
+  "genre": "JRPG / симулятор жизни",
+  "glitched": "Нет известных",
+  "id": "persona_5_royal",
+  "missables": "Да — привязанные к календарю события, концовки, соц. статы; нужен гайд по дням и несколько сейвов",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "owners": 980,
+  "plat_count": 185,
+  "plat_pct": 18.9,
+  "platform": "PS5",
+  "playthroughs": "1 (с гайдом), иначе 2 через NG+",
+  "priority": null,
+  "pros": [
+   "Одна из лучших JRPG в истории",
+   "Стиль, музыка, персонажи",
+   "Платина простая (3.00)"
+  ],
+  "quality": 9.2,
+  "quality_note": "OC 94 (MC 94), MC user 8.8; комментарии stratege не читались (0)",
+  "release": "2022-10-21",
+  "ru_loc": "Нет",
+  "section": "backlog",
+  "sources": [
+   {
+    "name": "Stratege — трофеи",
+    "url": "https://stratege.ru/ps5/games/persona_5_royal/trophies"
+   },
+   {
+    "name": "TheGamer — гайд по трофеям",
+    "url": "https://www.thegamer.com/persona-5-royal-trophy-guide/"
+   },
+   {
+    "name": "DekuDeals (MC/OC/HLTB/диск)",
+    "url": "https://www.dekudeals.com/items/persona5-royal"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10002771"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps5/games/persona_5_royal/trophies",
+  "title": "Persona 5 Royal",
+  "trophies": {
+   "base": 53,
+   "bronze": 44,
+   "dlc": 0,
+   "gold": 1,
+   "plat": 1,
+   "silver": 7,
+   "total": 53
+  },
+  "trophy_summary": "Сложности нет — только время и планирование: максимальные соц. статы, конфиданты, экзамены и все концовки по календарному гайду.",
+  "updated": "2026-10-24",
+  "user_score": 8.8,
+  "why": "Ты закрыл Clair Obscur — Persona 5 Royal ещё одна пошаговая RPG мирового уровня (OC 94) с очень простой, хоть и долгой платиной.",
+  "ru": "none"
  },
  {
   "added": "2026-10-24",
@@ -1302,6 +2007,100 @@
   "trophy_summary": "Платина за вечер: ситуативки и коллекционки (статуи/маски/гробы) — при пропуске приходится перепроходить главы. DLC The Prisoner ~1 ч, но ещё две главы впереди.",
   "updated": "2026-10-24",
   "user_score": 7.4,
+  "ru": "voice"
+ },
+ {
+  "added": "2026-10-24",
+  "avg_completion": 62,
+  "avg_plat_hours": 37,
+  "cand_group": "Новинки",
+  "cons": [
+   "Три прохождения подряд утомляют",
+   "Часть за Леона — тир на аренах"
+  ],
+  "critic": 89,
+  "critic_src": "OpenCritic",
+  "developer": "Capcom",
+  "diff_base": 3.82,
+  "diff_base_votes": 276,
+  "diff_dlc": null,
+  "difficulty_trophy": "Да — «Безумие» (с бесконечными патронами/РПГ несложно)",
+  "disc_note": "Диск PS5; DLC пока нет",
+  "dlc_count": 0,
+  "dlc_pending": true,
+  "dlc_pending_note": "Сюжетное DLC анонсировано в марте 2026, даты нет; будут ли трофеи — неизвестно",
+  "dlcs": [],
+  "dur_base": "25+",
+  "dur_dlc": null,
+  "est_100_hours": 37,
+  "full_count": null,
+  "full_pct": null,
+  "genre": "Survival horror",
+  "glitched": "Не найдено в гайдах",
+  "id": "resident_evil_requiem",
+  "missables": "Много, но нет выбора глав — спасают ручные сейвы в начале каждой локации",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "owners": 8176,
+  "plat_count": 3389,
+  "plat_pct": 41.5,
+  "platform": "PS5",
+  "playthroughs": "3 (обычное, спидран на лёгком, «Безумие» с бонусным оружием)",
+  "priority": null,
+  "pros": [
+   "Самая простая платина в серии RE",
+   "Отличная первая половина за Грейс",
+   "Высочайшие оценки игроков"
+  ],
+  "quality": 8.9,
+  "quality_note": "OC 89, MC user 9.5 (рекорд); на stratege хвалят, но ругают вторую половину за Леона и низкую реиграбельность (−0.2)",
+  "release": "2026-02-27",
+  "ru_loc": "Озвучка и субтитры",
+  "section": "backlog",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/resident_evil_requiem/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/resident_evil_requiem/difficulty"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/resident-evil-requiem-trophy-guide-roadmap/"
+   },
+   {
+    "name": "VGC (MC user)",
+    "url": "https://www.videogameschronicle.com/news/resident-evil-requiem-currently-has-the-highest-user-score-of-all-time-on-metacritic"
+   },
+   {
+    "name": "Game Informer (DLC)",
+    "url": "https://gameinformer.com/2026/03/10/resident-evil-requiem-story-dlc-is-in-development"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10015533"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps5/games/resident_evil_requiem/trophies",
+  "title": "Resident Evil Requiem",
+  "trophies": {
+   "base": 50,
+   "bronze": 40,
+   "dlc": 0,
+   "gold": 3,
+   "plat": 1,
+   "silver": 6,
+   "total": 50
+  },
+  "trophy_summary": "Главное — «Безумие»: с бесконечными патронами и РПГ проходится легко, сложен лишь участок ARK за Грейс без бонусного оружия. Плюс спидран-ран и сбор 139 коллекционных предметов.",
+  "updated": "2026-10-24",
+  "user_score": 9.5,
+  "why": "Новый номерной Resident Evil с лучшими оценками года и самой лёгкой платиной серии — прямое попадание после RE Village, Silent Hill 2 и Alan Wake 2.",
   "ru": "voice"
  },
  {
@@ -1805,7 +2604,86 @@
   "total": 61,
   "updated": "2026-10-24",
   "ru": "voice",
-  "ru_loc": "Озвучка и субтитры"
+  "ru_loc": "Озвучка и субтитры",
+  "online_trophies": [
+   {
+    "name": "Prizes, Plunder, and Adventure!  / Разбой, грабеж и золото!",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": false
+   },
+   {
+    "name": "Sharing Is Caring / Радости дружбы",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Поделиться с друзьями сетевыми событиями каждого типа (конвой, кит, сундук и т. п.) через серверы Ubisoft",
+    "got": false
+   },
+   {
+    "name": "Committed To The Cause / Преданность делу",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: достичь 55-го уровня",
+    "got": false
+   },
+   {
+    "name": "Personal Bag Of Tricks / Козыри в рукаве",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: завершить сессию со своей сборкой способностей",
+    "got": false
+   },
+   {
+    "name": "Master Of The Caribbean / Повелитель Карибского моря",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: пройти авантюру в режиме «Волчья стая»",
+    "got": false
+   },
+   {
+    "name": "Lab Technician / Сотрудник Мастерской",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: завершить сессию из Мастерской в открытом списке игр",
+    "got": false
+   },
+   {
+    "name": "All Rounder / На все руки мастер",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: сыграть во всех режимах, использовать все способности и всё оружие дальнего боя",
+    "got": false
+   },
+   {
+    "name": "Sacred Land / Священная земля",
+    "grade": "silver",
+    "part": "Blackbeard's Wrath",
+    "note": "Мультиплеер, «Господство»: максимум очков за Ягуара",
+    "got": false
+   },
+   {
+    "name": "Queen Anne’s Revenge / Месть королевы Анны",
+    "grade": "silver",
+    "part": "Blackbeard's Wrath",
+    "note": "Мультиплеер: за Чёрную Бороду акробатическое убийство и убийство из пистолета в пределах 10 с",
+    "got": false
+   },
+   {
+    "name": "Preemptive Strike / Упреждающий удар",
+    "grade": "silver",
+    "part": "Blackbeard's Wrath",
+    "note": "Мультиплеер: за Орхидею нейтрализовать саботажем 10 способностей противника",
+    "got": false
+   },
+   {
+    "name": "Elevator to the Gallows / Восхождение на казнь",
+    "grade": "bronze",
+    "part": "Blackbeard's Wrath",
+    "note": "Мультиплеер: убить игрока миной-ловушкой в лифте",
+    "got": false
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -1835,7 +2713,65 @@
   "total": 58,
   "updated": "2026-10-24",
   "ru": null,
-  "ru_loc": "Зависит от региона: в EU/US-версии PS Store русского нет; в версии для РФ была озвучка и субтитры"
+  "ru_loc": "Зависит от региона: в EU/US-версии PS Store русского нет; в версии для РФ была озвучка и субтитры",
+  "online_trophies": [
+   {
+    "name": "Master Assassin / Мастер-ассасин",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": false
+   },
+   {
+    "name": "The Baguette Boyband / Команда А",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Кооператив: выполнить одно кооперативное задание",
+    "got": true
+   },
+   {
+    "name": "Visited Once / За один заход",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Выполнить все задания «Нажива» (ограбления) и все кооперативные задания — онлайн",
+    "got": true
+   },
+   {
+    "name": "Share the Wealth / Щедрая душа",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Ограбление («Нажива»), онлайн: получить все награды за задание",
+    "got": true
+   },
+   {
+    "name": "Never Say Die / Никогда не говори \"смерть\"",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Кооператив: оживить союзника",
+    "got": false
+   },
+   {
+    "name": "Merciful Killer / Милосердие",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Кооператив: нейтрализовать 10 противников за задание",
+    "got": true
+   },
+   {
+    "name": "Choreography / Слаженность",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Кооператив: 10 синхронных убийств",
+    "got": false
+   },
+   {
+    "name": "Fraternité! / Узы Братства",
+    "grade": "silver",
+    "part": "Павшие короли (Dead Kings)",
+    "note": "Онлайн: ограбление и кооперативное задание из «Павших королей»",
+    "got": true
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -1905,7 +2841,79 @@
   "total": 77,
   "updated": "2026-10-24",
   "ru": "voice",
-  "ru_loc": "Озвучка и субтитры"
+  "ru_loc": "Озвучка и субтитры",
+  "online_trophies": [
+   {
+    "name": "Transcendence / Превосходство",
+    "grade": "gold",
+    "part": "Режим «Призрак Цусимы: Легенды»",
+    "note": "«Легенды» (онлайн): пройти рейд «Набег» из трёх глав, нужна четвёрка игроков",
+    "got": false
+   },
+   {
+    "name": "Ultimate Warrior / Высший воин",
+    "grade": "silver",
+    "part": "Режим «Призрак Цусимы: Легенды»",
+    "note": "«Легенды» (онлайн): 20-й ранг всех четырёх классов",
+    "got": false
+   },
+   {
+    "name": "Ultimate Truth / Высшая истина",
+    "grade": "silver",
+    "part": "Режим «Призрак Цусимы: Легенды»",
+    "note": "«Легенды» (онлайн): пережить финальную волну «Выживания» на «Золоте»",
+    "got": false
+   },
+   {
+    "name": "Promising Start / Многообещающее начало",
+    "grade": "bronze",
+    "part": "Режим «Призрак Цусимы: Легенды»",
+    "note": "«Легенды» (онлайн): пройти одну историю",
+    "got": true
+   },
+   {
+    "name": "True Understanding / Истинное понимание",
+    "grade": "bronze",
+    "part": "Режим «Призрак Цусимы: Легенды»",
+    "note": "«Легенды» (онлайн): все истории режима на одной сложности. Stratege помечает офлайн, но режим работает только в сети",
+    "got": false
+   },
+   {
+    "name": "Self-Actualized / Самореализация",
+    "grade": "bronze",
+    "part": "Режим «Призрак Цусимы: Легенды»",
+    "note": "«Легенды» (онлайн): 20-й ранг одного класса",
+    "got": false
+   },
+   {
+    "name": "Honor Bound / Связанный честью",
+    "grade": "bronze",
+    "part": "Легенды: соперники и испытания мастерства",
+    "note": "«Легенды» (онлайн): привязать элемент снаряжения к классу (нужно снаряжение 110-го уровня)",
+    "got": false
+   },
+   {
+    "name": "Champion of the Kami / Избранник богов",
+    "grade": "bronze",
+    "part": "Легенды: соперники и испытания мастерства",
+    "note": "«Легенды: соперники» (онлайн, 2 на 2): победить в матче",
+    "got": false
+   },
+   {
+    "name": "Cursed No More / Снятое проклятие",
+    "grade": "bronze",
+    "part": "Легенды: соперники и испытания мастерства",
+    "note": "«Легенды» (онлайн): очистить проклятый элемент снаряжения на «Золоте»",
+    "got": false
+   },
+   {
+    "name": "A Painful Blockage / Непроходимая преграда",
+    "grade": "bronze",
+    "part": "Легенды: соперники и испытания мастерства",
+    "note": "«Легенды: соперники» (онлайн): призвать 5 теней за один матч",
+    "got": false
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -1945,7 +2953,51 @@
   "total": 85,
   "updated": "2026-10-24",
   "ru": "voice",
-  "ru_loc": "Озвучка и субтитры"
+  "ru_loc": "Озвучка и субтитры",
+  "online_trophies": [
+   {
+    "name": "Kaibyaku / Кайбяку",
+    "grade": "gold",
+    "part": "Легенды",
+    "note": "«Легенды» (онлайн): пройти все «Набеги» (рейды на 4 игроков, вкл. босса Сайто); подбора случайных игроков в рейдах нет",
+    "got": false
+   },
+   {
+    "name": "Ghosts Unyielding / Непокорные Призраки",
+    "grade": "silver",
+    "part": "Легенды",
+    "note": "«Легенды» (онлайн): «Выживание» на «Золоте» или выше",
+    "got": false
+   },
+   {
+    "name": "No More Lessons / Вершина мастерства",
+    "grade": "silver",
+    "part": "Легенды",
+    "note": "«Легенды» (онлайн): 25-й ранг всех классов",
+    "got": false
+   },
+   {
+    "name": "Tale of Revenge / Сказание о мести",
+    "grade": "bronze",
+    "part": "Легенды",
+    "note": "«Легенды» (онлайн): все сюжетные задания режима",
+    "got": false
+   },
+   {
+    "name": "Student No More / Из учеников в учителя",
+    "grade": "bronze",
+    "part": "Легенды",
+    "note": "«Легенды» (онлайн): 25-й ранг одного класса",
+    "got": false
+   },
+   {
+    "name": "Vengeance Fulfilled / Свершившаяся месть",
+    "grade": "bronze",
+    "part": "Легенды",
+    "note": "«Легенды» (онлайн): пройти все четыре «Вторжения»",
+    "got": false
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -1975,7 +3027,135 @@
   "total": 52,
   "updated": "2026-10-24",
   "ru": "subs",
-  "ru_loc": "Субтитры"
+  "ru_loc": "Субтитры",
+  "online_trophies": [
+   {
+    "name": "Legend of the West / Легенда Запада",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": false
+   },
+   {
+    "name": "Notorious / Дурная слава",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): достигнуть 50 уровня.",
+    "got": false
+   },
+   {
+    "name": "Breakout / Побег",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): завершить пролог.",
+    "got": false
+   },
+   {
+    "name": "Series Major / Серийный боец",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): принять участие в серии.",
+    "got": false
+   },
+   {
+    "name": "Gun For Hire / Наемный стрелок",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): примите 10 заданий свободного режима от персонажей в игровом мире.",
+    "got": false
+   },
+   {
+    "name": "Eventful / Будет что вспомнить",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): сыграть в 5 событий свободного режима.",
+    "got": false
+   },
+   {
+    "name": "Buckle Up / Пристегнись",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): получить 5 золотых пряжек в качестве награды.",
+    "got": false
+   },
+   {
+    "name": "The Real Deal / Ты то, что надо",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): стать «Самым ценным игроком» 3 раза (за 1 раунд с не менее чем 4 игроками).",
+    "got": false
+   },
+   {
+    "name": "Horses for Courses / Лошадиный энтузиазм",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): стать хозяином 5 лошадей (одновременно).",
+    "got": false
+   },
+   {
+    "name": "Getting Started / Начало начал",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): достигнуть 10 уровня.",
+    "got": false
+   },
+   {
+    "name": "All's Fair / Все средства хороши",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): помешать вражескому отряду выполнить задание в свободном режиме.",
+    "got": false
+   },
+   {
+    "name": "Home Comforts / Комфорт и уют",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): приобрести 5 улучшений лагеря.",
+    "got": false
+   },
+   {
+    "name": "Non-Regulation / Подпольное производство",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): создать 25 предметов амуниции.",
+    "got": false
+   },
+   {
+    "name": "Posse Up / Отряд, стройся!",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): набрать постоянный отряд.",
+    "got": false
+   },
+   {
+    "name": "Master Craftsman / Мастер на все руки",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): создать 20 предметов (помимо патронов).",
+    "got": false
+   },
+   {
+    "name": "Butchered / Поставщик",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): продать мяснику 20 предметов.",
+    "got": false
+   },
+   {
+    "name": "Picked to Perfection / Юный натуралист",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): собрать 25 растений.",
+    "got": false
+   },
+   {
+    "name": "Strength in Numbers / Вместе мы сила",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Red Dead Online (нужен PS Plus): завершить задание в свободном режиме не покидая отряда минимум из 2 человек.",
+    "got": false
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -2005,7 +3185,37 @@
   "total": 63,
   "updated": "2026-10-24",
   "ru": "subs",
-  "ru_loc": "Текст (озвучки в игре нет)"
+  "ru_loc": "Текст (озвучки в игре нет)",
+  "online_trophies": [
+   {
+    "name": "Master Logger / Великий дровосек",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": false
+   },
+   {
+    "name": "Mechanic / Механик",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Онлайн-кооператив: починить грузовик другого игрока на 1000 очков",
+    "got": false
+   },
+   {
+    "name": "Fuel Tanker / Топливозаправщик",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Онлайн-кооператив: заправить машину другого игрока на 1000+ единиц топлива",
+    "got": false
+   },
+   {
+    "name": "Cooperation / Кооператив",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Онлайн-кооператив: передать 5 брёвен другим игрокам",
+    "got": false
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -2035,7 +3245,135 @@
   "total": 68,
   "updated": "2026-10-24",
   "ru": "voice",
-  "ru_loc": "Озвучка и субтитры"
+  "ru_loc": "Озвучка и субтитры",
+  "online_trophies": [
+   {
+    "name": "One Last Time / Последний разок",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": true
+   },
+   {
+    "name": "Continue the Adventure / Приключения продолжаются",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: пройти введение в сетевую игру",
+    "got": true
+   },
+   {
+    "name": "Get in the Game / Вступайте в игру",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: закончить 5 матчей",
+    "got": true
+   },
+   {
+    "name": "Trials by Fire / Испытания огнем",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: пройти все испытания на обычной сложности",
+    "got": true
+   },
+   {
+    "name": "Friends Forever! / Друзья навсегда!",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: призвать 10 помощников",
+    "got": true
+   },
+   {
+    "name": "Medic! / Врача!",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Мультиплеер: вылечить 10 союзников",
+    "got": true
+   },
+   {
+    "name": "Get Train Rekt / Сокрушительная поездочка",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 1",
+    "got": true
+   },
+   {
+    "name": "The Mad City / Город на острове",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 2",
+    "got": true
+   },
+   {
+    "name": "Great Escape / Великолепный побег",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 3",
+    "got": true
+   },
+   {
+    "name": "In for a Penny, In for a Pound / Назвался груздем...",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 4",
+    "got": false
+   },
+   {
+    "name": "Those Who Prove Worthy / Только достойные",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 5",
+    "got": false
+   },
+   {
+    "name": "Cliffs and Caves / Скалы и пещеры",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 6",
+    "got": false
+   },
+   {
+    "name": "Another Lost City Destroyed / Разрушен очередной затерянный город",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 7",
+    "got": false
+   },
+   {
+    "name": "A Pirate's Life For Me / Радости пиратской жизни",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 8",
+    "got": false
+   },
+   {
+    "name": "Without a Paddle / Влипли по уши",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 9",
+    "got": false
+   },
+   {
+    "name": "Utopia / Утопия",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): пройти этап 10",
+    "got": false
+   },
+   {
+    "name": "Crushing / Максимальный",
+    "grade": "bronze",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): хотя бы 1 звезда на всех этапах на «Максимальном»",
+    "got": false
+   },
+   {
+    "name": "...It / Вот",
+    "grade": "silver",
+    "part": "Uncharted 4: выживание",
+    "note": "«Выживание» (онлайн, PS Plus): 3 звезды на всех этапах на «Максимальном» — самый сложный, нужна слаженная тройка",
+    "got": false
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -2126,7 +3464,44 @@
   "updated": "2026-10-24",
   "user_score": null,
   "why": "Сюжетный одиночный экшен-блокбастер уровня Uncharted с лёгкой платиной; единственный нюанс — онлайн-трофеи TacSim, лучше закрыть их пока живы серверы.",
-  "ru": "subs"
+  "ru": "subs",
+  "online_trophies": [
+   {
+    "name": "The name's Bond. James Bond / Меня зовут Бонд. Джеймс Бонд",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые (TacSim)",
+    "got": null
+   },
+   {
+    "name": "The readiness is all / Главное — готовность",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "TacSim (только онлайн): пройти 3-й уровень эскалации; эскалации открываются после главы 6",
+    "got": null
+   },
+   {
+    "name": "What if...? / Что, если…?",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "TacSim (только онлайн): завершить операцию; операции открываются после сюжета",
+    "got": null
+   },
+   {
+    "name": "A change of pace / Смена темпа",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "TacSim (только онлайн): завершить эскалацию",
+    "got": null
+   },
+   {
+    "name": "Keep moving forward / Только вперед",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "TacSim (только онлайн): 3-й уровень допуска; трофей может выпадать с задержкой (иногда только на 4-м уровне)",
+    "got": null
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -2271,133 +3646,6 @@
   "updated": "2026-10-24",
   "user_score": 6.1,
   "why": "Он прошёл на 100% все современные Assassin's Creed, а Shadows — единственная пропущенная номерная часть: простая платина и японский сеттинг, как в любимых Ghost of Tsushima/Yōtei.",
-  "ru": "subs"
- },
- {
-  "added": "2026-10-24",
-  "avg_completion": 68,
-  "avg_plat_hours": 37,
-  "cand_group": "Пропущенное",
-  "cons": [
-   "Пара челлендж-уровней требует много попыток",
-   "Сюжета почти нет"
-  ],
-  "critic": 94,
-  "critic_src": "OpenCritic",
-  "developer": "Team Asobi",
-  "diff_base": 3.88,
-  "diff_base_votes": 437,
-  "diff_dlc": 4.62,
-  "difficulty_trophy": "Нет, но есть сложные челлендж-уровни (□△○✕ и «Золотая статуя»)",
-  "disc_note": "Диск PS5 есть; все DLC с трофеями бесплатные",
-  "dlc_count": 0,
-  "dlc_pending": false,
-  "dlc_pending_note": null,
-  "dlcs": [
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "ASTRO BOT [Звёздная магистраль]",
-    "note": "бесплатное обновление (спидран-уровни)",
-    "release_date": null,
-    "released": true,
-    "trophies": null
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "ASTRO BOT [Зимнее чудо]",
-    "note": "бесплатный новогодний уровень",
-    "release_date": "2024-12-12",
-    "released": true,
-    "trophies": null
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "ASTRO BOT [Бешеная бездна]",
-    "note": "бесплатное обновление",
-    "release_date": null,
-    "released": true,
-    "trophies": null
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "ASTRO BOT [Бешеная бездна 2]",
-    "note": "бесплатное обновление; всего в 4 DLC 19 трофеев",
-    "release_date": null,
-    "released": true,
-    "trophies": null
-   }
-  ],
-  "dur_base": "10+",
-  "dur_dlc": "0+",
-  "est_100_hours": 37,
-  "full_count": 1884,
-  "full_pct": 18.7,
-  "genre": "3D-платформер",
-  "glitched": "Нет известных",
-  "id": "astro_bot",
-  "missables": "Нет (уровни перепроходятся, есть локатор секретов)",
-  "my_rating": null,
-  "notes": "",
-  "online": false,
-  "online_note": null,
-  "owners": 10073,
-  "plat_count": 6254,
-  "plat_pct": 62.1,
-  "platform": "PS5",
-  "playthroughs": "1",
-  "priority": null,
-  "pros": [
-   "Игра года TGA 2024",
-   "Любовное письмо истории PlayStation",
-   "Короткая, без гринда"
-  ],
-  "quality": 9.3,
-  "quality_note": "OC 94 (MC 94), MC user 9.0; на stratege почти единодушный восторг (+0.1)",
-  "release": "2024-09-06",
-  "ru_loc": "Текст (речи в игре нет)",
-  "section": "candidate",
-  "sources": [
-   {
-    "name": "Stratege — трофеи",
-    "url": "https://stratege.ru/ps5/games/astro_bot/trophies"
-   },
-   {
-    "name": "Stratege — сложность",
-    "url": "https://stratege.ru/ps5/games/astro_bot/difficulty"
-   },
-   {
-    "name": "Metacritic",
-    "url": "https://www.metacritic.com/game/astro-bot/"
-   },
-   {
-    "name": "DekuDeals (OC/HLTB/диск)",
-    "url": "https://www.dekudeals.com/items/astro-bot"
-   },
-   {
-    "name": "PS Store (языки)",
-    "url": "https://www.playstation.com/en-gb/games/astro-bot/"
-   }
-  ],
-  "status": "planned",
-  "stratege_url": "https://stratege.ru/ps5/games/astro_bot/trophies",
-  "title": "ASTRO BOT",
-  "trophies": {
-   "base": 44,
-   "bronze": 41,
-   "dlc": 19,
-   "gold": 2,
-   "plat": 1,
-   "silver": 19,
-   "total": 63
-  },
-  "trophy_summary": "Всё основное выпадает по ходу; потеть придётся лишь на уровнях-испытаниях □△○✕ и финальном испытании после 300 ботов. DLC-уровни бесплатные, сложность ~4.6.",
-  "updated": "2026-10-24",
-  "user_score": 9,
-  "why": "Самый оценённый эксклюзив PS5 последних лет и идеальная «передышка» между длинными сюжетными играми — платина за 15–20 часов без гринда.",
   "ru": "subs"
  },
  {
@@ -2830,248 +4078,6 @@
  },
  {
   "added": "2026-10-24",
-  "avg_completion": 22,
-  "avg_plat_hours": 126,
-  "cand_group": "Пропущенное",
-  "cons": [
-   "DLC 7.56 на stratege — выше лимита 6",
-   "Пакет испытаний сообщества: без урона, очень редкие",
-   "Много AR-испытаний за каждого героя и бэтмобиль",
-   "Танковые бои и 243 загадки Риддлера"
-  ],
-  "critic": 86,
-  "critic_src": "OpenCritic",
-  "developer": "Rocksteady Studios",
-  "diff_base": 5.5,
-  "diff_base_votes": 800,
-  "diff_dlc": 7.56,
-  "difficulty_trophy": "Частично — прохождение НИ+ (без подсказок контратак, враги сильнее)",
-  "disc_note": "Диск PS4; Game of the Year Edition (2016) включает сезонный абонемент и все DLC (на части тиражей — кодом в коробке, уточнять). Нативной PS5-версии нет",
-  "dlc_count": 16,
-  "dlc_pending": false,
-  "dlc_pending_note": null,
-  "dlcs": [
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "A Matter of Family («Дела семейные»)",
-    "note": "Сюжетное за Бэтгёрл; сбор всех зубов/шаров/коробок",
-    "release_date": null,
-    "released": true,
-    "trophies": 8
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Harley Quinn Story Pack",
-    "note": "Короткая сюжетная миссия",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Red Hood Story Pack",
-    "note": "Короткая сюжетная миссия",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Scarecrow Nightmare Missions",
-    "note": "3 испытания; заодно облегчает базовые 69 звёзд",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "1989 Movie Batmobile Pack",
-    "note": "33 звезды в AR-испытаниях на этом бэтмобиле (гонки)",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "2008 Tumbler Batmobile Pack",
-    "note": "33 звезды на Тумблере",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "GCPD Lockdown («Блокада полицейского управления»)",
-    "note": "Сюжетная за Найтвинга",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "1960's TV Series Batmobile Pack",
-    "note": "33 звезды на бэтмобиле 60-х",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Catwoman's Revenge",
-    "note": "Сюжетная за Женщину-кошку",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "A Flip of a Coin («Орёл или решка»)",
-    "note": "Сюжетная за Робина",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "2016 Batman v Superman Batmobile Pack",
-    "note": "21 звезда на этом бэтмобиле",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Hero Challenges («Испытания героев»)",
-    "note": "По 21 звезде в AR-испытаниях за Робина, Найтвинга, Бэтгёрл",
-    "release_date": null,
-    "released": true,
-    "trophies": 3
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Rogue Challenges («Испытания злодеев»)",
-    "note": "По 21 звезде за Кошку, Азраэля, Красного Колпака, Харли",
-    "release_date": null,
-    "released": true,
-    "trophies": 4
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Season of Infamy («Сезон позора»)",
-    "note": "4 сюжетные миссии (Ра'с, Безумный Шляпник, Мистер Фриз, Крок) — несложно",
-    "release_date": null,
-    "released": true,
-    "trophies": 12
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Original Arkham Batmobile",
-    "note": "21 звезда на этом бэтмобиле",
-    "release_date": null,
-    "released": true,
-    "trophies": 1
-   },
-   {
-    "difficulty": null,
-    "hours": null,
-    "name": "Community Challenge Pack («Пакет испытаний сообщества»)",
-    "note": "САМОЕ СЛОЖНОЕ: испытания без урона/без гаджетов, Iceberg Lounge «Requiem for a Killer»; редкость 1.3–2.4%",
-    "release_date": null,
-    "released": true,
-    "trophies": 7
-   }
-  ],
-  "dur_base": "50+",
-  "dur_dlc": "25+",
-  "est_100_hours": 126,
-  "full_count": 719,
-  "full_pct": null,
-  "genre": "Экшен-адвенчура, открытый мир",
-  "glitched": "Не найдено в гайдах",
-  "id": "batman_arkham_knight",
-  "missables": "Нет — после сюжета всё доступно в открытом мире",
-  "my_rating": null,
-  "notes": "",
-  "online": false,
-  "online_note": null,
-  "owners": 41092,
-  "plat_count": 4295,
-  "plat_pct": 10.5,
-  "platform": "PS4",
-  "playthroughs": "2 (сюжет + «Новая история+» ради «The Long Halloween»); «Кошмар рыцаря» не нужен",
-  "priority": null,
-  "pros": [
-   "Вершина серии Arkham: сюжет, бои, Готэм",
-   "Базовая платина 5.5 — комфортная",
-   "Много сюжетных DLC за других героев",
-   "Нет онлайна и пропускаемых трофеев"
-  ],
-  "quality": 8.4,
-  "quality_note": "OC 86 (MC PS4 на старте 91), MC user 8.2 (DekuDeals); на stratege базовую платину хвалят, DLC-испытания называют сложными (0)",
-  "release": "2015-06-23",
-  "ru_loc": "Субтитры",
-  "section": "candidate",
-  "sources": [
-   {
-    "name": "Stratege",
-    "url": "https://stratege.ru/ps4/games/batman_arkham_knight/trophies"
-   },
-   {
-    "name": "Stratege (сложность)",
-    "url": "https://stratege.ru/ps4/games/batman_arkham_knight/difficulty"
-   },
-   {
-    "name": "Exophase (DLC-трофеи)",
-    "url": "https://www.exophase.com/game/batman-arkham-knight-ps4/trophies/"
-   },
-   {
-    "name": "DekuDeals (HLTB/MC/OC)",
-    "url": "https://www.dekudeals.com/items/batman-arkham-knight"
-   },
-   {
-    "name": "PowerPyx",
-    "url": "https://powerpyx.com/guides/batman-arkham-knight-trophy-guide.html"
-   },
-   {
-    "name": "PS Store (языки)",
-    "url": "https://www.playstation.com/en-gb/games/batman-arkham-knight/"
-   }
-  ],
-  "status": "planned",
-  "stratege_url": "https://stratege.ru/ps4/games/batman_arkham_knight/trophies",
-  "title": "Batman: Arkham Knight",
-  "trophies": {
-   "base": 65,
-   "bronze": 81,
-   "dlc": 45,
-   "gold": 1,
-   "plat": 1,
-   "silver": 27,
-   "total": 110
-  },
-  "trophy_summary": "База (5.5) — 243 загадки Риддлера, НИ+, «15 разных приёмов в одном комбо» и полёт под тремя мостами. ВНИМАНИЕ: DLC 7.56: 33/21 звезду в AR-испытаниях на каждом бэтмобиле и за 7 героев, а «Пакет испытаний сообщества» требует проходить арены без урона — редкость 1–2%. Это главный риск для 100%.",
-  "updated": "2026-10-24",
-  "user_score": 8.2,
-  "why": "Лучший супергеройский экшен до Spider-Man от Insomniac с комфортной базовой платиной — но 100% упирается в сложные DLC-испытания, так что брать ради платины, а DLC — по настроению.",
-  "ru": "subs"
- },
- {
-  "added": "2026-10-24",
   "avg_completion": 45,
   "avg_plat_hours": 88,
   "cand_group": "Пропущенное",
@@ -3163,96 +4169,6 @@
   "updated": "2026-10-24",
   "user_score": 8.2,
   "why": "Ты закрыл Elden Ring (6.02) и Stellar Blade — Wukong даёт похожие эмоции от боссов, но мягче по сложности (5.59) и с красивейшей китайской мифологией.",
-  "ru": "subs"
- },
- {
-  "added": "2026-10-24",
-  "avg_completion": 54,
-  "avg_plat_hours": 46,
-  "cand_group": "Новинки",
-  "cons": [
-   "Длинный чек-лист побочных задач",
-   "Диск местами в дефиците"
-  ],
-  "critic": 84,
-  "critic_src": "Metacritic (PS5)",
-  "developer": "Remedy Entertainment",
-  "diff_base": 3.53,
-  "diff_base_votes": null,
-  "diff_dlc": null,
-  "difficulty_trophy": "Нет; Assist Mode не блокирует трофеи",
-  "disc_note": "Диск PS5 вышел 15.10.2026 (перенос с 24.09); есть SteelBook, тираж ограничен",
-  "dlc_count": 0,
-  "dlc_pending": false,
-  "dlc_pending_note": null,
-  "dlcs": [],
-  "dur_base": "25+",
-  "dur_dlc": null,
-  "est_100_hours": 46,
-  "full_count": null,
-  "full_pct": null,
-  "genre": "Экшен-адвенчура",
-  "glitched": "Не найдено в гайдах",
-  "id": "control_resonant",
-  "missables": "1 полу-пропускаемый (возвращается загрузкой автосейва после квеста)",
-  "my_rating": null,
-  "notes": "",
-  "online": false,
-  "online_note": null,
-  "owners": 1668,
-  "plat_count": 610,
-  "plat_pct": 36.6,
-  "platform": "PS5",
-  "playthroughs": "1 (свободное исследование после финала)",
-  "priority": null,
-  "pros": [
-   "Продолжение Control и вселенной Alan Wake",
-   "Лёгкая платина без сложностей",
-   "Сильные оценки критиков и игроков"
-  ],
-  "quality": 8.6,
-  "quality_note": "MC 84 (PS5), MC user 8.8, Steam ~91%",
-  "release": "2026-09-24",
-  "ru_loc": "Субтитры",
-  "section": "candidate",
-  "sources": [
-   {
-    "name": "Stratege",
-    "url": "https://stratege.ru/ps5/games/control_resonant/trophies"
-   },
-   {
-    "name": "PowerPyx",
-    "url": "https://powerpyx.com/control-resonant-trophy-guide-roadmap/"
-   },
-   {
-    "name": "Dark Horizons (MC)",
-    "url": "https://www.darkhorizons.com/?p=194650"
-   },
-   {
-    "name": "RPG Site (диск)",
-    "url": "https://rpgsite.net/news/21137-control-resonant-physical-release-delay-october-15-ps5-xbox-series-x-ps5-pro-steelbook"
-   },
-   {
-    "name": "PS Store (языки)",
-    "url": "https://www.playstation.com/en-gb/games/control-resonant/"
-   }
-  ],
-  "status": "planned",
-  "stratege_url": "https://stratege.ru/ps5/games/control_resonant/trophies",
-  "title": "Control Resonant",
-  "trophies": {
-   "base": 50,
-   "bronze": 32,
-   "dlc": 0,
-   "gold": 1,
-   "plat": 1,
-   "silver": 16,
-   "total": 50
-  },
-  "trophy_summary": "Платина — чистый чек-лист: улучшения зон, задания FBC, тайники, скетчбук и крафт артефактов. Сложных или онлайн-трофеев нет.",
-  "updated": "2026-10-24",
-  "user_score": 8.8,
-  "why": "Сиквел Control от Remedy: пользователь закрыл на 100% Control, Alan Wake и Alan Wake 2, а здесь простая платина и свежий диск.",
   "ru": "subs"
  },
  {
@@ -3598,7 +4514,30 @@
   "updated": "2026-10-24",
   "user_score": 6.8,
   "why": "Ты закрыл Dishonored 2 и Death of the Outsider — Deathloop от той же Arkane с тем же стелс-иммёршн-симом и простой (4.33) платиной.",
-  "ru": "voice"
+  "ru": "voice",
+  "online_trophies": [
+   {
+    "name": "Into Eternity / Навстречу вечности",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": null
+   },
+   {
+    "name": "Nowhere To Hide / Негде спрятаться",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Режим «Защита петли» (онлайн, PS Plus): играя за Джулианну, вторгнуться к другому игроку и убить Кольта",
+    "got": null
+   },
+   {
+    "name": "Dressing Down / Перевоплощение",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Режим «Защита петли» (онлайн, PS Plus): за Джулианну принять облик Кольта способностью «Маскарад»",
+    "got": null
+   }
+  ]
  },
  {
   "id": "demons_souls_ps5",
@@ -3688,6 +4627,29 @@
    {
     "name": "PS Store (языки)",
     "url": "https://store.playstation.com/en-gb/product/EP9000-PPSA01341_00-DEMONSSOULS00000"
+   }
+  ],
+  "online_trophies": [
+   {
+    "name": "Slayer of Trophies / Убийца призов",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": null
+   },
+   {
+    "name": "Return to Form / Возвращение тела",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "Онлайн (PS Plus): призванным фантомом помочь другому игроку убить босса",
+    "got": null
+   },
+   {
+    "name": "Unwelcome Guest / Незваный гость",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "Онлайн (PS Plus): вторгнуться в мир другого игрока черным фантомом и убить его",
+    "got": null
    }
   ]
  },
@@ -6301,7 +7263,23 @@
   "updated": "2026-10-24",
   "user_score": 6.9,
   "why": "Единственная крупная часть Life is Strange, которой нет в твоём списке после LiS 1, 2 и Before the Storm, — лучшие оценки среди новых частей и платина на два вечера.",
-  "ru": "subs"
+  "ru": "subs",
+  "online_trophies": [
+   {
+    "name": "Haven Maven / Знаток Хейвен-Спрингса",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": null
+   },
+   {
+    "name": "Haven Historian / Специалист по истории Хейвен-Спрингса",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "Собрать все 25 воспоминаний; засчитывается только при подключении к PSN (последнее воспоминание собирать онлайн). Мультиплеера нет. Stratege помечает офлайн",
+    "got": null
+   }
+  ]
  },
  {
   "added": "2026-10-24",
@@ -6521,6 +7499,22 @@
     "name": "Gagadget (The Shores)",
     "url": "https://gagadget.com/en/727299-little-nightmares-iiis-second-dlc-the-shores-arrives-september-30/"
    }
+  ],
+  "online_trophies": [
+   {
+    "name": "Mastery of The Spiral / Мастерство Спирали",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": null
+   },
+   {
+    "name": "Special Connection / Духовная связь",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "Пройти главу 4 «Институт» в онлайн-кооперативе с живым напарником (PS Plus у обоих, подбора нет; друг может играть по Friend's Pass). Stratege помечает офлайн",
+    "got": null
+   }
   ]
  },
  {
@@ -6617,106 +7611,6 @@
   "user_score": 6.9,
   "why": "Новая история от создателей первой Life is Strange с тем же вайбом подростковой дружбы и мистики — для тебя, прошедшего все LiS, естественное продолжение жанра, причём платина за пару вечеров.",
   "ru": "subs"
- },
- {
-  "added": "2026-10-24",
-  "avg_completion": 36,
-  "avg_plat_hours": 21,
-  "cand_group": "Пропущенное",
-  "cons": [
-   "Гонка на «Классике» — главный затык",
-   "Нудный сбор 50 лис и журналов",
-   "Деревянная стрельба"
-  ],
-  "critic": 78,
-  "critic_src": "Metacritic",
-  "developer": "Hangar 13",
-  "diff_base": 4.49,
-  "diff_base_votes": 839,
-  "diff_dlc": null,
-  "difficulty_trophy": "Да — «Классика» (Made Man): гонка в 5-й главе и перестрелки (отель, аэропорт)",
-  "disc_note": "Диск PS4 (все издания, DLC с трофеями нет). С 14.08.2026 есть нативная PS5-версия с отдельным списком трофеев (60 FPS): владельцы PS4-диска получают её бесплатно на PS5 с дисководом, диск должен быть в приводе; сейвы не переносятся. Отдельного PS5-диска не найдено",
-  "dlc_count": 0,
-  "dlc_pending": false,
-  "dlc_pending_note": null,
-  "dlcs": [],
-  "dur_base": "25+",
-  "dur_dlc": null,
-  "est_100_hours": 21,
-  "full_count": null,
-  "full_pct": null,
-  "genre": "Экшен-адвенчура, криминальная драма",
-  "glitched": "Не найдено в гайдах",
-  "id": "mafia_definitive_edition",
-  "missables": "Нет (выбор глав + режим «Свободная езда»)",
-  "my_rating": null,
-  "notes": "",
-  "online": false,
-  "online_note": null,
-  "owners": 1353,
-  "plat_count": 308,
-  "plat_pct": 22.8,
-  "platform": "PS5",
-  "playthroughs": "1 на «Классике» + добор коллекционных через выбор глав",
-  "priority": null,
-  "pros": [
-   "Отличный ремейк классики, «гангстерское кино»",
-   "Короткая платина ~21 ч, без DLC",
-   "Полная русская озвучка",
-   "Новый PS5-список — можно взять даже после PS4"
-  ],
-  "quality": 7.9,
-  "quality_note": "MC 78 (OC 77–78), MC user 7.7; на stratege тепло: «отличный ремейк, приятная платина», минусы — стрельба и нудные лисы (+0.1)",
-  "release": "2020-09-25",
-  "ru_loc": "Озвучка и субтитры",
-  "section": "candidate",
-  "sources": [
-   {
-    "name": "Stratege (PS5)",
-    "url": "https://stratege.ru/ps5/games/mafia_definitive_edition/trophies"
-   },
-   {
-    "name": "Stratege (сложность PS4)",
-    "url": "https://stratege.ru/ps4/games/mafia_definitive_edition/difficulty"
-   },
-   {
-    "name": "PowerPyx",
-    "url": "https://www.powerpyx.com/mafia-1-remake-definitive-edition-trophy-guide-roadmap/"
-   },
-   {
-    "name": "DekuDeals (HLTB/MC/OC)",
-    "url": "https://www.dekudeals.com/items/mafia-definitive-edition"
-   },
-   {
-    "name": "2K Support (апгрейд PS5)",
-    "url": "https://support.2k.com/hc/articles/53873172436371"
-   },
-   {
-    "name": "Push Square (PS5-версия)",
-    "url": "https://pushsquare.com/news/2026/08/mafia-remake-joins-the-old-country-on-ps5-in-full-series-collection-with-60fps-visual-upgrades"
-   },
-   {
-    "name": "PS Store (языки)",
-    "url": "https://store.playstation.com/en-gb/concept/235302"
-   }
-  ],
-  "status": "planned",
-  "stratege_url": "https://stratege.ru/ps5/games/mafia_definitive_edition/trophies",
-  "title": "Mafia: Definitive Edition",
-  "trophies": {
-   "base": 44,
-   "bronze": 33,
-   "dlc": 0,
-   "gold": 3,
-   "plat": 1,
-   "silver": 7,
-   "total": 44
-  },
-  "trophy_summary": "Единственная заноза — гонка в 5-й главе на «Классике» (после неё везите Полли к девушкам, а не домой, иначе гонку переигрывать) и пара перестрелок. Остальное — коллекционные (50 лис, журналы, вкладыши) по гайду через выбор глав.",
-  "updated": "2026-10-24",
-  "user_score": 7.7,
-  "why": "Раз Mafia: The Old Country уже в списке — ремейк первой части даёт ту же атмосферу гангстерского кино, короткую платину без DLC и теперь ещё свежий PS5-список трофеев.",
-  "ru": "voice"
  },
  {
   "section": "candidate",
@@ -7687,93 +8581,6 @@
  },
  {
   "added": "2026-10-24",
-  "avg_completion": 26,
-  "avg_plat_hours": 129,
-  "cand_group": "Пропущенное",
-  "cons": [
-   "Нет русского языка",
-   "Очень длинная — 100–130 ч",
-   "Нужно планировать календарь"
-  ],
-  "critic": 94,
-  "critic_src": "OpenCritic",
-  "developer": "Atlus",
-  "diff_base": 3,
-  "diff_base_votes": null,
-  "diff_dlc": null,
-  "difficulty_trophy": "Нет",
-  "disc_note": "Диск PS5 есть (PS4-диск даёт PS4-список); DLC с трофеями нет",
-  "dlc_count": 0,
-  "dlc_pending": false,
-  "dlc_pending_note": null,
-  "dlcs": [],
-  "dur_base": "100+",
-  "dur_dlc": null,
-  "est_100_hours": 129,
-  "full_count": 185,
-  "full_pct": null,
-  "genre": "JRPG / симулятор жизни",
-  "glitched": "Нет известных",
-  "id": "persona_5_royal",
-  "missables": "Да — привязанные к календарю события, концовки, соц. статы; нужен гайд по дням и несколько сейвов",
-  "my_rating": null,
-  "notes": "",
-  "online": false,
-  "online_note": null,
-  "owners": 980,
-  "plat_count": 185,
-  "plat_pct": 18.9,
-  "platform": "PS5",
-  "playthroughs": "1 (с гайдом), иначе 2 через NG+",
-  "priority": null,
-  "pros": [
-   "Одна из лучших JRPG в истории",
-   "Стиль, музыка, персонажи",
-   "Платина простая (3.00)"
-  ],
-  "quality": 9.2,
-  "quality_note": "OC 94 (MC 94), MC user 8.8; комментарии stratege не читались (0)",
-  "release": "2022-10-21",
-  "ru_loc": "Нет",
-  "section": "candidate",
-  "sources": [
-   {
-    "name": "Stratege — трофеи",
-    "url": "https://stratege.ru/ps5/games/persona_5_royal/trophies"
-   },
-   {
-    "name": "TheGamer — гайд по трофеям",
-    "url": "https://www.thegamer.com/persona-5-royal-trophy-guide/"
-   },
-   {
-    "name": "DekuDeals (MC/OC/HLTB/диск)",
-    "url": "https://www.dekudeals.com/items/persona5-royal"
-   },
-   {
-    "name": "PS Store (языки)",
-    "url": "https://store.playstation.com/en-gb/concept/10002771"
-   }
-  ],
-  "status": "planned",
-  "stratege_url": "https://stratege.ru/ps5/games/persona_5_royal/trophies",
-  "title": "Persona 5 Royal",
-  "trophies": {
-   "base": 53,
-   "bronze": 44,
-   "dlc": 0,
-   "gold": 1,
-   "plat": 1,
-   "silver": 7,
-   "total": 53
-  },
-  "trophy_summary": "Сложности нет — только время и планирование: максимальные соц. статы, конфиданты, экзамены и все концовки по календарному гайду.",
-  "updated": "2026-10-24",
-  "user_score": 8.8,
-  "why": "Ты закрыл Clair Obscur — Persona 5 Royal ещё одна пошаговая RPG мирового уровня (OC 94) с очень простой, хоть и долгой платиной.",
-  "ru": "none"
- },
- {
-  "added": "2026-10-24",
   "avg_completion": 53,
   "avg_plat_hours": 49,
   "cand_group": "Пропущенное",
@@ -7975,100 +8782,6 @@
  },
  {
   "added": "2026-10-24",
-  "avg_completion": 62,
-  "avg_plat_hours": 37,
-  "cand_group": "Новинки",
-  "cons": [
-   "Три прохождения подряд утомляют",
-   "Часть за Леона — тир на аренах"
-  ],
-  "critic": 89,
-  "critic_src": "OpenCritic",
-  "developer": "Capcom",
-  "diff_base": 3.82,
-  "diff_base_votes": 276,
-  "diff_dlc": null,
-  "difficulty_trophy": "Да — «Безумие» (с бесконечными патронами/РПГ несложно)",
-  "disc_note": "Диск PS5; DLC пока нет",
-  "dlc_count": 0,
-  "dlc_pending": true,
-  "dlc_pending_note": "Сюжетное DLC анонсировано в марте 2026, даты нет; будут ли трофеи — неизвестно",
-  "dlcs": [],
-  "dur_base": "25+",
-  "dur_dlc": null,
-  "est_100_hours": 37,
-  "full_count": null,
-  "full_pct": null,
-  "genre": "Survival horror",
-  "glitched": "Не найдено в гайдах",
-  "id": "resident_evil_requiem",
-  "missables": "Много, но нет выбора глав — спасают ручные сейвы в начале каждой локации",
-  "my_rating": null,
-  "notes": "",
-  "online": false,
-  "online_note": null,
-  "owners": 8176,
-  "plat_count": 3389,
-  "plat_pct": 41.5,
-  "platform": "PS5",
-  "playthroughs": "3 (обычное, спидран на лёгком, «Безумие» с бонусным оружием)",
-  "priority": null,
-  "pros": [
-   "Самая простая платина в серии RE",
-   "Отличная первая половина за Грейс",
-   "Высочайшие оценки игроков"
-  ],
-  "quality": 8.9,
-  "quality_note": "OC 89, MC user 9.5 (рекорд); на stratege хвалят, но ругают вторую половину за Леона и низкую реиграбельность (−0.2)",
-  "release": "2026-02-27",
-  "ru_loc": "Озвучка и субтитры",
-  "section": "candidate",
-  "sources": [
-   {
-    "name": "Stratege",
-    "url": "https://stratege.ru/ps5/games/resident_evil_requiem/trophies"
-   },
-   {
-    "name": "Stratege (сложность)",
-    "url": "https://stratege.ru/ps5/games/resident_evil_requiem/difficulty"
-   },
-   {
-    "name": "PowerPyx",
-    "url": "https://www.powerpyx.com/resident-evil-requiem-trophy-guide-roadmap/"
-   },
-   {
-    "name": "VGC (MC user)",
-    "url": "https://www.videogameschronicle.com/news/resident-evil-requiem-currently-has-the-highest-user-score-of-all-time-on-metacritic"
-   },
-   {
-    "name": "Game Informer (DLC)",
-    "url": "https://gameinformer.com/2026/03/10/resident-evil-requiem-story-dlc-is-in-development"
-   },
-   {
-    "name": "PS Store (языки)",
-    "url": "https://store.playstation.com/en-gb/concept/10015533"
-   }
-  ],
-  "status": "planned",
-  "stratege_url": "https://stratege.ru/ps5/games/resident_evil_requiem/trophies",
-  "title": "Resident Evil Requiem",
-  "trophies": {
-   "base": 50,
-   "bronze": 40,
-   "dlc": 0,
-   "gold": 3,
-   "plat": 1,
-   "silver": 6,
-   "total": 50
-  },
-  "trophy_summary": "Главное — «Безумие»: с бесконечными патронами и РПГ проходится легко, сложен лишь участок ARK за Грейс без бонусного оружия. Плюс спидран-ран и сбор 139 коллекционных предметов.",
-  "updated": "2026-10-24",
-  "user_score": 9.5,
-  "why": "Новый номерной Resident Evil с лучшими оценками года и самой лёгкой платиной серии — прямое попадание после RE Village, Silent Hill 2 и Alan Wake 2.",
-  "ru": "voice"
- },
- {
-  "added": "2026-10-24",
   "avg_completion": 64,
   "avg_plat_hours": 20,
   "cand_group": "Новинки",
@@ -8259,6 +8972,22 @@
    {
     "name": "PS Store (языки)",
     "url": "https://store.playstation.com/pl-pl/product/EP9000-PPSA01285_00-RETURNALDDE00001"
+   }
+  ],
+  "online_trophies": [
+   {
+    "name": "Helios / Гелиос",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": null
+   },
+   {
+    "name": "In-Field Training / Полевая подготовка",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Режим симуляции: пройти ежедневное испытание — нужен вход в PSN",
+    "got": null
    }
   ]
  },
@@ -11136,6 +11865,264 @@
     "name": "PSU (Collection)",
     "url": "https://www.psu.com/news/xcom-2-collection-ps4-xbox-one-retail/"
    }
+  ],
+  "online_trophies": [
+   {
+    "name": "Commander / Ветеран",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи основной игры, включая онлайновые",
+    "got": null
+   },
+   {
+    "name": "The Most Dangerous Game / Опаснейшая игра",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сыграть один сетевой матч в мультиплеере (побеждать не нужно)",
+    "got": null
+   }
   ]
+ },
+ {
+  "added": "2026-10-24",
+  "avg_completion": 22,
+  "avg_plat_hours": 126,
+  "cand_group": "Пропущенное",
+  "cons": [
+   "DLC 7.56 на stratege — выше лимита 6",
+   "Пакет испытаний сообщества: без урона, очень редкие",
+   "Много AR-испытаний за каждого героя и бэтмобиль",
+   "Танковые бои и 243 загадки Риддлера"
+  ],
+  "critic": 86,
+  "critic_src": "OpenCritic",
+  "developer": "Rocksteady Studios",
+  "diff_base": 5.5,
+  "diff_base_votes": 800,
+  "diff_dlc": 7.56,
+  "difficulty_trophy": "Частично — прохождение НИ+ (без подсказок контратак, враги сильнее)",
+  "disc_note": "Диск PS4; Game of the Year Edition (2016) включает сезонный абонемент и все DLC (на части тиражей — кодом в коробке, уточнять). Нативной PS5-версии нет",
+  "dlc_count": 16,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "dlcs": [
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "A Matter of Family («Дела семейные»)",
+    "note": "Сюжетное за Бэтгёрл; сбор всех зубов/шаров/коробок",
+    "release_date": null,
+    "released": true,
+    "trophies": 8
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Harley Quinn Story Pack",
+    "note": "Короткая сюжетная миссия",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Red Hood Story Pack",
+    "note": "Короткая сюжетная миссия",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Scarecrow Nightmare Missions",
+    "note": "3 испытания; заодно облегчает базовые 69 звёзд",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "1989 Movie Batmobile Pack",
+    "note": "33 звезды в AR-испытаниях на этом бэтмобиле (гонки)",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "2008 Tumbler Batmobile Pack",
+    "note": "33 звезды на Тумблере",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "GCPD Lockdown («Блокада полицейского управления»)",
+    "note": "Сюжетная за Найтвинга",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "1960's TV Series Batmobile Pack",
+    "note": "33 звезды на бэтмобиле 60-х",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Catwoman's Revenge",
+    "note": "Сюжетная за Женщину-кошку",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "A Flip of a Coin («Орёл или решка»)",
+    "note": "Сюжетная за Робина",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "2016 Batman v Superman Batmobile Pack",
+    "note": "21 звезда на этом бэтмобиле",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Hero Challenges («Испытания героев»)",
+    "note": "По 21 звезде в AR-испытаниях за Робина, Найтвинга, Бэтгёрл",
+    "release_date": null,
+    "released": true,
+    "trophies": 3
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Rogue Challenges («Испытания злодеев»)",
+    "note": "По 21 звезде за Кошку, Азраэля, Красного Колпака, Харли",
+    "release_date": null,
+    "released": true,
+    "trophies": 4
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Season of Infamy («Сезон позора»)",
+    "note": "4 сюжетные миссии (Ра'с, Безумный Шляпник, Мистер Фриз, Крок) — несложно",
+    "release_date": null,
+    "released": true,
+    "trophies": 12
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Original Arkham Batmobile",
+    "note": "21 звезда на этом бэтмобиле",
+    "release_date": null,
+    "released": true,
+    "trophies": 1
+   },
+   {
+    "difficulty": null,
+    "hours": null,
+    "name": "Community Challenge Pack («Пакет испытаний сообщества»)",
+    "note": "САМОЕ СЛОЖНОЕ: испытания без урона/без гаджетов, Iceberg Lounge «Requiem for a Killer»; редкость 1.3–2.4%",
+    "release_date": null,
+    "released": true,
+    "trophies": 7
+   }
+  ],
+  "dur_base": "50+",
+  "dur_dlc": "25+",
+  "est_100_hours": 126,
+  "full_count": 719,
+  "full_pct": null,
+  "genre": "Экшен-адвенчура, открытый мир",
+  "glitched": "Не найдено в гайдах",
+  "id": "batman_arkham_knight",
+  "missables": "Нет — после сюжета всё доступно в открытом мире",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "owners": 41092,
+  "plat_count": 4295,
+  "plat_pct": 10.5,
+  "platform": "PS4",
+  "playthroughs": "2 (сюжет + «Новая история+» ради «The Long Halloween»); «Кошмар рыцаря» не нужен",
+  "priority": null,
+  "pros": [
+   "Вершина серии Arkham: сюжет, бои, Готэм",
+   "Базовая платина 5.5 — комфортная",
+   "Много сюжетных DLC за других героев",
+   "Нет онлайна и пропускаемых трофеев"
+  ],
+  "quality": 8.4,
+  "quality_note": "OC 86 (MC PS4 на старте 91), MC user 8.2 (DekuDeals); на stratege базовую платину хвалят, DLC-испытания называют сложными (0)",
+  "release": "2015-06-23",
+  "ru_loc": "Субтитры",
+  "section": "rejected",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps4/games/batman_arkham_knight/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps4/games/batman_arkham_knight/difficulty"
+   },
+   {
+    "name": "Exophase (DLC-трофеи)",
+    "url": "https://www.exophase.com/game/batman-arkham-knight-ps4/trophies/"
+   },
+   {
+    "name": "DekuDeals (HLTB/MC/OC)",
+    "url": "https://www.dekudeals.com/items/batman-arkham-knight"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://powerpyx.com/guides/batman-arkham-knight-trophy-guide.html"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://www.playstation.com/en-gb/games/batman-arkham-knight/"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps4/games/batman_arkham_knight/trophies",
+  "title": "Batman: Arkham Knight",
+  "trophies": {
+   "base": 65,
+   "bronze": 81,
+   "dlc": 45,
+   "gold": 1,
+   "plat": 1,
+   "silver": 27,
+   "total": 110
+  },
+  "trophy_summary": "База (5.5) — 243 загадки Риддлера, НИ+, «15 разных приёмов в одном комбо» и полёт под тремя мостами. ВНИМАНИЕ: DLC 7.56: 33/21 звезду в AR-испытаниях на каждом бэтмобиле и за 7 героев, а «Пакет испытаний сообщества» требует проходить арены без урона — редкость 1–2%. Это главный риск для 100%.",
+  "updated": "2026-10-24",
+  "user_score": 8.2,
+  "why": "Лучший супергеройский экшен до Spider-Man от Insomniac с комфортной базовой платиной — но 100% упирается в сложные DLC-испытания, так что брать ради платины, а DLC — по настроению.",
+  "ru": "subs"
  }
 ]

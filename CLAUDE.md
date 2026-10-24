@@ -10,7 +10,7 @@
 - Цель в каждой игре: платина + 100% всех DLC с трофеями.
 - Играет с **физического диска**, DLC докупает цифрой (PS Store Турция или Украина). Игры без диска помечать (`disc_note`).
 - Комфортная сложность — до 6.0 по stratege (основная игра и DLC). Сложные игры тоже добавляются в кандидаты: страница подсвечивает сложность цветом (красная — выше 6). В `why`/`trophy_summary` прямо пиши, что делает платину сложной.
-- Онлайн-трофеи допустимы, но всегда `online: true` + пояснение в `online_note`.
+- Онлайн-трофеи допустимы, но всегда `online: true` + пояснение в `online_note` + список `online_trophies` (показывается в раскрытой карточке).
 - Наличие русского языка важно: у каждой игры должно быть поле `ru` (см. ниже), неизвестное ищи по источникам из `docs/research-brief.md`.
 - Платформы: PS5 и PS4. Если у игры отдельные списки PS4/PS5 — бери PS5.
 - Скучные игры (как Forspoken) по умолчанию не предлагать, но держать в списке не запрещено.
@@ -41,6 +41,7 @@ docs/research-brief.md     как собирать карточку игры: и
 - `section`: `backlog` (основной список) · `candidate` (предложено, ждёт решения) · `unfinished` (игры из профиля не на 100%) · `rejected` (точно не буду).
 - `status`: `planned` · `playing` · `paused` · `done`. Плюс поля владельца `priority` (1–3|null), `my_rating` (1–10|null), `notes`: на странице показываются в раскрытой карточке, если заполнены.
 - `cand_group` у кандидатов: «Новинки», «Пропущенное», «По вашей просьбе», «Тактика и RPG», «Сюжетные AA», «Эксклюзивы Sony» (группы в фильтре строятся автоматически).
+- `online_trophies`: `[{name, grade: "platinum|gold|silver|bronze", part: "Основная игра" | название DLC, note, got}]`; `got` (true/false) — только у `unfinished`, иначе `null`. Пометка «онлайн» у трофея на stratege бывает неверной: сверяй с гайдом.
 - `ru`: `"voice"` (озвучка, зелёный) · `"subs"` (только текст, оранжевый) · `"none"` (нет, красный) · `null` (не установлено, серый «русский?»); `ru_loc` — подробности текстом.
 - Карточка игры — полная схема в `docs/research-brief.md`: `trophies{total,base,dlc,plat,gold,silver,bronze}`, `dlcs[]` (`released:false` = ещё не вышло), `dlc_pending`, `diff_base`, `diff_dlc`, `dur_base`, `avg_plat_hours`, `owners`, `plat_count`, `full_count`, `critic`, `user_score`, `quality`, `quality_note`, `online`, `missables`, `playthroughs`, `difficulty_trophy`, `glitched`, `ru`, `ru_loc`, `disc_note`, `pros[]`, `cons[]`, `trophy_summary`, `why` (для кандидатов), `sources[]`.
 - Производные (не править руками, их считает `scripts/recalc.py`): `plat_pct`, `est_100_hours`, `dlc_count`.
@@ -80,6 +81,7 @@ docs/research-brief.md     как собирать карточку игры: и
 - Сложность: `.../difficulty` («Оценка основных трофеев», «Оценка трофеев из DLC» — одна общая на все DLC). Комментарии на странице грузятся скриптом: WebFetch и curl их не видят.
 - Страница игры `.../games/<slug>`: «Тип» (диск / цифровая версия), «Язык» (не различает озвучку и субтитры).
 - Трофеи отдельного DLC: фильтр на странице трофеев `?nax=1&filter=N` («Показать DLC «…»»).
+- Сам список трофеев страница грузит POST-запросом `https://stratege.ru/ajax_loader/trophies_sp_list` (`ajax_mode=trophies_list_loader`, `settings` и `players` из JS-объекта `tl_global_bx_settings` на странице, `filter`, `sort=0`, `helps=0`, `guest=1`, `shag=0`). У трофея: класс `tltstpl_border_<grade>_trophies`, иконка `trophies_icon/online.png` или `offline.png`.
 - Чего не хватает владельцу в игре: `.../trophies?nax=1&filter=101&show_user=dannymadcat`.
 - Профиль: POST `https://stratege.ru/ajax_loader/users_profile_fw` с `ajax_mode=profile_all_loader&action=all_page&firmware=1&uid=134267&sort=0&type=current&compare=&page=0` (`type=time` — время в играх). Им пользуются `sync_profile.py` и `fetch_stratege.py`.
 - Иконка трофейного листа: `https://static.stratege.ru/trophies/<NPWR…>/ICON0.PNG` (PS5 512×512, PS4 320×176).
@@ -93,7 +95,7 @@ docs/research-brief.md     как собирать карточку игры: и
 
 ## Известные пробелы данных (на 2026-10-24)
 - S.T.A.L.K.E.R. 2 — карточка предварительная: нет оценок критиков, пропускаемых трофеев, наличия диска.
-- Mafia: Definitive Edition — версия для PS5 и наличие диска не проверены.
+- Мафии: у Mafia II DE пока нет PS5-листа (появится — перейти на него); статистика PS5-листа Mafia III (вышел 08.10.2026) на малой выборке, на PS4 платина в среднем 84 ч. Диски только PS4 (Mafia: Trilogy / отдельные), PS5-версии через бесплатный апгрейд.
 - Распределение трофеев по DLC у части игр выведено вычитанием из общего числа.
 - В `quality` у кандидатов, добавленных 2026-10-24, нет поправки по комментариям stratege (они грузятся скриптом), кроме групп «Тактика и RPG» и запасных.
 - Мало голосов за сложность, оценка может сдвинуться: The Blood of Dawnwalker, Avowed, Disciples: Domination, Star Wars Zero Company, King Arthur, Romeo is a Dead Man, GreedFall II, Pathfinder (2 голоса), DLC Dying Light: The Beast (2 голоса). Нет оценки: Days Gone Remastered (в карточке цифры PS4-оригинала), DLC Rogue Trader, Atomfall, Little Nightmares III, King Arthur.

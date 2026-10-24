@@ -128,6 +128,15 @@ tr.detail>td{background:var(--surface-2);white-space:normal;padding:18px 18px 22
 .why .ic{color:var(--accent);margin-top:3px}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px 24px}
 .sheet h4{display:flex;align-items:center;gap:6px;font:600 13px var(--f-display);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.cp{appearance:none;border:0;background:none;color:var(--muted);padding:2px;margin:-2px 0 -2px 2px;border-radius:5px;cursor:pointer;display:inline-flex;line-height:0;opacity:.55}
+.cp:hover,.cp:focus-visible{opacity:1;color:var(--accent);background:var(--surface-2)}
+.cp.done{opacity:1;color:var(--ok)}
+.osum{font:500 13px var(--f-mono);color:var(--muted);margin:-2px 0 8px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.olist{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px 18px}
+.olist li{display:flex;gap:8px;align-items:flex-start;line-height:1.4;font-size:14px}
+.olist li .ic{margin-top:2px}
+.olist li.got b{color:var(--muted)}
+.olist .muted{font-size:13px}
 .vlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
 .vlist li{display:flex;gap:8px;align-items:flex-start;line-height:1.4}
 .vlist li .ic{margin-top:2px}
@@ -242,7 +251,9 @@ const P={
  x:'<path d="M7 7l10 10M17 7 7 17"/>',
  chart:'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',
  note:'<path d="M5 3h10l4 4v14H5z"/><path d="M15 3v4h4M8 12h8M8 16h6"/>',
- alert:'<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".8" fill="currentColor"/>'
+ alert:'<path d="M12 3 2 20h20z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".8" fill="currentColor"/>',
+ copy:'<rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/>',
+ ok:'<path d="M5 12.5l4.5 4.5L19 7.5"/>'
 };
 const ic=(n,c="")=>`<svg class="ic ${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[n]||""}</svg>`;
 const cup=(t,c="")=>`<svg class="ic ${c} t-${t}" viewBox="0 0 24 24" aria-hidden="true">${P.cup}</svg>`;
@@ -369,7 +380,7 @@ function flags(g){
 function gameRow(g,kind,cols){
   const t=g.trophies||{};const open=S.open.has(g.id);
   let r=`<tr class="row${open?" open":""}" data-id="${esc(g.id)}" tabindex="0" aria-expanded="${open}">
-   <td class="title"><div class="gcell">${cover(g.stratege_url,g.title)}<div><div class="gname"><span>${esc(g.title)}</span>${ic("chev","s chev")}</div><div class="gmeta">${flags(g)}</div></div></div></td>
+   <td class="title"><div class="gcell">${cover(g.stratege_url,g.title)}<div><div class="gname"><span>${esc(g.title)}</span>${copyBtn(g.title)}${ic("chev","s chev")}</div><div class="gmeta">${flags(g)}</div></div></div></td>
    <td class="r"><span class="tc">${cup("p","s")}${fmt(t.total)}</span><div class="small">${t.dlc?`${t.base} + ${t.dlc} DLC`:"без DLC"}</div></td>
    <td class="r"><span class="dstack">${dpill(g.diff_base)}${has(g.diff_dlc)?`<span><span class="lbl">DLC</span>${dpill(g.diff_dlc)}</span>`:""}</span></td>
    <td class="r"><span class="tc">${ic("clock","s")}${fmt(g.avg_plat_hours," ч")}</span>${g.est_100_hours&&g.est_100_hours!==g.avg_plat_hours?`<div class="small">100% ≈ ${g.est_100_hours} ч</div>`:""}</td>
@@ -405,6 +416,7 @@ function detail(g,kind){
       ${ic("bug","s")}<dt>Глючные</dt><dd>${fmt(g.glitched)}</dd>
       ${ic("wifi","s")}<dt>Онлайн</dt><dd>${g.online?esc(g.online_note||"да"):"нет"}</dd>
     </dl></div></div>`;
+  h+=onlineBlock(g);
   const dl=g.dlcs||[];
   h+=`<div><h4>${ic("box","s")}Дополнения</h4>${dl.length?`<div class="dlcs">${dl.map(d=>`<div class="dlc${d.released===false?" pending":""}"><div class="n">${esc(d.name)}</div><div class="m">${has(d.trophies)?`<span>${cup("b","s")}${d.trophies}</span>`:""}${has(d.difficulty)?`<span>${ic("gauge","s")}${d.difficulty}</span>`:""}${has(d.hours)?`<span>${ic("clock","s")}${d.hours} ч</span>`:""}${d.released===false?`<span style="color:var(--warn)">${ic("hourglass","s")}ожидается${d.release_date?" "+esc(d.release_date):""}</span>`:d.release_date?`<span>${ic("cal","s")}${esc(d.release_date)}</span>`:""}</div>${d.note?`<div class="note">${esc(d.note)}</div>`:""}</div>`).join("")}</div>`:'<span class="muted">DLC с трофеями нет</span>'}${g.dlc_pending_note?`<p class="hint" style="margin:8px 0 0">${esc(g.dlc_pending_note)}</p>`:""}</div>`;
   h+=`<div class="info"><span class="flag ${(RU[g.ru]||[""])[0]}">${ic("lang","s")}${g.ru_loc?esc(g.ru_loc):"Наличие русского языка не установлено"}</span><span>${ic("disc","s")}${fmt(g.disc_note)}</span></div>`;
@@ -412,6 +424,23 @@ function detail(g,kind){
   h+=notes(g);
   h+=`<div class="links">${(g.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${ic("link","s")}${esc(s.name)}</a>`).join("")}</div>`;
   return h+`</div>`;
+}
+/* copy a game title to the clipboard (for pasting into a chat) */
+function copyBtn(t){return `<button type="button" class="cp" data-copy="${esc(t)}" title="Скопировать название" aria-label="Скопировать название «${esc(t)}»">${ic("copy","s")}</button>`}
+async function copyText(t){
+  try{await navigator.clipboard.writeText(t);return true}catch(_){}
+  const ta=document.createElement("textarea");ta.value=t;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();
+  let ok=false;try{ok=document.execCommand("copy")}catch(_){}ta.remove();return ok}
+/* online trophies: grade split, base game vs DLC, and (for unfinished games) what is already earned */
+const GRADES=[["platinum","p"],["gold","g"],["silver","s"],["bronze","b"]];
+function onlineBlock(g){
+  const ot=(g.online_trophies||[]).slice().sort((a,b)=>(a.got?1:0)-(b.got?1:0));if(!ot.length)return "";
+  const by=GRADES.map(([k,c])=>[c,ot.filter(t=>t.grade===k).length]).filter(x=>x[1]);
+  const base=ot.filter(t=>t.part==="Основная игра").length,dlc=ot.length-base,got=ot.filter(t=>t.got).length;
+  const sum=[`${ot.length} ${plural(ot.length,["трофей","трофея","трофеев"])}: ${by.map(([c,n])=>`${cup(c,"s")}${n}`).join(" ")}`,
+    dlc?`основная игра ${base}, DLC ${dlc}`:"все в основной игре"];
+  if(ot.some(t=>t.got!==null&&t.got!==undefined))sum.push(`получено ${got} из ${ot.length}`);
+  return `<div><h4>${ic("wifi","s")}Онлайн-трофеи</h4><div class="osum">${sum.join(" · ")}</div><ul class="olist">${ot.map(t=>`<li class="${t.got?"got":""}">${cup(GRADES.find(x=>x[0]===t.grade)?.[1]||"b","s")}<div><b>${esc(t.name)}</b>${t.got?` <span class="flag ok">${ic("ok","s")}получен</span>`:""}${t.part&&t.part!=="Основная игра"?` <span class="grp">${esc(t.part)}</span>`:""}${t.note?`<div class="muted">${esc(t.note)}</div>`:""}</div></li>`).join("")}</ul></div>`;
 }
 /* owner's own notes, rating and priority (read-only; edited in data/games.json) */
 function notes(g){
@@ -434,14 +463,14 @@ function unfinishedTable(){
   let h=`<div class="tablebox"><table class="fixed"><colgroup><col><col style="width:110px"><col style="width:120px"><col style="width:90px"><col style="width:120px"><col style="width:130px"></colgroup><thead><tr>${th(kind,"title","Игра")}${th(kind,"missing_n","Осталось","r")}${th(kind,"dd","Сложн. DLC","r")}${th(kind,"est","Часы","r")}${th(kind,"feas","Реально?")}${th(kind,"status","Статус")}</tr></thead><tbody>`;
   h+=list.map(g=>{
     const open=S.open.has(g.id);const fe=g.feasible==="да"?"ok":g.feasible==="сложно"?"warn":"bad";
-    let r=`<tr class="row${open?" open":""}" data-id="${esc(g.id)}" tabindex="0" aria-expanded="${open}"><td class="title"><div class="gcell">${cover(g.stratege_url,g.title)}<div><div class="gname"><span>${esc(g.title)}</span>${ic("chev","s chev")}</div><div class="gmeta"><span class="pf">${esc(g.platform)}</span>${g.plat_done?`<span class="flag ok">${cup("p","s")}платина есть</span>`:`<span class="flag">${cup("s","s")}без платины</span>`}${g.online?`<span class="flag bad">${ic("wifi","s")}онлайн</span>`:""}</div></div></div></td>
+    let r=`<tr class="row${open?" open":""}" data-id="${esc(g.id)}" tabindex="0" aria-expanded="${open}"><td class="title"><div class="gcell">${cover(g.stratege_url,g.title)}<div><div class="gname"><span>${esc(g.title)}</span>${copyBtn(g.title)}${ic("chev","s chev")}</div><div class="gmeta"><span class="pf">${esc(g.platform)}</span>${g.plat_done?`<span class="flag ok">${cup("p","s")}платина есть</span>`:`<span class="flag">${cup("s","s")}без платины</span>`}${g.online?`<span class="flag bad">${ic("wifi","s")}онлайн</span>`:""}</div></div></div></td>
      <td class="r"><span class="tc">${cup("b","s")}${(g.total||0)-(g.got||0)}</span><div class="small">${g.got}/${g.total}</div></td>
      <td class="r">${dpill(g.diff_dlc)}</td><td class="r"><span class="tc">${ic("clock","s")}${fmt(g.est_hours)}</span></td>
      <td><span class="flag ${fe}">${ic(fe==="ok"?"check":"alert","s")}${esc(g.feasible||"?")}</span></td>
      <td><span class="st ${esc(g.status||"planned")}">${STATUS[g.status||"planned"]}</span></td></tr>`;
     if(open)r+=`<tr class="detail"><td colspan="6"><div class="sheet"><p class="summary">${esc(g.summary||"")}</p>
       <div><h4>${ic("box","s")}Что осталось</h4><div class="dlcs">${(g.missing||[]).map(m=>`<div class="dlc"><div class="n">${esc(m.part)}</div><div class="m"><span>${cup("b","s")}${m.trophies}</span></div>${m.note?`<div class="note">${esc(m.note)}</div>`:""}</div>`).join("")}</div></div>
-      ${g.online_note?`<div class="why">${ic("wifi","l")}<div>${esc(g.online_note)}</div></div>`:""}
+      ${g.online_note?`<div class="why">${ic("wifi","l")}<div>${esc(g.online_note)}</div></div>`:""}${onlineBlock(g)}
       ${notes(g)}<div class="links"><a href="${esc(g.stratege_url)}" target="_blank" rel="noopener">${ic("link","s")}Трофеи на stratege</a></div></div></td></tr>`;
     return r}).join("")||`<tr><td colspan="6" class="empty">Всё доделано.</td></tr>`;
   return [h+`</tbody></table></div>`,list.length];
@@ -462,7 +491,7 @@ function doneView(){
   </div>
   <div class="toolbar"><input type="search" id="fq" placeholder="Поиск по пройденным" value="${esc(S.f.q)}" aria-label="Поиск">${sortSelect("done")}<span class="hint" id="fcount"></span></div>
   <div class="tablebox"><table><thead><tr>${th("done","title","Игра")}${th("done","platform","Платф.")}${th("done","got","Трофеи","r")}${th("done","diff","Сложн.","r")}${th("done","hours","Часы","r")}${th("done","last","Финиш","r")}</tr></thead><tbody>
-  ${list.map(x=>`<tr class="lrow"><td class="title lnk"><div class="gcell">${cover(x.url,x.title,"sm")}<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></div></td><td><span class="pf">${esc(x.platform)}</span></td><td class="r"><span class="tc">${cup("p","s")}${x.got}</span></td><td class="r">${dpill(x.diff)}</td><td class="r"><span class="tc">${ic("clock","s")}${fmt(x.hours," ч")}</span></td><td class="r num">${ic("cal","s")} ${esc(x.last.split("-").reverse().join("."))}</td></tr>`).join("")}
+  ${list.map(x=>`<tr class="lrow"><td class="title lnk"><div class="gcell">${cover(x.url,x.title,"sm")}<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>${copyBtn(x.title)}</div></td><td><span class="pf">${esc(x.platform)}</span></td><td class="r"><span class="tc">${cup("p","s")}${x.got}</span></td><td class="r">${dpill(x.diff)}</td><td class="r"><span class="tc">${ic("clock","s")}${fmt(x.hours," ч")}</span></td><td class="r num">${ic("cal","s")} ${esc(x.last.split("-").reverse().join("."))}</td></tr>`).join("")}
   </tbody></table></div>`;
   return [h,list.length];
 }
@@ -494,7 +523,12 @@ function renderBody(){
 
 /* ---------- events ---------- */
 $("#tabs").addEventListener("click",e=>{const b=e.target.closest("button[data-tab]");if(!b)return;S.tab=b.dataset.tab;S.f.q="";try{localStorage.setItem("tb_tab",S.tab)}catch(_){}render()});
-$("#view").addEventListener("click",e=>{
+$("#view").addEventListener("click",async e=>{
+  const cp=e.target.closest("[data-copy]");
+  if(cp){e.preventDefault();e.stopPropagation();
+    if(await copyText(cp.dataset.copy)){cp.classList.add("done");cp.innerHTML=ic("ok","s");cp.title="Скопировано";
+      setTimeout(()=>{cp.classList.remove("done");cp.innerHTML=ic("copy","s");cp.title="Скопировать название"},1400)}
+    return}
   const hc=e.target.closest("th[data-k]");
   if(hc){const s=S.sort[S.tab];const k=hc.dataset.k;if(s.k===k)s.d*=-1;else{s.k=k;s.d=ASC.includes(k)?1:-1}renderBody();return}
   if(e.target.closest("tr.detail")||e.target.closest("a"))return;

@@ -58,6 +58,7 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
   "critic": 63, "critic_src": "OpenCritic", "user_score": 4.9,
   "quality": 5.8, "quality_note": "OC 63, MC user 4.9, на stratege отзывы смешанные",
   "online": false, "online_note": null,
+  "online_trophies": [],           // if online: [{"name": "…", "grade": "bronze", "part": "Основная игра", "note": "…", "got": null}]
   "missables": "Нет (глава-селект после финала)",
   "playthroughs": "1",
   "difficulty_trophy": "Нет",

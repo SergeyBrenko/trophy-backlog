@@ -151,6 +151,10 @@
   "type": "Диск, Цифровая версия",
   "lang": "Английский"
  },
+ "/ps4/games/mafia_ii_definitive_edition": {
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
  "/ps4/games/marvels_spider-man": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
@@ -541,6 +545,10 @@
  },
  "/ps5/games/lost_records_bloom_rage": {
   "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/mafia_3": {
+  "type": "Цифровая версия",
   "lang": "Русский"
  },
  "/ps5/games/mafia_definitive_edition": {
