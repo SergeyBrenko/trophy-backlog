@@ -38,7 +38,7 @@ a{color:var(--accent)}
 .num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
 .ic{width:16px;height:16px;flex:none;display:inline-block;vertical-align:-3px}
 .ic.s{width:14px;height:14px}.ic.l{width:20px;height:20px}
-.t-p{color:var(--plat)}.t-g{color:var(--gold)}.t-s{color:var(--silver)}.t-b{color:var(--bronze)}
+svg.ic.t-p{color:var(--plat)}svg.ic.t-g{color:var(--gold)}svg.ic.t-s{color:var(--silver)}svg.ic.t-b{color:var(--bronze)}
 
 header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px}
 h1{font:800 clamp(26px,4vw,38px)/1.05 var(--f-display);margin:0;text-wrap:balance}
@@ -113,7 +113,7 @@ td.lnk a:hover{color:var(--accent);text-decoration:underline}
 .muted{color:var(--muted)}
 
 tr.detail>td{background:var(--surface-2);white-space:normal;padding:18px 18px 22px}
-.sheet{display:flex;flex-direction:column;gap:18px;max-width:1100px}
+.sheet{display:flex;flex-direction:column;gap:18px}
 .shead{display:flex;gap:16px;align-items:flex-start}
 .shead>div{display:flex;flex-direction:column;gap:10px;min-width:0;flex:1}
 .shead .info{color:var(--muted)}
@@ -133,7 +133,7 @@ tr.detail>td{background:var(--surface-2);white-space:normal;padding:18px 18px 22
 .check{display:grid;grid-template-columns:auto auto 1fr;gap:8px 10px;align-items:start;font-size:14px}
 .check .ic{margin-top:2px;color:var(--muted)}
 .check dt{color:var(--muted);white-space:nowrap}.check dd{margin:0;min-width:0;line-height:1.4}
-.summary{font-size:15px;line-height:1.55;margin:0;max-width:72ch}
+.summary{font-size:15px;line-height:1.55;margin:0}
 .dlcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
 .dlc{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:5px}
 .dlc.pending{border-style:dashed;border-color:var(--warn)}
@@ -158,9 +158,17 @@ tr.detail>td{background:var(--surface-2);white-space:normal;padding:18px 18px 22
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:10px}
 .panel h3{font:700 17px var(--f-display);margin:0}
 .chart svg{width:100%;height:auto;display:block}
-.two{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:start}
-@media (max-width:800px){.two{grid-template-columns:minmax(0,1fr)}}
-.log{margin:0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:6px}
+.cv-num{font:500 12px var(--f-mono)}
+.hit{cursor:default;outline:none}
+.hit:hover .bar,.hit:focus-visible .bar{opacity:.8}
+.hit:focus-visible text{text-decoration:underline}
+.hbars{display:flex;flex-direction:column;gap:6px}
+.hbar{display:grid;grid-template-columns:minmax(110px,180px) minmax(0,1fr) 3ch;align-items:center;gap:10px;font-size:14px;padding:2px 0}
+.hbar .ht{height:16px;display:flex;align-items:center}
+.hbar .bar{display:block;height:16px;min-width:2px;background:var(--accent);border-radius:0 4px 4px 0}
+.hbar .hv{color:var(--ink);text-align:right}
+.hbar:hover,.hbar:focus-visible{background:var(--surface-2);border-radius:6px}
+#tip{position:fixed;z-index:30;max-width:320px;padding:8px 11px;border-radius:8px;background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:0 6px 24px rgba(0,0,0,.18);font-size:13px;line-height:1.45;pointer-events:none}
 .empty{padding:40px 16px;text-align:center;color:var(--muted)}
 footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:4px;max-width:90ch}
 @media (prefers-reduced-motion:reduce){.gname .chev{transition:none}}
@@ -191,6 +199,7 @@ footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:
   .check>.ic{display:none}
   .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
   .tile .v{font-size:22px}
+  .hbar{grid-template-columns:8.5em minmax(0,1fr) 3ch;font-size:13px}
 }
 </style>
 </head>
@@ -208,6 +217,7 @@ footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:
     <button role="tab" data-tab="unfinished" aria-selected="false">Доделать <span class="ct" id="ct-unfinished"></span></button>
     <button role="tab" data-tab="done" aria-selected="false">Пройдено <span class="ct" id="ct-done"></span></button>
   </nav>
+  <div id="tip" role="tooltip" hidden></div>
   <section id="view"><div class="empty">Загружаю данные…</div></section>
   <footer>
     <div id="updated"></div>
@@ -249,8 +259,8 @@ const P={
 const ic=(n,c="")=>`<svg class="ic ${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[n]||""}</svg>`;
 const cup=(t,c="")=>`<svg class="ic ${c} t-${t}" viewBox="0 0 24 24" aria-hidden="true">${P.cup}</svg>`;
 
-const STATUS={planned:"В планах",playing:"Играю",paused:"Отложено",done:"Пройдено",skip:"Пропуск"};
-const S={games:[],meta:null,covers:{},tab:"list",sort:{list:{k:"quality",d:-1},candidates:{k:"quality",d:-1},unfinished:{k:"missing_n",d:1},done:{k:"last",d:-1}},
+const STATUS={planned:"В планах",playing:"Играю",paused:"Отложено",done:"Пройдено"};
+const S={games:[],meta:null,covers:{},stratege:{},tab:"list",sort:{list:{k:"quality",d:-1},candidates:{k:"quality",d:-1},unfinished:{k:"missing_n",d:1},done:{k:"last",d:-1}},
   f:{q:"",status:"active",maxDiff:10,hideOnline:false,pending:false,group:"all"},open:new Set(),ready:false};
 try{const t=localStorage.getItem("tb_tab");if(t)S.tab=t;}catch(e){}
 const hh=location.hash.replace("#","");if(["list","candidates","unfinished","done"].includes(hh))S.tab=hh;
@@ -261,7 +271,9 @@ const has=v=>v!==null&&v!==undefined&&v!=="";
 const fmt=(v,suf="")=>has(v)?esc(v)+suf:'<span class="muted">—</span>';
 function dpill(v){if(!has(v))return '<span class="muted">—</span>';const n=+v;const c=n<=3?"l1":n<=4.5?"l2":n<=6?"l3":"l4";return `<span class="d ${c}">${n.toFixed(2)}</span>`}
 function qcell(v){if(!has(v))return '<span class="muted">—</span>';return `<span class="q">${ic("star","s")}${(+v).toFixed(1)}</span>`}
-function shortLoc(s){if(!s)return null;const l=s.toLowerCase();if(l.includes("озвуч"))return"озвучка";if(l.includes("субт"))return"субтитры";if(l.startsWith("нет"))return"нет";if(l.includes("русск"))return"есть";return null}
+/* Russian localization: g.ru is "voice" | "subs" | "none" | null; ru_loc keeps the details */
+const RU={voice:["ok","озвучка"],subs:["warn","субтитры"],none:["bad","без русского"]};
+function ruFlag(g){const [c,l]=RU[g.ru]||["","русский?"];return `<span class="flag ${c}" title="${esc(g.ru_loc||"Наличие русского языка не установлено")}">${ic("lang","s")}${l}</span>`}
 function noDisc(g){return /нет диск|диска пока нет|только цифр|цифров|не проверен/i.test(g.disc_note||"")}
 /* cover lookup by stratege path (data/covers.json); falls back to initials */
 function cover(url,title,cls=""){
@@ -275,8 +287,8 @@ function cover(url,title,cls=""){
 async function getJSON(u){const r=await fetch(u+"?v="+Date.now());if(!r.ok)throw new Error(u+": HTTP "+r.status);return r.json()}
 async function init(){
   try{
-    const [games,meta,covers]=await Promise.all([getJSON("data/games.json"),getJSON("data/library.json"),getJSON("data/covers.json").catch(()=>({}))]);
-    S.games=games;S.meta=meta;S.covers=covers;S.ready=true;
+    const [games,meta,covers,facts]=await Promise.all([getJSON("data/games.json"),getJSON("data/library.json"),getJSON("data/covers.json").catch(()=>({})),getJSON("data/stratege.json").catch(()=>({}))]);
+    S.games=games;S.meta=meta;S.covers=covers;S.stratege=facts;S.ready=true;
   }catch(e){
     $("#view").innerHTML='<div class="empty">Не удалось загрузить данные ('+esc(e.message)+'). Если страница открыта как файл, запустите локальный сервер: <code>python3 -m http.server</code> в папке проекта.</div>';$("#profile").textContent="";return}
   renderHeader();render();
@@ -341,7 +353,7 @@ function toolbar(kind){
     <label><input type="checkbox" id="fon" ${f.hideOnline?"checked":""}> без онлайна</label>
     <label><input type="checkbox" id="fpd" ${f.pending?"checked":""}> ждём DLC</label>`;
   h+=`${sortSelect(kind)}<span class="hint" id="fcount"></span></div>`;
-  if(kind!=="unfinished")h+=`<div class="legend"><span>${ic("wifi","s")} онлайн-трофеи</span><span>${ic("hourglass","s")} DLC ещё выходят</span><span>${ic("disc","s")} проблема с диском</span><span>${ic("lang","s")} русский язык</span><span>${ic("users","s")} доля владельцев с платиной</span></div>`;
+  if(kind!=="unfinished")h+=`<div class="legend"><span>${ic("wifi","s")} онлайн-трофеи</span><span>${ic("hourglass","s")} DLC ещё выходят</span><span>${ic("disc","s")} проблема с диском</span><span>${ic("lang","s")} русский: <span class="flag ok">озвучка</span> · <span class="flag warn">субтитры</span> · <span class="flag bad">нет</span></span><span>${ic("users","s")} доля владельцев с платиной</span></div>`;
   return h;
 }
 function bindToolbar(){
@@ -363,7 +375,7 @@ function flags(g){
   if(g.online)f.push(`<span class="flag bad" title="${esc(g.online_note||"Есть онлайн-трофеи")}">${ic("wifi","s")}онлайн</span>`);
   if(g.dlc_pending)f.push(`<span class="flag warn" title="${esc(g.dlc_pending_note||"")}">${ic("hourglass","s")}DLC в пути</span>`);
   if(noDisc(g))f.push(`<span class="flag warn" title="${esc(g.disc_note)}">${ic("disc","s")}диск?</span>`);
-  const l=shortLoc(g.ru_loc);if(l)f.push(`<span class="flag ${l==="нет"?"bad":""}" title="${esc(g.ru_loc)}">${ic("lang","s")}${l==="нет"?"без русского":l}</span>`);
+  f.push(ruFlag(g));
   return f.join("");
 }
 function gameRow(g,kind,cols){
@@ -383,7 +395,7 @@ function gameRow(g,kind,cols){
 }
 function stat(icon,v,l){return `<div class="stat">${icon}<div><b>${v}</b><span>${l}</span></div></div>`}
 function detail(g,kind){
-  const t=g.trophies||{},hl=g.hltb||{};
+  const t=g.trophies||{};
   let h=`<div class="sheet"><div class="shead">${cover(g.stratege_url,g.title,"lg")}<div>
     <div class="info"><span>${ic("cal","s")}${fmt(g.release)}</span><span>${ic("studio","s")}${fmt(g.developer)}</span>${g.genre?`<span>${ic("chart","s")}${esc(g.genre)}</span>`:""}</div>
     ${g.why?`<div class="why">${ic("bulb","l")}<div>${esc(g.why)}</div></div>`:""}
@@ -394,7 +406,6 @@ function detail(g,kind){
     ${stat(ic("clock","l"),`${fmt(g.avg_plat_hours," ч")}`,`среднее время платины${g.est_100_hours&&g.est_100_hours!==g.avg_plat_hours?`, 100% ≈ ${g.est_100_hours} ч`:""}`)}
     ${stat(ic("users","l"),`${fmt(g.plat_pct,"%")}`,`получили платину: ${has(g.plat_count)?g.plat_count.toLocaleString("ru"):"—"} из ${has(g.owners)?g.owners.toLocaleString("ru"):"—"}${t.dlc&&has(g.full_count)?`; 100%: ${g.full_count}`:""}`)}
     ${stat(ic("star","l"),`${fmt(g.quality)}`,`итоговая оценка; критики ${fmt(g.critic)}${g.critic_src?" ("+esc(g.critic_src)+")":""}, игроки ${fmt(g.user_score)}`)}
-    ${hl.main||hl.complete?stat(ic("chart","l"),`${hl.main??"—"} / ${hl.complete??"—"} ч`,"HowLongToBeat: сюжет / всё"):""}
   </div>`;
   h+=`<div class="cols">
     <div><h4>${ic("plus","s")}Хвалят</h4><ul class="vlist pro">${(g.pros||[]).map(x=>`<li>${ic("plus","s")}<span>${esc(x)}</span></li>`).join("")||"<li>—</li>"}</ul></div>
@@ -408,7 +419,7 @@ function detail(g,kind){
     </dl></div></div>`;
   const dl=g.dlcs||[];
   h+=`<div><h4>${ic("box","s")}Дополнения</h4>${dl.length?`<div class="dlcs">${dl.map(d=>`<div class="dlc${d.released===false?" pending":""}"><div class="n">${esc(d.name)}</div><div class="m">${has(d.trophies)?`<span>${cup("b","s")}${d.trophies}</span>`:""}${has(d.difficulty)?`<span>${ic("gauge","s")}${d.difficulty}</span>`:""}${has(d.hours)?`<span>${ic("clock","s")}${d.hours} ч</span>`:""}${d.released===false?`<span style="color:var(--warn)">${ic("hourglass","s")}ожидается${d.release_date?" "+esc(d.release_date):""}</span>`:d.release_date?`<span>${ic("cal","s")}${esc(d.release_date)}</span>`:""}</div>${d.note?`<div class="note">${esc(d.note)}</div>`:""}</div>`).join("")}</div>`:'<span class="muted">DLC с трофеями нет</span>'}${g.dlc_pending_note?`<p class="hint" style="margin:8px 0 0">${esc(g.dlc_pending_note)}</p>`:""}</div>`;
-  h+=`<div class="info"><span>${ic("lang","s")}${fmt(g.ru_loc)}</span><span>${ic("disc","s")}${fmt(g.disc_note)}</span></div>`;
+  h+=`<div class="info"><span class="flag ${(RU[g.ru]||[""])[0]}">${ic("lang","s")}${g.ru_loc?esc(g.ru_loc):"Наличие русского языка не установлено"}</span><span>${ic("disc","s")}${fmt(g.disc_note)}</span></div>`;
   if(g.quality_note)h+=`<div class="hint">${ic("star","s")} ${esc(g.quality_note)}</div>`;
   h+=notes(g);
   h+=`<div class="links">${(g.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${ic("link","s")}${esc(s.name)}</a>`).join("")}</div>`;
@@ -454,13 +465,6 @@ function doneView(){
   const t=m.totals||{},c=m.computed||{};const s=S.sort.done;const q=S.f.q.trim().toLowerCase();
   const fv={title:x=>x.title.toLowerCase(),got:x=>x.got,diff:x=>x.diff,hours:x=>x.hours,last:x=>x.last,platform:x=>x.platform};
   const list=(m.games||[]).filter(x=>x.complete&&(!q||x.title.toLowerCase().includes(q))).sort((a,b)=>{const f=fv[s.k]||(x=>x[s.k]);const x=f(a),y=f(b);if(!has(x)&&!has(y))return 0;if(!has(x))return 1;if(!has(y))return -1;return (x>y?1:x<y?-1:0)*s.d});
-  const yrs=m.by_year||[];const maxG=Math.max(1,...yrs.map(y=>y.games));
-  const W=Math.max(300,Math.min(560,($("#view")?.clientWidth||560)-34)),H=200,pl=8,pr=8,pt=22,pb=28,bw=(W-pl-pr)/Math.max(1,yrs.length);const sy=v=>pt+(H-pt-pb)*(1-v/maxG);
-  let svg=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Игры на 100% по годам">`;
-  svg+=`<line x1="${pl}" x2="${W-pr}" y1="${sy(0)}" y2="${sy(0)}" stroke="var(--line)" stroke-width="1"/>`;
-  yrs.forEach((y,i)=>{const x=pl+i*bw+bw*.18,w=bw*.64,yy=sy(y.games);
-    svg+=`<rect x="${x}" y="${yy}" width="${w}" height="${H-pb-yy}" rx="3" fill="var(--accent)"/><text x="${x+w/2}" y="${yy-6}" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="12" fill="var(--ink)">${y.games}</text><text x="${x+w/2}" y="${H-10}" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="12" fill="var(--muted)">${y.year}</text>`});
-  svg+=`</svg>`;
   const h=`<div class="tiles">
     <div class="tile">${cup("p")}<div><span class="v num">${t.complete100??c.done_count}</span><span class="l">игр на 100% из ${t.games}</span></div></div>
     <div class="tile">${cup("g")}<div><span class="v num">${(t.trophies||0).toLocaleString("ru")}</span><span class="l">трофеев, из них ${t.plat} платин</span></div></div>
@@ -468,14 +472,61 @@ function doneView(){
     <div class="tile">${ic("gauge")}<div><span class="v num">${c.avg_diff}</span><span class="l">средняя сложность пройденного</span></div></div>
     <div class="tile">${ic("disc")}<div><span class="v num">${c.ps5} / ${c.ps4}</span><span class="l">PS5 / PS4</span></div></div>
   </div>
-  <div class="two"><div class="panel chart"><h3>Игры на 100% по годам</h3>${svg}<span class="hint">Год по дате последнего трофея. PSN считает время неточно: только пока игра запущена.</span></div>
-  <div class="panel"><h3>Журнал обновлений</h3><ul class="log">${(m.changelog||[]).slice().reverse().map(x=>`<li><span class="num muted">${esc(x.date)}</span> ${esc(x.text)}</li>`).join("")}</ul></div></div>
+  <div class="panel chart"><h3>Игры на 100% по годам</h3>${yearChart(m.by_year||[])}<span class="hint">Год по дате последнего трофея. Наведите на столбец или нажмите на него, чтобы увидеть трофеи и часы; PSN считает время неточно, только пока игра запущена.</span></div>
+  <div class="panel"><h3>Жанры пройденного</h3>${genreChart((m.games||[]).filter(x=>x.complete))}<span class="hint">Жанры со stratege.ru; у игры их может быть несколько, поэтому сумма больше числа игр.</span></div>
   <div class="toolbar"><input type="search" id="fq" placeholder="Поиск по пройденным" value="${esc(S.f.q)}" aria-label="Поиск">${sortSelect("done")}<span class="hint" id="fcount"></span></div>
   <div class="tablebox"><table><thead><tr>${th("done","title","Игра")}${th("done","platform","Платф.")}${th("done","got","Трофеи","r")}${th("done","diff","Сложн.","r")}${th("done","hours","Часы","r")}${th("done","last","Финиш","r")}</tr></thead><tbody>
   ${list.map(x=>`<tr class="lrow"><td class="title lnk"><div class="gcell">${cover(x.url,x.title,"sm")}<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></div></td><td><span class="pf">${esc(x.platform)}</span></td><td class="r"><span class="tc">${cup("p","s")}${x.got}</span></td><td class="r">${dpill(x.diff)}</td><td class="r"><span class="tc">${ic("clock","s")}${fmt(x.hours," ч")}</span></td><td class="r num">${ic("cal","s")} ${esc(x.last.split("-").reverse().join("."))}</td></tr>`).join("")}
   </tbody></table></div>`;
   return [h,list.length];
 }
+
+/* ---------- statistics charts: one series each, so no legend; details in a hover tooltip ---------- */
+function yearChart(yrs){
+  const W=Math.max(300,($("#view")?.clientWidth||900)-34),H=220,pl=8,pr=8,pt=24,pb=28;
+  const maxG=Math.max(1,...yrs.map(y=>y.games)),bw=(W-pl-pr)/Math.max(1,yrs.length),cw=Math.min(24,bw*.6);
+  const sy=v=>pt+(H-pt-pb)*(1-v/maxG),base=sy(0);
+  let svg=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Игры на 100% по годам: ${yrs.map(y=>`${y.year} — ${y.games}`).join(", ")}">`;
+  svg+=`<line x1="${pl}" x2="${W-pr}" y1="${base}" y2="${base}" stroke="var(--line)" stroke-width="1"/>`;
+  yrs.forEach((y,i)=>{const cx=pl+i*bw+bw/2,x=cx-cw/2,yy=sy(y.games),r=Math.min(4,base-yy);
+    const tip=`<b>${y.year}</b><br>${y.games} ${plural(y.games,["игра","игры","игр"])} на 100%<br>${y.trophies.toLocaleString("ru")} трофеев · ${y.hours.toLocaleString("ru")} ч`;
+    svg+=`<g class="hit" data-tip="${esc(tip)}" tabindex="0"><rect x="${pl+i*bw}" y="${pt-16}" width="${bw}" height="${H-pt+16}" fill="transparent"/>
+      <path class="bar" d="M${x} ${base}V${yy+r}Q${x} ${yy} ${x+r} ${yy}H${x+cw-r}Q${x+cw} ${yy} ${x+cw} ${yy+r}V${base}Z" fill="var(--accent)"/>
+      <text x="${cx}" y="${yy-7}" text-anchor="middle" class="cv-num" fill="var(--ink)">${y.games}</text>
+      <text x="${cx}" y="${H-9}" text-anchor="middle" class="cv-num" fill="var(--muted)">${y.year}</text></g>`});
+  return svg+`</svg>`;
+}
+const PERSPECTIVE=new Set(["Third-person","First-person","3D","2D","2.5D","Isometric","Top-down","Side-scroller","Side view","VR"]);
+const GENRE_RU={"Action":"Экшен","Adventure":"Приключения","RPG":"RPG","Action RPG":"Экшен-RPG","Shooter":"Шутер","Horror":"Хоррор","Survival":"Выживание",
+  "Platformer":"Платформер","Puzzle":"Головоломка","Strategy":"Стратегия","Tactics":"Тактика","Simulation":"Симулятор","Simulator":"Симулятор","Racing":"Гонки",
+  "Fighting":"Файтинг","Stealth":"Стелс","Sandbox":"Песочница","Open World":"Открытый мир","Indie":"Инди","Arcade":"Аркада","Quest":"Квест",
+  "Visual Novel":"Визуальная новелла","Interactive Movie":"Интерактивное кино","Hack and Slash":"Слэшер","Slasher":"Слэшер","Metroidvania":"Метроидвания",
+  "Roguelike":"Рогалик","Roguelite":"Рогалик","Souls-like":"Соулслайк","Soulslike":"Соулслайк","Exploration":"Исследование","Casual":"Казуальная",
+  "Mystery":"Детектив","Detective":"Детектив","Walking Simulator":"Симулятор ходьбы","Narrative":"Сюжетная","Music":"Музыкальная","Sports":"Спорт",
+  "Party":"Для компании","Turn-based":"Пошаговая","Turn-Based":"Пошаговая","Point-and-click":"Point-and-click","Co-op":"Кооператив","Beat 'em up":"Beat 'em up",
+  "Interactive":"Интерактивное кино","Movie":"Интерактивное кино","Cinematographic":"Интерактивное кино","Tactical":"Тактика","Japanese":"Японская",
+  "Psychological":"Психологическая","Management":"Менеджмент","Rogue-like":"Рогалик","Driving":"Вождение","Thriller":"Триллер"};
+function genreChart(done){
+  const by=new Map();
+  done.forEach(x=>{const m=/\/(ps[345]|psvita)\/games\/[^/?#]+/.exec(x.url||"");const f=m&&S.stratege[m[0]];
+    (f?.genres||[]).filter(t=>!PERSPECTIVE.has(t)).forEach(t=>{const k=GENRE_RU[t]||t;if(!by.has(k))by.set(k,[]);if(!by.get(k).includes(x.title))by.get(k).push(x.title)})});
+  let rows=[...by.entries()].sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0],"ru"));
+  if(!rows.length)return '<div class="empty">Жанры ещё не собраны.</div>';
+  /* single-game genres fold into one "other" row; its tooltip names them */
+  const rare=rows.filter(r=>r[1].length<2);
+  if(rare.length>1){rows=rows.filter(r=>r[1].length>=2);
+    rows.push([`Другие (${rare.length})`,[...new Set(rare.flatMap(r=>r[1]))],rare.map(r=>`${r[0]}: ${r[1][0]}`)])}
+  const max=Math.max(...rows.map(r=>r[1].length));
+  return `<div class="hbars" role="list">${rows.map(([k,ts,list])=>{const tip=`<b>${esc(k)}</b> — ${ts.length} ${plural(ts.length,["игра","игры","игр"])}<br>${list?list.map(esc).join("<br>"):ts.slice(0,12).map(esc).join(", ")+(ts.length>12?` и ещё ${ts.length-12}`:"")}`;
+    return `<div class="hbar hit" role="listitem" data-tip="${esc(tip)}" tabindex="0"><span class="hl">${esc(k)}</span><span class="ht"><span class="bar" style="width:${(ts.length/max*100).toFixed(1)}%"></span></span><span class="hv num">${ts.length}</span></div>`}).join("")}</div>`;
+}
+/* shared tooltip for [data-tip] marks */
+function showTip(el,ev){const t=$("#tip");t.innerHTML=el.dataset.tip;t.hidden=false;
+  const r=el.getBoundingClientRect(),w=t.offsetWidth,h=t.offsetHeight;
+  let x=ev&&ev.clientX?ev.clientX+14:r.left+r.width/2-w/2,y=ev&&ev.clientY?ev.clientY-h-12:r.top-h-8;
+  x=Math.max(8,Math.min(x,innerWidth-w-8));if(y<8)y=(ev&&ev.clientY?ev.clientY:r.bottom)+16;
+  t.style.left=x+"px";t.style.top=y+"px"}
+function hideTip(){const t=$("#tip");if(t)t.hidden=true}
 
 /* ---------- render ---------- */
 function plural(n,f){n=Math.abs(n)%100;const n1=n%10;if(n>10&&n<20)return f[2];if(n1>1&&n1<5)return f[1];if(n1===1)return f[0];return f[2]}
@@ -510,8 +561,13 @@ $("#view").addEventListener("click",e=>{
   if(e.target.closest("tr.detail")||e.target.closest("a"))return;
   const row=e.target.closest("tr.row");if(row){const id=row.dataset.id;S.open.has(id)?S.open.delete(id):S.open.add(id);renderBody()}
 });
+$("#view").addEventListener("mousemove",e=>{const h=e.target.closest(".hit[data-tip]");h?showTip(h,e):hideTip()});
+$("#view").addEventListener("mouseleave",hideTip);
+document.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse")return;const h=e.target.closest(".hit[data-tip]");h?showTip(h,e):hideTip()});
+$("#view").addEventListener("focusin",e=>{const h=e.target.closest(".hit[data-tip]");h?showTip(h):hideTip()});
 $("#view").addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const t=e.target;if(t.matches("th[data-k]")||t.matches("tr.row")){e.preventDefault();t.click()}});
 
+addEventListener("resize",()=>{clearTimeout(S.rz);S.rz=setTimeout(()=>{if(S.tab==="done"&&S.ready)renderBody()},200)});
 render();init();
 })();
 </script>

@@ -2,12 +2,13 @@
 
 The user (Russian-speaking, PSN/stratege nick DannyMadcat) 100%-completes PlayStation games
 (platinum + every DLC trophy list). Plays from PHYSICAL DISC, buys DLC digitally (Turkey/Ukraine PS Store).
-Avoids games whose trophy difficulty on stratege.ru is above 6/10. Online trophies allowed but must be flagged.
+Comfortable difficulty on stratege.ru is up to 6/10; harder games are still added (the page colours difficulty red),
+but say so in `why`/`trophy_summary`. Online trophies allowed but must be flagged.
 PS5 preferred; PS4 games OK. If a game has separate PS4 and PS5 trophy lists, use the PS5 list.
 
 ## Tools
 - Fetch pages with the WebFetch tool. stratege.ru works with it directly.
-  If a site blocks fetching (HowLongToBeat, PSNProfiles, sometimes Metacritic/PowerPyx), skip it and note it; DekuDeals and PlatPrices quote HLTB hours. stratege.ru rate-limits bursts (HTTP 429): pace requests.
+  If a site blocks fetching (PSNProfiles, sometimes Metacritic/PowerPyx), skip it and note it. stratege.ru rate-limits bursts (HTTP 429): pace requests.
 - Use WebSearch to find URLs / facts.
 
 ## Sources per game (in this order)
@@ -19,15 +20,21 @@ PS5 preferred; PS4 games OK. If a game has separate PS4 and PS5 trophy lists, us
    Skim player comments for recurring praise/complaints and trophy pain points.
 3. A trophy guide roadmap (PowerPyx, Knoef, PlayStationTrophies.org, PSNProfiles guide): online trophies?, missable trophies?, min playthroughs,
    difficulty-related trophies, glitched trophies, per-DLC difficulty/time if available.
-4. HowLongToBeat: main / main+extras / completionist hours.
-5. OpenCritic and/or Metacritic: critic score, Metacritic user score.
-6. Russian localization (озвучка / субтитры / нет) — PS Store or stratege game page.
-7. DLC status: which DLC with trophies are released, which are ANNOUNCED but not yet released (pending). Also: is there a physical
-   disc edition that already includes DLC (GOTY/Complete/Deluxe)?
+4. OpenCritic and/or Metacritic: critic score, Metacritic user score (or Steam % positive).
+5. Russian localization — see below.
+6. DLC status: which DLC with trophies are released, which are ANNOUNCED but not yet released (pending). Also: is there a physical
+   disc edition that already includes DLC (GOTY/Complete/Deluxe)? The stratege game page (`/ps5/games/<slug>`, field "Тип") says whether a disc exists.
+
+## Russian localization
+Two fields: `ru` — one of `"voice"` (Russian voice-over; subtitles implied), `"subs"` (Russian text/subtitles only), `"none"`, or `null` if
+it cannot be established; `ru_loc` — short Russian text shown in the details, e.g. "Озвучка и субтитры", "Субтитры", "Нет".
+Sources, best first: PS Store product page for the PS4/PS5 version (audio vs screen languages), the publisher's site, Steam language table
+(note "по данным Steam" in `ru_loc` if only Steam confirms it), stratege game page field "Язык" (it does NOT distinguish voice from text).
+If Russian was removed from the console version after 2022, it is `"none"`.
 
 ## Quality score (1–10, one decimal)
 quality = 0.6 * critic (OpenCritic top-critic avg or Metacritic, /10) + 0.4 * user score (Metacritic user /10, or Steam % /10),
-then adjust by up to ±0.5 based on stratege comment sentiment. State the inputs in quality_note.
+then adjust by up to ±0.5 based on stratege comment sentiment and recent reviews. State the inputs in quality_note.
 
 ## Output: one JSON object per game, merged into data/games.json.
 All human-readable text in RUSSIAN. Use null for unknown values — never invent numbers.
@@ -48,7 +55,6 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
   "diff_dlc": 2.89, "dur_dlc": "0+",
   "avg_plat_hours": 62,
   "owners": 4825, "plat_count": 1012, "full_count": 290, "avg_completion": 29,
-  "hltb": {"main": 16, "extra": 30, "complete": 50},
   "critic": 63, "critic_src": "OpenCritic", "user_score": 4.9,
   "quality": 5.8, "quality_note": "OC 63, MC user 4.9, на stratege отзывы смешанные",
   "online": false, "online_note": null,
@@ -56,7 +62,7 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
   "playthroughs": "1",
   "difficulty_trophy": "Нет",
   "glitched": "Нет известных",
-  "ru_loc": "Субтитры",
+  "ru": "subs", "ru_loc": "Субтитры",
   "disc_note": "Диск PS5; DLC отдельно",
   "pros": ["…", "…", "…"],
   "cons": ["…", "…"],
@@ -66,5 +72,6 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
 ```
 Keep pros/cons to 2–4 short bullets each (≤ 12 words each). Be efficient: don't over-fetch.
 
-Covers are not part of the card: after the cards are merged into data/games.json, run `python3 scripts/fetch_images.py`.
-It finds the trophy-list icon by `stratege_url` and records it in data/covers.json, so `stratege_url` must point to the exact trophy list used.
+Covers and genres for the statistics are not part of the card: after the cards are merged into data/games.json, run
+`python3 scripts/fetch_stratege.py`. It finds the trophy-list icon and the genre tags by `stratege_url`, so `stratege_url` must point
+to the exact trophy list used.

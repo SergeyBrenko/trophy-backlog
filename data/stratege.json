@@ -1,0 +1,1450 @@
+{
+ "/ps4/games/a_plague_tale_innocence": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/abzu": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_freedom_cry": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure",
+   "Sandbox"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_iii_remastered": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_iv_black_flag": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure",
+   "Sandbox"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_liberation_remastered": {
+  "genres": [
+   "Action"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_odyssey": {
+  "genres": [
+   "3D",
+   "Stealth",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_origins": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_rogue_remastered": {
+  "genres": [
+   "3D",
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_unity": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/assassins_creed_victory": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps4/games/batman_-_the_telltale_series": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/batman_arkham_knight": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/beholder_complete_edition": {
+  "genres": [
+   "Adventure",
+   "Strategy"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/call_of_cthulhu_the_official_video_game": {
+  "genres": [
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/cat_quest": {
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/cat_quest_ii_the_lupus_empire": {
+  "genres": [
+   "Isometric",
+   "Action",
+   "RPG"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/child_of_light": {
+  "genres": [
+   "2D",
+   "Action"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/death_stranding": {
+  "genres": [
+   "Action",
+   "Adventure",
+   "Stealth",
+   "Horror"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps4/games/detroit_become_human": {
+  "genres": [
+   "Interactive",
+   "Movie"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps4/games/dishonored_2": {
+  "genres": [
+   "First-person",
+   "Action"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps4/games/dishonored_death_of_the_outsider": {
+  "genres": [
+   "First-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/elden_ring": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/erica": {
+  "genres": [
+   "Interactive",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/fallout_4": {
+  "genres": [
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/far_lone_sails": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/god_of_war_new": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Slasher"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/heavy_rain": {
+  "genres": [
+   "Cinematographic",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/hellblade": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/horizon_zero_dawn": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/infamous_first_light": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/infamous_second_son": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure",
+   "Sandbox"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps4/games/inside": {
+  "genres": [
+   "2D",
+   "Puzzle",
+   "Platformer"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/la_noire": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure",
+   "Sandbox"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/life_is_strange": {
+  "genres": [
+   "Cinematographic",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps4/games/life_is_strange_2": {
+  "genres": [
+   "Interactive",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/life_is_strange_before_the_storm": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps4/games/marvels_spider-man": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/metro_exodus": {
+  "genres": [
+   "First-person",
+   "Shooter"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/mortal_kombat_11": {
+  "genres": [
+   "2.5D",
+   "Fighting"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/murdered_soul_suspect": {
+  "genres": [
+   "Third-person",
+   "Horror",
+   "Adventure"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps4/games/mutant_year_zero_road_to_eden": {
+  "genres": [
+   "Tactical",
+   "Adventure",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/oceanhorn_monster_of_uncharted_seas": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/pity_pit": {
+  "genres": [
+   "Arcade",
+   "Action",
+   "Puzzle",
+   "Platformer"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps4/games/ratchet_clank": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Platformer"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/red_dead_redemption_2": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Sandbox"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/resident_evil_village": {
+  "genres": [
+   "First-person",
+   "Survival",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/shadow_of_the_tomb_raider": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/sniper_ghost_warrior_3": {
+  "genres": [
+   "First-person",
+   "Tactical",
+   "Shooter"
+  ],
+  "type": "Диск",
+  "lang": "Английский"
+ },
+ "/ps4/games/spintires_mudrunner": {
+  "genres": [
+   "Arcade",
+   "Simulator"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/spiritfarer": {
+  "genres": [
+   "Adventure",
+   "Management"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/subnautica": {
+  "genres": [
+   "Open World",
+   "Survival",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/the_council": {
+  "genres": [
+   "Visual Novel",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/the_last_guardian": {
+  "genres": [
+   "Third-person",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/the_last_of_us_part_ii": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/the_order_1886": {
+  "genres": [
+   "Third-person",
+   "Shooter"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/the_wolf_among_us": {
+  "genres": [
+   "Point-and-click",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps4/games/this_war_of_mine_the_little_ones": {
+  "genres": [
+   "2D",
+   "Action",
+   "Survival"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/uncharted_4": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps4/games/uncharted_the_lost_legacy": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps4/games/undertale": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps4/games/until_dawn": {
+  "genres": [
+   "Action"
+  ],
+  "type": "Диск",
+  "lang": "Русский"
+ },
+ "/ps5/games/007_first_light": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/a_plague_tale_requiem": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/alan_wake_ii": {
+  "genres": [
+   "Survival",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/alan_wake_remastered": {
+  "genres": [
+   "Third-person",
+   "Survival",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/as_dusk_falls": {
+  "genres": [
+   "Point-and-click",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/assassins_creed_mirage": {
+  "genres": [
+   "Action",
+   "Narrative",
+   "Stealth",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/assassins_creed_shadows": {
+  "genres": [
+   "3D",
+   "Stealth",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/assassins_creed_valhalla": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/astro_bot": {
+  "genres": [
+   "3D",
+   "Platformer"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/astros_playroom": {
+  "genres": [
+   "3D",
+   "Platformer"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/atomfall": {
+  "genres": [
+   "3D",
+   "Open World",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/atomic_heart": {
+  "genres": [
+   "First-person",
+   "Shooter"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/avatar_frontiers_of_pandora": {
+  "genres": [
+   "Action",
+   "First-person",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/avowed": {
+  "genres": [
+   "First-person",
+   "RPG"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/banishers_ghosts_of_new_eden": {
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/black_myth_wukong": {
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/bugsnax": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/cat_quest_iii": {
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/clair_obscur_expedition_33": {
+  "genres": [
+   "Turn-Based",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/control_resonant": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/control_ultimate_edition": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/cronos_the_new_dawn": {
+  "genres": [
+   "Survival",
+   "Third-person",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/cyberpunk_2077": {
+  "genres": [
+   "Action",
+   "First-person"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/dead_space": {
+  "genres": [
+   "Horror",
+   "Survival"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/death_stranding_2_on_the_beach": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/deathloop": {
+  "genres": [
+   "First-person",
+   "Stealth",
+   "Shooter"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/directive_8020": {
+  "genres": [
+   "3D",
+   "Horror",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/disciples_domination": {
+  "genres": [
+   "Strategy",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/disciples_liberation": {
+  "genres": [
+   "Strategy",
+   "Turn-Based",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/disco_elysium": {
+  "genres": [
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/dispatch": {
+  "genres": [
+   "Visual Novel",
+   "Strategy"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/doom_the_dark_ages": {
+  "genres": [
+   "First-person",
+   "Shooter"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/dragon_age_dreadwolf": {
+  "genres": [
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/dragons_dogma_ii": {
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/dredge": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/far_changing_tides": {
+  "genres": [
+   "Puzzle",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/final_fantasy_xvi": {
+  "genres": [
+   "Japanese",
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/ghost_of_tsushima": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "PS ПК, Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/ghost_of_yotei": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/ghostwire_tokyo": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/god_of_war_ragnarok": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "PS ПК, Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/gris": {
+  "genres": [
+   "2D",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/hardspace_shipbreaker": {
+  "genres": [
+   "Sandbox",
+   "Simulator"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/hell_is_us": {
+  "genres": [
+   "Action",
+   "Adventure",
+   "Third-person"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/hogwarts_legacy": {
+  "genres": [
+   "Action",
+   "RPG",
+   "Open World"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/horizon_forbidden_west": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/horizon_zero_dawn": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/indiana_jones_and_the_great_circle": {
+  "genres": [
+   "First-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/indika": {
+  "genres": [
+   "Adventure",
+   "Narrative",
+   "Third-person"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/it_takes_two": {
+  "genres": [
+   "Adventure",
+   "Action",
+   "Platformer"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/jusant": {
+  "genres": [
+   "Action",
+   "Puzzle"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/kingdom_come_deliverance_ii": {
+  "genres": [
+   "Open World",
+   "RPG",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/kings_bounty_2": {
+  "genres": [
+   "Tactical",
+   "Strategy",
+   "RPG"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/lego_horizon_adventures": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/life_is_strange_true_colors": {
+  "genres": [
+   "Interactive",
+   "Point-and-click",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/like_a_dragon_infinite_wealth": {
+  "genres": [
+   "Turn-Based",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/lost_records_bloom_rage": {
+  "genres": [
+   "Narrative",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/mafia_definitive_edition": {
+  "genres": [
+   "Third-person",
+   "Open World",
+   "Action"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/mafia_the_old_country": {
+  "genres": [
+   "3D",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/marvels_guardians_of_the_galaxy": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/marvels_spider-man_2": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/marvels_spider-man_miles_morales": {
+  "genres": [
+   "3D",
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "PS ПК, Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/marvels_wolverine": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/metal_gear_solid_delta_snake_eater": {
+  "genres": [
+   "Stealth"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/neva": {
+  "genres": [
+   "Adventure",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/pacific_drive": {
+  "genres": [
+   "Rogue-like",
+   "Adventure",
+   "Driving"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/persona_5_royal": {
+  "genres": [
+   "Japanese",
+   "RPG"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/pragmata": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/project_eve": {
+  "genres": [
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/ratchet_clank_rift_apart": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Platformer"
+  ],
+  "type": "PS ПК, Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/reanimal": {
+  "genres": [
+   "Action",
+   "Platformer"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/remnant_ii": {
+  "genres": [
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/resident_evil_2": {
+  "genres": [
+   "Third-person",
+   "Survival",
+   "Action",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/resident_evil_requiem": {
+  "genres": [
+   "Psychological",
+   "Survival",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/resonance_a_plague_tale_legacy": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/rise_of_the_ronin": {
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/robocop_rogue_city": {
+  "genres": [
+   "First-person",
+   "Shooter"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/saros": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/sherlock_holmes_chapter_one": {
+  "genres": [
+   "Point-and-click",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/silent_hill_2": {
+  "genres": [
+   "Survival",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/silent_hill_f": {
+  "genres": [
+   "Survival",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/silent_hill_townfall": {
+  "genres": [
+   "Psychological",
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/south_of_midnight": {
+  "genres": [
+   "Adventure",
+   "Action"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/stalker_2_heart_of_chornobyl": {
+  "genres": [
+   "First-person",
+   "Shooter",
+   "Open World"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/star_wars_jedi_fallen_order": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/star_wars_jedi_survivor": {
+  "genres": [
+   "Metroidvania",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/star_wars_outlaws": {
+  "genres": [
+   "Open World",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/star_wars_zero_company": {
+  "genres": [
+   "Turn-Based",
+   "Tactical"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/steelrising": {
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/still_wakes_the_deep": {
+  "genres": [
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/stray": {
+  "genres": [
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/subnautica_below_zero": {
+  "genres": [
+   "Open World",
+   "Survival",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/syberia_the_world_before": {
+  "genres": [
+   "Quest"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/tales_of_arise": {
+  "genres": [
+   "Japanese",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/tchia": {
+  "genres": [
+   "Adventure",
+   "Open World"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/thank_goodness_youre_here_voskl": {
+  "genres": [
+   "Adventure",
+   "Platformer"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_alters": {
+  "genres": [
+   "Survival"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_blood_of_dawnwalker": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/the_dark_pictures_anthology_house_of_ashes": {
+  "genres": [
+   "Interactive",
+   "Adventure"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_invincible": {
+  "genres": [
+   "First-person",
+   "Thriller",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_last_of_us_part_i": {
+  "genres": [
+   "Third-person",
+   "Action",
+   "Shooter",
+   "Adventure"
+  ],
+  "type": "PS ПК, Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_medium": {
+  "genres": [
+   "Horror"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_outer_worlds_2": {
+  "genres": [
+   "Adventure",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_outer_worlds_spacers_choise_edition": {
+  "genres": [
+   "3D",
+   "First-person",
+   "RPG"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_quarry": {
+  "genres": [
+   "Horror",
+   "Visual Novel"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_sinking_city": {
+  "genres": [
+   "Action",
+   "Horror"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_thaumaturge": {
+  "genres": [
+   "Narrative",
+   "RPG"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/the_witcher_3_wild_hunt_-_game_of_the_year_edition": {
+  "genres": [
+   "Third-person",
+   "Action"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/under_the_waves": {
+  "genres": [
+   "Narrative",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/unicorn_overlord": {
+  "genres": [
+   "Tactical",
+   "RPG"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Английский"
+ },
+ "/ps5/games/unknown_9_awakening": {
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский"
+ },
+ "/ps5/games/warhammer_40000_rogue_trader": {
+  "genres": [
+   "RPG"
+  ],
+  "type": "Цифровая версия",
+  "lang": "Русский"
+ }
+}

@@ -3,13 +3,12 @@
 
 Usage:
   python3 scripts/recalc.py            # games.json derived fields + library.json stats
-  python3 scripts/recalc.py --changelog "Что изменилось"   # also append a changelog entry
 
 games.json: plat_pct, est_100_hours, dlc_count, dlc_pending (from dlcs[].released == false).
 library.json: games list, by_year and computed stats are rebuilt from data/library_raw.txt;
 totals (profile header numbers) are kept as-is — update them by hand from the stratege profile.
 """
-import collections, datetime, json, pathlib, sys
+import collections, datetime, json, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -40,7 +39,7 @@ def recalc_games():
     return games
 
 
-def recalc_library(changelog=None):
+def recalc_library():
     path = DATA / "library.json"
     meta = json.loads(path.read_text(encoding="utf-8"))
     lib = []
@@ -71,17 +70,12 @@ def recalc_library(changelog=None):
                             ps5=sum(1 for x in done if x["platform"] == "PS5"),
                             ps4=sum(1 for x in done if x["platform"] == "PS4"))
     meta["last_update"] = TODAY
-    if changelog:
-        meta.setdefault("changelog", []).append({"date": TODAY, "text": changelog})
     path.write_text(json.dumps(meta, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return meta
 
 
 if __name__ == "__main__":
-    note = None
-    if "--changelog" in sys.argv:
-        note = sys.argv[sys.argv.index("--changelog") + 1]
     g = recalc_games()
-    m = recalc_library(note)
+    m = recalc_library()
     c = collections.Counter(x.get("section") for x in g)
     print(f"games.json: {dict(c)}; library: {m['computed']}")
