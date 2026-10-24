@@ -1,0 +1,102 @@
+# Stratege profile DannyMadcat, synced ~2026-10-15. Format: title|platform|got/total|stratege_diff|stratege_dur|last_trophy|plat_speed|stratege_path|hours_played
+Undertale|PS4|30/30|2.72|0+|13.09.2026|3 дня|/ps4/games/undertale|3
+Neva|PS5|19/19|2.80|0+|08.09.2026|2 дня|/ps5/games/neva|4
+GRIS|PS5|18/18|2.72|0+|06.09.2026|1 день|/ps5/games/gris|5
+Child of Light|PS4|20/20|2.94|10+|04.09.2026|3 дня|/ps4/games/child_of_light|10
+Metro Exodus|PS4|69/69|4.83|50+|27.08.2026|8 дней|/ps4/games/metro_exodus|67
+L.A. Noire|PS4|63/63|4.11|25+|27.08.2026|12 дней|/ps4/games/la_noire|35
+Star Wars Outlaws|PS5|60/60|3.68|50+|13.08.2026|17 дней|/ps5/games/star_wars_outlaws|70
+The Thaumaturge|PS5|57/57|3.53|25+|25.06.2026|15 дней|/ps5/games/the_thaumaturge|42
+Resident Evil VILLAGE|PS4|57/57|6.30|25+|09.06.2026|1688 дней|/ps4/games/resident_evil_village|58
+DREDGE|PS5|60/60|2.80|10+|07.06.2026|3 дня|/ps5/games/dredge|23
+Stellar Blade|PS5|45/45|3.84|50+|01.06.2026|16 дней|/ps5/games/project_eve|52
+Cronos: The New Dawn|PS5|2/48|4.31|25+|26.04.2026|—|/ps5/games/cronos_the_new_dawn|1
+Clair Obscur: Expedition 33|PS5|56/56|4.70|50+|25.04.2026|14 дней|/ps5/games/clair_obscur_expedition_33|68
+Silent Hill 2|PS5|44/44|3.72|25+|30.03.2026|8 дней|/ps5/games/silent_hill_2|29
+Ghost of Yōtei|PS5|56/85|3.29|50+|22.03.2026|19 дней|/ps5/games/ghost_of_yotei|43
+Subnautica: Below Zero|PS5|14/14|3.19|10+|15.02.2026|6 дней|/ps5/games/subnautica_below_zero|24
+Dishonored: Death of the Outsider|PS4|31/31|3.52|10+|08.02.2026|7 дней|/ps4/games/dishonored_death_of_the_outsider|20
+Dishonored 2|PS4|51/51|4.56|25+|29.01.2026|10 дней|/ps4/games/dishonored_2|54
+Pacific Drive|PS5|50/50|3.62|50+|17.01.2026|7 дней|/ps5/games/pacific_drive|37
+The Invincible|PS5|30/30|2.70|10+|10.01.2026|5 дней|/ps5/games/the_invincible|17
+Erica|PS4|34/34|2.85|10+|04.01.2026|18 часов|/ps4/games/erica|12
+Cat Quest III|PS5|31/31|2.85|10+|03.01.2026|23 часа|/ps5/games/cat_quest_iii|12
+Assassin's Creed Mirage|PS5|62/62|3.23|25+|02.01.2026|12 дней|/ps5/games/assassins_creed_mirage|50
+The Dark Pictures Anthology: House of Ashes|PS5|31/31|3.56|25+|20.12.2025|419 дней|/ps5/games/the_dark_pictures_anthology_house_of_ashes|33
+Call of Cthulhu|PS4|50/50|3.33|10+|07.12.2025|1 день|/ps4/games/call_of_cthulhu_the_official_video_game|13
+As Dusk Falls|PS5|51/51|2.60|10+|06.12.2025|4 дня|/ps5/games/as_dusk_falls|13
+Under The Waves|PS5|38/38|2.82|10+|30.11.2025|1 день|/ps5/games/under_the_waves|11
+Syberia: The World Before|PS5|31/31|2.96|10+|28.11.2025|1 день|/ps5/games/syberia_the_world_before|13
+Still Wakes the Deep|PS5|60/60|2.87|10+|27.11.2025|23 часа|/ps5/games/still_wakes_the_deep|9
+INDIKA|PS5|17/17|—|—|25.11.2025|5 часов|/ps5/games/indika|5
+Thank Goodness You're Here!|PS5|33/33|2.56|0+|24.11.2025|2 часа|/ps5/games/thank_goodness_youre_here_voskl|2
+Alan Wake II|PS5|89/89|3.50|25+|24.11.2025|7 дней|/ps5/games/alan_wake_ii|37
+Assassin's Creed IV: Black Flag|PS4|50/61|4.43|50+|16.11.2025|—|/ps4/games/assassins_creed_iv_black_flag|62
+Dragon's Dogma II|PS5|55/61|4.50|100+|14.11.2025|74 дня|/ps5/games/dragons_dogma_ii|83
+Assassin's Creed Syndicate|PS4|57/57|3.67|50+|31.08.2025|13 дней|/ps4/games/assassins_creed_victory|56
+Assassin's Creed Valhalla|PS5|93/93|3.82|100+|30.08.2025|134 дня|/ps5/games/assassins_creed_valhalla|227
+Assassin's Creed Odyssey|PS4|94/94|3.61|100+|31.03.2025|1061 день|/ps4/games/assassins_creed_odyssey|163
+Assassin's Creed Origins|PS4|68/68|3.64|75+|27.02.2025|12 дней|/ps4/games/assassins_creed_origins|94
+Assassin's Creed Rogue Remastered|PS4|47/47|3.67|25+|23.01.2025|11 дней|/ps4/games/assassins_creed_rogue_remastered|42
+Assassin's Creed Unity|PS4|55/58|4.28|50+|10.01.2025|—|/ps4/games/assassins_creed_unity|71
+Beholder Complete Edition|PS4|49/49|3.49|10+|30.12.2024|1186 дней|/ps4/games/beholder_complete_edition|28
+Banishers: Ghosts of New Eden|PS5|43/43|3.58|75+|29.12.2024|13 дней|/ps5/games/banishers_ghosts_of_new_eden|66
+Rise of the Ronin|PS5|51/51|3.62|50+|14.12.2024|7 дней|/ps5/games/rise_of_the_ronin|56
+Elden Ring|PS4|42/42|6.02|100+|06.12.2024|19 дней|/ps4/games/elden_ring|124
+God of War Ragnarok|PS5|48/48|4.25|50+|08.11.2024|27 дней|/ps5/games/god_of_war_ragnarok|64
+Remnant II|PS5|66/66|4.65|75+|24.10.2024|50 дней|/ps5/games/remnant_ii|99
+Marvel's Spider-Man 2|PS5|43/43|2.98|25+|20.09.2024|25 дней|/ps5/games/marvels_spider-man_2|26
+Cat Quest II|PS4|20/20|3.09|10+|17.08.2024|74 дня|/ps4/games/cat_quest_ii_the_lupus_empire|12
+Hardspace: Shipbreaker|PS5|28/28|2.79|25+|20.05.2024|15 дней|/ps5/games/hardspace_shipbreaker|54
+Fallout 4|PS4|85/85|4.43|100+|23.03.2024|69 дней|/ps4/games/fallout_4|173
+Cyberpunk 2077|PS5|58/58|3.78|100+|16.12.2023|24 дня|/ps5/games/cyberpunk_2077|250
+Alan Wake Remastered|PS5|65/68|4.23|25+|04.11.2023|—|/ps5/games/alan_wake_remastered|25
+FAR: Changing Tides|PS5|35/35|2.84|10+|04.11.2023|2 дня|/ps5/games/far_changing_tides|9
+FAR: Lone Sails|PS4|14/14|2.09|0+|03.11.2023|5 дней|/ps4/games/far_lone_sails|7
+Star Wars Jedi: Fallen Order|PS5|40/40|3.59|25+|06.10.2023|21 день|/ps5/games/star_wars_jedi_fallen_order|32
+Red Dead Redemption 2|PS4|27/52|6.20|350+|06.08.2023|—|/ps4/games/red_dead_redemption_2|379
+Hogwarts Legacy|PS5|46/46|3.60|50+|30.04.2023|28 дней|/ps5/games/hogwarts_legacy|70
+Horizon Forbidden West|PS5|80/80|3.46|50+|23.04.2023|74 дня|/ps5/games/horizon_forbidden_west|256
+A Plague Tale: Requiem|PS5|36/36|3.46|25+|31.03.2023|7 дней|/ps5/games/a_plague_tale_requiem|31
+The Medium|PS5|40/40|2.95|10+|19.03.2023|6 дней|/ps5/games/the_medium|16
+The Last of Us Part II|PS4|28/28|3.35|25+|12.03.2023|66 дней|/ps4/games/the_last_of_us_part_ii|64
+The Last of Us Part I|PS5|29/29|3.15|25+|01.01.2023|35 дней|/ps5/games/the_last_of_us_part_i|43
+Control: Ultimate Edition|PS5|68/68|3.81|25+|26.12.2022|15 дней|/ps5/games/control_ultimate_edition|38
+Bugsnax|PS5|31/31|3.15|10+|10.12.2022|6 дней|/ps5/games/bugsnax|22
+Stray|PS5|25/25|3.35|10+|23.11.2022|17 дней|/ps5/games/stray|15
+Marvel's Guardians of the Galaxy|PS5|59/59|3.28|25+|22.11.2022|3 дня|/ps5/games/marvels_guardians_of_the_galaxy|25
+Assassin's Creed Freedom Cry|PS4|12/12|2.96|10+|12.11.2022|6 дней|/ps4/games/assassins_creed_freedom_cry|7
+INSIDE|PS4|14/14|2.91|0+|29.10.2022|7 дней|/ps4/games/inside|5
+Ratchet & Clank: Rift Apart|PS5|47/47|2.84|10+|08.03.2022|2 дня|/ps5/games/ratchet_clank_rift_apart|26
+Marvel's Spider-Man: Miles Morales|PS5|50/50|2.97|10+|27.02.2022|3 дня|/ps5/games/marvels_spider-man_miles_morales|20
+Ghost of Tsushima: Director's Cut|PS5|67/77|3.30|50+|21.02.2022|6 дней|/ps5/games/ghost_of_tsushima|61
+The Council|PS4|44/44|2.81|10+|26.12.2021|16 дней|/ps4/games/the_council|26
+Spintires: MudRunner|PS4|59/63|3.88|25+|12.12.2021|—|/ps4/games/spintires_mudrunner|34
+The Wolf Among Us|PS4|36/36|1.97|10+|09.12.2021|7 дней|/ps4/games/the_wolf_among_us|10
+Batman - The Telltale Series|PS4|31/31|1.74|10+|30.11.2021|13 дней|/ps4/games/batman_-_the_telltale_series|11
+Murdered: Soul Suspect|PS4|49/49|2.73|10+|15.11.2021|1 день|/ps4/games/murdered_soul_suspect|9
+Assassin's Creed Liberation Remastered|PS4|31/31|3.12|25+|30.08.2021|7 дней|/ps4/games/assassins_creed_liberation_remastered|87
+Assassin's Creed III Remastered|PS4|55/55|4.57|75+|22.08.2021|23 дня|/ps4/games/assassins_creed_iii_remastered|
+Life is Strange 2|PS4|47/47|2.60|10+|27.07.2021|45 дней|/ps4/games/life_is_strange_2|16
+Life is Strange: Before the Storm|PS4|35/35|2.00|10+|12.06.2021|6 дней|/ps4/games/life_is_strange_before_the_storm|9
+Life is Strange|PS4|61/61|2.63|10+|05.06.2021|4 дня|/ps4/games/life_is_strange|14
+Oceanhorn: Monster of Uncharted Seas|PS4|37/37|3.41|10+|30.05.2021|8 дней|/ps4/games/oceanhorn_monster_of_uncharted_seas|16
+Mortal Kombat 11|PS4|59/59|4.38|25+|22.05.2021|109 дней|/ps4/games/mortal_kombat_11|50
+This War of Mine: The Little Ones|PS4|29/29|3.69|10+|21.05.2021|10 дней|/ps4/games/this_war_of_mine_the_little_ones|23
+Abzu|PS4|12/12|2.29|0+|04.05.2021|1 день|/ps4/games/abzu|2
+Subnautica|PS4|18/18|3.05|25+|02.05.2021|15 дней|/ps4/games/subnautica|38
+Sniper: Ghost Warrior 3|PS4|48/48|3.67|25+|16.04.2021|23 дня|/ps4/games/sniper_ghost_warrior_3|41
+Ratchet & Clank|PS4|47/47|3.54|25+|13.03.2021|10 дней|/ps4/games/ratchet_clank|30
+A Plague Tale: Innocence|PS4|36/36|3.26|10+|28.02.2021|1 день|/ps4/games/a_plague_tale_innocence|17
+Detroit: Become Human|PS4|49/49|3.22|25+|24.02.2021|6 дней|/ps4/games/detroit_become_human|24
+Until Dawn|PS4|19/19|3.20|10+|18.02.2021|3 дня|/ps4/games/until_dawn|20
+Pity Pit|PS4|19/19|1.17|0+|17.02.2021|20 минут|/ps4/games/pity_pit|0.3
+Cat Quest|PS4|23/23|2.78|10+|13.02.2021|10 часов|/ps4/games/cat_quest|10
+Horizon Zero Dawn|PS4|79/79|3.63|50+|31.01.2021|47 дней|/ps4/games/horizon_zero_dawn|128
+Uncharted 4: A Thief's End|PS4|59/68|4.72|25+|19.12.2020|246 дней|/ps4/games/uncharted_4|34
+God of War|PS4|37/37|4.62|50+|08.11.2020|155 дней|/ps4/games/god_of_war_new|46
+Heavy Rain|PS4|57/57|3.58|25+|06.06.2020|6 дней|/ps4/games/heavy_rain|23
+Marvel's Spider-Man|PS4|74/74|3.39|25+|30.05.2020|8 дней|/ps4/games/marvels_spider-man|46
+Death Stranding|PS4|63/63|3.82|100+|15.04.2020|21 день|/ps4/games/death_stranding|101
+# Launched without trophies: Grand Theft Auto V, SpongeBob SquarePants: The Cosmic Shake, Dead Cells, Hello Neighbor, The Witness, We Were Here, Ghost of Tsushima (PS4, 1 min)
+# Profile totals: 99 games, 89 at 100%, overall completion 96%, 4694 hours, trophies: 88 plat / 351 gold / 939 silver / 3059 bronze = 4437
