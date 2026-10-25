@@ -1,4 +1,259 @@
 {
+ "/ps4/games/ace_combat_7": {
+  "base": [
+   {
+    "name": "SKIES UNKNOWN / SKIES UNKNOWN",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "ACE OF ACES / ACE OF ACES",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The Highest Achiever / Самый круглый отличник",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "What A Wonderful World / Дивный новый мир",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Hardened Vet / Заслуженный ветеран",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Even Higher Achiever / Круглый отличник",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Bird Of Prey / Хищная птица",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "All For One / Все за одного",
+    "grade": "silver",
+    "online": true
+   },
+   {
+    "name": "Thirsty For Blood / Жажда крови",
+    "grade": "silver",
+    "online": true
+   },
+   {
+    "name": "Amazing Job / Потрясающе!",
+    "grade": "silver",
+    "online": true
+   },
+   {
+    "name": "Need A Bigger Bank Account / Нужен новый банковский счет",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "MRP Aplenty / Много ОР",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Fighter Fanatic / Фанатик истребителей",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Patron Of The Parts / Умелый механик",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "First Flight / Первый полет",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Spreading Your Wings / Расправив крылья",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Looming Shadow / Зловещая тень",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Outlaw / Разбойник",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Going Down / Крутое пике",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Just A Pawn / Просто пешка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "A Chance Encounter / Случайная встреча",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Painting The Scenery / Клочки по закоулочкам",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Distortion / Деформация",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Heading Places / Большое будущее",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Resurgence / Возрождение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Stonehenge Back On Track / Стоунхендж снова в деле",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Search And Destroy / Найти и уничтожить",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Tearing Through The Dark / Рывок в темноте",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Silence / Молчание",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Jumping At Shadows / Прыжок за тенью",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Cutting The Cord / Перерезанный провод",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Let's Settle This / Покончим с этим",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Giant Slayer / Убийца великанов",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Reaching New Heights / К новым высотам",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "High Achiever / Отличник",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "There And Back Again / Туда и обратно",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Frequent Flyer / Эй, залетные!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Aircraft Annihilator / Смерть самолетам",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "All Aces / Добро пожаловать в Асы!",
+    "grade": "bronze",
+    "online": true
+   },
+   {
+    "name": "Globetrotter / По всему свету",
+    "grade": "bronze",
+    "online": true
+   },
+   {
+    "name": "Best Of Both Worlds / Журавль в небе",
+    "grade": "bronze",
+    "online": true
+   },
+   {
+    "name": "Together We Fly / Летаем вместе",
+    "grade": "bronze",
+    "online": true
+   },
+   {
+    "name": "Last One Flying / Последний из могикан",
+    "grade": "bronze",
+    "online": true
+   },
+   {
+    "name": "Go Team Go / Вместе мы – сила!",
+    "grade": "bronze",
+    "online": true
+   },
+   {
+    "name": "Going It Alone / Одинокий волк",
+    "grade": "bronze",
+    "online": true
+   },
+   {
+    "name": "Great Job / Отлично сработано!",
+    "grade": "bronze",
+    "online": true
+   },
+   {
+    "name": "Need A Bigger Wallet / Нужен новый бумажник",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Craft Collector / Коллекционер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Budding Buyer / Потенциальный покупатель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Regular Customer / Частый посетитель",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
  "/ps4/games/assassins_creed_iv_black_flag": {
   "base": [
    {
@@ -5168,6 +5423,291 @@
    },
    {
     "name": "Always have an exit plan / Запасной план",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/ace_combat_8_wings_of_theve": {
+  "base": [
+   {
+    "name": "Wings of Theve / Wings of Theve",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Ace of Aces / Ас из асов",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "A Record of Rivalry / Записи соперничества",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Promised Land / Земля обетованная",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Ace / Настоящий ас",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Meritorious Service / Особые заслуги",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "MRP Aplenty / ОР в избытке",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Patron of the Parts / Умелый механик",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Inherited Dog Tags / Унаследованные жетоны",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Expulsion / Исключение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "World Left Behind / Брошенный мир",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Birth of an Ace / Рождение аса",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Relentless / Неудержимый",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "From the Brink / На грани",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Fireworks / Фейерверки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Cutting Supply Lines / Линии снабжения",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Retaking the Capital / Штурм столицы",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Securing the North / Битва за север",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Rainband Breakthrough / Сквозь «Полосу дождя»",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Downing Giants / Падение гигантов",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Suspicion / Подозрения",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Split Second / Доля секунды",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Vanishing Act / Исчезновение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Downing a Dragon / Убить дракона",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Watching Eye / Бдительное око",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Armor Penetration / Пробитие брони",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Sudden Dive / Внезапный нырок",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Light / Свет",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Courier / Курьер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "On Cloud Nine / На седьмом небе",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Good News from Space / Новости из космоса",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The End in the East / Конец на востоке",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Securing a Beachhead / Место высадки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Freeing Usea / Освобождение Усеи",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Nightmare / Кошмар",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Troop Rallier / Вдохновитель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Wings Upon Wings / Крылья на крыльях",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Anemone / Анемона",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Real Wings / Настоящие крылья",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "By the Book / По учебнику",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Yes, Sir! / Так точно, сэр!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Aircraft Annihilator / Гроза авиации",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Need A Bigger Bank / Нужен новый банковский счет",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "All Weapons Free / Оружие на усмотрение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Bolstered Forces / Подкрепления",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Fully Kitted Out / Полный набор",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Budding Buyer / Потенциальный покупатель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Regular Customer / Постоянный клиент",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Air-to-Air Ace / Мастер воздушного боя",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Anti-Ground Ace / Мастер авиаударов",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Like the Wind / Как ветер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Birds of a Feather / Птицы одного полета",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Aircraft Inspection / Осмотр самолета",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Birdwatching / Наблюдение за птицами",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Plane Coordinator / Координатор",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Welcome to Boot Camp / Добро пожаловать",
     "grade": "bronze",
     "online": false
    }
@@ -12913,6 +13453,241 @@
   ],
   "dlcs": []
  },
+ "/ps5/games/farming_simulator_25": {
+  "base": [
+   {
+    "name": "Farming is in our nature / Фермерство у нас в крови",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Vehicle fleet / Транспортный парк",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "It's never too late to farm / Никогда не поздно заняться фермерством",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The plot thickens / Пожирнее и погуще",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "You are not a kangaroo / Ты не кенгуру",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Thoroughbred! / Чистокровка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Helper A does not stop … ever / Помощник А никогда не прекращает работу",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "It's sow easy / Сеять несложно",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Large-scale supplier / Крупный поставщик",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Fix me up / Почини меня",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Cowherd / Стадо коров",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Highly cultivated / Высокая культивация",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Gone but not for cotton / Хлопковые тюки",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "You wood not believe it / Под самый корешок",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Hard work pays off / Тяжкий труд вознаграждается",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Rusty / Расти",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Over 9000! / Более 9000!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Tutti-Frutti / Тутти-Фрутти",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Road Trip / Поездка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Plant get enough / Подкормим растения",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Allez hopp / Але-оп!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Giddy-up! / Но!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Help me to help you / Помоги мне помочь тебе",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "It's just the beginning / Это лишь начало",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Just a sprinkle / Чуть посыплем",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Own use / Для себя",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Field Trip / Поездка в поле",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Long haul / Дальнобойщик",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "van Gogh / Ван Гог",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "It just fell off / Само отвалилось",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Fluffiness / Пушистики",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Three little piggies… / Три поросёнка...",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Clucky Streak / Ко-ко-ко!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Bringing in the Honey / Медосбор",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "I like to switch it up / Повышаем передачу",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "This is just my weekend vehicle / Это лишь машина для выходных",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "I read Shakespeare and stuff / Я читаю Шекспира и всё такое",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Ultimutt Pawesomeness / Куда ж без них?",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "That's a wrap / Сворачиваемся",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Raisin the stakes / Всем изюма",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Olea europaea / Европейская олива",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Original grain / Оригинальное зерно",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Rock on / Катящиеся камни",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "I'm stumped / Вот пень!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "All out of Land / Земля кончилась",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Well-Oiled Machine / Хорошо смазанная машина",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
  "/ps5/games/final_fantasy_xvi": {
   "base": [
    {
@@ -14486,6 +15261,216 @@
     ]
    }
   ]
+ },
+ "/ps5/games/gothic": {
+  "base": [
+   {
+    "name": "Colonyholic / Колониальная зависимость",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "The Sleeper is with you / Тебя направляет Спящий",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "No time to die / Умирать некогда",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Sect-ary / Раскольник",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Focus Maniac / Коллекционер юниторов",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "My new friend the Necromancer / Мой новый друг — некромант",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Orc Culture Ninja / Знаток орочьей культуры",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Sleeper awakens...Not! / Спящий (не) пробудится!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Gomez' Paperboy / Посыльный Гомеза",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Lowlife / Негодяй",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Cult Loon / Полоумный сектант",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Adept of Arms / Мастер ближнего боя",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "String Wielder / Лучший стрелок",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Abracadabra / Высшая магия",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Pimp my armor / Доспехи на прокачку",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Foreign Language Master / Знаток чужого языка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Fixer / Решала",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Anatomaniac / Зверский анатом",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "True Stranger / Полный незнакомец",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Mud Freak / Фанат Мада",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Mercy Over Madness / Милосердие побеждает безумие",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Overachiever / Дополнительные занятия",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Insomnia Champion / Бессонница",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Way of the Guild / Путь к успеху",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Map Sniffer / Собиратель карт",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "No gate can stop you / Ворота — не преграда",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "In bed with Xardas / В гостях у Ксардаса",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Armor-geddon / Броненосец",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The way of the fist / Путь кулака",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Transformer / Трансформер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Garrett / Гарретт",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Master Garrett / Вор-профессионал Гарретт",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Crafting Newbie / Ремесленник",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Anvil Enthusiast / Кузнец-любитель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Alkimist / Алхимик",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Scribbler / Составитель свитков",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Bookworm / Книжный червь",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Elemental Showoff / Маг-выпендрёжник",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Gravity Kills / Гравитация бессердечна",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Deflecto / Отражение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Headshot Houdini / Поголовное истребление",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
  },
  "/ps5/games/greedfall_2_the_dying_world": {
   "base": [
@@ -18748,6 +19733,317 @@
    }
   ]
  },
+ "/ps5/games/little_nightmares_enhanced_edition": {
+  "base": [
+   {
+    "name": "Hard to the Core / Внутренний стержень",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Kitchen Hand / Поваренок",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Six's Song / Песня Шестой",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Little Lost Things / Заблудившиеся маленькие создания",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Highly Sprung / Сжатая пружина",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Rascal / Хулиганка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Light Up Your Life / Озарение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Prison / Тюрьма",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Lair / Логово",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Kitchen / Кухня",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Guest Area / Гостиная",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Lady's Quarters / Комнаты Хозяйки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Elusive / Игра в прятки",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": [
+   {
+    "name": "Глубины",
+    "trophies": [
+     {
+      "name": "Not Alone / Ты не один",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "Fun and Games Ahead / Веселья с головой хватит",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "So Close / Еще бы чуть-чуть",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Убежище",
+    "trophies": [
+     {
+      "name": "Ashes in The Maw / Пепел в Чреве",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "Is Anybody Out There / Есть там кто-нибудь?",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "End In Sight / Конец близок",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Квартира",
+    "trophies": [
+     {
+      "name": "Ashes to Ashes / Прах к праху",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "I'm Losing You / Я теряю тебя",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "We'll Meet Again / Мы еще встретимся",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   }
+  ]
+ },
+ "/ps5/games/little_nightmares_ii": {
+  "base": [
+   {
+    "name": "Primetime Content Consumer / Потребитель контента в прайм-тайм",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Signal interruption / Прерывание сигнала",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "No More Remains / Больше никого не осталось",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Far Ahead / Далеко впереди",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Foraged / Разорение",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Schooled / Вышколенность",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Hospitalised / Госпитализация",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Paled / Побледнение",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Evasive prey / Неуловимая добыча",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "In The Palm Of My Hand / В моей ладони",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Popcorn / Попкорн",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Objection / Возражение",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Sick Kids / Больные дети",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Post Industrial / Индустриальная почта",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Unladylike / Недостойно леди",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Pale Kids / Бледные дети",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Bully of Bullies / Задира из Задир",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "School Kids / Дети в школе",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Wild Kids / Дикие дети",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Half hat / Половина шляпы",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "How Do I Look? / Как я выгляжу?",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Toys Are For Kids / Игрушки — это для детей",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Hunger / Голод",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "X Best Friends / Лучи дружбы",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "...And Stay Dead! / ...И оставайся мертвым!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "First do no harm / Не причини вреда",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Referee! / Судья!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Mono Tones / Моно-тонное",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Fly Free / Летай свободно",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "True Colours / Истинные цвета",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Fair Prey / Честная добыча",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Twenty-Six / Двадцать Шестая",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Medicine ball / Медицинский мяч",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "What's in the box?! / Что внутри?!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Merciful feat / Милосердный подвиг",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
  "/ps5/games/little_nightmares_iii": {
   "base": [
    {
@@ -21467,6 +22763,456 @@
   ],
   "dlcs": []
  },
+ "/ps5/games/mortal_shell_ii": {
+  "base": [
+   {
+    "name": "No Lifer",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "This is Not an Achievement",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Bring My Ova Back to Me",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Heavy Metal",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Stoned",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Decked Out",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Over 9000",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Sat Nav",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Seeking the Past",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Shell Seeker",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Guns. Lots of Guns",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Lord of War",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "You're More Than a Weapon",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Mid Summer?",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Home at Last",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Haunting Times",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Deep Cuts",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Big Boi",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Just the Tip",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Like Clockwork",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Stop - Hammer Time",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Dual Wielding",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Cut You Down to Size",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Spiked",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Old Painless",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Beautiful Baby",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Speared",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Chop Chop",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Old School",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Ultimate Karen",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Meat's Back on the Menu, Boys!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Headcase",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Nightmare Fuel",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Something in the deep...",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Praise him!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "It burnssssssssss",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Giga Chad",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Lost Your Head",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "It's over now?",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Sester",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Forever Alone?",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Down with the Thickness",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Vengeance is Mine",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Alchemist",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Arrival",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "My Brether",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Heartless",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Peter's Perfect Parry",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Feed Me",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "So Fresh, So Clean",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "No, You Still Can't Win",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Ascension",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Bag Holder",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/mouse_pi_for_hire": {
+  "base": [
+   {
+    "name": "The Platinum Falcon / Платиновый сокол",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "We’ll B.A.N.G., ok? / Б.У.М.Ц. – и точка!",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Everybody Loves Rayguns / Все любят лазерные пушки",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Tip of the Cheeseberg / Верхушка сырберга",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Smoked Cheese and Mirrors / Дым в зеркалах",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Tricks of the Trade / На все лапы мастер",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Boom Town / Полный тыдыщ",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "S’all in the Cards / Карточки – наше всё",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "So, Whodunit? / Ну, и кто виноват?",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Burdens of Blue Betty / Бремя Бедной Бетти",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Extra! Extra! / Экстренный выпуск!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Firestarter / Поджигатель",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Misfortunes of the Missing Magician / Приключения Пропавшего Престидижитатора",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Real Deal Gumshoe / Ищейка без страха и упрека",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Prequel / Предыстория",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Quint’s Delight / Не твое – не трогай",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Secrets of the Shrew Shortage / Загадка Запропавших Землероек",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Our Lesser Brothers / Наши братья меньшие",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "M-m-muenster Kill! / М-м-мюнстерский бой!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Spike-D 16 TONS / Бремя лидера",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Tinsel Boulevard / Люрекс-бульвар",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Hole-y Trinity / Одним махом",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Guns, Lots of Guns / Пушки, много пушек",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Babe Got Bat / Битая бита",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Herr Flick of the Wrist / Прямо в яблочко",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Comic Relief / Смех сквозь слезы",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Dime Novel Sleuth / Грошовый детектив",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "This is My Boomstick! / Моя ты пукалка!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Goud’em! / Вам всем – сырец!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Cover to Cover / От корки до корки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Extremely Graphic Novel / Комично – аж жуть",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Paper Person / Газетчик",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Pocket Aces / Туз в рукаве",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Starter Deck / Колода для начинающих",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Card Shark / Карточная акула",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
  "/ps5/games/ninja_gaiden_4": {
   "base": [
    {
@@ -21736,6 +23482,157 @@
      },
      {
       "name": "Conqueror of the Abyss / Покоритель бездны",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   }
+  ]
+ },
+ "/ps5/games/no_mans_sky": {
+  "base": [
+   {
+    "name": "Total Perspective Vortex / Проекционная воронка",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Galapagos / Галапагос",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "A Space Odyssey / Космическая одиссея",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The Diamond Age / Алмазный век",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Citizen of the Galaxy / Гражданин Галактики",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "What Mad Universe / Что за безумная Вселенная",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The Forever War / Бесконечная война",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The Sentinel / Страж",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Have Spacesuit - Will Travel / Имею скафандр — могу путешествовать",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The Star Beast / Звездный зверь",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Longest Voyage / Самое долгое путешествие",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Space Merchants / Космические торговцы",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Languages of Pao / Языки Пао",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Who Goes There? / Кто идет?",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Pattern for Conquest / Образец для завоевателя",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Stranger in a Strange Land / Чужак на чужой земле",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Symphony For A Lost Traveler / Симфония пропавшего странника",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "A Scanner Darkly / Помутнение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Stars, Like Dust / Звезды как пыль",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Foundation / Фонд",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Babel-17 / Вавилон-17",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Contact / Контакт",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Use of Weapons / Выбор оружия",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": [
+   {
+    "name": "Обновление «Землепроходец»",
+    "trophies": [
+     {
+      "name": "To Live Forever / Жить вечно",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Cradle / Колыбель",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Navigators / Штурманы",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Reunion / Воссоединение",
+      "grade": "bronze",
+      "online": true
+     },
+     {
+      "name": "Take a Deep Breath / Дышите глубже",
       "grade": "bronze",
       "online": false
      }
@@ -23339,6 +25236,573 @@
     "trophies": [
      {
       "name": "Chasing Jill / В погоне за Джилл",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   }
+  ]
+ },
+ "/ps5/games/resident_evil_4_remake": {
+  "base": [
+   {
+    "name": "Cuz Boredom Kills Me / Мне было скучно",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "You're Small Time! / Ты ничтожество!",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "S+ Rank Investigator / Эксперт категории S+",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Peerless Agent / Непревзойдённый агент",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Real Deadeye / Легенда стрельбища",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Grilled Big Cheese / Большая шишка по-деревенски",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "No Thanks, Bro! / Мальчик-с-пальчик",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Jack of All Trades / Мастер на все руки",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Revolution Wind-up / Заводная революция",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Mission Accomplished S+ / Задание выполнено: S+",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Proficient Agent / Опытный агент",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Sprinter / Спринтер",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Frugalist / Бережливый",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Minimalist / Минималист",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Silent Stranger / Молчаливый чужак",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Knife Basics / Основы владения ножом",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "My Preferred Piece / Моё любимое оружие",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "A Masterpiece / Шедевр",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Nice One, Stranger! / Молодец, чужак!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Talk About Near-Death Experience! / Под защитой",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Revolt Against the Revolting / Акт неповиновения",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Harpoon Hurler / Рыбалка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Wave Goodbye, Right Hand / Последнее дело ищейки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "You Used to Be a Good Guy / А ведь ты был хорошим парнем",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Shield Your Eyes / Прикрой глаза",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Never Heard It Coming / Не вижу проблемы",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Two Bugs, One Stone / Двух гадов одним выстрелом",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "You Talk Too Much! / Ты много болтаешь!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Overkill / Перебор",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Hope You Like Thrill Rides! / Ты любишь экстрим?",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Capacity Compliance / Этот лифт занят",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Smooth Escape / Безупречный побег",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Astute Appraiser / Смышлёный ювелир",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Bandit / Разбойник",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Raider / Грабитель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Burglar / Расхититель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Gun Fanatic / Фанат оружия",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Promising Agent / Перспективный агент",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Amateur Shooter / Стрелок-любитель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Trick Shot / Удачный выстрел",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": [
+   {
+    "name": "Separate Ways",
+    "trophies": [
+     {
+      "name": "Ada the «S+»py / На пять S плюсом",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "The Perfect Mission / Идеальная операция",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Giant Slayer / Убийца гигантов",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "«It» Kept You Busy / Назойливая тварь",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Had Enough of Preachers / Хватит нравоучений",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Capable Operative / Способный оперативник",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Skilled Agent / Умелый агент",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   }
+  ]
+ },
+ "/ps5/games/resident_evil_7": {
+  "base": [
+   {
+    "name": "Biosplattered / Биоматериалы вдребезги",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Just Get Me Outta Here / Вытащите меня отсюда",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Resource Manager / Опытный управленец",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Walk it Off / Само пройдет",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "End of the Night / Конец ночи",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Just A Memory Now / Осталось лишь воспоминание",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Who's Your Daddy Now? / И кто теперь тут главный?",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Back Off, Mrs. B! / А ну, отвали, миссис Бейкер!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Duck If You Love Life / Пригнись, коли жизнь дорога",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Less is More / Когда меньше — больше",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Fly Swatter / Мухобойка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Out Before Dessert / Не стану ждать десерт",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Pelicans in Your Pocket / Пеликаны в кармане",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Mad Pelicans / Бешеные пеликаны",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Devil Is in the Details / Дьявол кроется в деталях",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Mr. Nowhere / Мистер Нигде",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "She's Alive / Она жива",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Welcome to the Family, Son / Сынок, добро пожаловать в семью",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "You Ain't Gettin' Away / Врешь, не уйдешь",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Grave Will Out the Truth / Лишь могила твоя поведает правду",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "You Better Start Running / Беги, если жить хочешь",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Into the Depths / В морскую глубину",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Playing it Safe / Я действую наверняка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Nightmare's Finally Over / Кошмар наконец-то закончился",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Behind Closed Doors / За закрытыми дверьми",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Arms in the Air / Высоко поднятые руки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "A-ha! / Ага!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Master of Unlocking / Мастер отпирать замки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Nice Try / Неплохая попытка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Open Your Eyes / Открой глаза",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "In the Bag / Есть мешок",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Things Got Personal / Личные вещи",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Slash Slash, Slashity Slash! / Вжик, вжик — уноси готовенького!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "That's a Spicy Meat-a-ball / Тефтелька с перцем",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "1st Place at the Science Fair / Первый химик на деревне",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Can't Catch Me / А вот и не поймаешь",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Be Kind, Please Rewind / Перемотайте видеокассету",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "He's Here, There, Everywhere! / Он здесь, там и везде!",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": [
+   {
+    "name": "Вырезанные материалы, часть 1",
+    "trophies": [
+     {
+      "name": "Ethan Never Dies / Итан никогда не умрет",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "Sleepless in Dulvey / Неспящие в Далви",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Ratcatcher / Крысолов",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Dead by Dawn? / Не дожить до рассвета",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Like Mama Used to Make / Так делала мама",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Вырезанные материалы, часть 2",
+    "trophies": [
+     {
+      "name": "You Gotta Know When To Hold 'Em / Знай, когда придержать",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "One Instinct: Survival / Один инстинкт — выживание",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Best Birthday Ever / Лучший день рождения",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Eye in the Sky / Глаз в небе",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Card Shark / Опытный игрок",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Butterfly Effect / Эффект бабочки",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Don't Keep the Man Waiting / Не заставляйте ждать",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Miracle Chef / Повар-чудотворец",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Гибель Зои",
+    "trophies": [
+     {
+      "name": "King of the Swamp / Болотный король",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "The Only Guns You Need / Голыми руками",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Promise Kept / Сдержать слово",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Fastest Man in the Swamp / Самый быстрый на болоте",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Queensberry Rules / Честный бокс",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Swamp Warfare / Болотный камуфляж",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Не герой",
+    "trophies": [
+     {
+      "name": "You're the Hero Now / Теперь вы герой",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Mission Accomplished / Задание выполнено",
       "grade": "bronze",
       "online": false
      }
@@ -26779,6 +29243,442 @@
   ],
   "dlcs": []
  },
+ "/ps5/games/starfield": {
+  "base": [
+   {
+    "name": "Platinum Trophy",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Reach for the Stars",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "One Giant Leap",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "A Legacy Forged",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Hammer Falls",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Executive Level",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Legacy's End",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Fixer",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Cyber Jockey",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Soldier of Fortune",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Replicator",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Space Opera",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "For All, Into the Starfield",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "One Small Step",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Into the Unknown",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "All That Money Can Buy",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Further Into the Unknown",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "High Price to Pay",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "In Their Footsteps",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Entangled",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Unearthed",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Supra Et Ultra",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Devils You Know",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Deputized",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Surgical Strike",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Back to the Grind",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Guilty Parties",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Rook Meets King",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Best There Is",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Home Sweet Home",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Shipping Magnate",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Industrialist",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Chief Engineer",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Stellar Cartography",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Stars My Destination",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Boots on the Ground",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Privateer",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Life Begets Life",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Rock Collection",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Jacked In",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Family You Choose",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Starcrossed",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "War of Angels",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Fleet Commander",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Thirst for Knowledge",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Dark Matter",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Another Bug Hunt",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "I Use Them For Smuggling",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Dust Off",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Traveler",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Elite",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": [
+   {
+    "name": "Shattered Space",
+    "trophies": [
+     {
+      "name": "What Remains",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "The Promised, Broken",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Zealous Overreach",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Conflict in Conviction",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Exhuming the Past",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "The Other Side",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "The Scaled Citadel",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "The Great Unknown",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Facing Your Fears",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Redemption Arc",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Five of a Kind",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Savior of the Promised",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Terran Armada",
+    "trophies": [
+     {
+      "name": "Lost Luxury",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Into the VOID",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Battle of the Unifier",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "This for That",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Greater Than",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Less Than",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Incursion Fighter",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Incursion Exterminator",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Incursion Eliminator",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Overclocked",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Free Lanes",
+    "trophies": [
+     {
+      "name": "Half the Battle",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Fully Equipped",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Top Tier",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Just Like Grandma Used to Make",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "They’re Not Toys!",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Contract Killer",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Stay of Execution",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Master of Magnetism",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Riddle Management",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Quantum Hoarder",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   }
+  ]
+ },
  "/ps5/games/steelrising": {
   "base": [
    {
@@ -27491,6 +30391,372 @@
   ],
   "dlcs": []
  },
+ "/ps5/games/terminator_2d_no_fate": {
+  "base": [
+   {
+    "name": "TERMINATOR 2D: NO FATE / TERMINATOR 2D: NO FATE",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "100 CHAIN / КОМБО 100",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "COMPLETE STORY HARD S / ЗАВЕРШИ ИСТОРИЮ: РАНГ S",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "SPEED DEMON / ДЕМОН СКОРОСТИ",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "STEALTH NINJA / НИНДЗЯ-НЕВИДИМКА",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "S RANK / РАНГ S",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "50 CHAIN / КОМБО 50",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "COMPLETE STORY VERY HARD / ЗАВЕРШИ ИСТОРИЮ: ОЧЕНЬ СЛОЖНО",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "KICK IN THE DOOR! / ВЫБЕЙ ДВЕРЬ!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "LASER FOCUS / ЛАЗЕРНЫЙ ПРИЦЕЛ",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "MAN'S BEST FRIEND / ЛУЧШИЙ ДРУГ ЧЕЛОВЕКА",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "STING LIKE A BEE / ЖАЛЬ, КАК ПЧЕЛА",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "SKYNET SECRET FINDER / РАЗГАДЧИК СЕКРЕТОВ СКАЙНЕТ",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "YOU'RE NOT THE BOSS OF ME / ТЫ МНЕ НЕ НАЧАЛЬНИК",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "GET SWOLE / НАКАЧАТЬ МЫШЦЫ",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "MOTHER OF THE FUTURE / МАТЬ БУДУЩЕГО",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "SPEEDRUNNER / СПИДРАНЕР",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "FIND ASSAULT RIFLES / НАЙДИ ШТУРМОВЫЕ ВИНТОВКИ",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "SPARE DYSON / СПАСТИ ДАЙСОНА",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "SARAH KILLS DYSON / САРА УБИВАЕТ ДАЙСОНА",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "TERMINATOR KILLS DYSON / ТЕРМИНAТОР УБИВАЕТ ДАЙСОНА",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "25 CHAIN / КОМБО 25",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "COMPLETE STORY HARD / ЗАВЕРШИ ИСТОРИЮ: СЛОЖНО",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "MASTER OF UNLOCKING / МАСТЕР ПО РАЗБЛОКИРОВКЕ",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "A CRACKING GOOD TIME / САМОЕ ВРЕМЯ ПОХРУСТЕТЬ",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "WATCH THE PAINTJOB / НЕ ПОЦАРАПАЙ КУЗОВ",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "I'LL BE BACK / Я ВЕРНУСЬ",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "BAD TO THE BONE / ДЬЯВОЛ ВО ПЛОТИ",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "EASY MONEY / ЛЕГКИЕ ДЕНЬГИ",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "HUNTER-KILLER / ОХОТНИК-УБИЙЦА",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "PARKOUR!!! / ПАРКУР!!!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "NO PIPEBOMBS / НИКАКИХ САМОДЕЛЬНЫХ БОМБ",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "TERMINATOR / ТЕРМИНAТОР",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/terminator_resistance": {
+  "base": [
+   {
+    "name": "No problemo / No problemo",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Close call / На волосок от",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Contact / Контакт",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Coming Home / Путь домой",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The Tide Is Turning / Наступление цунами",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Fool Me Once... / И опыт, сын ошибок трудных...",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Second Generation / Железо обновленное",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "I'll be Back / Я вернусь",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Hasta la vista, baby / Аста ла виста, детка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Taste of Your Own Medicine / Ответная услуга",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Efficient Killer / Полезный инструмент",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Blackout / Полное затмение",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Still Counts as One / Один по цене двух",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Priority to Me! / Важно все!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Historian / Архивариус",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Infiltrated / Внедрен",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "It's a bird... / Отжигаем...",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Hacker / Хакер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Helping Hand / Помощь в поле",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Tinker / Жестянщик",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Turn Up the Radio / Маэстро",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Researcher / Папарацци",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Not a Mission Priority / Второстепенная цель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Easy Money / Легкие деньги",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Handyman / Мастер на все руки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Journalist / Журналист",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "No Hope / Безнадега",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Back to the past / Обратно в прошлое",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": [
+   {
+    "name": "Terminator: Resistance - Annihilation Line",
+    "trophies": [
+     {
+      "name": "The Fall of Rome /  Падение Рима",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Just a Bad Dream / Обычный ночной кошмар",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "This is My Place / Мое место тут",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Savior / Спаситель",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Make 'em Hurt / Бей, чтобы было больно",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Skin of your Teeth / Еле выживаем",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Planning Permit Denied / В разрешении на планирование отказано",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Quick on Your Feet /  Смекалка",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Won't Get Fooled Again / Больше на это не попадусь",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   }
+  ]
+ },
  "/ps5/games/the_alters": {
   "base": [
    {
@@ -28051,6 +31317,752 @@
    },
    {
     "name": "Smuggler",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/the_callisto_protocol": {
+  "base": [
+   {
+    "name": "It's over, Jacob! / Всё кончено, Джейкоб!",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "I Do Belong Here / Мне здесь самое место",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "You Need a Gun / Тебе нужна пушка",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The Protocol is About Life / Протокол — жизнь",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Grim Reaper / Мрачный жнец",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "The Commonality / Единство",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Two Heads Are Better Than One / Одна голова хорошо, а две — лучше",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "In Striking Distance / В пределах досягаемости",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Get a Grip / Возьми их в руки!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Terminated / Выведен из строя",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Paper Jams / Бумагу зажевало",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Reforged / Перековка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Giving Back / Отдача",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Float Like A Butterfly / Порхай, как бабочка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Flesh Wound / Просто царапина",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Chew 'Em Up / Жуй-жуй, глотай",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Workplace Hazard / Вредное производство",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Mugshot / Фото преступника",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Outer Way / Внешний рубеж",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Desperate Times / Отчаянные времена",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "If the SHU Fits... / Не отрезан от мира...",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Without A Paddle / Без руля и ветрил",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Crash Site / Место крушения",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "In the Pipe, Five by Five / В трубу, по пять за один раз",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Power Up / Включить питание",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "What Lies Beneath / Что скрывается под землей",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Full Circle / Круг замкнулся",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": [
+   {
+    "name": "New Game Plus",
+    "trophies": [
+     {
+      "name": "Parole Denied / В освобождении отказано",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Экстремальный Pежим",
+    "trophies": [
+     {
+      "name": "Recidivist / Рецидивист",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Lifer / Осужденный на пожизненное",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Armed to the Teeth / Вооружен до зубов",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Режим Заражения",
+    "trophies": [
+     {
+      "name": "Glutton for Punishment / Обожает помучиться",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "You Belong Here / Тебе здесь самое место",
+      "grade": "gold",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Режим Бунта",
+    "trophies": [
+     {
+      "name": "Big Game Hunter / Охотник на крупную дичь",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "Big Spender / Транжира",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "I am the Danger / Я — настоящая опасность",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Bear Trap / Капкан на медведя",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Hoard Mode / Режим экономии",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Subject Alpha / Альфа-пациент",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Instigator / Подстрекатель",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   },
+   {
+    "name": "Последняя передача",
+    "trophies": [
+     {
+      "name": "One Last Job / Последнее задание",
+      "grade": "gold",
+      "online": false
+     },
+     {
+      "name": "Information Overload / Избыток данных",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Quick Pick / Генератор комбинаций",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "This Isn't About Escape / Побег — не главное",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Keep Fighting / Не сдаваться!",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "It's Time / Пора",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Don't Let It Mellow / Нечего добру пропадать",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   }
+  ]
+ },
+ "/ps5/games/the_dark_pictures_-_man_of_medan": {
+  "base": [
+   {
+    "name": "Total Shocker! / Кто бы мог подумать!",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Learning to work together / Умение работать вместе",
+    "grade": "gold",
+    "online": true
+   },
+   {
+    "name": "Going it alone / Независимость",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Secrets! Lies! Conspiracies, man! / Секреты! Тайны! Заговоры!",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Ghost ships are just a myth, right? / Кораблей-призраков не бывает, верно?",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Not a sole survivor / Ни единого выжившего",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "That's something, I suppose / Чем не достижение",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Quite a lot of deaths that night / Той ночью было много смертей",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Possible futures / Возможное будущее",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Girls' night out / Девичник",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Right there with ya, boys / Я вас понимаю, парни",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Lovebirds / Влюблённые",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "You got a better way? / А ты знаешь, как лучше?",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Medium bro / Средний брат",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "For a dollar he told me his secrets / За доллар он раскрыл мне свои секреты",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Like that movie with the ship / Как в том фильме про корабль",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Karate Master / Мастер карате",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "As long as you're quick / Только давайте быстро",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Break 'em during the thunder / Ударим, когда прогремит гром",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Big man on campus / Круче всех",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Aye, aye captain / Есть, капитан!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Brother thing, you know / Он же мой брат",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Remember who's signing the checks / Помни, кто подписывает чеки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "If you're selling, I'm buying / Если ты не против, я тем более",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Go with your gut / Доверься чутью",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Consider all the permutations / Взвесь все за и против",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Yes! Yes, I’ll marry you! / Чёрт возьми, я за тебя выйду!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "A pint of frosty amber liquid / Кружечка ледяной янтарной жидкости",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Can't catch him with this old junker / На этой посудине нам его не поймать",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The name of this vessel / Название корабля",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "It's all gone changing on me / Опять всё переменилось!",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/the_dark_pictures_anthology_little_hope": {
+  "base": [
+   {
+    "name": "There Is Hope / Надежда есть",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Forgiveness / Прощение",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Full Circle / Круг замкнулся",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Secrets Too Dark / Самые тёмные секреты",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "A Complete Picture / Полная картина",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "That Dream is Your Enemy / Этот сон — твой враг",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Fate Worse Than Death / Участь хуже смерти",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Deathly Visions / Предчувствие смерти",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Glimmer of Hope / Луч надежды",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "No Escaping Fate / От судьбы не уйти",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Salvation / Спасение",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Odd Couple / Странная пара",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Solid As a Rock / Как за каменной стеной",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "All Together Now / А теперь все вместе",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Dirty Little Secrets / Грязные секретики",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "So Much Death / Так много смертей",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Coven of Witches / Шабаш ведьм",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Our Own Demons / Наши собственные демоны",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "On A Roll / В ударе",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Rational Mind / Рациональное мышление",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Amiable Character / Добродушный характер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Compassionate Soul / Милосердная душа",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Headstrong Heroine / Упрямая героиня",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Deeper Understanding / Глубокое понимание",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Instinctive Reaction / Непроизвольная реакция",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Considered Opinion / Взвешенное мнение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Unbroken / Несломленный",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Free Spirit / Вольный дух",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "We Are of Water / Мы вышли из воды",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Strength From Within / Внутренние силы",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Heavy Burden / Тяжкое бремя",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/the_dark_pictures_anthology_the_devil_in_me": {
+  "base": [
+   {
+    "name": "The Architect / Архитектор",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Hope You Enjoyed Your Stay / Надеемся, вам у нас понравилось",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Happy Ending / Хорошая концовка",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Crime Scene Photographer / Фотограф-криминалист",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Investigator / Следователь",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Unhappy Ending / Плохая концовка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Happier Ending / Лучшая концовка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Phoenix / Феникс",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Shattering Expectations / Разбитые планы",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "0451 / 0451",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Sparks / Искры",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Can You Pet The Dog? / А собаку можно погладить?",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Rekindled / Огонь разгорелся вновь",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Extinguished / Выдох",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Ignited / Вдох",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Shocking / Шок",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Say Cheese! / Сейчас вылетит птичка!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Man of Many Interests / Разносторонняя личность",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "I Like Money / Я люблю деньги",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Camera Shy / Не любитель фотографий",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Photogenic / Фотогеничность",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Collector / Коллекционер",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Murder Castle / Замок убийств",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Hark! / Сюда!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Guilty / Виновен",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Award Worthy / Достойно награды",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Cycle Continues / Цикл продолжается",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Lend Me A Hand? / Только руку протянуть",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Until Death Do Us Part 2 / Пока смерть не разлучит нас – 2",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Toasty / Будем здоровы!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Handy / Нужные вещи",
     "grade": "bronze",
     "online": false
    }
@@ -29433,6 +33445,151 @@
     ]
    }
   ]
+ },
+ "/ps5/games/unholy": {
+  "base": [
+   {
+    "name": "Platinum",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Greedier than Charon",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "No Mercy",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Fryer",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Mortal",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Roasted",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Overthrown",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Innocence",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Heresy",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Guilt",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Exodus",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Prophecy",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Duality Kills",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Blessing of the Omnipresent",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "We can be Heroes",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Role Reversal",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Ambush",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Father's daughter",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Moms will be moms",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "It doesn't work that way",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Genesis",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Homecoming",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Passage",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Purification",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Tyrant",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Killer",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Thunder",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Mothers Wrath",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
  },
  "/ps5/games/unicorn_overlord": {
   "base": [

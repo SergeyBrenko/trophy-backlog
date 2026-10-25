@@ -2650,7 +2650,7 @@
   "added": "2026-10-24",
   "avg_completion": 28,
   "avg_plat_hours": 188,
-  "cand_group": "По вашей просьбе",
+  "cand_group": "По твоей просьбе",
   "cons": [
    "Очень долгая платина: в среднем 188 ч",
    "Русской озвучки нет, только текст",
@@ -4280,6 +4280,323 @@
     "got": false
    }
   ]
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 1.6,
+  "est_100_hours": 136,
+  "dlc_count": 0,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": true,
+  "online_note": "11 трофеев сетевой игры (нужен PS Plus): по 50 матчей в «Командном поединке» и «Генеральном сражении», победы, все карты, 150 отметок эффективности; о закрытии серверов не сообщалось",
+  "online_trophies": [
+   {
+    "name": "All Aces / Добро пожаловать в Асы!",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сетевая игра: завершить первый бой",
+    "got": null
+   },
+   {
+    "name": "Globetrotter / По всему свету",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сетевая игра: вылеты на всех картах",
+    "got": null
+   },
+   {
+    "name": "Best Of Both Worlds / Журавль в небе",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сетевая игра: сыграть в «Командном поединке» и «Генеральном сражении»",
+    "got": null
+   },
+   {
+    "name": "Together We Fly / Летаем вместе",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сетевая игра: победа в «Командном поединке»",
+    "got": null
+   },
+   {
+    "name": "Last One Flying / Последний из могикан",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сетевая игра: первое место в «Генеральном сражении»",
+    "got": null
+   },
+   {
+    "name": "Go Team Go / Вместе мы – сила!",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сетевая игра: 20 вылетов в «Командном поединке»",
+    "got": null
+   },
+   {
+    "name": "Going It Alone / Одинокий волк",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сетевая игра: 20 матчей в «Генеральном сражении»",
+    "got": null
+   },
+   {
+    "name": "Great Job / Отлично сработано!",
+    "grade": "bronze",
+    "part": "Основная игра",
+    "note": "Сетевая игра: 50 отметок оценки эффективности",
+    "got": null
+   },
+   {
+    "name": "All For One / Все за одного",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "Сетевая игра: 50 вылетов в «Командном поединке»",
+    "got": null
+   },
+   {
+    "name": "Thirsty For Blood / Жажда крови",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "Сетевая игра: 50 матчей в «Генеральном сражении»",
+    "got": null
+   },
+   {
+    "name": "Amazing Job / Потрясающе!",
+    "grade": "silver",
+    "part": "Основная игра",
+    "note": "Сетевая игра: 150 отметок оценки эффективности",
+    "got": null
+   }
+  ],
+  "id": "ace_combat_7",
+  "title": "Ace Combat 7: Skies Unknown",
+  "platform": "PS4",
+  "release": "2019-01-18",
+  "genre": "Аркадный авиасимулятор",
+  "developer": "Bandai Namco (Project Aces)",
+  "stratege_url": "https://stratege.ru/ps4/games/ace_combat_7/trophies",
+  "trophies": {
+   "total": 50,
+   "base": 50,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 2,
+   "silver": 11,
+   "bronze": 36
+  },
+  "dlcs": [],
+  "diff_base": 6.21,
+  "dur_base": "75+",
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "avg_plat_hours": 136,
+  "owners": 5415,
+  "plat_count": 87,
+  "full_count": null,
+  "avg_completion": 12,
+  "critic": 80,
+  "critic_src": "Metacritic (PS4)",
+  "user_score": 7.9,
+  "quality": 8.0,
+  "quality_note": "Metacritic PS4 80, MC user 7.9 (Steam 89%); на stratege игру хвалят, платину называют душной из-за гринда",
+  "missables": "Нет — все задания доступны повторно",
+  "playthroughs": "Кампания на всех уровнях сложности + S-ранг на «Асе» во всех заданиях",
+  "difficulty_trophy": "Да — «Ace of Aces»: все задания на сложности «Ас» с рангом S; «Заслуженный ветеран» — все задания на всех сложностях",
+  "glitched": "Не найдено",
+  "ru": "subs",
+  "ru_loc": "Субтитры (озвучка английская и японская)",
+  "disc_note": "Только диск PS4; на PS5 по обратной совместимости (PS4-лист). Сюжетные DLC без трофеев",
+  "pros": [
+   "Зрелищные воздушные бои и сильный саундтрек",
+   "Задания-боссы и погода с облаками",
+   "Нет DLC-листов"
+  ],
+  "cons": [
+   "S-ранг на «Асе» во всех заданиях",
+   "Гринд 76 500 км и 40 млн ОР",
+   "11 онлайн-трофеев, по 50 матчей в двух режимах"
+  ],
+  "about": "Аркадный авиасимулятор от Bandai Namco и команды Project Aces — седьмая номерная часть серии, действие которой разворачивается в вымышленном мире Strangereal. Идёт война между Осеей и Эрузеей, где массово применяют боевые дроны и борются за космический лифт. Пилот с позывным Trigger попадает в штрафную эскадрилью и пробивается к званию аса. Двадцать сюжетных заданий: воздушные дуэли с вражескими асами, удары по наземным целям и битвы с гигантскими летающими крепостями; облака и погода влияют на бой.",
+  "trophy_summary": "Сложная платина (6.21 на stratege): «Ace of Aces» требует S-ранга во всех заданиях на сложности «Ас», плюс полное прохождение на всех уровнях сложности. Сверху долгий гринд: налетать 76 500 км и накопить 40 млн ОР, отсюда в среднем 136 ч. Ещё 11 онлайн-трофеев — по 50 матчей в двух сетевых режимах и победы.",
+  "why": "По твоей просьбе. Жанр новый для твоей коллекции, а платина выше комфортного порога (6.21): нужны скилл на «Асе» с S-рангами, долгий гринд налёта и денег и сетевая часть. Опыт таких платин у тебя уже есть: Resident Evil Village (6.30) и Elden Ring (6.02). Лист только PS4.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps4/games/ace_combat_7/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps4/games/ace_combat_7/difficulty"
+   },
+   {
+    "name": "Push Square (трофеи)",
+    "url": "https://www.pushsquare.com/news/2019/01/youll_rack_up_a_lot_of_air_miles_getting_all_the_trophies_in_ace_combat_7_on_ps4"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/ace-combat-7-skies-unknown/"
+   },
+   {
+    "name": "Steam",
+    "url": "https://store.steampowered.com/app/502500/"
+   },
+   {
+    "name": "PlayStation (языки)",
+    "url": "https://www.playstation.com/en-gb/games/ace-combat-7-skies-unknown/"
+   }
+  ],
+  "diff_base_votes": 24,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 2,
+     "s": 8,
+     "b": 28
+    },
+    "on": {
+     "s": 3,
+     "b": 8
+    }
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 0.9,
+  "est_100_hours": 81,
+  "dlc_count": 0,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "id": "ace_combat_8",
+  "title": "Ace Combat 8: Wings of Theve",
+  "platform": "PS5",
+  "release": "2026-10-02",
+  "genre": "Аркадный авиасимулятор",
+  "developer": "Bandai Namco (Project Aces)",
+  "stratege_url": "https://stratege.ru/ps5/games/ace_combat_8_wings_of_theve/trophies",
+  "trophies": {
+   "total": 56,
+   "base": 56,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 2,
+   "silver": 5,
+   "bronze": 48
+  },
+  "dlcs": [],
+  "diff_base": null,
+  "dur_base": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "avg_plat_hours": 81,
+  "owners": 231,
+  "plat_count": 2,
+  "full_count": null,
+  "avg_completion": 26,
+  "critic": 87,
+  "critic_src": "Metacritic (PS5)",
+  "user_score": 8.8,
+  "quality": 8.7,
+  "quality_note": "Metacritic PS5 87 (71 рецензия; OpenCritic 87, 99% рекомендуют), MC user 8.8 (Steam 86%); страницы сложности на stratege ещё нет",
+  "missables": "Нет — после кампании всё доступно в свободных заданиях",
+  "playthroughs": "2+: кампания на «Элите» (открывает «Летчика-аса») и все 30 заданий на «Летчике-асе» с рангом S",
+  "difficulty_trophy": "Да — «Ас из асов»: все задания на сложности «Летчик-ас» с рангом S",
+  "glitched": "Не найдено",
+  "ru": "subs",
+  "ru_loc": "Субтитры (озвучка английская и японская)",
+  "disc_note": "Диск PS5; платные самолёты и косметика без трофеев",
+  "pros": [
+   "Лучшие оценки в серии",
+   "Нет онлайн-трофеев и DLC-листов",
+   "Битвы с гигантским оружием и командование ведомыми"
+  ],
+  "cons": [
+   "S-ранг на высшей сложности во всех заданиях",
+   "Гринд 25 млн ОР",
+   "83 записи асов, часть — с особыми условиями"
+  ],
+  "about": "Восьмая номерная часть серии аркадных авиасимуляторов от Bandai Namco и Project Aces. Июль 2029 года: Республика Сотоа вторгается в Федерацию Центральной Усеи и захватывает её столицу Тев. Игрок командует эскадрильей «Джокер», которую подобрал из моря старый авианосец «Индьюранс», и ведёт её отвоёвывать столицу; сценарий написал Сунао Катабути. В кампании воздушные дуэли, удары по наземным целям и кораблям, бои с гигантскими машинами вроде 450-метрового сухопутного линкора, есть отдельный сетевой режим.",
+  "trophy_summary": "PowerPyx оценивает платину в 5/10, но основное испытание — «Ас из асов»: S-ранг во всех 30 заданиях на высшей сложности. Долго из-за 25 млн ОР (PowerPyx пишет о 150+ ч, на stratege пока 2 платины со средним временем 81 ч) и 83 записей асов, которые появляются только на «Ветеране» и выше. Онлайн-трофеев и пропускаемых нет.",
+  "why": "По твоей просьбе. Свежая часть серии (вышла 2 октября 2026) с лучшими оценками в серии и диском на PS5. Платина проще, чем в Ace Combat 7: нет сетевых трофеев, но S-ранги на высшей сложности и гринд ОР остаются. Статистика на stratege пока на малой выборке.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/ace_combat_8_wings_of_theve/trophies"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/ace-combat-8-wings-of-theve-trophy-guide-roadmap/"
+   },
+   {
+    "name": "KeenGamer (записи асов)",
+    "url": "https://www.keengamer.com/articles/guides/ace-combat-8-wings-of-theve-all-assault-records-and-enemy-aces-guide/"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/ace-combat-8-wings-of-theve/"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/20762/ace-combat-8-wings-of-theve"
+   },
+   {
+    "name": "PlayStation Blog",
+    "url": "https://blog.playstation.com/2026/06/02/ace-combat-8-wings-of-theve-launches-globally-october-2-on-ps5/"
+   },
+   {
+    "name": "PlayStation (языки)",
+    "url": "https://www.playstation.com/en-gb/games/ace-combat-8-wings-of-theve/"
+   },
+   {
+    "name": "Steam",
+    "url": "https://store.steampowered.com/app/2288340/"
+   }
+  ],
+  "diff_base_votes": null,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 2,
+     "s": 5,
+     "b": 48
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
  },
  {
   "added": "2026-10-24",
@@ -6007,7 +6324,7 @@
   "added": "2026-10-24",
   "avg_completion": 41,
   "avg_plat_hours": 111,
-  "cand_group": "По вашей просьбе",
+  "cand_group": "По твоей просьбе",
   "cons": [
    "Долго: ~110 ч, два полных прохождения",
    "Однообразные бои к концу второго прохождения",
@@ -6760,6 +7077,124 @@
   "about": "Изометрический стелс от небольшой шведской студии River End Games, в которой работают ветераны Battlefield, Mirror's Edge и Little Nightmares. Город Эриксхольм, вдохновлённый Скандинавией начала XX века: юная Ханна, едва оправившись от смертельной болезни, ищет пропавшего брата Германа, за которым охотятся власти. Позже к ней присоединяются Альва и Себастьян, и между героями можно переключаться: Ханна пролезает в вентиляцию, Альва лазает по трубам, Себастьян плавает. Врагов нужно обходить, а у задач часто несколько решений."
  },
  {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 7.6,
+  "est_100_hours": 177,
+  "dlc_count": 0,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "id": "farming_simulator_25",
+  "title": "Farming Simulator 25",
+  "platform": "PS5",
+  "release": "2024-11-12",
+  "genre": "Симулятор фермы",
+  "developer": "Giants Software",
+  "stratege_url": "https://stratege.ru/ps5/games/farming_simulator_25/trophies",
+  "trophies": {
+   "total": 46,
+   "base": 46,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 2,
+   "silver": 15,
+   "bronze": 28
+  },
+  "dlcs": [],
+  "diff_base": 2.67,
+  "dur_base": "75+",
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "avg_plat_hours": 177,
+  "owners": 1167,
+  "plat_count": 89,
+  "full_count": null,
+  "avg_completion": 11,
+  "critic": 75,
+  "critic_src": "OpenCritic",
+  "user_score": 8.6,
+  "quality": 7.9,
+  "quality_note": "OpenCritic 75 (36 рецензий; Metacritic PS5 — 64 по 6 рецензиям), Steam 86% (за 30 дней 91%); на stratege 4 отзыва, все положительные",
+  "missables": "Нет; трофей «Никогда не поздно заняться фермерством» — загрузить сохранение, к которому не заходил год (по гайдам срабатывает перевод системных часов)",
+  "playthroughs": "1 основное сохранение + коллекционные предметы на всех трёх картах (отдельные сохранения)",
+  "difficulty_trophy": "Нет",
+  "glitched": "Не найдено",
+  "ru": "subs",
+  "ru_loc": "Субтитры и интерфейс (озвучка только английская)",
+  "disc_note": "Диск PS5; дополнения (Highlands Fishing, Beans & Alpacas и др.) без трофеев",
+  "pros": [
+   "Медитативный геймплей, можно играть под подкаст",
+   "Лёгкие трофеи, нет онлайна и DLC-листов",
+   "Три разные карты и новые культуры"
+  ],
+  "cons": [
+   "Очень долгая платина: гринд гектаров, денег и разведения животных",
+   "Коллекционные предметы на трёх картах",
+   "Без модов на PS5 экономика тянется дольше"
+  ],
+  "about": "Симулятор фермерского хозяйства от швейцарской студии Giants Software. На выбор три карты — американская Riverbend Springs, центральноевропейская Zielonka и восточноазиатская Hutan Pantai с рисовыми полями. Посев и уборка десятков культур, животноводство, лесозаготовка, производственные цепочки и работа по контрактам на сотнях единиц лицензионной техники; погода с градом и ураганами влияет на урожай. Сюжета нет: это песочница, где хозяйство растёт в собственном темпе, а рутину можно поручить наёмным работникам-ИИ.",
+  "trophy_summary": "Сложности нет (2.67 на stratege), но платина очень долгая: в среднем 177 ч. Время уходит на 100 га посева, удобрения, культивации и уборки в одном сохранении, 10 млн дохода, разведение 100 кур и 50 свиней и сбор коллекционных предметов на всех трёх картах (на нём жалуются в комментариях). Работники-ИИ засчитывают полевые трофеи, их можно оставлять работать.",
+  "why": "По твоей просьбе. Спокойная песочница в духе Spintires: MudRunner и Hardspace: Shipbreaker: никакой спешки, только техника и рутина, которая успокаивает. Трофеи лёгкие, но их много и они долгие; в отличие от MudRunner, здесь нет DLC-листов, так что 100% равно платине.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/farming_simulator_25/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/farming_simulator_25/difficulty"
+   },
+   {
+    "name": "BisectHosting (гайд по достижениям)",
+    "url": "https://www.bisecthosting.com/ru-ru/blog/farming-simulator-25-achievements-guide-trophies-explained-secrets"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/17647/farming-simulator-25"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/farming-simulator-25/"
+   },
+   {
+    "name": "Steam",
+    "url": "https://store.steampowered.com/app/2300320/"
+   },
+   {
+    "name": "PlayStation (языки)",
+    "url": "https://www.playstation.com/en-gb/games/farming-simulator-25/"
+   }
+  ],
+  "diff_base_votes": 3,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 2,
+     "s": 15,
+     "b": 28
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
+ },
+ {
   "added": "2026-10-24",
   "avg_completion": 35,
   "avg_plat_hours": 104,
@@ -7045,6 +7480,128 @@
   },
   "diff_dlc_votes": 48,
   "about": "Мистический экшен от первого лица от Tango Gameworks (The Evil Within). Почти всё население Сибуи исчезает в загадочном тумане, а молодой Акито выживает лишь потому, что в его теле поселяется дух охотника за призраками по имени KK. Вместе они сражаются с ёкаями и духами-«посетителями» при помощи стихийной магии, сплетаемой жестами рук, очищают районы от тумана и помогают неупокоенным душам. Открытый мир Сибуи с множеством побочных историй."
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 11.4,
+  "est_100_hours": 152,
+  "dlc_count": 0,
+  "full_pct": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "dlcs": [],
+  "full_count": null,
+  "id": "gothic_1_remake",
+  "title": "Gothic 1 Remake",
+  "platform": "PS5",
+  "release": "2026-06-05",
+  "genre": "Экшен-RPG",
+  "developer": "Alkimia Interactive (THQ Nordic)",
+  "stratege_url": "https://stratege.ru/ps5/games/gothic/trophies",
+  "trophies": {
+   "total": 41,
+   "base": 41,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 2,
+   "silver": 20,
+   "bronze": 18
+  },
+  "diff_base": 6.69,
+  "dur_base": "100+",
+  "avg_plat_hours": 152,
+  "owners": 1558,
+  "plat_count": 177,
+  "avg_completion": 32,
+  "critic": 73,
+  "critic_src": "OpenCritic",
+  "user_score": 8.3,
+  "quality": 7.6,
+  "quality_note": "OC 73 (MC PS5 69 — версия для PS5 слабее технически), MC user 8.3; на stratege хвалят атмосферу и верность оригиналу, ругают баги и вылеты (−0.1)",
+  "missables": "Да — вступление в каждый из трёх лагерей (нужны сохранения-развилки или повторные прохождения); «Собиратель карт» — не покупать карты у торговца раньше времени; «Фанат Мада» — все диалоги с Мадом",
+  "playthroughs": "2–3 (обычное + «Необратимая смерть» + без сна; последние два можно совместить)",
+  "difficulty_trophy": "Да — пройти в режиме «Необратимая смерть» (одна жизнь, один слот сохранения); выбор сложности на трофеи не влияет",
+  "glitched": "Были: «Дополнительные занятия» и «Собиратель карт» не выдавались (исправлено патчем 1.0.4 от 31.07.2026), на старте путались трофеи за пермасмерть и без сна; до сих пор встречаются софтлоки квестов, вылеты и пропадание звука",
+  "ru": "voice",
+  "ru_loc": "Озвучка и субтитры (в озвучке часть актёров оригинальной «Готики»)",
+  "disc_note": "Диск PS5; DLC нет",
+  "pros": [
+   "Верный ремейк культовой RPG с живым миром",
+   "Полная русская озвучка",
+   "Нет DLC — одна платина и 100%"
+  ],
+  "cons": [
+   "Режим «Необратимая смерть» на всю игру",
+   "Прохождение без сна — душные ночи",
+   "Баги, вылеты, на PS5 30 FPS"
+  ],
+  "about": "Ремейк культовой RPG 2001 года от испанской студии Alkimia Interactive под издательством THQ Nordic. Безымянного узника сбрасывают в Долину рудников — колонию каторжников под магическим куполом, где три лагеря делят власть, руду и торговлю с королём. Мир открыт с самого начала, но опасен: волки, падальщики и мракорисы легко убивают новичка, а прокачка идёт через учителей и вступление в гильдии. Сюжетные ветки, отношения с лагерями и прохождение во многом зависят от выбора фракции.",
+  "trophy_summary": "Сложной платину делают два испытания на всю игру: «Необратимая смерть» (одна жизнь, автосохранение пишется при гибели — откат не работает, легко умереть в Храме Спящего после десятков часов) и прохождение без сна. Плюс три лагеря и все уроки — минимум 2 прохождения, среднее время платины на stratege 152 ч.",
+  "why": "Самая сложная платина в этой подборке (6.69 — выше твоего порога 6.0 и выше RE Village 6.30 и Elden Ring 6.02): всё решает забег с одной жизнью. Зато это классическая RPG с полной русской озвучкой и без DLC — после Dragon's Dogma II и Elden Ring будет интересно сравнить с оригинальной «старой школой».",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/gothic/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/gothic/difficulty"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/20135/-"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/gothic-1-remake/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10005976"
+   },
+   {
+    "name": "MP1st (патч 1.0.4)",
+    "url": "https://mp1st.com/title-updates-and-patches/gothic-1-remake-update-1-0-4-released-on-july-31"
+   },
+   {
+    "name": "KeenGamer (трофеи)",
+    "url": "https://www.keengamer.com/articles/guides/gothic-1-remake-trophy-list-and-achievements-guide/"
+   },
+   {
+    "name": "VGTimes (русская озвучка)",
+    "url": "https://vgtimes.ru/gaming-news/157504-gothic-1-remake-russkaya-ozvuchka-aktery.html"
+   }
+  ],
+  "diff_base_votes": 26,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 2,
+     "s": 20,
+     "b": 18
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
  },
  {
   "section": "candidate",
@@ -9438,6 +9995,296 @@
   "priority": null,
   "my_rating": null,
   "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "platform": "PS5",
+  "plat_pct": null,
+  "est_100_hours": null,
+  "dlc_count": 3,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlcs": [
+   {
+    "name": "Глубины (The Depths)",
+    "group": "Глубины",
+    "trophies": 3,
+    "released": true,
+    "release_date": null,
+    "difficulty": null,
+    "hours": null,
+    "note": "1-я глава Secrets of the Maw; трофеи: сюжет, сбор бутылок с номами («Ты не один») и ситуативный; на PS4 DLC выходили в 2017–2018",
+    "about": "Первая глава дополнения Secrets of the Maw: Сбежавший мальчик, ещё один пленник Чрева, пробирается через затопленные нижние уровни судна, спасаясь от плавающего в воде чудовища.",
+    "free": false,
+    "expected": null,
+    "grades": {
+     "off": {
+      "g": 1,
+      "s": 1,
+      "b": 1
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Убежище (The Hideaway)",
+    "group": "Убежище",
+    "trophies": 3,
+    "released": true,
+    "release_date": null,
+    "difficulty": null,
+    "hours": null,
+    "note": "2-я глава Secrets of the Maw; сюжетный, ситуативный и сбор бутылок («Есть там кто-нибудь?»)",
+    "about": "Вторая глава Secrets of the Maw: мальчик попадает в машинное отделение Чрева и вместе с номами пытается запустить его механизмы.",
+    "free": false,
+    "expected": null,
+    "grades": {
+     "off": {
+      "g": 1,
+      "s": 1,
+      "b": 1
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Квартира (The Residence)",
+    "group": "Квартира",
+    "trophies": 3,
+    "released": true,
+    "release_date": null,
+    "difficulty": null,
+    "hours": null,
+    "note": "3-я, финальная глава Secrets of the Maw; сюжетный и сбор бутылок («Я теряю тебя»)",
+    "about": "Финальная глава Secrets of the Maw: мальчик проникает в покои Хозяйки и узнаёт её тайны, а история связывается с финалом основной игры.",
+    "free": false,
+    "expected": null,
+    "grades": {
+     "off": {
+      "g": 1,
+      "s": 1,
+      "b": 1
+     },
+     "on": {}
+    }
+   }
+  ],
+  "diff_dlc": 2.8,
+  "dur_dlc": "0+",
+  "full_count": 41,
+  "id": "little_nightmares",
+  "title": "Little Nightmares Enhanced Edition",
+  "release": "2025-10-10",
+  "genre": "Хоррор-платформер",
+  "developer": "Tarsier Studios",
+  "stratege_url": "https://stratege.ru/ps5/games/little_nightmares_enhanced_edition/trophies",
+  "trophies": {
+   "total": 22,
+   "base": 13,
+   "dlc": 9,
+   "plat": 0,
+   "gold": 4,
+   "silver": 5,
+   "bronze": 13
+  },
+  "diff_base": 5.75,
+  "dur_base": "10+",
+  "avg_plat_hours": null,
+  "owners": 492,
+  "plat_count": null,
+  "avg_completion": 22,
+  "critic": 78,
+  "critic_src": "Metacritic (PS4)",
+  "user_score": 8.0,
+  "quality": 7.9,
+  "quality_note": "MC PS4 78, MC user 8.0 (оригинал); на stratege Enhanced Edition хвалят за обновлённую графику, ругают только трофей на спидран (±0)",
+  "missables": "7 ситуативных и собирательных трофеев (PowerPyx), но после финала есть выбор глав",
+  "playthroughs": "1–2 (отдельный забег на «Внутренний стержень»)",
+  "difficulty_trophy": "Да: «Внутренний стержень» — пройти игру с нового старта меньше чем за час без единой смерти",
+  "glitched": "Нет известных (PowerPyx)",
+  "ru": "subs",
+  "ru_loc": "Субтитры и интерфейс (речи в игре нет)",
+  "disc_note": "Диск PS4 Complete Edition (игра + Secrets of the Maw). PS5 Enhanced Edition: PS Store обещает бесплатное обновление владельцам игры; stratege указывает и диск PS5, в ритейле встречается PS5-издание «Little Nightmares I Enhanced Complete Edition» (Alternate.de), его состав не подтверждён",
+  "pros": [
+   "Классика жанра в обновлённой графике",
+   "Короткая: 100% в среднем за 15 ч",
+   "Три небольших DLC с простыми трофеями"
+  ],
+  "cons": [
+   "Платины нет — только 100%",
+   "Спидран без смертей быстрее часа",
+   "Мало голосов за сложность на PS5 (8)"
+  ],
+  "about": "Хоррор-платформер шведской студии Tarsier Studios. Девятилетняя Шестая в жёлтом дождевике пытается выбраться из Чрева — гигантского подводного судна, где хозяйничают уродливые великаны-повара и прожорливые гости. Тихие прятки, физические головоломки и бегство от чудовищ в 2.5D; диалогов нет, история подаётся через окружение. Enhanced Edition для PS5 — переиздание с обновлённым освещением и режимами 4K/60 FPS.",
+  "trophy_summary": "Платины в листе нет. Почти всё простое (сбор, ситуативные трофеи через выбор глав), но золото «Внутренний стержень» — пройти всю игру меньше чем за час без смертей: на stratege его называют «лютым», помогает бэкап сохранения в облако PS Plus после контрольной точки. Отсюда 5.75 на PS5 при 4.53 у PS4-листа (там 170 голосов). DLC — по 3 трофея, в основном сбор бутылок.",
+  "why": "По твоей просьбе: если понравились INSIDE и GRIS, это та же школа мрачных платформеров без слов — короткая и атмосферная. Учти: платины нет, а для 100% нужен спидран без смертей.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/little_nightmares_enhanced_edition/trophies"
+   },
+   {
+    "name": "Stratege (PS4-лист)",
+    "url": "https://stratege.ru/ps4/games/hunger/trophies"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/little-nightmares-enhanced-complete-dlc-walkthrough/"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/little-nightmares/"
+   },
+   {
+    "name": "PS Store (языки, издания)",
+    "url": "https://store.playstation.com/en-gb/concept/223059"
+   },
+   {
+    "name": "Alternate.de (диск PS5)",
+    "url": "https://www.alternate.de/Bandai-Namco/Little-Nightmares-I-Enhanced-Complete-Edition-PlayStation-5-Spiel/html/product/100190414"
+   }
+  ],
+  "diff_base_votes": 8,
+  "diff_dlc_votes": 10,
+  "tro_split": {
+   "base": {
+    "off": {
+     "g": 1,
+     "s": 2,
+     "b": 10
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {
+     "g": 3,
+     "s": 3,
+     "b": 3
+    },
+    "on": {}
+   },
+   "dlc_groups": 3
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "platform": "PS5",
+  "plat_pct": 36.9,
+  "est_100_hours": 9,
+  "dlc_count": 0,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlcs": [],
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "full_count": null,
+  "id": "little_nightmares_ii",
+  "title": "Little Nightmares II",
+  "release": "2021-02-11",
+  "genre": "Хоррор-платформер",
+  "developer": "Tarsier Studios",
+  "stratege_url": "https://stratege.ru/ps5/games/little_nightmares_ii/trophies",
+  "trophies": {
+   "total": 35,
+   "base": 35,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 3,
+   "silver": 15,
+   "bronze": 16
+  },
+  "diff_base": 3.03,
+  "dur_base": "10+",
+  "avg_plat_hours": 9,
+  "owners": 5568,
+  "plat_count": 2057,
+  "avg_completion": 44,
+  "critic": 82,
+  "critic_src": "Metacritic (PS4)",
+  "user_score": 8.3,
+  "quality": 8.2,
+  "quality_note": "MC PS4 82, MC user 8.3; на stratege хвалят визуал и атмосферу, жалуются на тайминги и софтлоки на старте (±0)",
+  "missables": "Нет критичных: собирательные и ситуативные трофеи добираются через выбор глав",
+  "playthroughs": "1 + зачистка по главам",
+  "difficulty_trophy": "Нет (уровней сложности нет)",
+  "glitched": "На старте жаловались на софтлоки и вылеты со сбросом сохранений (stratege, 2021)",
+  "ru": "subs",
+  "ru_loc": "Субтитры и интерфейс (речи в игре нет)",
+  "disc_note": "Диск PS5 Enhanced Edition (вышел в октябре 2024); PS4-диск даёт бесплатное обновление до PS5",
+  "pros": [
+   "Лучшие оценки серии (MC 82)",
+   "Лёгкая платина в среднем за 9 ч",
+   "Нет пропускаемого — выбор глав"
+  ],
+  "cons": [
+   "Неточные тайминги и бои ИИ-напарника",
+   "Баги и софтлоки, отмеченные на старте"
+  ],
+  "about": "Продолжение Little Nightmares от Tarsier Studios. Мальчик Моно с бумажным пакетом на голове и Шестая из первой части пробираются через искажённый мир, жители которого одержимы сигналом из далёкой Башни: лес охотника, школа с фарфоровыми учениками, больница с манекенами и Бледный город. Скрытность, головоломки вдвоём (Шестой управляет ИИ) и бегство от монстров; речи нет, сюжет подаётся через окружение.",
+  "trophy_summary": "Сложного нет: шляпы, «остатки» и ситуативные трофеи (попкорн, пощадить врага и т. п.) добираются через выбор глав после первого прохождения.",
+  "why": "По твоей просьбе: если понравились INSIDE и GRIS, это одна из лучших игр жанра с короткой лёгкой платиной; Little Nightmares III уже лежит в кандидатах, а вторая часть оценена заметно выше.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/little_nightmares_ii/trophies"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/little-nightmares-ii/"
+   },
+   {
+    "name": "PlayStation (языки)",
+    "url": "https://www.playstation.com/en-gb/games/little-nightmares-ii/"
+   },
+   {
+    "name": "Bandai Namco (диск PS5)",
+    "url": "https://en.bandainamcoent.eu/little-nightmares/news/little-nightmares-ii-enhanced-edition-gets-retail-edition-available-now"
+   },
+   {
+    "name": "MP1st (бесплатное обновление)",
+    "url": "https://mp1st.com/news/little-nightmares-2-enhanced-edition-now-available-on-ps5-xbox-series-also-as-a-free-next-gen-upgrade"
+   }
+  ],
+  "diff_base_votes": 303,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 3,
+     "s": 15,
+     "b": 16
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
   "added": "2026-10-24",
   "updated": "2026-10-24",
   "platform": "PS5",
@@ -10341,6 +11188,263 @@
   "about": "Пошаговая тактика от The Bearded Ladies (Mutant Year Zero: Road to Eden). Постапокалиптическая Америка, изуродованная разумной субстанцией — миазмом: юный Элвис и его робот-«старший брат» Диггс отправляются на поиски пропавшей матери, оставившей Элвису перчатку, способную управлять миазмом. Свободное исследование локаций в реальном времени, скрытные засады перед боем и сражения в духе XCOM с укрытиями и способностями миазма."
  },
  {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 43.1,
+  "est_100_hours": 55,
+  "dlc_count": 0,
+  "full_pct": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "dlcs": [],
+  "full_count": null,
+  "id": "mortal_shell_2",
+  "title": "Mortal Shell II",
+  "platform": "PS5",
+  "release": "2026-08-20",
+  "genre": "Соулслайк, экшен-RPG",
+  "developer": "Cold Symmetry",
+  "stratege_url": "https://stratege.ru/ps5/games/mortal_shell_ii/trophies",
+  "trophies": {
+   "total": 53,
+   "base": 53,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 1,
+   "silver": 10,
+   "bronze": 41
+  },
+  "diff_base": 5.2,
+  "dur_base": "50+",
+  "avg_plat_hours": 55,
+  "owners": 1201,
+  "plat_count": 518,
+  "avg_completion": 61,
+  "critic": 83,
+  "critic_src": "OpenCritic",
+  "user_score": 7.7,
+  "quality": 8.2,
+  "quality_note": "OC 83 (MC PS5 84), MC user 7.7 (PC); на stratege восторженные отзывы — «большой шаг после первой части» (+0.1)",
+  "missables": "Да, 4: «Mid Summer?», «Peter's Perfect Parry», «No, You Still Can't Win», «Bag Holder» — завязаны на начало игры и отдельные бои, в NG+ часть не взять",
+  "playthroughs": "1 (после патча первой недели; раньше воспоминания оболочек требовали NG+)",
+  "difficulty_trophy": "Нет (в игре нет выбора сложности; ночной режим необязателен)",
+  "glitched": "По PowerPyx нет; в комментариях жалобы на «Seeking the Past», «Stoned» и «So Fresh, So Clean» до патчей",
+  "ru": "subs",
+  "ru_loc": "Субтитры",
+  "disc_note": "Диск PS5 (стандартное издание; коллекционное Revered Edition распродано); DLC с трофеями нет",
+  "pros": [
+   "Мясистая боёвка без выносливости, много билдов",
+   "Платина без нудных трофеев",
+   "Большой бесплатный патч Rotten Autumn"
+  ],
+  "cons": [
+   "Камера в тесноте и капканы",
+   "Несколько боссов с плохо читаемыми атаками",
+   "Сюжет подан скупо"
+  ],
+  "about": "Самостоятельное продолжение соулслайка Mortal Shell от небольшой студии Cold Symmetry. Главный герой — Вестник, способный вселяться в «оболочки» павших воинов: у каждой свой стиль боя, умения и история, которую открывают воспоминания. Мир стал полуоткрытым и связным, с подземельями, ночным режимом повышенной сложности и стрелковым оружием в дополнение к холодному. Боевая система быстрее и агрессивнее первой части: шкалы выносливости нет, бой строится на парировании и уклонениях.",
+  "trophy_summary": "Сложность средняя (5.2): боссы и пара неприятных трофеев вроде парирования каждого вращения головы Безымянного узника. Основное время — сбор Плодов, таритов, фрагментов карты и фарм отблесков на все воспоминания оболочек; 4 пропускаемых в начале.",
+  "why": "Если понравились Elden Ring и Remnant II, это компактный соулслайк с высокими оценками и куда более мягкой платиной (5.2 против 6.02 у Elden Ring), без DLC и без онлайна.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/mortal_shell_ii/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/mortal_shell_ii/difficulty"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/mortal-shell-2-trophy-guide-roadmap/"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/20988/mortal-shell-ii/reviews"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/mortal-shell-ii/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10010058"
+   },
+   {
+    "name": "Kotaku (диск PS5)",
+    "url": "https://kotaku.com/ps5-physical-editions-of-mortal-shell-2-are-selling-out-and-players-are-telling-sony-to-take-note-2000716627"
+   },
+   {
+    "name": "Push Square (Rotten Autumn)",
+    "url": "https://www.pushsquare.com/news/2026/10/mortal-shell-2-gets-even-better-in-big-free-content-patch-live-now-on-ps5"
+   }
+  ],
+  "diff_base_votes": 46,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 1,
+     "s": 10,
+     "b": 41
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 32.9,
+  "est_100_hours": 29,
+  "dlc_count": 1,
+  "full_pct": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlc_pending": true,
+  "dlc_pending_note": "Сюжетное DLC анонсировано, в Steam срок «Q4 2026», официальной даты нет; будут ли трофеи — неизвестно",
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "dlcs": [
+   {
+    "name": "MOUSE: P.I. For Hire Story DLC",
+    "trophies": null,
+    "released": false,
+    "release_date": null,
+    "difficulty": null,
+    "hours": null,
+    "note": "срок по Steam/Fanatical — IV квартал 2026, разработчик даты не называл; трофеи не объявлены",
+    "about": "Первое сюжетное дополнение с новым делом детектива Джека Пеппера; подробности не раскрыты.",
+    "free": false,
+    "expected": "IV квартал 2026 (по Steam, неофициально)"
+   }
+  ],
+  "full_count": null,
+  "id": "mouse_pi_for_hire",
+  "title": "MOUSE: P.I. For Hire",
+  "platform": "PS5",
+  "release": "2026-04-16",
+  "genre": "Шутер от первого лица",
+  "developer": "Fumi Games",
+  "stratege_url": "https://stratege.ru/ps5/games/mouse_pi_for_hire/trophies",
+  "trophies": {
+   "total": 35,
+   "base": 35,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 3,
+   "silver": 18,
+   "bronze": 13
+  },
+  "diff_base": 3.35,
+  "dur_base": "10+",
+  "avg_plat_hours": 29,
+  "owners": 875,
+  "plat_count": 288,
+  "avg_completion": 48,
+  "critic": 81,
+  "critic_src": "OpenCritic",
+  "user_score": 8.0,
+  "quality": 7.9,
+  "quality_note": "OC 81 (MC PS5 77), MC user 8.0; на stratege хвалят стиль, но многие называют игру затянутой, а сбор коллекционок — душным (−0.2)",
+  "missables": "Нет — с патча 1.2.1 (июль 2026) есть повторное прохождение уровней; до него пропускалось почти всё",
+  "playthroughs": "1",
+  "difficulty_trophy": "Нет (всё можно на лёгкой)",
+  "glitched": "Трофеи за дела иногда не выдавались при пропущенной необязательной улике (частично исправлено патчами); монеты нужно копить: 6000 на карточки + ставки в 30 партиях карточной игры",
+  "ru": "subs",
+  "ru_loc": "Субтитры",
+  "disc_note": "Диск PS5 (Standard и Mouseburg Edition, с 10.07.2026); сюжетное DLC входит только в цифровое Deluxe — диск-владельцам докупать",
+  "pros": [
+   "Уникальный стиль мультфильмов 1930-х и джаз",
+   "Лёгкая платина, всё на лёгкой",
+   "Повтор уровней — пропускаемых нет"
+  ],
+  "cons": [
+   "Игра затянута, геймплей стандартный",
+   "Сбор газет, комиксов и карточек",
+   "Карточная мини-игра на 30 побед"
+  ],
+  "about": "Шутер от первого лица от польской студии Fumi Games, нарисованный в стиле «резиновых» мультфильмов 1930-х. Частный детектив Джек Пеппер, мышь и ветеран войны, берётся за дело о пропавшем человеке и распутывает заговор в нуарном городе Мышбурге. Миссии чередуют перестрелки в духе классических шутеров с поиском улик, доской расследования и побочными делами. Город населён гангстерами, продажными полицейскими и персонажами, пародирующими старую анимацию, под биг-бэнд-джаз.",
+  "trophy_summary": "Сложности нет (3.35): последний босс и пара боевых трофеев на серии убийств. Время уходит на коллекционки, все улики в делах, улучшение оружия и 30 побед в карточной игре. Сюжетное DLC пока не вышло.",
+  "why": "Яркий стилизованный шутер с лёгкой платиной — хороший отдых между тяжёлыми играми, как Cat Quest или Stray, только с перестрелками в духе Metro Exodus. После патча с повтором уровней ничего не пропускается.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/mouse_pi_for_hire/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/mouse_pi_for_hire/difficulty"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/mouse-p-i-for-hire-trophy-guide-roadmap/"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/19810/mouse-pi-for-hire"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/mouse-pi-for-hire/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10012945"
+   },
+   {
+    "name": "Steam (Story DLC)",
+    "url": "https://store.steampowered.com/app/3912890/"
+   },
+   {
+    "name": "Gematsu (физические издания)",
+    "url": "https://www.gematsu.com/2026/03/mouse-p-i-for-hire-physical-and-digital-editions-announced"
+   }
+  ],
+  "diff_base_votes": 26,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 3,
+     "s": 18,
+     "b": 13
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
+ },
+ {
   "added": "2026-10-24",
   "avg_completion": 35,
   "avg_plat_hours": 46,
@@ -10607,6 +11711,164 @@
   },
   "diff_dlc_votes": 8,
   "about": "Экшен-слэшер от Team Ninja и PlatinumGames (Bayonetta, NieR: Automata), первая крупная номерная часть за много лет. Юный ниндзя Якумо из клана Ворона попадает в Токио, накрытый проклятым дождём Тёмного дракона, и ввязывается в поход жрицы Сеори к печатям дракона, а на его пути встаёт Рю Хаябуса. Быстрые жестокие бои, высокая сложность и упор на мастерство."
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 12.4,
+  "est_100_hours": 114,
+  "dlc_count": 1,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": true,
+  "online_note": "1 трофей в бесплатном DLC: «Воссоединение» — посетить базу другого игрока (нужен онлайн); платина от него не зависит",
+  "online_trophies": [
+   {
+    "name": "Reunion / Воссоединение",
+    "grade": "bronze",
+    "part": "Обновление «Землепроходец»",
+    "note": "Онлайн: посетить базу другого игрока (через телепорт Аномалии к базам других игроков)",
+    "got": null
+   }
+  ],
+  "id": "no_mans_sky",
+  "title": "No Man's Sky",
+  "platform": "PS5",
+  "release": "2020-11-12",
+  "genre": "Космическая песочница, выживание",
+  "developer": "Hello Games",
+  "stratege_url": "https://stratege.ru/ps5/games/no_mans_sky/trophies",
+  "trophies": {
+   "total": 28,
+   "base": 23,
+   "dlc": 5,
+   "plat": 1,
+   "gold": 8,
+   "silver": 9,
+   "bronze": 10
+  },
+  "dlcs": [
+   {
+    "name": "Обновление «Землепроходец»",
+    "group": "Обновление «Землепроходец»",
+    "trophies": 5,
+    "released": true,
+    "release_date": "2017-03-08",
+    "difficulty": 4.5,
+    "hours": null,
+    "note": "Дойти до центра галактики в режиме выживания и отдельно в режиме перманентной смерти; «Воссоединение» — онлайн (посетить базу другого игрока). Дата — выход обновления Pathfinder на PS4",
+    "about": "Бесплатное обновление Pathfinder: базы на чужих планетах, грузовые корабли, вездеходы-экзокрафты, режим перманентной смерти и посещение баз других игроков.",
+    "free": true,
+    "expected": null,
+    "grades": {
+     "off": {
+      "s": 1,
+      "b": 3
+     },
+     "on": {
+      "b": 1
+     }
+    }
+   }
+  ],
+  "diff_base": 3.48,
+  "dur_base": "50+",
+  "diff_dlc": 4.5,
+  "dur_dlc": "50+",
+  "avg_plat_hours": 114,
+  "owners": 4599,
+  "plat_count": 568,
+  "full_count": 135,
+  "avg_completion": 24,
+  "critic": 82,
+  "critic_src": "Metacritic (PS5)",
+  "user_score": 8.2,
+  "quality": 8.0,
+  "quality_note": "Metacritic PS5 82 (7 рецензий; оригинал на PS4 в 2016 — 71), Steam 82% (за 30 дней 91%); старые комментарии на stratege (2016) ругают нудность и вылеты (−0.2)",
+  "missables": "Нет; «Страж» (выживание в экстремальных условиях) и «Алмазный век» сбрасываются при смерти",
+  "playthroughs": "1 + отдельные сохранения в режиме выживания и перманентной смерти для DLC",
+  "difficulty_trophy": "Да — DLC: дойти до центра галактики в режиме выживания и в режиме перманентной смерти",
+  "glitched": "Не найдено",
+  "ru": "subs",
+  "ru_loc": "Текст на русском",
+  "disc_note": "Диск PS5 (с 2022, издатель Bandai Namco); трофейное DLC — бесплатное обновление",
+  "pros": [
+   "Огромная галактика и годы бесплатных обновлений",
+   "Платина почти целиком накопительная, без навыка",
+   "Медитативное исследование и строительство баз"
+  ],
+  "cons": [
+   "Нудный гринд званий и долгое выживание в экстремальных условиях",
+   "Забег в перманентной смерти для DLC",
+   "Один онлайн-трофей в DLC"
+  ],
+  "about": "Космическая песочница от британской студии Hello Games: процедурно генерируемая галактика, где можно приземлиться на любую планету. Путешественник просыпается на незнакомой планете рядом с разбитым кораблём и постепенно раскрывает тайну Атласа и центра галактики. Добыча ресурсов, крафт, торговля, космические бои, строительство баз, грузовые флоты и экзокрафты. С момента выхода в 2016 году игра получила десятки крупных бесплатных обновлений.",
+  "trophy_summary": "Сложности нет (3.48), почти все трофеи — накопительные звания: сканирование фауны, перелёты, деньги, слова пришельцев, уничтоженные корабли. Самое нудное — «Страж»: долго выживать в экстремальных условиях без смерти. DLC «Землепроходец» (4.50) требует дойти до центра галактики в режиме выживания и отдельно в перманентной смерти; «Воссоединение» — онлайн.",
+  "why": "По твоей просьбе. Если понравились исследование и выживание в Subnautica и Below Zero и спокойная работа в Hardspace: Shipbreaker, здесь то же, только в масштабе целой галактики. Платина лёгкая, но затяжная, а 100% упирается в забег в режиме перманентной смерти и один онлайн-трофей.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/no_mans_sky/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/no_mans_sky/difficulty"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/no-mans-sky-trophy-guide-roadmap/"
+   },
+   {
+    "name": "KeenGamer (To Live Forever)",
+    "url": "https://www.keengamer.com/articles/guides/no-mans-sky-achievement-guide-to-live-forever/"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/no-mans-sky/"
+   },
+   {
+    "name": "Steam",
+    "url": "https://store.steampowered.com/app/275850/"
+   },
+   {
+    "name": "PlayStation (языки)",
+    "url": "https://www.playstation.com/en-gb/games/no-mans-sky/"
+   },
+   {
+    "name": "Gematsu (диск PS5)",
+    "url": "https://www.gematsu.com/2022/06/no-mans-sky-for-switch-launches-october-7-alongside-ps5-physical-edition"
+   }
+  ],
+  "diff_base_votes": 174,
+  "diff_dlc_votes": 28,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 8,
+     "s": 8,
+     "b": 6
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {
+     "s": 1,
+     "b": 3
+    },
+    "on": {
+     "b": 1
+    }
+   },
+   "dlc_groups": 1
+  }
  },
  {
   "id": "onimusha_way_of_the_sword",
@@ -11275,6 +12537,339 @@
   },
   "diff_dlc_votes": 271,
   "about": "Ремейк культового survival horror 1998 года от Capcom. Новичок-полицейский Леон Кеннеди и Клэр Рэдфилд, разыскивающая брата, оказываются в Ракун-Сити, охваченном зомби-эпидемией, и ищут спасения в полицейском участке. Камера из-за плеча, нехватка патронов, головоломки и преследующий героев Тиран. Две кампании за разных героев плюс повторные прохождения."
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 20.8,
+  "est_100_hours": 89,
+  "dlc_count": 1,
+  "full_pct": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_dlc": 6.28,
+  "dur_dlc": "10+",
+  "dlcs": [
+   {
+    "name": "Separate Ways",
+    "trophies": 7,
+    "released": true,
+    "release_date": "2023-09-21",
+    "difficulty": 6.28,
+    "hours": null,
+    "note": "S+ на «Профессионале» — основная сложность DLC (6.28)",
+    "about": "Параллельная кампания за Аду Вонг: её задание в деревне и на острове и путь, пересекающийся с Леоном.",
+    "free": true,
+    "expected": null,
+    "group": "Separate Ways",
+    "grades": {
+     "off": {
+      "g": 1,
+      "s": 1,
+      "b": 5
+     },
+     "on": {}
+    }
+   }
+  ],
+  "full_count": 1049,
+  "id": "resident_evil_4_remake",
+  "title": "Resident Evil 4",
+  "platform": "PS5",
+  "release": "2023-03-24",
+  "genre": "Survival horror",
+  "developer": "Capcom",
+  "stratege_url": "https://stratege.ru/ps5/games/resident_evil_4_remake/trophies",
+  "trophies": {
+   "total": 47,
+   "base": 40,
+   "dlc": 7,
+   "plat": 1,
+   "gold": 5,
+   "silver": 11,
+   "bronze": 30
+  },
+  "diff_base": 6.26,
+  "dur_base": "50+",
+  "avg_plat_hours": 89,
+  "owners": 13764,
+  "plat_count": 2857,
+  "avg_completion": 38,
+  "critic": 93,
+  "critic_src": "Metacritic (PS5)",
+  "user_score": 9.0,
+  "quality": 9.2,
+  "quality_note": "MC PS5 93, MC user 9.0; на stratege — эталонный ремейк (0)",
+  "missables": "Нет (сокровища, поручения и смотрители добираются в NG+)",
+  "playthroughs": "4–6 (Профессионал, Хардкор S+, обычная S+, менее 8 ч, без лечения/только ножи и пистолеты/без торговца — часть совмещается)",
+  "difficulty_trophy": "Да — пройти на «Профессионале» и получить S+ на «Хардкоре»; в Separate Ways — S+ на «Профессионале»",
+  "glitched": "Нет известных",
+  "ru": "voice",
+  "ru_loc": "Озвучка и субтитры",
+  "disc_note": "Диск PS5 Gold Edition (игра + Separate Ways) — бери его; на стандартном диске Separate Ways докупать",
+  "pros": [
+   "Один из лучших ремейков и хорроров поколения",
+   "Полная русская озвучка",
+   "Gold Edition на диске со всем DLC"
+  ],
+  "cons": [
+   "«Профессионал» и S+ на «Хардкоре» — нервы",
+   "Стрельбище на S во всех состязаниях",
+   "Много повторных прохождений"
+  ],
+  "about": "Ремейк классики 2005 года от Capcom на движке RE Engine. Спустя шесть лет после катастрофы в Раккун-Сити агент Леон Кеннеди отправляется в глухую испанскую деревню, чтобы спасти похищенную дочь президента Эшли, и сталкивается с культом Лос Иллюминадос и заражёнными паразитом жителями. Экшеновый survival horror от третьего лица: перестрелки с толпами врагов, парирование ножом, торговец и улучшение оружия. Путь ведёт через деревню, замок и остров, со множеством побочных поручений и сокровищ.",
+  "trophy_summary": "Выше 6.0: платину усложняют прохождение на «Профессионале», ранг S+ на «Хардкоре» и обычной (жёсткий лимит времени), забег быстрее 8 ч и S во всех играх тира; бонусное оружие из NG+ сильно помогает. DLC Separate Ways — S+ на «Профессионале» (6.28).",
+  "why": "После RE Village (6.30 — твоя самая сложная платина) это сопоставимый вызов в лучшей части серии: сложность 6.26 — чуть выше порога, но она про заучивание и спидраны, а не про удачу. Gold Edition на диске закрывает и DLC.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/resident_evil_4_remake/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/resident_evil_4_remake/difficulty"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/resident-evil-4/"
+   },
+   {
+    "name": "PS Store (языки, Gold Edition)",
+    "url": "https://store.playstation.com/en-gb/concept/10004473"
+   },
+   {
+    "name": "Steam (Separate Ways)",
+    "url": "https://store.steampowered.com/app/2109300/"
+   }
+  ],
+  "diff_base_votes": 375,
+  "diff_dlc_votes": 152,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 4,
+     "s": 10,
+     "b": 25
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {
+     "g": 1,
+     "s": 1,
+     "b": 5
+    },
+    "on": {}
+   },
+   "dlc_groups": 1
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 25.3,
+  "est_100_hours": 33,
+  "dlc_count": 4,
+  "full_pct": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_dlc": 7.57,
+  "dur_dlc": "50+",
+  "dlcs": [
+   {
+    "name": "Banned Footage Vol. 1",
+    "trophies": 5,
+    "released": true,
+    "release_date": "2022-06-14",
+    "difficulty": null,
+    "hours": null,
+    "note": "главная причина DLC-оценки 7.57 — «Итан должен умереть» (одна жизнь, случайный лут); дата PS5-листа, на PS4 — 2017",
+    "about": "«Вырезанные материалы, часть 1»: кассеты «Кошмар» (оборона от волн), «Спальня» (побег-головоломка) и сверхсложный режим «Итан должен умереть».",
+    "free": true,
+    "expected": null,
+    "group": "Вырезанные материалы, часть 1",
+    "grades": {
+     "off": {
+      "g": 1,
+      "s": 2,
+      "b": 2
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Banned Footage Vol. 2",
+    "trophies": 8,
+    "released": true,
+    "release_date": "2022-06-14",
+    "difficulty": null,
+    "hours": null,
+    "note": "«21» на «Выживании+» и ранги S на всех этапах «55-го дня рождения Джека»",
+    "about": "«Вырезанные материалы, часть 2»: карточная игра «21» с Лукасом, «Дочери» о прошлом семьи Бейкеров и «55-й день рождения Джека» на время.",
+    "free": true,
+    "expected": null,
+    "group": "Вырезанные материалы, часть 2",
+    "grades": {
+     "off": {
+      "s": 3,
+      "b": 5
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "End of Zoe",
+    "trophies": 6,
+    "released": true,
+    "release_date": "2022-06-14",
+    "difficulty": null,
+    "hours": null,
+    "note": "пройти на максимальной сложности и без оружия",
+    "about": "«Гибель Зои»: эпилог за Джо Бейкера, который кулаками пробивается через болота, чтобы спасти Зою.",
+    "free": true,
+    "expected": null,
+    "group": "Гибель Зои",
+    "grades": {
+     "off": {
+      "g": 1,
+      "s": 1,
+      "b": 4
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Not a Hero",
+    "trophies": 2,
+    "released": true,
+    "release_date": "2022-06-14",
+    "difficulty": null,
+    "hours": null,
+    "note": "Пройти на «Профессионале»",
+    "about": "«Не герой»: бесплатный эпилог за Криса Редфилда, преследующего Лукаса Бейкера в соляной шахте.",
+    "free": true,
+    "expected": null,
+    "group": "Не герой",
+    "grades": {
+     "off": {
+      "s": 1,
+      "b": 1
+     },
+     "on": {}
+    }
+   }
+  ],
+  "full_count": 269,
+  "id": "resident_evil_7",
+  "title": "Resident Evil 7: Biohazard",
+  "platform": "PS5",
+  "release": "2017-01-24",
+  "genre": "Survival horror от первого лица",
+  "developer": "Capcom",
+  "stratege_url": "https://stratege.ru/ps5/games/resident_evil_7/trophies",
+  "trophies": {
+   "total": 59,
+   "base": 38,
+   "dlc": 21,
+   "plat": 1,
+   "gold": 5,
+   "silver": 19,
+   "bronze": 34
+  },
+  "diff_base": 5.57,
+  "dur_base": "25+",
+  "avg_plat_hours": 33,
+  "owners": 3903,
+  "plat_count": 987,
+  "avg_completion": 33,
+  "critic": 86,
+  "critic_src": "Metacritic (PS4)",
+  "user_score": 8.2,
+  "quality": 8.4,
+  "quality_note": "MC PS4 86, MC user 8.2; на stratege хвалят атмосферу и интересные условия перепрохождений (0)",
+  "missables": "Нет (всё добирается повторными прохождениями)",
+  "playthroughs": "3 (обычная + быстрый забег за 4 ч с ограничением аптечек и ящика + «Безумие»)",
+  "difficulty_trophy": "Да — «Безумие» в основе; в DLC «Итан должен умереть», «Ночной ужас», «21» на «Выживании+», ранги S в «55-м дне рождения Джека», «Гибель Зои» на максимальной сложности, «Не герой» на «Профессионале»",
+  "glitched": "Нет известных",
+  "ru": "subs",
+  "ru_loc": "Субтитры",
+  "disc_note": "Диск PS5 Gold Edition (с 12.2024, игра + все DLC) — бери его; PS4-диск тоже даёт бесплатный апгрейд до PS5",
+  "pros": [
+   "Возвращение серии к камерному хоррору",
+   "Интересные забеги с условиями",
+   "Gold Edition на диске со всеми DLC"
+  ],
+  "cons": [
+   "DLC 7.57 — «Итан должен умереть» с рандомом",
+   "Нет русской озвучки",
+   "Третий акт на корабле слабее"
+  ],
+  "about": "Седьмая номерная часть Resident Evil от Capcom, перезапустившая серию в виде хоррора от первого лица. Итан Уинтерс получает письмо от пропавшей три года назад жены Мии и приезжает на заброшенную ферму в болотах Луизианы, где его встречает безумная семья Бейкеров. Камерное выживание с нехваткой патронов, головоломками, сундуком для предметов и преследующими героя членами семьи. Видеокассеты, найденные в доме, позволяют сыграть эпизоды за других персонажей.",
+  "trophy_summary": "Основа (5.57): «Безумие», забег за 4 ч, ограничения на аптечки и ящик — проще с бонусами за первые прохождения. 100% делает сложным DLC (7.57): «Итан должен умереть» с одной жизнью и случайным лутом, «Ночной ужас», «21» на «Выживании+», ранги S в «Дне рождения Джека».",
+  "why": "RE Village (она у тебя на 100%) — прямое продолжение истории Итана, а RE7 — её начало и более камерный хоррор. Основная платина в рамках твоего порога, но DLC (7.57) — сложнее любой платины в твоём профиле: тяжелее всего режим «Итан должен умереть».",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/resident_evil_7/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/resident_evil_7/difficulty"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/resident-evil-7-biohazard/"
+   },
+   {
+    "name": "PS Store (Gold Edition, языки)",
+    "url": "https://store.playstation.com/en-gb/product/EP0102-PPSA04405_00-BH7G000000000001"
+   },
+   {
+    "name": "Gematsu (диск PS5 Gold Edition)",
+    "url": "https://www.gematsu.com/2024/10/resident-evil-2-resident-evil-3-resident-evil-7-biohazard-gold-edition-ps5-physical-editions-announced"
+   }
+  ],
+  "diff_base_votes": 724,
+  "diff_dlc_votes": 184,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 3,
+     "s": 12,
+     "b": 22
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {
+     "g": 2,
+     "s": 7,
+     "b": 12
+    },
+    "on": {}
+   },
+   "dlc_groups": 4
+  }
  },
  {
   "added": "2026-10-24",
@@ -12783,6 +14378,192 @@
   "about": "Экшен-приключение от Respawn Entertainment (Titanfall, Star Wars Jedi: Fallen Order). Через пять лет после событий Fallen Order Кэл Кестис продолжает борьбу с Империей, а поиски убежища для преследуемых джедаев приводят его на фронтирную планету Кобох. Бои на световых мечах в разных стойках с упором на парирование, полуоткрытые карты с секретами и возвратом в старые зоны."
  },
  {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 8.1,
+  "est_100_hours": 184,
+  "dlc_count": 3,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "id": "starfield",
+  "title": "Starfield",
+  "platform": "PS5",
+  "release": "2026-04-07",
+  "genre": "Космическая RPG с открытым миром",
+  "developer": "Bethesda Game Studios",
+  "stratege_url": "https://stratege.ru/ps5/games/starfield/trophies",
+  "trophies": {
+   "total": 83,
+   "base": 51,
+   "dlc": 32,
+   "plat": 1,
+   "gold": 1,
+   "silver": 10,
+   "bronze": 71
+  },
+  "dlcs": [
+   {
+    "name": "Shattered Space",
+    "group": "Shattered Space",
+    "trophies": 12,
+    "released": true,
+    "release_date": "2026-04-07",
+    "difficulty": null,
+    "hours": null,
+    "note": "В основном сюжетные; открыть 50 локаций на Ва'руун'кай, убить 25 Vortex Horrors и 10 Redeemed. На PS5 вышло вместе с игрой (на Xbox/PC — 2024)",
+    "about": "Сюжетное расширение о родном мире Дома Ва'руун — планете Ва'руун'кай и городе Дазра, пострадавших от катастрофы.",
+    "free": false,
+    "expected": null,
+    "grades": {
+     "off": {
+      "b": 12
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Terran Armada",
+    "group": "Terran Armada",
+    "trophies": 10,
+    "released": true,
+    "release_date": "2026-04-07",
+    "difficulty": null,
+    "hours": null,
+    "note": "Квесты, отражение 30 вторжений, полная прокачка робота Delta, передача аванпоста фракции; «Greater Than» и «Less Than» похожи на разные исходы — лучше держать сохранение (не подтверждено)",
+    "about": "Сюжетное дополнение о вторжениях роботизированной Терранской армады; рекомендуемый уровень 50+, можно заполучить перепрограммированного робота Delta.",
+    "free": false,
+    "expected": null,
+    "grades": {
+     "off": {
+      "b": 10
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Free Lanes",
+    "group": "Free Lanes",
+    "trophies": 10,
+    "released": true,
+    "release_date": "2026-04-07",
+    "difficulty": null,
+    "hours": null,
+    "note": "Мелкие задания и коллекция фигурок; есть трофеи за конкретные выборы в квестах (например, не дать Бернхарду убить Карузо)",
+    "about": "Бесплатное крупное обновление: межпланетные перелёты без загрузок, улучшения X-Tech, вездеход Moon Jumper, питомцы на аванпостах, новые локации и доработки NG+.",
+    "free": true,
+    "expected": null,
+    "grades": {
+     "off": {
+      "b": 10
+     },
+     "on": {}
+    }
+   }
+  ],
+  "diff_base": 3.15,
+  "dur_base": "100+",
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "avg_plat_hours": 184,
+  "owners": 332,
+  "plat_count": 27,
+  "full_count": 8,
+  "avg_completion": 13,
+  "critic": 78,
+  "critic_src": "Metacritic (PS5)",
+  "user_score": 5.6,
+  "quality": 6.7,
+  "quality_note": "Metacritic PS5 78 (33 рецензии), MC user PS5 5.6 (Steam 57%, за 30 дней 63%); на stratege хвалят квесты фракций, ругают пустые планеты, загрузки и гринд (−0.2)",
+  "missables": "Да — после финала («One Giant Leap») начинается NG+ и всё несюжетное сбрасывается: сохранись заранее; романтический трофей можно запороть",
+  "playthroughs": "1 (NG+ не нужен)",
+  "difficulty_trophy": "Нет — сложность можно ставить минимальную",
+  "glitched": "Не найдено; на старте PS5-версии жаловались на вылеты",
+  "ru": "none",
+  "ru_loc": "Нет (только английский, немецкий, французский, испанский и др.; русского нет ни на одной платформе)",
+  "disc_note": "Диск PS5: Standard и Premium Edition (в Premium входят Shattered Space и Terran Armada); при установке нужна докачка около 42 ГБ. Free Lanes бесплатно",
+  "pros": [
+   "Квесты фракций и спутников",
+   "Строительство кораблей и аванпостов",
+   "Платина без навыка, без онлайна"
+  ],
+  "cons": [
+   "Нет русского языка",
+   "Пустые процедурные планеты и много загрузок",
+   "Гринд 100 уровня и ресурсов"
+  ],
+  "about": "Ролевая игра от Bethesda Game Studios (Fallout 4, Skyrim) — первая новая вселенная студии за 25 лет. 2330 год, человечество расселилось по Заселённым системам; герой вступает в «Созвездие» — последнее общество исследователей, которое собирает загадочные артефакты. Открытый мир из сотен звёздных систем с высадкой на планеты, квестовые линии фракций, конструктор кораблей, аванпосты и спутники с романами. На PS5 игра вышла с обновлением Free Lanes и дополнениями.",
+  "trophy_summary": "Сложности нет (3.15, PowerPyx 2/10), но долго: средняя платина на stratege 184 ч, основное время — квесты четырёх фракций, 100 уровень, 500 органических и неорганических ресурсов. Главное — сохраниться до финала, иначе NG+ сбросит несюжетный прогресс. В DLC 32 бронзы: исследование Ва'руун'кай, вторжения Terran Armada, коллекция фигурок Free Lanes.",
+  "why": "По твоей просьбе. Если понравились Fallout 4 (там 85/85 за 173 ч) и квесты Cyberpunk 2077, здесь та же формула Bethesda в космосе, а трофеи простые. Но русского нет совсем, а оценки игроков смешанные: пустые планеты и загрузки многим не нравятся.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/starfield/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/starfield/difficulty"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/starfield-trophy-guide-roadmap/"
+   },
+   {
+    "name": "GGRecon (Shattered Space)",
+    "url": "https://www.ggrecon.com/guides/starfield-shattered-space-achievements/"
+   },
+   {
+    "name": "Metacritic (PS5)",
+    "url": "https://www.metacritic.com/game/starfield/critic-reviews/?platform=playstation-5"
+   },
+   {
+    "name": "Steam",
+    "url": "https://store.steampowered.com/app/1716740/"
+   },
+   {
+    "name": "PlayStation (языки, издания)",
+    "url": "https://www.playstation.com/en-gb/games/starfield/"
+   },
+   {
+    "name": "Hack The Minotaur (диск, Free Lanes)",
+    "url": "https://hacktheminotaur.com/starfield/starfield-playstation-5-features-explained/"
+   },
+   {
+    "name": "3DNews (трофеи Terran Armada)",
+    "url": "https://3dnews.ru/1139500/"
+   }
+  ],
+  "diff_base_votes": 13,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 1,
+     "s": 10,
+     "b": 39
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {
+     "b": 32
+    },
+    "on": {}
+   },
+   "dlc_groups": 3
+  }
+ },
+ {
   "added": "2026-10-24",
   "avg_completion": 23,
   "avg_plat_hours": 49,
@@ -13162,6 +14943,258 @@
   "about": "Приключение в открытом мире от небольшой студии Awaceb, вдохновлённое Новой Каледонией. Девочка Чиа отправляется на тропический архипелаг спасать отца, похищенного тираном Меаворой. Свободное исследование островов на лодке и планере, умение «вселяться» в животных и предметы, игра на укулеле и местная культура с озвучкой на языках региона. Расслабленный темп."
  },
  {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "platform": "PS5",
+  "plat_pct": 38.4,
+  "est_100_hours": 13,
+  "dlc_count": 0,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlcs": [],
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "full_count": null,
+  "id": "terminator_2d_no_fate",
+  "title": "Terminator 2D: NO FATE",
+  "release": "2025-12-12",
+  "genre": "Ретро-экшен (run'n'gun)",
+  "developer": "Bitmap Bureau",
+  "stratege_url": "https://stratege.ru/ps5/games/terminator_2d_no_fate/trophies",
+  "trophies": {
+   "total": 33,
+   "base": 33,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 5,
+   "silver": 12,
+   "bronze": 15
+  },
+  "diff_base": 4.07,
+  "dur_base": "10+",
+  "avg_plat_hours": 13,
+  "owners": 404,
+  "plat_count": 155,
+  "avg_completion": 52,
+  "critic": 70,
+  "critic_src": "Metacritic (PS5)",
+  "user_score": 6.6,
+  "quality": 7.1,
+  "quality_note": "MC PS5 70, MC user 6.6 (PC); на stratege почти единогласно «игра отличная», минус — короткая (+0.3)",
+  "missables": "Нет: миссии, маршруты и режимы переигрываются",
+  "playthroughs": "Несколько коротких прохождений по разным маршрутам + аркадные режимы",
+  "difficulty_trophy": "Да: история на «Очень сложно», ранг S на высокой сложности и на каждом уровне, аркада быстрее 15 минут; по отзывам на stratege, читы трофеи не блокируют и снимают сложность",
+  "glitched": "Нет известных; на stealth-трофее «Ниндзя-невидимка» жалуются, что он засчитывается не с первого раза",
+  "ru": "subs",
+  "ru_loc": "Субтитры и интерфейс (озвучка английская)",
+  "disc_note": "Диск PS5 (Day One и Collector's Edition от Reef)",
+  "pros": [
+   "Любовно сделанный пиксельный «Терминатор 2»",
+   "Читы не отключают трофеи",
+   "Платина в среднем за 13 ч"
+  ],
+  "cons": [
+   "Очень короткая",
+   "Без читов высшая сложность очень тяжёлая",
+   "Мало голосов за сложность (30)"
+  ],
+  "about": "Ретро-экшен в стиле 16-битных аркад от британской студии Bitmap Bureau по фильму «Терминатор 2: Судный день». Сюжет фильма с дополнительными сценами: побег Сары Коннор из психиатрической больницы, T-800, защищающий юного Джона от T-1000, и миссии в войне будущего. Бег-и-стрельба, погони, стелс-эпизод и ветвящиеся маршруты с разными концовками, плюс аркадные режимы.",
+  "trophy_summary": "Честно платина тяжёлая: «Очень сложно» с четырьмя жизнями на уровень, ранг S везде, спидран аркады быстрее 15 минут, комбо 100. Но читы в меню трофеи не блокируют, поэтому на stratege 4.07, а платина берётся быстро.",
+  "why": "По твоей просьбе: в библиотеке почти нет аркадных экшенов, а это короткий и любовно сделанный «Терминатор 2» в духе игр 16-битной эпохи. Высшая сложность жёсткая, но читы снимают проблему и не мешают трофеям.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/terminator_2d_no_fate/trophies"
+   },
+   {
+    "name": "Selphie1999 (трофеи)",
+    "url": "https://selphie1999gaming.com/game-guides/terminator-2d-no-fate/terminator-2d-no-fate-achievements-how-to-get-100-completion/"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/terminator-2d-no-fate/"
+   },
+   {
+    "name": "PlayStation (языки)",
+    "url": "https://www.playstation.com/en-gb/games/terminator-2d-no-fate/"
+   },
+   {
+    "name": "Push Square (издания, перенос)",
+    "url": "https://www.pushsquare.com/news/2025/09/terminator-2d-delayed-now-fated-to-release-late-november-on-ps5-ps4"
+   }
+  ],
+  "diff_base_votes": 30,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 5,
+     "s": 12,
+     "b": 15
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "platform": "PS5",
+  "plat_pct": 60.4,
+  "est_100_hours": 23,
+  "dlc_count": 1,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlcs": [
+   {
+    "name": "Terminator: Resistance - Annihilation Line",
+    "group": "Terminator: Resistance - Annihilation Line",
+    "trophies": 9,
+    "released": true,
+    "release_date": "2021-12-10",
+    "difficulty": 2.97,
+    "hours": 4,
+    "note": "сюжетные трофеи плюс «Смекалка» (заложить взрывчатку быстрее Ферро); по анонсу Teyon — 4+ ч нового контента",
+    "about": "Сюжетная кампания, встроенная в середину основной игры: после победы над первым Инфильтратором Джейкоб Риверс с отрядом Кайла Риза идёт за «Линию уничтожения», чтобы выяснить, почему замолчало поселение Нортридж.",
+    "free": false,
+    "expected": null,
+    "grades": {
+     "off": {
+      "s": 1,
+      "b": 8
+     },
+     "on": {}
+    }
+   }
+  ],
+  "diff_dlc": 2.97,
+  "dur_dlc": "0+",
+  "full_count": 310,
+  "id": "terminator_resistance",
+  "title": "Terminator: Resistance Enhanced",
+  "release": "2021-04-30",
+  "genre": "Шутер от первого лица",
+  "developer": "Teyon",
+  "stratege_url": "https://stratege.ru/ps5/games/terminator_resistance/trophies",
+  "trophies": {
+   "total": 37,
+   "base": 28,
+   "dlc": 9,
+   "plat": 1,
+   "gold": 7,
+   "silver": 9,
+   "bronze": 20
+  },
+  "diff_base": 3.04,
+  "dur_base": "10+",
+  "avg_plat_hours": 19,
+  "owners": 1648,
+  "plat_count": 995,
+  "avg_completion": 67,
+  "critic": 47,
+  "critic_src": "Metacritic (PS4)",
+  "user_score": 7.3,
+  "quality": 6.2,
+  "quality_note": "MC PS4 47, MC user 7.3 (Steam 91%); игроки и stratege хвалят атмосферу и связь с фильмами, критики ругали бюджетность (+0.5)",
+  "missables": "1–2: «Безнадега» (к миссии «Обратно в Пасадену» нужен 3-й уровень взлома) и «Маэстро»; главы можно переигрывать",
+  "playthroughs": "1 + режим «Лазутчик» (PS5)",
+  "difficulty_trophy": "Нет (можно на лёгкой)",
+  "glitched": "На PS5 жаловались, что «Маэстро», «Легкие деньги» и «Архивариус» срабатывали не сразу (комментарии PowerPyx)",
+  "ru": "subs",
+  "ru_loc": "Субтитры и интерфейс (озвучка только английская)",
+  "disc_note": "Диск PS5 (Standard и Collector's Edition от Reef, 2021); PS4-диск даёт бесплатное обновление до PS5. DLC Annihilation Line — цифрой ($/€14.99)",
+  "pros": [
+   "Атмосфера войны будущего из фильмов",
+   "Лёгкая платина: она у 60% владельцев",
+   "Сюжетное DLC на 4+ часа"
+  ],
+  "cons": [
+   "Низкие оценки критиков (MC 47)",
+   "Бюджетная графика и анимации",
+   "Пропускаемый трофей «Безнадега»"
+  ],
+  "about": "Шутер от первого лица польской студии Teyon по вселенной «Терминатора». Лос-Анджелес, 2028 год, война со Скайнетом: солдат Сопротивления Джейкоб Риверс оказывается в центре охоты машин и пытается понять, почему Скайнет так хочет его смерти. Линейные главы с полуоткрытыми локациями, скрытность, крафт, взлом и диалоги с выбором; сюжет связан с первыми двумя фильмами. Enhanced-версия для PS5 добавляет режим «Лазутчик» за T-800.",
+  "trophy_summary": "Простая платина: главное — прокачать взлом до 3-го уровня к миссии «Обратно в Пасадену» (трофей «Безнадега») и не забыть «Маэстро»; плюс короткий режим «Лазутчик». DLC Annihilation Line — 9 сюжетных трофеев.",
+  "why": "По твоей просьбе: если понравились Metro Exodus и Fallout 4 — это постапокалиптический шутер с крафтом и взломом попроще, но с отличной атмосферой фильмов и лёгкой платиной; игроки оценивают его куда выше критиков.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/terminator_resistance/trophies"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/terminator-resistance-trophy-guide-roadmap/"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/terminator-resistance/"
+   },
+   {
+    "name": "Steam (отзывы)",
+    "url": "https://store.steampowered.com/app/954740/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10001332"
+   },
+   {
+    "name": "Teyon (Annihilation Line)",
+    "url": "https://teyon.com/news/annihilation-line-is-out-now"
+   },
+   {
+    "name": "Gematsu (диск PS5, обновление)",
+    "url": "https://www.gematsu.com/2020/12/terminator-resistance-enhanced-announced-for-ps5"
+   }
+  ],
+  "diff_base_votes": 190,
+  "diff_dlc_votes": 38,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 7,
+     "s": 8,
+     "b": 12
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {
+     "s": 1,
+     "b": 8
+    },
+    "on": {}
+   },
+   "dlc_groups": 1
+  }
+ },
+ {
   "added": "2026-10-24",
   "avg_completion": 37,
   "avg_plat_hours": 69,
@@ -13282,6 +15315,567 @@
    "dlc_groups": 0
   },
   "about": "Экшен-RPG — дебют Rebel Wolves, студии бывших разработчиков The Witcher 3. XIV век, карпатская долина Вале-Сангора захвачена вампирами во главе с Бренцисом: молодой Коэн становится Рассветным странником — днём он человек, ночью обладает силами вампира. На спасение семьи отведено 30 дней и ночей, и время продвигается по мере выполнения заданий; бои, магия и свобода в выборе порядка квестов."
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 27.4,
+  "est_100_hours": 28,
+  "dlc_count": 5,
+  "full_pct": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_dlc": 6.81,
+  "dur_dlc": "25+",
+  "dlcs": [
+   {
+    "name": "New Game Plus",
+    "trophies": 1,
+    "released": true,
+    "release_date": "2023-02-07",
+    "difficulty": null,
+    "hours": null,
+    "note": null,
+    "about": "Режим «Новая игра +»: повторное прохождение с сохранённым оружием и улучшениями.",
+    "free": true,
+    "expected": null,
+    "group": "New Game Plus",
+    "grades": {
+     "off": {
+      "b": 1
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Hardcore Mode",
+    "trophies": 3,
+    "released": true,
+    "release_date": "2023-02-07",
+    "difficulty": null,
+    "hours": null,
+    "note": "Hardcore и Hardcore NG+, плюс купить все пушки и апгрейды",
+    "about": "Экстремальная сложность: меньше патронов и аптечек, сильнее враги, дешевле контрабанда.",
+    "free": true,
+    "expected": null,
+    "group": "Экстремальный Pежим",
+    "grades": {
+     "off": {
+      "b": 3
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Contagion Bundle",
+    "trophies": 2,
+    "released": true,
+    "release_date": "2023-03-13",
+    "difficulty": null,
+    "hours": null,
+    "note": "платное (Season Pass); пройти режим и пройти его ни разу не погибнув — главная причина DLC-оценки 6.81",
+    "about": "Режим заражения: усиленные враги, минимум ресурсов, нет ручных сохранений, при смерти глава начинается заново.",
+    "free": false,
+    "expected": null,
+    "group": "Режим Заражения",
+    "grades": {
+     "off": {
+      "g": 2
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Riot Bundle",
+    "trophies": 7,
+    "released": true,
+    "release_date": "2023-05-22",
+    "difficulty": null,
+    "hours": null,
+    "note": "платное (Season Pass); выдержать 50 волн; дата по Steam",
+    "about": "Режим бунта — волны врагов на аренах тюрьмы с покупкой оружия и стимуляторов между волнами.",
+    "free": false,
+    "expected": null,
+    "group": "Режим Бунта",
+    "grades": {
+     "off": {
+      "g": 1,
+      "s": 1,
+      "b": 5
+     },
+     "on": {}
+    }
+   },
+   {
+    "name": "Final Transmission",
+    "trophies": 7,
+    "released": true,
+    "release_date": "2023-06-28",
+    "difficulty": null,
+    "hours": null,
+    "note": "платное сюжетное DLC (Season Pass); дата по Steam",
+    "about": "Сюжетный эпилог: Джейкоб пробивается через тюрьму Чёрного железа, чтобы вывезти с Каллисто данные Малера.",
+    "free": false,
+    "expected": null,
+    "group": "Последняя передача",
+    "grades": {
+     "off": {
+      "g": 1,
+      "s": 1,
+      "b": 5
+     },
+     "on": {}
+    }
+   }
+  ],
+  "full_count": 189,
+  "id": "the_callisto_protocol",
+  "title": "The Callisto Protocol",
+  "platform": "PS5",
+  "release": "2022-12-02",
+  "genre": "Survival horror от третьего лица",
+  "developer": "Striking Distance Studios",
+  "stratege_url": "https://stratege.ru/ps5/games/the_callisto_protocol/trophies",
+  "trophies": {
+   "total": 47,
+   "base": 27,
+   "dlc": 20,
+   "plat": 1,
+   "gold": 11,
+   "silver": 11,
+   "bronze": 24
+  },
+  "diff_base": 4.37,
+  "dur_base": "10+",
+  "avg_plat_hours": 28,
+  "owners": 12246,
+  "plat_count": 3354,
+  "avg_completion": 35,
+  "critic": 69,
+  "critic_src": "Metacritic (PS5)",
+  "user_score": 6.8,
+  "quality": 6.9,
+  "quality_note": "MC PS5 69, MC user 6.8; на stratege хвалят атмосферу и картинку, ругают кривую боёвку и чекпоинты (0)",
+  "missables": "Биографии с имплантов можно пропустить, но добираются в NG+; вручную сохраняйся в начале глав — на старте был баг с подбором",
+  "playthroughs": "1 на «Максимальном уровне охраны» + DLC-режимы: NG+, Hardcore и Hardcore NG+, режим заражения, бунт и сюжетное DLC",
+  "difficulty_trophy": "Да — «Максимальный уровень охраны» в основе; Hardcore, Hardcore NG+ и режим заражения без смертей в DLC",
+  "glitched": "На старте собранные биографии иногда не засчитывались; сейчас серьёзных жалоб нет",
+  "ru": "subs",
+  "ru_loc": "Субтитры (русская озвучка есть только в PC-версии)",
+  "disc_note": "Диск PS5 (стандартное/Day One издание); NG+ и Hardcore — бесплатные обновления, режим заражения, бунт и Final Transmission — Season Pass цифрой",
+  "pros": [
+   "Плотная атмосфера и одна из лучших картинок на PS5",
+   "Короткая и лёгкая основная платина",
+   "Всё офлайн"
+  ],
+  "cons": [
+   "Неуклюжая ближняя боёвка, плохие чекпоинты",
+   "Режим заражения без смертей в DLC",
+   "Season Pass не на диске"
+  ],
+  "about": "Научно-фантастический survival horror от Striking Distance Studios во главе с Гленом Скофилдом, одним из создателей Dead Space. Пилот грузовика Джейкоб Ли попадает в тюрьму «Чёрное железо» на спутнике Юпитера Каллисто как раз в момент, когда заключённые начинают превращаться в мутантов. Линейный сюжетный боевик от третьего лица с упором на ближний бой, уклонения, гравитационную перчатку и расчленение врагов. Без интерфейса на экране: здоровье и боезапас показывает сам костюм героя.",
+  "trophy_summary": "Основная платина простая (4.37): одно прохождение на максимальной сложности и коллекционные биографии. Сложными делают 100% DLC (6.81): режим заражения нужно пройти ни разу не погибнув, а в режиме бунта — выдержать 50 волн.",
+  "why": "Духовный наследник Dead Space из твоего списка и родственник Cronos: The New Dawn и The Medium по атмосфере. Основная платина короткая и лёгкая, но на 100% придётся пройти режим заражения без единой смерти (DLC 6.81 — выше твоего порога).",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/the_callisto_protocol/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/the_callisto_protocol/difficulty"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/the-callisto-protocol/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10002652"
+   },
+   {
+    "name": "Steam (Contagion Bundle)",
+    "url": "https://store.steampowered.com/app/2341550/"
+   },
+   {
+    "name": "Steam (Final Transmission)",
+    "url": "https://store.steampowered.com/app/2005983/"
+   },
+   {
+    "name": "VGC (дорожная карта DLC)",
+    "url": "https://www.videogameschronicle.com/news/the-callisto-protocols-dlc-roadmap-includes-new-story-content-in-summer-2023"
+   }
+  ],
+  "diff_base_votes": 412,
+  "diff_dlc_votes": 37,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 7,
+     "s": 9,
+     "b": 10
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {
+     "b": 14,
+     "g": 4,
+     "s": 2
+    },
+    "on": {}
+   },
+   "dlc_groups": 5
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "platform": "PS5",
+  "plat_pct": 9.2,
+  "est_100_hours": 25,
+  "dlc_count": 0,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlcs": [],
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "full_count": null,
+  "id": "little_hope",
+  "title": "The Dark Pictures Anthology: Little Hope",
+  "release": "2020-10-30",
+  "genre": "Кинематографичный хоррор",
+  "developer": "Supermassive Games",
+  "stratege_url": "https://stratege.ru/ps5/games/the_dark_pictures_anthology_little_hope/trophies",
+  "trophies": {
+   "total": 31,
+   "base": 31,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 6,
+   "silver": 7,
+   "bronze": 17
+  },
+  "diff_base": 3.28,
+  "dur_base": "25+",
+  "avg_plat_hours": 25,
+  "owners": 5471,
+  "plat_count": 505,
+  "avg_completion": 20,
+  "critic": 71,
+  "critic_src": "Metacritic (PS4)",
+  "user_score": 6.6,
+  "quality": 6.8,
+  "quality_note": "MC PS4 71, MC user 6.6; на stratege нудные перепрохождения и жалобы на слетающие сохранения, но части игроков понравилась больше Man of Medan (−0.1)",
+  "missables": "Почти все трофеи завязаны на выборы, но после финала есть выбор глав",
+  "playthroughs": "3 + переигровка глав (PSTHC)",
+  "difficulty_trophy": "Нет (QTE можно настроить без ограничения по времени)",
+  "glitched": "Жалобы на порчу сохранений (stratege, 2020) — делай резервные копии; «Странная пара» требует точного сценария диалогов",
+  "ru": "voice",
+  "ru_loc": "Озвучка и субтитры",
+  "disc_note": "Диск PS4; PS5-версия (27.09.2022) бесплатна владельцам PS4-диска — диск нужно вставлять в PS5",
+  "pros": [
+   "Русская озвучка",
+   "Онлайн-трофеев нет",
+   "Сюжет об охоте на ведьм 1692 года"
+  ],
+  "cons": [
+   "Нудные перепрохождения ради концовок",
+   "Неочевидные трофеи за отношения",
+   "Жалобы на слетающие сохранения"
+  ],
+  "about": "Вторая часть антологии The Dark Pictures от Supermassive Games. После аварии автобуса четверо студентов и их преподаватель застревают в заброшенном городке Литтл-Хоуп в Новой Англии: туман не выпускает их, а видения переносят в 1692 год, во времена охоты на ведьм, где у каждого из героев есть двойник. Хоррор с выборами и QTE, отношения и черты характера влияют на исход; есть кооператив по сети и режим «Киновечер» для компании.",
+  "trophy_summary": "Сложности нет, время уходит на прохождения «все выжили» и «никто не выжил», отношения и черты характера, плюс коллекционки. Неприятные места — «Странная пара» (точный порядок реплик) и редкие поломки сохранений.",
+  "why": "По твоей просьбе: после Until Dawn и House of Ashes — та же формула антологии без онлайн-трофеев и с русской озвучкой.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/the_dark_pictures_anthology_little_hope/trophies"
+   },
+   {
+    "name": "PSTHC (гайд)",
+    "url": "https://www.psthc.fr/unjeu/the-dark-pictures-anthology-little-hope-ps4/guide-trophees.htm"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/the-dark-pictures-anthology-little-hope/"
+   },
+   {
+    "name": "PS Store (языки, обновление)",
+    "url": "https://store.playstation.com/en-gb/concept/235232"
+   }
+  ],
+  "diff_base_votes": 178,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 6,
+     "s": 7,
+     "b": 17
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "platform": "PS5",
+  "plat_pct": 6.5,
+  "est_100_hours": 27,
+  "dlc_count": 0,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": true,
+  "online_note": "Трофей «Learning to work together» — пройти Совместную историю (Shared Story) по сети вдвоём: нужен напарник, у которого есть игра, и PS Plus у обоих; бесплатный Friend's Pass раздавали только с ноября 2019 по январь 2020. Коллекционки и остальное делаются офлайн: Curator's Cut бесплатный и открывается после финала. На stratege жалуются на обрывы соединения в коопе",
+  "online_trophies": [
+   {
+    "name": "Learning to work together / Умение работать вместе",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "Пройти Совместную историю (Shared Story) по сети с живым напарником; PS Plus у обоих",
+    "got": null
+   }
+  ],
+  "dlcs": [],
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "full_count": null,
+  "id": "man_of_medan",
+  "title": "The Dark Pictures Anthology: Man of Medan",
+  "release": "2019-08-30",
+  "genre": "Кинематографичный хоррор",
+  "developer": "Supermassive Games",
+  "stratege_url": "https://stratege.ru/ps5/games/the_dark_pictures_-_man_of_medan/trophies",
+  "trophies": {
+   "total": 31,
+   "base": 31,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 6,
+   "silver": 7,
+   "bronze": 17
+  },
+  "diff_base": 3.5,
+  "dur_base": "25+",
+  "avg_plat_hours": 27,
+  "owners": 5128,
+  "plat_count": 333,
+  "avg_completion": 17,
+  "critic": 69,
+  "critic_src": "Metacritic (PS4)",
+  "user_score": 5.9,
+  "quality": 6.3,
+  "quality_note": "MC PS4 69, MC user 5.9; на stratege жалуются на однообразные перепрохождения и нестабильный онлайн (−0.2)",
+  "missables": "Почти все трофеи завязаны на выборы, но после финала есть выбор глав",
+  "playthroughs": "3–5 (одиночное, «Киновечер», Совместная история по сети, Curator's Cut) + выбор глав",
+  "difficulty_trophy": "Нет (уровней сложности нет)",
+  "glitched": "PowerPyx (2019) сообщал о баге секрета №20 у части игроков; актуальность не подтверждена",
+  "ru": "voice",
+  "ru_loc": "Озвучка и субтитры",
+  "disc_note": "Диск PS4; PS5-версия (27.09.2022) бесплатна владельцам PS4-диска — диск нужно вставлять в PS5",
+  "pros": [
+   "Русская озвучка",
+   "Лёгкие трофеи, ошибки исправляет выбор глав",
+   "Короткая история про корабль-призрак"
+  ],
+  "cons": [
+   "Онлайн-трофей: нужен напарник с игрой",
+   "Много однообразных перепрохождений",
+   "Слабейшие оценки игроков в антологии"
+  ],
+  "about": "Первая часть антологии The Dark Pictures от Supermassive Games (Until Dawn). Четверо американских туристов и капитан нанятого катера ныряют к затонувшему самолёту Второй мировой в южной части Тихого океана, попадают в плен к пиратам и оказываются на борту корабля-призрака «Оуран Медан». Кинематографичный хоррор с QTE и выборами: погибнуть может любой герой. Историю можно пройти одному, вдвоём по сети или компанией до пяти человек с одним геймпадом.",
+  "trophy_summary": "Сложного нет, платину затягивают перепрохождения ради концовок «все выжили / никто не выжил», отношений, черт характера и коллекционок. Единственный онлайн-трофей — Совместная история с живым напарником.",
+  "why": "По твоей просьбе: Until Dawn и House of Ashes уже пройдены, а это начало той же антологии с похожей платиной. Минус — трофей за сетевой кооп, нужен друг с игрой.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/the_dark_pictures_-_man_of_medan/trophies"
+   },
+   {
+    "name": "PowerPyx",
+    "url": "https://www.powerpyx.com/the-dark-pictures-anthology-man-of-medan-trophy-guide-roadmap/"
+   },
+   {
+    "name": "Platget (гайд)",
+    "url": "https://platget.com/guides/man-of-medan-trophy-guide"
+   },
+   {
+    "name": "PlayStation Blog (Friend's Pass, Curator's Cut)",
+    "url": "https://blog.playstation.com/archive/2019/11/27/invite-someone-to-play-man-of-medans-shared-story-mode-with-friends-pass-out-today"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/the-dark-pictures-anthology-man-of-medan/"
+   },
+   {
+    "name": "PS Store (языки, обновление)",
+    "url": "https://store.playstation.com/en-gb/concept/232935"
+   }
+  ],
+  "diff_base_votes": 202,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 5,
+     "s": 7,
+     "b": 17
+    },
+    "on": {
+     "g": 1
+    }
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "platform": "PS5",
+  "plat_pct": 14.7,
+  "est_100_hours": 24,
+  "dlc_count": 0,
+  "full_pct": null,
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlcs": [],
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "full_count": null,
+  "id": "the_devil_in_me",
+  "title": "The Dark Pictures Anthology: The Devil in Me",
+  "release": "2022-11-18",
+  "genre": "Кинематографичный хоррор",
+  "developer": "Supermassive Games",
+  "stratege_url": "https://stratege.ru/ps5/games/the_dark_pictures_anthology_the_devil_in_me/trophies",
+  "trophies": {
+   "total": 31,
+   "base": 31,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 4,
+   "silver": 17,
+   "bronze": 9
+  },
+  "diff_base": 2.98,
+  "dur_base": "25+",
+  "avg_plat_hours": 24,
+  "owners": 5620,
+  "plat_count": 828,
+  "avg_completion": 30,
+  "critic": 69,
+  "critic_src": "Metacritic (PS5)",
+  "user_score": 6.1,
+  "quality": 6.6,
+  "quality_note": "MC PS5 69, MC user 6.1; на stratege — самая удобная платина серии, но много технических багов (±0)",
+  "missables": "Трофеи завязаны на выборы и коллекционки, всё добирается через подробный выбор глав",
+  "playthroughs": "1–2 + выбор глав",
+  "difficulty_trophy": "Нет",
+  "glitched": "На старте 4 трофея за сбор требовали Curator's Cut (теперь он бесплатный в PS Store); сообщали, что часть трофеев падает не сразу",
+  "ru": "voice",
+  "ru_loc": "Озвучка и субтитры",
+  "disc_note": "Диск PS5 выходил (физические предзаказы, европейское издание); stratege указывает только цифру",
+  "pros": [
+   "Самая быстрая платина антологии",
+   "Русская озвучка",
+   "Онлайн-трофеев нет"
+  ],
+  "cons": [
+   "Много технических багов",
+   "Коллекционки без гайда тормозят платину"
+  ],
+  "about": "Финал первого сезона антологии The Dark Pictures от Supermassive Games. Съёмочная группа документального сериала о серийных убийцах получает приглашение в точную копию «Замка убийств» Г. Г. Холмса на острове у озера Мичиган — и попадает в ловушки современного подражателя. Герои научились бегать, лазать и пользоваться инвентарём, появились простые головоломки; выборы и QTE решают, кто доживёт до утра.",
+  "trophy_summary": "Легче прошлых частей: концовки и ситуации добиваются через короткие главы, полное перепрохождение почти не нужно. Время съедают коллекционки (секреты, схемы, визитки, 200 оболов) — с гайдом проще.",
+  "why": "По твоей просьбе: после House of Ashes — последняя часть первого сезона антологии и самая быстрая платина серии, с русской озвучкой.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/the_dark_pictures_anthology_the_devil_in_me/trophies"
+   },
+   {
+    "name": "PC Invasion (трофеи)",
+    "url": "https://pcinvasion.com/?p=339822"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/the-dark-pictures-anthology-the-devil-in-me/"
+   },
+   {
+    "name": "PlayStation (языки, Curator's Cut)",
+    "url": "https://www.playstation.com/en-gb/games/the-dark-pictures-anthology-the-devil-in-me/"
+   },
+   {
+    "name": "Gematsu (анонс, издания)",
+    "url": "https://www.gematsu.com/2022/07/the-dark-pictures-anthology-the-devil-in-me-launches-this-fall"
+   }
+  ],
+  "diff_base_votes": 117,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 4,
+     "s": 17,
+     "b": 9
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
  },
  {
   "added": "2026-10-24",
@@ -13980,6 +16574,120 @@
    "dlc_groups": 0
   },
   "about": "Экшен-приключение от Naughty Dog (серии Uncharted и The Last of Us), самостоятельное дополнение к Uncharted 4. Охотница за сокровищами Хлоя Фрейзер в паре с наёмницей Надин Росс отправляется в горы Западные Гаты в Индии на поиски Бивня Ганеши, опережая жестокого полевого командира Асава. Скалолазание, перестрелки, головоломки и большая открытая глава с джипом."
+ },
+ {
+  "section": "candidate",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": null,
+  "added": "2026-10-25",
+  "updated": "2026-10-25",
+  "cand_group": "По твоей просьбе",
+  "plat_pct": 47.8,
+  "est_100_hours": 8,
+  "dlc_count": 0,
+  "full_pct": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "dlcs": [],
+  "full_count": null,
+  "id": "unholy",
+  "title": "Unholy",
+  "platform": "PS5",
+  "release": "2024-09-13",
+  "genre": "Психологический хоррор, стелс",
+  "developer": "Duality Games",
+  "stratege_url": "https://stratege.ru/ps5/games/unholy/trophies",
+  "trophies": {
+   "total": 28,
+   "base": 28,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 5,
+   "silver": 14,
+   "bronze": 8
+  },
+  "diff_base": 2.0,
+  "dur_base": "0+",
+  "avg_plat_hours": 8,
+  "owners": 23,
+  "plat_count": 11,
+  "avg_completion": 57,
+  "critic": 52,
+  "critic_src": "Metacritic (PC)",
+  "user_score": 6.3,
+  "quality": 5.3,
+  "quality_note": "MC 52 (PC, 8 рецензий), MC user 6.3 (14 оценок); на stratege 2 отзыва, оба отрицательные — «нестрашная бродилка» (−0.3)",
+  "missables": "Вероятно да: взаимоисключающий выбор — спасти или убить техника, 15 памятных знаков; есть ли выбор глав — не установлено",
+  "playthroughs": "1 (с сохранением перед выбором с техником) — не подтверждено гайдом",
+  "difficulty_trophy": "Нет",
+  "glitched": "Не найдено",
+  "ru": "subs",
+  "ru_loc": "Субтитры",
+  "disc_note": "Диск PS5 есть (Microids в Европе, PM Studios/Curveball в Северной Америке); DLC нет",
+  "pros": [
+   "Необычный сеттинг: панельный городок и мир жрецов",
+   "Платина за пару вечеров",
+   "Без DLC и онлайна"
+  ],
+  "cons": [
+   "Слабые оценки критиков и игроков",
+   "Не страшно, простой сюжет",
+   "Мало данных: 2 голоса на stratege"
+  ],
+  "about": "Психологический хоррор от первого лица польской студии Duality Games, основанной выходцами из команд Painkiller и Bulletstorm. Мать ищет пропавшего сына и путешествует между серым постсоветским городом и потусторонним миром Unholy, где правит каста жрецов. Игра сочетает исследование, головоломки и стелс с необычным метательным оружием, заряжаемым эмоциями — гневом, страхом, печалью и желанием, — которые меняют окружение и действуют на врагов. Визуальный стиль основан на мрачных работах художника Томаша Стржалковского.",
+  "trophy_summary": "Очень простая платина (2.0, но всего 2 голоса): прохождение глав, 15 памятных знаков и ситуационные трофеи; спасти и убить техника — взаимоисключающие, нужна точка сохранения.",
+  "why": "Короткий хоррор по твоей просьбе с лёгкой платиной; постсоветский сюрреализм напоминает INDIKA и The Medium, но по оценкам игра заметно слабее — брать скорее ради быстрой платины.",
+  "sources": [
+   {
+    "name": "Stratege",
+    "url": "https://stratege.ru/ps5/games/unholy/trophies"
+   },
+   {
+    "name": "Stratege (сложность)",
+    "url": "https://stratege.ru/ps5/games/unholy/difficulty"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/unholy/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/concept/10010042"
+   },
+   {
+    "name": "Gematsu (релиз на PS5)",
+    "url": "https://gematsu.com/2024/09/unholy-for-ps5-xbox-series-launches-september-13"
+   },
+   {
+    "name": "PM Studios (диск)",
+    "url": "https://www.pm-studios.com/games/unholy"
+   }
+  ],
+  "diff_base_votes": 2,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 5,
+     "s": 14,
+     "b": 8
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  }
  },
  {
   "added": "2026-10-24",
