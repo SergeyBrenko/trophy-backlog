@@ -28,6 +28,7 @@ data/covers.json           путь stratege (/ps5/games/<slug>) → img/covers/
 data/stratege.json         путь stratege → {type, lang, votes}: тип издания и язык (подсказка при проверке диска и русского), голоса за сложность
 data/trophies.json         путь stratege → списки трофеев основной игры и каждой группы DLC со stratege (имя, тип кубка, пометка онлайн)
 img/avatar.png             аватар PSN владельца
+img/favicon.svg            фавиконка (золотой кубок на синем); img/favicon-32.png и img/apple-touch-icon.png — PNG-копии для старых браузеров и iOS
 img/covers/                обложки: иконки трофейных листов PSN, квадрат 256×256 JPEG
 scripts/sync_profile.py    выгружает профиль stratege без браузера → library_raw.txt + library.json → totals, synced
 scripts/fetch_stratege.py  докачивает аватар, обложки, тип издания/язык, голоса и списки трофеев (нужен Pillow; --trophies — перечитать трофеи и голоса, --force — всё заново)

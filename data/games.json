@@ -12539,6 +12539,118 @@
   "about": "Ремейк культового survival horror 1998 года от Capcom. Новичок-полицейский Леон Кеннеди и Клэр Рэдфилд, разыскивающая брата, оказываются в Ракун-Сити, охваченном зомби-эпидемией, и ищут спасения в полицейском участке. Камера из-за плеча, нехватка патронов, головоломки и преследующий героев Тиран. Две кампании за разных героев плюс повторные прохождения."
  },
  {
+  "added": "2026-10-26",
+  "avg_completion": 46,
+  "avg_plat_hours": 14,
+  "cand_group": "Пропущенное",
+  "cons": [
+   "Короткая, часть локаций оригинала вырезана",
+   "Ранг S на «Инферно» требует заучивания"
+  ],
+  "critic": 79,
+  "critic_src": "OpenCritic",
+  "developer": "Capcom",
+  "diff_base": 4.31,
+  "diff_base_votes": 716,
+  "diff_dlc": null,
+  "difficulty_trophy": "Да — прохождения на «Кошмаре» и «Инферно», ранг S на «Инферно» (до 2 ч, не больше 5 сохранений); помогают бонусные предметы из внутриигрового магазина",
+  "disc_note": "Диск PS5 (с 12.2024); PS4-диск тоже даёт бесплатный апгрейд до PS5",
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "dlcs": [],
+  "dur_base": "25+",
+  "dur_dlc": null,
+  "full_count": null,
+  "genre": "Survival horror",
+  "glitched": "Нет известных",
+  "id": "resident_evil_3_remake",
+  "missables": "Почти все трофеи необязательные, но всё добирается повторными прохождениями",
+  "my_rating": null,
+  "notes": "",
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "owners": 9178,
+  "plat_count": 2839,
+  "platform": "PS5",
+  "playthroughs": "3–4 коротких (Hardcore, «Кошмар», «Инферно»; плюс лёгкое для сбора предметов)",
+  "priority": null,
+  "pros": [
+   "Немезис и погони держат в напряжении",
+   "Механика ремейка RE2 с уклонениями",
+   "Платина проще остальных RE в списке"
+  ],
+  "quality": 7.5,
+  "quality_note": "OC 79 (MC 75), MC user 6.8",
+  "release": "2020-04-03",
+  "ru": "subs",
+  "ru_loc": "Субтитры",
+  "section": "candidate",
+  "sources": [
+   {
+    "name": "Stratege — трофеи",
+    "url": "https://stratege.ru/ps5/games/resident_evil_3_remake/trophies"
+   },
+   {
+    "name": "Stratege — сложность",
+    "url": "https://stratege.ru/ps5/games/resident_evil_3_remake/difficulty"
+   },
+   {
+    "name": "PowerPyx (roadmap)",
+    "url": "https://www.powerpyx.com/resident-evil-3-remake-trophy-guide-roadmap/"
+   },
+   {
+    "name": "DekuDeals (MC/OC)",
+    "url": "https://www.dekudeals.com/items/resident-evil-3"
+   },
+   {
+    "name": "GFinity (языки)",
+    "url": "https://www.gfinityesports.com/resident-evil/resident-evil-3-remake-language-options-confirmed-change-subtitles-ps4-xbox-pc/"
+   },
+   {
+    "name": "Push Square (диск PS5)",
+    "url": "https://pushsquare.com/news/2024/10/resident-evil-2-3-7-ps5-physical-versions-coming-this-december"
+   }
+  ],
+  "status": "planned",
+  "stratege_url": "https://stratege.ru/ps5/games/resident_evil_3_remake/trophies",
+  "title": "Resident Evil 3",
+  "trophies": {
+   "base": 33,
+   "bronze": 16,
+   "dlc": 0,
+   "gold": 4,
+   "plat": 1,
+   "silver": 12,
+   "total": 33
+  },
+  "trophy_summary": "Несколько забегов на повышенных сложностях, ранг S на «Инферно» за 2 часа, испытания без сундука и лечения. Очки для магазина бонусов придётся подкопить. Сетевой Resistance — отдельный трофейный лист, в эту платину не входит.",
+  "updated": "2026-10-26",
+  "user_score": 6.8,
+  "why": "Ты прошёл RE Village на 100%, а RE3 — самая простая платина среди Resident Evil в списке (4.31) и короткая игра. Сюжет идёт параллельно ремейку RE2 в том же Ракун-Сити, так что их удобно проходить подряд.",
+  "about": "Ремейк Resident Evil 3: Nemesis (1999) от Capcom. Сентябрь 1998-го: бывший боец S.T.A.R.S. Джилл Валентайн пытается выбраться из Ракун-Сити в первые дни зомби-эпидемии, а за ней охотится биооружие Немезис. Камера из-за плеча, уклонения, нехватка патронов; улицы города, больница и подземные лаборатории. Линейнее и короче ремейка RE2, рассчитана на повторные прохождения.",
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 4,
+     "s": 12,
+     "b": 16
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  },
+  "plat_pct": 30.9,
+  "est_100_hours": 14,
+  "dlc_count": 0
+ },
+ {
   "section": "candidate",
   "status": "planned",
   "priority": null,

@@ -25243,6 +25243,176 @@
    }
   ]
  },
+ "/ps5/games/resident_evil_3_remake": {
+  "base": [
+   {
+    "name": "So Long, RC / Прощай, Раккун-Сити",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Dominator / Доминатор",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Jill Valentine / Джилл Валентайн",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Sensational Work! / Само совершенство!",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Sprinter / Спринтер",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Nemesis Down / Немезис повержен",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Power Stones / Волшебные камни",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Electric Slide / Прирожденный электрик",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Two For One Deal / Два в одном",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Bookworm / Книжный червь",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Goodbye, Charlie! / Пока, Чарли!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "RE: Master of Unlocking / Мастер взлома третьего разряда",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Survivor / Выжившая",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Veteran / Ветеран",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Conqueror / Воительница",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Minimalist / Минималистка",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "I Might Need These Later! / Возможно, это понадобится позже!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "First Escape / Из огня да в полымя",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Somebody to Lean On / Есть на кого опереться",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape from the City / Побег из города",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "I Don't Feel So Good / Что-то мне нехорошо",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Basic Chemistry / Основы химии",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Gunsmith / Оружейный мастер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Get Organized / Наводим порядок",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Nemesis Down? / Немезис повержен?",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Carlos Express / Поезд дальше не идет",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "An Unfortunate End / Печальный конец",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "I Need a Hero / Геройские будни",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Pursuer / В погоню",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Nemesis Down!? / Немезис повержен?!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Nemesis Down!!! / Немезис повержен!!!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Hello, Charlie! / Привет, Чарли!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Kendo's Armory / Арсенал Кендо",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
  "/ps5/games/resident_evil_4_remake": {
   "base": [
    {
