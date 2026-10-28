@@ -5,12 +5,14 @@ Usage:
   python3 scripts/recalc.py            # games.json derived fields + library.json stats
 
 games.json: plat_pct, est_100_hours, dlc_count, dlc_pending (from dlcs[].released == false);
+from data/stratege.json "stats" (fetch_stratege.py --stats): trophies, owners, plat_count, full_count, avg_completion,
+avg_plat_hours, diff_base, dur_base, diff_dlc, dur_dlc;
 from data/trophies.json and data/stratege.json: tro_split (base / DLC trophies by grade, offline vs online),
 dlcs[].grades and dlcs[].trophies (by the stratege DLC group in dlcs[].group, matched by name if missing),
 diff_base_votes, diff_dlc_votes.
 Online = names in online_trophies (verified against guides; stratege's own online mark is unreliable); platinum stays offline.
 library.json: games list and computed stats are rebuilt from data/library_raw.txt;
-totals (profile header numbers) are kept as-is — update them by hand from the stratege profile.
+totals (profile header numbers) are kept as-is — scripts/sync_profile.py updates them.
 """
 import collections, datetime, html, json, pathlib, re
 
@@ -89,7 +91,12 @@ def recalc_games():
             continue
         m = re.search(r"/(ps[345]|psvita)/games/[^/?#]+", g.get("stratege_url") or "")
         if m:
-            trophy_split(g, lists.get(m.group(0)), facts.get(m.group(0), {}).get("votes"), unmatched)
+            fact = facts.get(m.group(0), {})
+            # stratege is the source of base stats: values from fetch_stratege.py --stats replace the card's
+            for k, v in (fact.get("stats") or {}).items():
+                if v is not None:
+                    g[k] = v
+            trophy_split(g, lists.get(m.group(0)), fact.get("votes"), unmatched)
         ow, pc = g.get("owners"), g.get("plat_count")
         g["plat_pct"] = round(100 * pc / ow, 1) if ow and pc is not None else None
         dlcs = g.get("dlcs") or []

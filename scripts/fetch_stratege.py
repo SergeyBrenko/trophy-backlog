@@ -5,6 +5,7 @@ Usage:
   python3 scripts/fetch_stratege.py            # only what is missing
   python3 scripts/fetch_stratege.py --force    # re-download everything
   python3 scripts/fetch_stratege.py --trophies # re-read trophy lists only (new DLC after an update)
+  python3 scripts/fetch_stratege.py --stats    # refresh base stats of backlog/candidate games (scripts/update.sh)
 
 - Avatar: stratege profile AJAX -> img/avatar.png, path saved to library.json "avatar".
 - Covers: trophy-list icon (ICON0) of every game in games.json and library.json, cropped to a square
@@ -15,6 +16,9 @@ Usage:
 - Trophy lists of games in games.json (not rejected): base game and every DLC group as stratege shows them,
   each trophy {name, grade, online} -> data/trophies.json {"/ps5/games/<slug>": {"base": [...], "dlcs": [{"name", "trophies"}]}}.
   stratege's online mark is often wrong; recalc.py corrects it with the verified games.json -> online_trophies.
+- Base stats (--stats) of backlog/candidate games from the trophies and difficulty pages -> data/stratege.json "stats":
+  trophies by grade, owners, plat_count, full_count, avg_completion, avg_plat_hours, diff_base/dur_base, diff_dlc/dur_dlc;
+  recalc.py copies them into games.json. A trophy list is re-read only when its size or DLC groups changed.
 index.html looks covers up by the stratege path. Requires Pillow.
 """
 import html, io, json, pathlib, re, sys, time, urllib.parse, urllib.request
@@ -30,6 +34,7 @@ PROFILE_UID = 134267
 PATH_RE = re.compile(r"/(ps[345]|psvita)/games/([^/?#]+)")
 FORCE = "--force" in sys.argv
 TROPHIES = FORCE or "--trophies" in sys.argv
+STATS = "--stats" in sys.argv
 
 
 def get(url, data=None, tries=4, referer=PROFILE):
@@ -94,9 +99,38 @@ def game_facts(p):
     return {"type": field("Тип"), "lang": field("Язык")}
 
 
-def trophy_lists(p):
+def dlc_groups(h):
+    groups = []
+    for n, name in re.findall(r'filter=(\d+)" title="Показать DLC «(.*?)»"', h):
+        if n not in [x[0] for x in groups]:
+            groups.append((n, name))
+    return groups
+
+
+def text(h):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", h)))
+
+
+def num(t, pat):
+    m = re.search(pat, t)
+    return int(re.sub(r"\D", "", m.group(1))) if m else None
+
+
+def trophy_stats(h):
+    """Header numbers of the trophies page; None where the page has no such line."""
+    t = text(h)
+    total, base, dlc = num(t, r"Трофеев: ([\d ]+)"), num(t, r"Основных: ([\d ]+)"), num(t, r"Из DLC: ([\d ]+)")
+    tro = dict(total=total, base=base if base is not None else total, dlc=dlc or 0, plat=num(t, r"Платиновых: ([\d ]+)") or 0,
+               gold=num(t, r"Золотых: ([\d ]+)") or 0, silver=num(t, r"Серебряных: ([\d ]+)") or 0, bronze=num(t, r"Бронзовых: ([\d ]+)") or 0)
+    hours = re.search(r"Среднее время платины ([\d ]+) (час|мин)", t)
+    return dict(trophies=tro if total else None, owners=num(t, r"Игра есть у ([\d ]+) чел"), plat_count=num(t, r"Получили платину ([\d ]+) чел"),
+                full_count=num(t, r"Получили 100% ([\d ]+) чел"), avg_completion=num(t, r"Среднее завершение ([\d ]+)%"),
+                avg_plat_hours=(int(hours.group(1).replace(" ", "")) if hours.group(2) == "час" else 1) if hours else None)
+
+
+def trophy_lists(p, h=None):
     """Base game (filter 103 = hide all DLC) and each DLC group (filter N) from the AJAX trophy list."""
-    h = page(p + "/trophies")
+    h = h or page(p + "/trophies")
     blk = h[h.find("var tl_global_bx_settings"):]
     blk = blk[:blk.find("};")]
     vals = dict(re.findall(r"(\w+)\s*:\s*'([^']*)'", blk))
@@ -117,19 +151,17 @@ def trophy_lists(p):
                         "grade": g.group(1) if g else None, "online": "trophies_icon/online.png" in part})
         return out
 
-    groups = []
-    for n, name in re.findall(r'filter=(\d+)" title="Показать DLC «(.*?)»"', h):
-        if n not in [x[0] for x in groups]:
-            groups.append((n, name))
-    return {"base": one(103), "dlcs": [{"name": html.unescape(name), "trophies": one(n)} for n, name in groups]}
+    return {"base": one(103), "dlcs": [{"name": html.unescape(name), "trophies": one(n)} for n, name in dlc_groups(h)]}
 
 
-def difficulty_votes(p):
-    h = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page(p + "/difficulty")))
-    out = []
-    for label in ("Оценка основных трофеев", "Оценка трофеев из DLC"):
-        m = re.search(label + r" [\d.]+ [^(]*\(([\d\s]+) голос", h)
-        out.append(int(m.group(1).replace(" ", "")) if m else None)
+def difficulty(p):
+    """Difficulty, duration and vote count for the base game and for all DLC together."""
+    t = text(page(p + "/difficulty"))
+    out = {"votes": []}
+    for label, key in (("Оценка основных трофеев", "base"), ("Оценка трофеев из DLC", "dlc")):
+        m = re.search(label + r" ([\d.]+) [^(]*\(([\d ]+) голос[^)]*\)(?: (\d+\+?) час)?", t)
+        out["votes"].append(int(m.group(2).replace(" ", "")) if m else None)
+        out[f"diff_{key}"], out[f"dur_{key}"] = (float(m.group(1)), m.group(3)) if m else (None, None)
     return out
 
 
@@ -163,6 +195,9 @@ def main():
         if m and m.group(0) not in paths:
             paths.append(m.group(0))
 
+    path_of = lambda g: (m := PATH_RE.search(g.get("stratege_url") or "")) and m.group(0)
+    game_paths = {path_of(g) for g in games if g.get("section") != "rejected"} - {None}
+    stat_paths = {path_of(g) for g in games if g.get("section") in ("backlog", "candidate")} - {None}
     covers, facts, failed = load("covers.json"), load("stratege.json"), []
     for p in paths:
         pf, slug = PATH_RE.search(p).groups()
@@ -175,10 +210,11 @@ def main():
             if FORCE or p not in facts:
                 facts[p] = game_facts(p)
                 print("facts", p, facts[p])
-            if (TROPHIES or "votes" not in facts[p]) and any(PATH_RE.search(g.get("stratege_url") or "") and PATH_RE.search(g["stratege_url"]).group(0) == p
-                                                         and g.get("section") != "rejected" for g in games):
-                facts[p]["votes"] = difficulty_votes(p)
-                print("votes", p, facts[p]["votes"])
+            if (TROPHIES or (STATS and p in stat_paths) or "votes" not in facts[p]) and p in game_paths:
+                d = difficulty(p)
+                facts[p]["votes"] = d.pop("votes")
+                facts[p]["stats"] = {**facts[p].get("stats", {}), **d}
+                print("votes", p, facts[p]["votes"], d["diff_base"], d["diff_dlc"])
         except Exception as e:
             failed.append(f"{p}: {e}")
             print("FAIL", p, e)
@@ -186,16 +222,27 @@ def main():
         dump("covers.json", covers)
         dump("stratege.json", facts)
     tro = load("trophies.json")
-    for g in games:
-        m = PATH_RE.search(g.get("stratege_url") or "")
-        if g.get("section") == "rejected" or not m or (m.group(0) in tro and not TROPHIES):
-            continue
+    for p in sorted(game_paths):
+        h = None
         try:
-            tro[m.group(0)] = trophy_lists(m.group(0))
-            print("trophies", m.group(0), len(tro[m.group(0)]["base"]), [len(d["trophies"]) for d in tro[m.group(0)]["dlcs"]])
+            if STATS and p in stat_paths:
+                h = page(p + "/trophies")
+                st = trophy_stats(h)
+                facts[p]["stats"] = {**facts[p].get("stats", {}), **st}
+                old = tro.get(p)
+                size = old and len(old["base"]) + sum(len(d["trophies"]) for d in old["dlcs"])
+                changed = not old or size != (st["trophies"] or {}).get("total") or \
+                    [d["name"] for d in old["dlcs"]] != [html.unescape(n) for _, n in dlc_groups(h)]
+                print("stats", p, st["owners"], st["plat_count"], st["avg_plat_hours"], "list changed" if changed and old else "")
+                dump("stratege.json", facts)
+            else:
+                changed = p not in tro or TROPHIES
+            if changed:
+                tro[p] = trophy_lists(p, h)
+                print("trophies", p, len(tro[p]["base"]), [len(d["trophies"]) for d in tro[p]["dlcs"]])
         except Exception as e:
-            failed.append(f"{m.group(0)} trophies: {e}")
-            print("FAIL", m.group(0), e)
+            failed.append(f"{p} trophies: {e}")
+            print("FAIL", p, e)
         dump("trophies.json", tro)
     print(f"covers: {len(covers)}, facts: {len(facts)} of {len(paths)} games, trophy lists: {len(tro)}; failed: {len(failed)}")
     for f in failed:

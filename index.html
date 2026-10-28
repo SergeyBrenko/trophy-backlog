@@ -176,6 +176,7 @@ tr.detail>td{background:var(--surface-2);white-space:normal;padding:18px 18px 22
 .info .ic{color:var(--muted)}
 .links{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px}
 .links a{display:inline-flex;align-items:center;gap:4px}
+.links .shop{display:inline-flex;align-items:center;gap:4px;flex-wrap:wrap}.links .shop .ic{color:var(--muted)}
 .notes{display:flex;gap:10px;align-items:flex-start;font-size:14px;padding:10px 14px;border:1px dashed var(--line);border-radius:8px}
 .notes .ic{color:var(--muted);margin-top:2px}
 .toolbar .msort{display:none}
@@ -264,6 +265,7 @@ const P={
  flame:'<path d="M12 3c3 4 6 6 6 10.5A6 6 0 0 1 6 13.5C6 10.5 8 9.4 9 6.5c1 2 2 2.3 3 3.3 0-2.3 0-4.6 0-6.8z"/>',
  bug:'<rect x="8" y="8" width="8" height="12" rx="4"/><path d="M12 8V5M9 4.5l1.5 2M15 4.5l-1.5 2M4 12h4M16 12h4M4 17h4M16 17h4"/>',
  hourglass:'<path d="M6 3h12M6 21h12"/><path d="M7 3c0 5 10 5 10 9s-10 4-10 9M17 3c0 5-10 5-10 9s10 4 10 9"/>',
+ cart:'<path d="M3 4h2.5l2.2 10.5a1 1 0 0 0 1 .8h8.6a1 1 0 0 0 1-.8L20 8H6.4"/><circle cx="9.5" cy="19" r="1.3"/><circle cx="17" cy="19" r="1.3"/>',
  link:'<path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
  chev:'<path d="M9 6l6 6-6 6"/>',
  bulb:'<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/>',
@@ -459,8 +461,17 @@ function detail(g,kind){
   h+=`<div class="info"><span class="flag ${(RU[g.ru]||[""])[0]}">${ic("lang","s")}${g.ru_loc?esc(g.ru_loc):"Наличие русского языка не установлено"}</span><span>${ic("disc","s")}${fmt(g.disc_note)}</span></div>`;
   if(g.quality_note)h+=`<div class="hint">${ic("star","s")} ${esc(g.quality_note)}</div>`;
   h+=notes(g);
-  h+=`<div class="links">${(g.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${ic("link","s")}${esc(s.name)}</a>`).join("")}</div>`;
+  h+=links(g,(g.sources||[]).filter(s=>/stratege\.ru/.test(s.url)));
   return h+`</div>`;
+}
+/* links row: stratege pages, then PS Store of Ukraine and Turkey for the game and every paid DLC (games.json → store) */
+const STORE=[["ua","ru-ua","Украина"],["tr","en-tr","Турция"]];
+function links(g,src){
+  const a=(u,t)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
+  const shop=(e,label)=>{const l=STORE.filter(([k])=>e[k]);
+    return l.length?`<span class="shop">${ic("cart","s")}${esc(label)}: ${l.map(([k,loc,n])=>a(`https://store.playstation.com/${loc}/${e[k]}`,n)).join('<span class="muted">·</span>')}</span>`:""};
+  const st=g.store||{};
+  return `<div class="links">${src.map(s=>a(s.url,ic("link","s")+esc(s.name))).join("")}${st.game?shop(st.game,"PS Store"):""}${(st.dlc||[]).map(d=>shop(d,d.name)).join("")}</div>`;
 }
 /* copy a game title to the clipboard (for pasting into a chat) */
 function copyBtn(t){return `<button type="button" class="cp" data-copy="${esc(t)}" title="Скопировать название" aria-label="Скопировать название «${esc(t)}»">${ic("copy","s")}</button>`}
@@ -519,7 +530,7 @@ function unfinishedTable(){
     if(open)r+=`<tr class="detail"><td colspan="6"><div class="sheet"><p class="summary">${esc(g.summary||"")}</p>
       <div><h4>${ic("box","s")}Что осталось</h4><div class="gridA">${(g.missing||[]).map(m=>`<article class="dA"><header><h3>${esc(m.part)}</h3></header><div class="dmeta"><span>${cup("b","s")}${m.trophies}</span></div>${m.note?`<p>${esc(m.note)}</p>`:""}</article>`).join("")}</div></div>
       ${g.online_note?`<div class="why">${ic("wifi","l")}<div>${esc(g.online_note)}</div></div>`:""}
-      ${notes(g)}<div class="links"><a href="${esc(g.stratege_url)}" target="_blank" rel="noopener">${ic("link","s")}Трофеи на stratege</a></div></div></td></tr>`;
+      ${notes(g)}${links(g,[{url:g.stratege_url,name:"Трофеи на stratege"}])}</div></td></tr>`;
     return r}).join("")||`<tr><td colspan="6" class="empty">Всё доделано.</td></tr>`;
   return [h+`</tbody></table></div>`,list.length];
 }

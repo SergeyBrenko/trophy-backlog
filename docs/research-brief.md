@@ -70,10 +70,17 @@ All human-readable text in RUSSIAN. Use null for unknown values — never invent
   "cons": ["…", "…"],
   "about": "3–4 sentences in Russian: genre and studio, setting and premise, what to expect (pace, length, open world or linear); no trophies, no praise, no addressing the reader",
   "trophy_summary": "1-2 предложения: что самое нудное/сложное в платине и DLC",
-  "sources": [{"name": "Stratege", "url": "…"}, {"name": "PowerPyx", "url": "…"}]
+  "sources": [{"name": "Stratege", "url": "…"}, {"name": "PowerPyx", "url": "…"}],
+  "store": {"game": {"ua": "concept/233069", "tr": "concept/233069"},
+            "dlc": [{"name": "In Tanta We Trust", "ua": "product/EP…", "tr": "product/EP…"}]}  // paid DLC only; omit a region where it is not sold
 }
 ```
+`store` links are for prices in the owner's PS Store regions (Ukraine `ru-ua`, Turkey `en-tr`): find products with
+`python3 scripts/ps_store.py search "<title>"`, game links use the concept id (`python3 scripts/ps_store.py concept <productId>`).
+Only stratege links from `sources` are shown on the page; the rest stay as evidence.
 Keep pros/cons to 2–4 short bullets each (≤ 12 words each). Be efficient: don't over-fetch.
 
 Covers are not part of the card: after the cards are merged into data/games.json, run `python3 scripts/fetch_stratege.py`.
+Base stats (trophies, owners, plat_count, full_count, avg_completion, avg_plat_hours, diff/dur) are later refreshed from stratege by
+`fetch_stratege.py --stats` + `recalc.py`, overwriting the card values.
 It finds the trophy-list icon by `stratege_url`, so `stratege_url` must point to the exact trophy list used.

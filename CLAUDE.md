@@ -25,14 +25,16 @@ data/games.json            все игры: список, кандидаты, н
 data/library.json          профиль: итоги, аватар, пройденные игры
 data/library_raw.txt       выгрузка профиля stratege (источник для library.json)
 data/covers.json           путь stratege (/ps5/games/<slug>) → img/covers/<платформа>_<slug>.jpg
-data/stratege.json         путь stratege → {type, lang, votes}: тип издания и язык (подсказка при проверке диска и русского), голоса за сложность
+data/stratege.json         путь stratege → {type, lang, votes, stats}: тип издания и язык (подсказка при проверке диска и русского), голоса за сложность, базовая статистика (`--stats`)
 data/trophies.json         путь stratege → списки трофеев основной игры и каждой группы DLC со stratege (имя, тип кубка, пометка онлайн)
 img/avatar.png             аватар PSN владельца
 img/favicon.svg            фавиконка (золотой кубок на синем); img/favicon-32.png и img/apple-touch-icon.png — PNG-копии для старых браузеров и iOS
 img/covers/                обложки: иконки трофейных листов PSN, квадрат 256×256 JPEG
 scripts/sync_profile.py    выгружает профиль stratege без браузера → library_raw.txt + library.json → totals, synced
-scripts/fetch_stratege.py  докачивает аватар, обложки, тип издания/язык, голоса и списки трофеев (нужен Pillow; --trophies — перечитать трофеи и голоса, --force — всё заново)
+scripts/fetch_stratege.py  докачивает аватар, обложки, тип издания/язык, голоса и списки трофеев (нужен Pillow; --trophies — перечитать трофеи и голоса, --stats — базовая статистика игр «Списка» и «Кандидатов», --force — всё заново)
 scripts/recalc.py          пересчёт производных полей games.json и статистики library.json
+scripts/update.sh          автообновление без Claude: профиль + статистика игр со stratege → recalc → commit → push (владелец запускает сам, 10–15 мин)
+scripts/ps_store.py        ссылки PS Store Украины и Турции: поиск товаров, concept id, проверка всех ссылок (`check`)
 mockups/                   (создаётся по необходимости) временные макеты интерфейса на согласование; после решения удалять
 docs/research-brief.md     как собирать карточку игры: источники, русский язык, формула оценки, схема JSON (на английском)
 ```
@@ -46,8 +48,11 @@ docs/research-brief.md     как собирать карточку игры: и
 - `cand_group` у кандидатов: «Новинки» (релизы последних двух лет), «Пропущенное» (заметные игры прошлых лет), «Тактика и RPG», «Сюжетные AA», «Эксклюзивы Sony» (группы в фильтре строятся автоматически). Игры, добавленные по просьбе владельца, тоже распределяй по этим группам: отдельной группы «по просьбе» не делать.
 - `online_trophies`: `[{name, grade: "platinum|gold|silver|bronze", part: "Основная игра" | название DLC, note, got}]` — имена как на stratege, по ним `recalc.py` отделяет онлайн-трофеи; `got` (true/false) — только у `unfinished`, иначе `null`. Пометка «онлайн» у трофея на stratege бывает неверной: сверяй с гайдом.
 - `ru`: `"voice"` (озвучка, зелёный) · `"subs"` (только текст, оранжевый) · `"none"` (нет, красный) · `null` (не установлено, серый «русский?»); `ru_loc` — подробности текстом.
-- Карточка игры — полная схема в `docs/research-brief.md`: `trophies{total,base,dlc,plat,gold,silver,bronze}`, `dlcs[]` (`released:false` = ещё не вышло), `dlc_pending`, `diff_base`, `diff_dlc`, `dur_base`, `avg_plat_hours`, `owners`, `plat_count`, `full_count`, `critic`, `user_score`, `quality`, `quality_note`, `online`, `missables`, `playthroughs`, `difficulty_trophy`, `glitched`, `ru`, `ru_loc`, `disc_note`, `pros[]`, `cons[]`, `about` (об игре: жанр и студия, сеттинг и завязка, чего ожидать — 3–4 предложения без трофеев и оценок), `trophy_summary`, `why` (почему стоит взять, со сравнением с пройденным; у кандидатов обязательно), `sources[]`. В карточке: обложка + «Об игре», ниже «Почему тебе» и «Трофеи».
+- Карточка игры — полная схема в `docs/research-brief.md`: `trophies{total,base,dlc,plat,gold,silver,bronze}`, `dlcs[]` (`released:false` = ещё не вышло), `dlc_pending`, `diff_base`, `diff_dlc`, `dur_base`, `avg_plat_hours`, `owners`, `plat_count`, `full_count`, `critic`, `user_score`, `quality`, `quality_note`, `online`, `missables`, `playthroughs`, `difficulty_trophy`, `glitched`, `ru`, `ru_loc`, `disc_note`, `pros[]`, `cons[]`, `about` (об игре: жанр и студия, сеттинг и завязка, чего ожидать — 3–4 предложения без трофеев и оценок), `trophy_summary`, `why` (почему стоит взять, со сравнением с пройденным; у кандидатов обязательно), `sources[]`, `store`. В карточке: обложка + «Об игре», ниже «Почему тебе» и «Трофеи».
+- `sources[]` — источники данных карточки. На странице из них показываются только ссылки на stratege; остальные (гайды, Metacritic и т.п.) хранятся для проверки.
+- `store` — ссылки PS Store для цен: `{"game": {"ua": "concept/<id>", "tr": "concept/<id>"}, "dlc": [{"name", "ua": "product/<id>", "tr": "product/<id>"}]}`; Украина открывается в локали `ru-ua`, Турция — `en-tr`. В `dlc` только платные DLC (у `unfinished` — только они, без игры); если DLC выгоднее брать пропуском, ссылка на пропуск. Регион опускается, если товар там не продаётся. Ищи через `scripts/ps_store.py search`, проверяй `scripts/ps_store.py check`.
 - У DLC в `dlcs[]` кроме цифр и `note`: `about` (о чём дополнение, 1–2 предложения), `free` (ничего не стоит сверх издания, по которому играет владелец: бесплатное обновление или уже входит в издание — Complete/Definitive/GOTY), `expected` (срок для невышедших, текстом), `group` (точное имя группы DLC на stratege; `recalc.py` подбирает его сам по названию и пишет о несовпадениях — тогда поправь руками).
+- Базовую статистику — `trophies`, `owners`, `plat_count`, `full_count`, `avg_completion`, `avg_plat_hours`, `diff_base`, `dur_base`, `diff_dlc`, `dur_dlc` — у игр «Списка» и «Кандидатов» `recalc.py` берёт из `data/stratege.json → stats` (их собирает `fetch_stratege.py --stats`) и перезаписывает ими значения в карточке. Чтобы поменять такие цифры, обнови статистику, а не карточку.
 - Производные (не править руками, их считает `scripts/recalc.py`): `plat_pct`, `est_100_hours`, `dlc_count`, `tro_split` (плитки трофеев: основная игра и DLC, по типам, офлайн/онлайн), `dlcs[].grades` и `dlcs[].trophies` (из списка stratege), `diff_base_votes`, `diff_dlc_votes`.
 - Недоделанные (`unfinished`) имеют свою схему: `got`, `total`, `plat_done`, `missing[{part,trophies,note}]`, `diff_dlc`, `online`, `online_note`, `est_hours`, `feasible` ("да"|"сложно"|"нет"), `summary`, плюс `ru`/`ru_loc`.
 
@@ -62,7 +67,7 @@ docs/research-brief.md     как собирать карточку игры: и
 
 ## Процедура «актуализируй»
 0. **Спроси владельца**, что делать в этот раз: (а) только обновить данные — профиль, статистику, DLC, оценки, хвалят/ругают по свежим отзывам; или (б) то же плюс поискать новые игры, вышедшие с прошлой актуализации (`library.json → last_update`).
-1. **Профиль:** `python3 scripts/sync_profile.py`. Stratege — единственный источник прогресса владельца. Скрипт сам проверяет, что разобрал столько игр, сколько в профиле.
+1. **Профиль и статистика:** `python3 scripts/sync_profile.py`, затем `python3 scripts/fetch_stratege.py --stats` — то же, что делает `scripts/update.sh` (его владелец запускает и сам, между актуализациями). Stratege — единственный источник прогресса владельца. Скрипт сам проверяет, что разобрал столько игр, сколько в профиле.
 2. **Сверка с профилем:** игры из `backlog`, которые стали 100% → `status: "done"`; начатые → `playing` + `progress: "x/y"`. Обнови секцию `unfinished`: доделанное убрать, новые неполные добавить.
 3. **Обновление карточек** `backlog`, `candidate`, `unfinished` (не `rejected`). Stratege — один из источников, не единственный:
 
@@ -70,6 +75,7 @@ docs/research-brief.md     как собирать карточку игры: и
    |---|---|
    | трофеи, листы DLC, владельцы/платины/100%, среднее время платины, сложность | stratege (других источников этих цифр нет) |
    | вышли ли ожидаемые DLC, анонсы новых, даты | stratege «Дополнения с трофеями» + PlayStation Blog, сайт/соцсети издателя, PS Store |
+   | ссылки PS Store (`store`) у новых игр и новых платных DLC | `scripts/ps_store.py search`, в конце `scripts/ps_store.py check` |
    | издание на диске (в т.ч. GOTY/Complete с DLC) | stratege «Тип» в `data/stratege.json` + новости издателя, ритейл |
    | русский язык (`ru`, `ru_loc`) | PS Store, сайт издателя, Steam, stratege «Язык» |
    | `critic`, `user_score`, `quality` | OpenCritic, Metacritic, Steam (недавние отзывы) |
@@ -95,14 +101,16 @@ docs/research-brief.md     как собирать карточку игры: и
 - Репозиторий: https://github.com/SergeyBrenko/trophy-backlog (публичный). Сайт: https://sergeybrenko.github.io/trophy-backlog/ (GitHub Pages из `main`, корень; `.nojekyll` на месте).
 - После любых изменений: commit → push → дождаться сборки Pages (`gh api repos/SergeyBrenko/trophy-backlog/pages/builds/latest --jq .status` = `built`) → дать владельцу ссылку на сайт.
 - Сообщения коммитов только на русском, небольшие и осмысленные: «Актуализация 2026-12: …», «Кандидаты: + …», «Интерфейс: …». История изменений — это git log, отдельного журнала нет.
+- `scripts/update.sh` сам делает коммиты «Статистика со stratege: <дата>»: перед работой делай `git pull`.
 - Контекстные файлы (`CLAUDE.md`, `README.md`, `docs/research-brief.md`) обновлять в том же коммите, что и изменение. Устаревшее удалять: здесь должна быть только актуальная информация.
 
-## Известные пробелы данных (на 2026-10-24)
+## Известные пробелы данных (на 2026-10-28)
 - S.T.A.L.K.E.R. 2 — карточка предварительная: нет оценок критиков, пропускаемых трофеев, наличия диска.
 - Мафии: у Mafia II DE пока нет PS5-листа (появится — перейти на него); статистика PS5-листа Mafia III (вышел 08.10.2026) на малой выборке, на PS4 платина в среднем 84 ч. Диски только PS4 (Mafia: Trilogy / отдельные), PS5-версии через бесплатный апгрейд.
 - Распределение трофеев по DLC у части игр выведено вычитанием из общего числа.
 - В `quality` у кандидатов, добавленных 2026-10-24, нет поправки по комментариям stratege (они грузятся скриптом), кроме групп «Тактика и RPG» и запасных.
 - Мало голосов за сложность, оценка может сдвинуться: The Blood of Dawnwalker, Avowed, Disciples: Domination, Star Wars Zero Company, King Arthur, Romeo is a Dead Man, GreedFall II, Pathfinder (2 голоса), DLC Dying Light: The Beast (2 голоса). Нет оценки: Days Gone Remastered (в карточке цифры PS4-оригинала), DLC Rogue Trader, Atomfall, Little Nightmares III, King Arthur.
+- PS Store: у Atomic Heart DLC Annihilation Instinct не продаётся отдельно в Украине; у King Arthur DLC Silver Twilight не найдено в PS Store; у Spintires: MudRunner и Uncharted 4 (недоделанные) отдельной игры в магазине нет — ссылок нет.
 - Диска нет или он не подтверждён: Outer Worlds: Spacer's Choice (только PS4-диск + платный апгрейд), Avowed, South of Midnight, Sherlock Holmes: Chapter One (только азиатское издание), King's Bounty II и Divinity: OS2 (PS5 через PS4-диск), Pathfinder: WotR, King Arthur, Romeo is a Dead Man, Days Gone Remastered, Hellblade II (анонсирован LRG), The Alters (Complete Edition выходит 20.11.2026), Dying Light: The Beast (Definitive, декабрь 2026).
 - Русский язык: у Assassin's Creed Unity зависит от региона копии (`ru: null`), у Dying Light: The Beast PS Store пишет «субтитры», а Steam и пресса — озвучка. Hellblade (PS4): русский текст есть только в европейской версии.
 - `plat_speed` в `library_raw.txt` из профиля больше не приходит: у старых игр сохранён, у новых «—» (на странице не используется).
