@@ -13,7 +13,27 @@
   "votes": [
    24,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.21,
+   "dur_base": "75+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 50,
+    "base": 50,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 11,
+    "bronze": 36
+   },
+   "owners": 5417,
+   "plat_count": 88,
+   "full_count": null,
+   "avg_completion": 12,
+   "avg_plat_hours": 136
+  }
  },
  "/ps4/games/assassins_creed_freedom_cry": {
   "type": "Цифровая версия",
@@ -129,7 +149,27 @@
   "votes": [
    177,
    111
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.85,
+   "dur_base": "50+",
+   "diff_dlc": 3.59,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 48,
+    "base": 37,
+    "dlc": 11,
+    "plat": 1,
+    "gold": 4,
+    "silver": 15,
+    "bronze": 28
+   },
+   "owners": 5328,
+   "plat_count": 879,
+   "full_count": 529,
+   "avg_completion": 23,
+   "avg_plat_hours": 41
+  }
  },
  "/ps4/games/heavy_rain": {
   "type": "Диск, Цифровая версия",
@@ -141,7 +181,27 @@
   "votes": [
    878,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.93,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 15,
+    "base": 15,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 9,
+    "silver": 5,
+    "bronze": 0
+   },
+   "owners": 11472,
+   "plat_count": 5392,
+   "full_count": null,
+   "avg_completion": 66,
+   "avg_plat_hours": 12
+  }
  },
  "/ps4/games/horizon_zero_dawn": {
   "type": "Диск, Цифровая версия",
@@ -153,7 +213,27 @@
   "votes": [
    1351,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.59,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 25,
+    "base": 25,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 7,
+    "silver": 11,
+    "bronze": 6
+   },
+   "owners": 31590,
+   "plat_count": 11544,
+   "full_count": null,
+   "avg_completion": 46,
+   "avg_plat_hours": 18
+  }
  },
  "/ps4/games/infamous_second_son": {
   "type": "Диск",
@@ -161,7 +241,27 @@
   "votes": [
    2206,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.47,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 48,
+    "base": 48,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 11,
+    "bronze": 34
+   },
+   "owners": 52375,
+   "plat_count": 22609,
+   "full_count": null,
+   "avg_completion": 57,
+   "avg_plat_hours": 43
+  }
  },
  "/ps4/games/inside": {
   "type": "Диск, Цифровая версия",
@@ -187,9 +287,29 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   451,
+   452,
    137
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.77,
+   "dur_base": "25+",
+   "diff_dlc": 3.72,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 68,
+    "base": 48,
+    "dlc": 20,
+    "plat": 1,
+    "gold": 2,
+    "silver": 14,
+    "bronze": 51
+   },
+   "owners": 17413,
+   "plat_count": 5087,
+   "full_count": 1032,
+   "avg_completion": 43,
+   "avg_plat_hours": 49
+  }
  },
  "/ps4/games/marvels_spider-man": {
   "type": "Диск, Цифровая версия",
@@ -213,7 +333,27 @@
   "votes": [
    42,
    20
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.55,
+   "dur_base": "25+",
+   "diff_dlc": 4.45,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 46,
+    "base": 36,
+    "dlc": 10,
+    "plat": 1,
+    "gold": 5,
+    "silver": 11,
+    "bronze": 29
+   },
+   "owners": 1514,
+   "plat_count": 287,
+   "full_count": 112,
+   "avg_completion": 35,
+   "avg_plat_hours": 46
+  }
  },
  "/ps4/games/oceanhorn_monster_of_uncharted_seas": {
   "type": "Цифровая версия",
@@ -245,7 +385,27 @@
   "votes": [
    641,
    232
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.57,
+   "dur_base": "25+",
+   "diff_dlc": 3.61,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 100,
+    "base": 64,
+    "dlc": 36,
+    "plat": 1,
+    "gold": 8,
+    "silver": 9,
+    "bronze": 82
+   },
+   "owners": 28246,
+   "plat_count": 4338,
+   "full_count": 1256,
+   "avg_completion": 27,
+   "avg_plat_hours": 55
+  }
  },
  "/ps4/games/sniper_ghost_warrior_3": {
   "type": "Диск",
@@ -265,7 +425,27 @@
   "votes": [
    30,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.77,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 39,
+    "base": 39,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 12,
+    "bronze": 22
+   },
+   "owners": 1699,
+   "plat_count": 272,
+   "full_count": null,
+   "avg_completion": 24,
+   "avg_plat_hours": 51
+  }
  },
  "/ps4/games/subnautica": {
   "type": "Диск, Цифровая версия",
@@ -281,7 +461,27 @@
   "votes": [
    99,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.04,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 24,
+    "base": 24,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 7,
+    "silver": 7,
+    "bronze": 9
+   },
+   "owners": 14438,
+   "plat_count": 425,
+   "full_count": null,
+   "avg_completion": 7,
+   "avg_plat_hours": 51
+  }
  },
  "/ps4/games/the_last_of_us_part_ii": {
   "type": "Диск, Цифровая версия",
@@ -293,7 +493,27 @@
   "votes": [
    2021,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.74,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 22,
+    "base": 22,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 7,
+    "silver": 14,
+    "bronze": 0
+   },
+   "owners": 34818,
+   "plat_count": 17579,
+   "full_count": null,
+   "avg_completion": 66,
+   "avg_plat_hours": 19
+  }
  },
  "/ps4/games/the_wolf_among_us": {
   "type": "Диск, Цифровая версия",
@@ -317,7 +537,27 @@
   "votes": [
    1131,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.14,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 50,
+    "base": 50,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 11,
+    "bronze": 36
+   },
+   "owners": 27709,
+   "plat_count": 7191,
+   "full_count": null,
+   "avg_completion": 39,
+   "avg_plat_hours": null
+  }
  },
  "/ps4/games/undertale": {
   "type": "Цифровая версия",
@@ -333,7 +573,27 @@
   "votes": [
    15,
    8
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.2,
+   "dur_base": "100+",
+   "diff_dlc": 4.63,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 87,
+    "base": 63,
+    "dlc": 24,
+    "plat": 1,
+    "gold": 1,
+    "silver": 5,
+    "bronze": 80
+   },
+   "owners": 1282,
+   "plat_count": 104,
+   "full_count": 33,
+   "avg_completion": 24,
+   "avg_plat_hours": 139
+  }
  },
  "/ps4/games/xcom_2": {
   "type": "Диск, Цифровая версия",
@@ -341,15 +601,55 @@
   "votes": [
    76,
    24
-  ]
+  ],
+  "stats": {
+   "diff_base": 7.86,
+   "dur_base": "200+",
+   "diff_dlc": 5.71,
+   "dur_dlc": "50+",
+   "trophies": {
+    "total": 81,
+    "base": 51,
+    "dlc": 30,
+    "plat": 1,
+    "gold": 2,
+    "silver": 18,
+    "bronze": 60
+   },
+   "owners": 15818,
+   "plat_count": 277,
+   "full_count": 101,
+   "avg_completion": 10,
+   "avg_plat_hours": 199
+  }
  },
  "/ps5/games/007_first_light": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   141,
+   143,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.11,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 38,
+    "base": 38,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 14,
+    "bronze": 20
+   },
+   "owners": 5151,
+   "plat_count": 1900,
+   "full_count": null,
+   "avg_completion": 59,
+   "avg_plat_hours": 29
+  }
  },
  "/ps5/games/a_plague_tale_requiem": {
   "type": "Диск, Цифровая версия",
@@ -361,7 +661,27 @@
   "votes": [
    null,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": null,
+   "dur_base": null,
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 56,
+    "base": 56,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 5,
+    "bronze": 48
+   },
+   "owners": 237,
+   "plat_count": 2,
+   "full_count": null,
+   "avg_completion": 26,
+   "avg_plat_hours": 81
+  }
  },
  "/ps5/games/alan_wake_ii": {
   "type": "Диск, Цифровая версия",
@@ -387,9 +707,29 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   173,
+   174,
    9
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.23,
+   "dur_base": "75+",
+   "diff_dlc": 5.56,
+   "dur_dlc": "100+",
+   "trophies": {
+    "total": 76,
+    "base": 55,
+    "dlc": 21,
+    "plat": 1,
+    "gold": 1,
+    "silver": 13,
+    "bronze": 61
+   },
+   "owners": 5648,
+   "plat_count": 2331,
+   "full_count": 109,
+   "avg_completion": 48,
+   "avg_plat_hours": 115
+  }
  },
  "/ps5/games/assassins_creed_valhalla": {
   "type": "Диск, Цифровая версия",
@@ -399,17 +739,57 @@
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   437,
+   438,
    107
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.88,
+   "dur_base": "10+",
+   "diff_dlc": 4.63,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 63,
+    "base": 44,
+    "dlc": 19,
+    "plat": 1,
+    "gold": 2,
+    "silver": 19,
+    "bronze": 41
+   },
+   "owners": 10089,
+   "plat_count": 6270,
+   "full_count": 1898,
+   "avg_completion": 69,
+   "avg_plat_hours": 37
+  }
  },
  "/ps5/games/astros_playroom": {
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   1028,
-   53
-  ]
+   1029,
+   54
+  ],
+  "stats": {
+   "diff_base": 2.65,
+   "dur_base": "0+",
+   "diff_dlc": 3.15,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 51,
+    "base": 43,
+    "dlc": 8,
+    "plat": 1,
+    "gold": 5,
+    "silver": 14,
+    "bronze": 31
+   },
+   "owners": 39243,
+   "plat_count": 20039,
+   "full_count": 1206,
+   "avg_completion": 55,
+   "avg_plat_hours": 15
+  }
  },
  "/ps5/games/atomfall": {
   "type": "Диск, Цифровая версия",
@@ -417,7 +797,27 @@
   "votes": [
    16,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.44,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 55,
+    "base": 37,
+    "dlc": 18,
+    "plat": 1,
+    "gold": 6,
+    "silver": 11,
+    "bronze": 37
+   },
+   "owners": 353,
+   "plat_count": 81,
+   "full_count": 14,
+   "avg_completion": 28,
+   "avg_plat_hours": 34
+  }
  },
  "/ps5/games/atomic_heart": {
   "type": "Диск, Цифровая версия",
@@ -425,7 +825,27 @@
   "votes": [
    316,
    30
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.26,
+   "dur_base": "25+",
+   "diff_dlc": 4.83,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 82,
+    "base": 42,
+    "dlc": 40,
+    "plat": 1,
+    "gold": 4,
+    "silver": 12,
+    "bronze": 65
+   },
+   "owners": 13023,
+   "plat_count": 2978,
+   "full_count": 351,
+   "avg_completion": 30,
+   "avg_plat_hours": 61
+  }
  },
  "/ps5/games/avatar_frontiers_of_pandora": {
   "type": "Диск, Цифровая версия",
@@ -433,7 +853,27 @@
   "votes": [
    58,
    6
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.57,
+   "dur_base": "75+",
+   "diff_dlc": 3.67,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 53,
+    "base": 32,
+    "dlc": 21,
+    "plat": 1,
+    "gold": 6,
+    "silver": 21,
+    "bronze": 25
+   },
+   "owners": 4084,
+   "plat_count": 649,
+   "full_count": 87,
+   "avg_completion": 15,
+   "avg_plat_hours": 79
+  }
  },
  "/ps5/games/avowed": {
   "type": "Цифровая версия",
@@ -441,7 +881,27 @@
   "votes": [
    8,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.63,
+   "dur_base": "75+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 51,
+    "base": 51,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 10,
+    "bronze": 38
+   },
+   "owners": 215,
+   "plat_count": 35,
+   "full_count": null,
+   "avg_completion": 29,
+   "avg_plat_hours": 68
+  }
  },
  "/ps5/games/baldurs_gate_3": {
   "type": "Диск, Цифровая версия",
@@ -449,7 +909,27 @@
   "votes": [
    83,
    27
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.12,
+   "dur_base": "100+",
+   "diff_dlc": 6.85,
+   "dur_dlc": "100+",
+   "trophies": {
+    "total": 55,
+    "base": 54,
+    "dlc": 1,
+    "plat": 1,
+    "gold": 3,
+    "silver": 4,
+    "bronze": 47
+   },
+   "owners": 7483,
+   "plat_count": 656,
+   "full_count": 284,
+   "avg_completion": 25,
+   "avg_plat_hours": 322
+  }
  },
  "/ps5/games/banishers_ghosts_of_new_eden": {
   "type": "Диск, Цифровая версия",
@@ -461,7 +941,27 @@
   "votes": [
    225,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.59,
+   "dur_base": "75+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 36,
+    "base": 36,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 9,
+    "bronze": 22
+   },
+   "owners": 7398,
+   "plat_count": 2479,
+   "full_count": null,
+   "avg_completion": 45,
+   "avg_plat_hours": 88
+  }
  },
  "/ps5/games/bugsnax": {
   "type": "Диск, Цифровая версия",
@@ -479,9 +979,29 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   45,
+   49,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.51,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 50,
+    "base": 50,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 1,
+    "silver": 16,
+    "bronze": 32
+   },
+   "owners": 1746,
+   "plat_count": 666,
+   "full_count": null,
+   "avg_completion": 55,
+   "avg_plat_hours": 46
+  }
  },
  "/ps5/games/control_ultimate_edition": {
   "type": "Диск, Цифровая версия",
@@ -493,7 +1013,27 @@
   "votes": [
    21,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.48,
+   "dur_base": "200+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 35,
+    "base": 35,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 10,
+    "bronze": 20
+   },
+   "owners": 2739,
+   "plat_count": 157,
+   "full_count": null,
+   "avg_completion": 11,
+   "avg_plat_hours": 288
+  }
  },
  "/ps5/games/cronos_the_new_dawn": {
   "type": "Диск, Цифровая версия",
@@ -501,7 +1041,27 @@
   "votes": [
    86,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.31,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 48,
+    "base": 48,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 13,
+    "bronze": 32
+   },
+   "owners": 2296,
+   "plat_count": 772,
+   "full_count": null,
+   "avg_completion": 53,
+   "avg_plat_hours": 43
+  }
  },
  "/ps5/games/cyberpunk_2077": {
   "type": "Диск, Цифровая версия",
@@ -513,23 +1073,83 @@
   "votes": [
    null,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": null,
+   "dur_base": null,
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 67,
+    "base": 46,
+    "dlc": 21,
+    "plat": 1,
+    "gold": 5,
+    "silver": 21,
+    "bronze": 40
+   },
+   "owners": 1759,
+   "plat_count": 832,
+   "full_count": 67,
+   "avg_completion": 42,
+   "avg_plat_hours": 50
+  }
  },
  "/ps5/games/dead_space": {
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   202,
+   203,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.17,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 48,
+    "base": 48,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 10,
+    "bronze": 35
+   },
+   "owners": 9566,
+   "plat_count": 1555,
+   "full_count": null,
+   "avg_completion": 32,
+   "avg_plat_hours": 49
+  }
  },
  "/ps5/games/death_stranding_2_on_the_beach": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   268,
+   269,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.64,
+   "dur_base": "100+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 55,
+    "base": 55,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 6,
+    "bronze": 46
+   },
+   "owners": 9549,
+   "plat_count": 2967,
+   "full_count": null,
+   "avg_completion": 54,
+   "avg_plat_hours": 140
+  }
  },
  "/ps5/games/deathloop": {
   "type": "Диск, Цифровая версия",
@@ -537,15 +1157,55 @@
   "votes": [
    207,
    93
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.33,
+   "dur_base": "25+",
+   "diff_dlc": 2.94,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 59,
+    "base": 55,
+    "dlc": 4,
+    "plat": 1,
+    "gold": 1,
+    "silver": 11,
+    "bronze": 46
+   },
+   "owners": 10475,
+   "plat_count": 1593,
+   "full_count": 961,
+   "avg_completion": 27,
+   "avg_plat_hours": 42
+  }
  },
  "/ps5/games/demons_souls_remake": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   634,
+   635,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.05,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 37,
+    "base": 37,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 5,
+    "silver": 9,
+    "bronze": 22
+   },
+   "owners": 22014,
+   "plat_count": 5133,
+   "full_count": null,
+   "avg_completion": 33,
+   "avg_plat_hours": 72
+  }
  },
  "/ps5/games/directive_8020": {
   "type": "Диск, Цифровая версия",
@@ -553,7 +1213,27 @@
   "votes": [
    14,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.43,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 31,
+    "base": 31,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 5,
+    "bronze": 19
+   },
+   "owners": 761,
+   "plat_count": 149,
+   "full_count": null,
+   "avg_completion": 38,
+   "avg_plat_hours": 29
+  }
  },
  "/ps5/games/disciples_domination": {
   "type": "Диск, Цифровая версия",
@@ -561,15 +1241,55 @@
   "votes": [
    3,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.0,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 35,
+    "base": 35,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 16,
+    "bronze": 14
+   },
+   "owners": 39,
+   "plat_count": 12,
+   "full_count": null,
+   "avg_completion": 54,
+   "avg_plat_hours": 77
+  }
  },
  "/ps5/games/disciples_liberation": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   26,
+   27,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.41,
+   "dur_base": "100+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 51,
+    "base": 51,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 10,
+    "bronze": 38
+   },
+   "owners": 434,
+   "plat_count": 116,
+   "full_count": null,
+   "avg_completion": 41,
+   "avg_plat_hours": 111
+  }
  },
  "/ps5/games/disco_elysium": {
   "type": "Диск, Цифровая версия",
@@ -577,7 +1297,27 @@
   "votes": [
    65,
    28
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.97,
+   "dur_base": "50+",
+   "diff_dlc": 3.14,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 46,
+    "base": 33,
+    "dlc": 13,
+    "plat": 1,
+    "gold": 6,
+    "silver": 13,
+    "bronze": 26
+   },
+   "owners": 5624,
+   "plat_count": 200,
+   "full_count": 130,
+   "avg_completion": 8,
+   "avg_plat_hours": 70
+  }
  },
  "/ps5/games/dispatch": {
   "type": "Диск, Цифровая версия",
@@ -585,7 +1325,27 @@
   "votes": [
    28,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.71,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 36,
+    "base": 36,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 16,
+    "bronze": 16
+   },
+   "owners": 2032,
+   "plat_count": 562,
+   "full_count": null,
+   "avg_completion": 55,
+   "avg_plat_hours": 27
+  }
  },
  "/ps5/games/divinity_original_sin_ii": {
   "type": "Цифровая версия",
@@ -593,7 +1353,27 @@
   "votes": [
    88,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 7.0,
+   "dur_base": "100+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 51,
+    "base": 51,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 5,
+    "bronze": 42
+   },
+   "owners": 712,
+   "plat_count": 32,
+   "full_count": null,
+   "avg_completion": 12,
+   "avg_plat_hours": 108
+  }
  },
  "/ps5/games/doom_the_dark_ages": {
   "type": "Диск, Цифровая версия",
@@ -601,7 +1381,27 @@
   "votes": [
    167,
    25
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.08,
+   "dur_base": "25+",
+   "diff_dlc": 3.32,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 39,
+    "base": 29,
+    "dlc": 10,
+    "plat": 1,
+    "gold": 5,
+    "silver": 15,
+    "bronze": 18
+   },
+   "owners": 3559,
+   "plat_count": 1853,
+   "full_count": 347,
+   "avg_completion": 57,
+   "avg_plat_hours": 35
+  }
  },
  "/ps5/games/dragon_age_dreadwolf": {
   "type": "Диск, Цифровая версия",
@@ -609,7 +1409,27 @@
   "votes": [
    138,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.29,
+   "dur_base": "75+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 53,
+    "base": 53,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 1,
+    "silver": 13,
+    "bronze": 38
+   },
+   "owners": 5035,
+   "plat_count": 1510,
+   "full_count": null,
+   "avg_completion": 39,
+   "avg_plat_hours": 75
+  }
  },
  "/ps5/games/dragons_dogma_ii": {
   "type": "Диск, Цифровая версия",
@@ -627,9 +1447,29 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   41,
-   3
-  ]
+   43,
+   5
+  ],
+  "stats": {
+   "diff_base": 3.53,
+   "dur_base": "25+",
+   "diff_dlc": 7.6,
+   "dur_dlc": "50+",
+   "trophies": {
+    "total": 43,
+    "base": 31,
+    "dlc": 12,
+    "plat": 1,
+    "gold": 7,
+    "silver": 11,
+    "bronze": 24
+   },
+   "owners": 1871,
+   "plat_count": 581,
+   "full_count": 36,
+   "avg_completion": 40,
+   "avg_plat_hours": 68
+  }
  },
  "/ps5/games/eriksholm_the_stolen_dream": {
   "type": "Диск, Цифровая версия",
@@ -637,7 +1477,27 @@
   "votes": [
    14,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.79,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 46,
+    "base": 46,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 6,
+    "bronze": 36
+   },
+   "owners": 150,
+   "plat_count": 111,
+   "full_count": null,
+   "avg_completion": 82,
+   "avg_plat_hours": 12
+  }
  },
  "/ps5/games/far_changing_tides": {
   "type": "Цифровая версия",
@@ -649,7 +1509,27 @@
   "votes": [
    3,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.67,
+   "dur_base": "75+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 46,
+    "base": 46,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 15,
+    "bronze": 28
+   },
+   "owners": 1173,
+   "plat_count": 90,
+   "full_count": null,
+   "avg_completion": 11,
+   "avg_plat_hours": 178
+  }
  },
  "/ps5/games/final_fantasy_xvi": {
   "type": "Диск, Цифровая версия",
@@ -657,7 +1537,27 @@
   "votes": [
    189,
    42
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.05,
+   "dur_base": "100+",
+   "diff_dlc": 4.67,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 69,
+    "base": 50,
+    "dlc": 19,
+    "plat": 1,
+    "gold": 3,
+    "silver": 6,
+    "bronze": 59
+   },
+   "owners": 8425,
+   "plat_count": 1673,
+   "full_count": 360,
+   "avg_completion": 35,
+   "avg_plat_hours": 104
+  }
  },
  "/ps5/games/ghost_of_tsushima": {
   "type": "PS ПК, Диск, Цифровая версия",
@@ -681,7 +1581,27 @@
   "votes": [
    199,
    48
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.56,
+   "dur_base": "25+",
+   "diff_dlc": 4.6,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 67,
+    "base": 57,
+    "dlc": 10,
+    "plat": 1,
+    "gold": 2,
+    "silver": 6,
+    "bronze": 58
+   },
+   "owners": 7996,
+   "plat_count": 1774,
+   "full_count": 291,
+   "avg_completion": 30,
+   "avg_plat_hours": 53
+  }
  },
  "/ps5/games/god_of_war_ragnarok": {
   "type": "PS ПК, Диск, Цифровая версия",
@@ -693,7 +1613,27 @@
   "votes": [
    26,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.69,
+   "dur_base": "100+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 41,
+    "base": 41,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 20,
+    "bronze": 18
+   },
+   "owners": 1567,
+   "plat_count": 179,
+   "full_count": null,
+   "avg_completion": 32,
+   "avg_plat_hours": 152
+  }
  },
  "/ps5/games/greedfall_2_the_dying_world": {
   "type": "Диск, Цифровая версия",
@@ -701,7 +1641,27 @@
   "votes": [
    1,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.0,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 54,
+    "base": 54,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 6,
+    "bronze": 45
+   },
+   "owners": 39,
+   "plat_count": 5,
+   "full_count": null,
+   "avg_completion": 26,
+   "avg_plat_hours": 55
+  }
  },
  "/ps5/games/gris": {
   "type": "Диск, Цифровая версия",
@@ -711,9 +1671,29 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   10,
+   11,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 7.73,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 58,
+    "base": 58,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 3,
+    "bronze": 52
+   },
+   "owners": 414,
+   "plat_count": 76,
+   "full_count": null,
+   "avg_completion": 33,
+   "avg_plat_hours": 37
+  }
  },
  "/ps5/games/hardspace_shipbreaker": {
   "type": "Цифровая версия",
@@ -723,9 +1703,29 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   57,
+   58,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.6,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 41,
+    "base": 41,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 10,
+    "bronze": 26
+   },
+   "owners": 3268,
+   "plat_count": 756,
+   "full_count": null,
+   "avg_completion": 31,
+   "avg_plat_hours": 38
+  }
  },
  "/ps5/games/hogwarts_legacy": {
   "type": "Диск, Цифровая версия",
@@ -741,7 +1741,27 @@
   "votes": [
    3618,
    1053
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.63,
+   "dur_base": "50+",
+   "diff_dlc": 3.91,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 79,
+    "base": 56,
+    "dlc": 23,
+    "plat": 1,
+    "gold": 2,
+    "silver": 11,
+    "bronze": 65
+   },
+   "owners": 5242,
+   "plat_count": 1585,
+   "full_count": 498,
+   "avg_completion": 35,
+   "avg_plat_hours": 56
+  }
  },
  "/ps5/games/indiana_jones_and_the_great_circle": {
   "type": "Диск, Цифровая версия",
@@ -749,7 +1769,27 @@
   "votes": [
    202,
    42
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.47,
+   "dur_base": "25+",
+   "diff_dlc": 3.31,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 56,
+    "base": 46,
+    "dlc": 10,
+    "plat": 1,
+    "gold": 2,
+    "silver": 18,
+    "bronze": 35
+   },
+   "owners": 3226,
+   "plat_count": 1539,
+   "full_count": 446,
+   "avg_completion": 57,
+   "avg_plat_hours": 48
+  }
  },
  "/ps5/games/indika": {
   "type": "Диск, Цифровая версия",
@@ -759,9 +1799,29 @@
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   667,
+   668,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.17,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 21,
+    "base": 21,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 10,
+    "silver": 0,
+    "bronze": 10
+   },
+   "owners": 19986,
+   "plat_count": 5631,
+   "full_count": null,
+   "avg_completion": 40,
+   "avg_plat_hours": 20
+  }
  },
  "/ps5/games/jagged_alliance_3": {
   "type": "Диск, Цифровая версия",
@@ -769,7 +1829,27 @@
   "votes": [
    8,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.88,
+   "dur_base": "100+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 51,
+    "base": 51,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 10,
+    "bronze": 38
+   },
+   "owners": 254,
+   "plat_count": 19,
+   "full_count": null,
+   "avg_completion": 18,
+   "avg_plat_hours": 173
+  }
  },
  "/ps5/games/jusant": {
   "type": "Цифровая версия",
@@ -777,7 +1857,27 @@
   "votes": [
    95,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.69,
+   "dur_base": "0+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 22,
+    "base": 22,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 7,
+    "silver": 8,
+    "bronze": 6
+   },
+   "owners": 2332,
+   "plat_count": 785,
+   "full_count": null,
+   "avg_completion": 39,
+   "avg_plat_hours": 9
+  }
  },
  "/ps5/games/kena_bridge_of_spirits": {
   "type": "Цифровая версия",
@@ -785,7 +1885,27 @@
   "votes": [
    352,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.68,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 42,
+    "base": 42,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 9,
+    "bronze": 29
+   },
+   "owners": 11957,
+   "plat_count": 2366,
+   "full_count": null,
+   "avg_completion": 34,
+   "avg_plat_hours": 27
+  }
  },
  "/ps5/games/king_arthur_knights_tale": {
   "type": "Цифровая версия",
@@ -793,7 +1913,27 @@
   "votes": [
    3,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.0,
+   "dur_base": "100+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 60,
+    "base": 57,
+    "dlc": 3,
+    "plat": 1,
+    "gold": 3,
+    "silver": 10,
+    "bronze": 46
+   },
+   "owners": 93,
+   "plat_count": 16,
+   "full_count": 5,
+   "avg_completion": 31,
+   "avg_plat_hours": 138
+  }
  },
  "/ps5/games/kingdom_come_deliverance_ii": {
   "type": "Диск, Цифровая версия",
@@ -801,7 +1941,27 @@
   "votes": [
    83,
    10
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.05,
+   "dur_base": "100+",
+   "diff_dlc": 4.9,
+   "dur_dlc": "50+",
+   "trophies": {
+    "total": 84,
+    "base": 49,
+    "dlc": 35,
+    "plat": 1,
+    "gold": 2,
+    "silver": 21,
+    "bronze": 60
+   },
+   "owners": 6132,
+   "plat_count": 762,
+   "full_count": 100,
+   "avg_completion": 23,
+   "avg_plat_hours": 192
+  }
  },
  "/ps5/games/kings_bounty_2": {
   "type": "Цифровая версия",
@@ -809,15 +1969,55 @@
   "votes": [
    31,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.26,
+   "dur_base": "100+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 50,
+    "base": 50,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 6,
+    "bronze": 40
+   },
+   "owners": 394,
+   "plat_count": 41,
+   "full_count": null,
+   "avg_completion": 20,
+   "avg_plat_hours": 98
+  }
  },
  "/ps5/games/lego_batman_legacy_of_the_dark_knight": {
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
    20,
-   2
-  ]
+   3
+  ],
+  "stats": {
+   "diff_base": 3.05,
+   "dur_base": "25+",
+   "diff_dlc": 2.0,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 64,
+    "base": 52,
+    "dlc": 12,
+    "plat": 1,
+    "gold": 3,
+    "silver": 5,
+    "bronze": 55
+   },
+   "owners": 1312,
+   "plat_count": 532,
+   "full_count": 51,
+   "avg_completion": 47,
+   "avg_plat_hours": 43
+  }
  },
  "/ps5/games/lego_horizon_adventures": {
   "type": "Диск, Цифровая версия",
@@ -825,7 +2025,27 @@
   "votes": [
    123,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.5,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 24,
+    "base": 24,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 7,
+    "silver": 8,
+    "bronze": 8
+   },
+   "owners": 6674,
+   "plat_count": 2035,
+   "full_count": null,
+   "avg_completion": 39,
+   "avg_plat_hours": 16
+  }
  },
  "/ps5/games/life_is_strange_true_colors": {
   "type": "Диск, Цифровая версия",
@@ -833,15 +2053,55 @@
   "votes": [
    174,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.0,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 41,
+    "base": 41,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 0,
+    "bronze": 34
+   },
+   "owners": 3505,
+   "plat_count": 1900,
+   "full_count": null,
+   "avg_completion": 59,
+   "avg_plat_hours": 13
+  }
  },
  "/ps5/games/like_a_dragon_infinite_wealth": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   98,
+   99,
    12
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.64,
+   "dur_base": "100+",
+   "diff_dlc": 3.33,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 74,
+    "base": 65,
+    "dlc": 9,
+    "plat": 1,
+    "gold": 1,
+    "silver": 5,
+    "bronze": 67
+   },
+   "owners": 2415,
+   "plat_count": 860,
+   "full_count": 154,
+   "avg_completion": 47,
+   "avg_plat_hours": 132
+  }
  },
  "/ps5/games/little_nightmares_enhanced_edition": {
   "type": "Диск, Цифровая версия",
@@ -849,7 +2109,27 @@
   "votes": [
    8,
    10
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.75,
+   "dur_base": "10+",
+   "diff_dlc": 2.8,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 22,
+    "base": 13,
+    "dlc": 9,
+    "plat": 0,
+    "gold": 4,
+    "silver": 5,
+    "bronze": 13
+   },
+   "owners": 495,
+   "plat_count": null,
+   "full_count": 41,
+   "avg_completion": 22,
+   "avg_plat_hours": null
+  }
  },
  "/ps5/games/little_nightmares_ii": {
   "type": "Диск, Цифровая версия",
@@ -857,7 +2137,27 @@
   "votes": [
    303,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.03,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 35,
+    "base": 35,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 15,
+    "bronze": 16
+   },
+   "owners": 5570,
+   "plat_count": 2058,
+   "full_count": null,
+   "avg_completion": 44,
+   "avg_plat_hours": 9
+  }
  },
  "/ps5/games/little_nightmares_iii": {
   "type": "Диск, Цифровая версия",
@@ -865,7 +2165,27 @@
   "votes": [
    23,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.22,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 44,
+    "base": 32,
+    "dlc": 12,
+    "plat": 1,
+    "gold": 6,
+    "silver": 20,
+    "bronze": 17
+   },
+   "owners": 1059,
+   "plat_count": 272,
+   "full_count": 42,
+   "avg_completion": 34,
+   "avg_plat_hours": 15
+  }
  },
  "/ps5/games/lost_records_bloom_rage": {
   "type": "Диск, Цифровая версия",
@@ -873,15 +2193,55 @@
   "votes": [
    85,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.75,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 50,
+    "base": 50,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 2,
+    "bronze": 44
+   },
+   "owners": 2999,
+   "plat_count": 909,
+   "full_count": null,
+   "avg_completion": 42,
+   "avg_plat_hours": 19
+  }
  },
  "/ps5/games/mafia_3": {
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   677,
-   296
-  ]
+   679,
+   297
+  ],
+  "stats": {
+   "diff_base": 3.78,
+   "dur_base": "50+",
+   "diff_dlc": 3.23,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 86,
+    "base": 56,
+    "dlc": 30,
+    "plat": 1,
+    "gold": 1,
+    "silver": 7,
+    "bronze": 77
+   },
+   "owners": 732,
+   "plat_count": 41,
+   "full_count": 27,
+   "avg_completion": 14,
+   "avg_plat_hours": 57
+  }
  },
  "/ps5/games/mafia_definitive_edition": {
   "type": "Цифровая версия",
@@ -889,15 +2249,55 @@
   "votes": [
    839,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.49,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 44,
+    "base": 44,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 7,
+    "bronze": 33
+   },
+   "owners": 1381,
+   "plat_count": 315,
+   "full_count": null,
+   "avg_completion": 36,
+   "avg_plat_hours": 21
+  }
  },
  "/ps5/games/mafia_the_old_country": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   204,
+   206,
    11
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.29,
+   "dur_base": "25+",
+   "diff_dlc": 3.0,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 63,
+    "base": 51,
+    "dlc": 12,
+    "plat": 1,
+    "gold": 3,
+    "silver": 12,
+    "bronze": 47
+   },
+   "owners": 8004,
+   "plat_count": 2402,
+   "full_count": 184,
+   "avg_completion": 44,
+   "avg_plat_hours": 34
+  }
  },
  "/ps5/games/martha_is_dead": {
   "type": "Диск, Цифровая версия",
@@ -905,7 +2305,27 @@
   "votes": [
    8,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.25,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 23,
+    "base": 23,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 14,
+    "bronze": 2
+   },
+   "owners": 246,
+   "plat_count": 126,
+   "full_count": null,
+   "avg_completion": 66,
+   "avg_plat_hours": 11
+  }
  },
  "/ps5/games/marvels_guardians_of_the_galaxy": {
   "type": "Диск, Цифровая версия",
@@ -917,7 +2337,27 @@
   "votes": [
    41,
    13
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.49,
+   "dur_base": "75+",
+   "diff_dlc": 3.77,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 72,
+    "base": 51,
+    "dlc": 21,
+    "plat": 1,
+    "gold": 4,
+    "silver": 13,
+    "bronze": 54
+   },
+   "owners": 2313,
+   "plat_count": 269,
+   "full_count": 111,
+   "avg_completion": 17,
+   "avg_plat_hours": 97
+  }
  },
  "/ps5/games/marvels_spider-man_2": {
   "type": "Цифровая версия",
@@ -931,9 +2371,29 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   128,
+   132,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.94,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 42,
+    "base": 42,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 9,
+    "bronze": 28
+   },
+   "owners": 5155,
+   "plat_count": 3101,
+   "full_count": null,
+   "avg_completion": 75,
+   "avg_plat_hours": 23
+  }
  },
  "/ps5/games/metal_gear_solid_delta_snake_eater": {
   "type": "Диск, Цифровая версия",
@@ -941,7 +2401,27 @@
   "votes": [
    54,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.59,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 46,
+    "base": 46,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 5,
+    "bronze": 36
+   },
+   "owners": 2372,
+   "plat_count": 429,
+   "full_count": null,
+   "avg_completion": 39,
+   "avg_plat_hours": 39
+  }
  },
  "/ps5/games/miasma_chronicles": {
   "type": "Диск, Цифровая версия",
@@ -949,7 +2429,27 @@
   "votes": [
    15,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.27,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 52,
+    "base": 52,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 6,
+    "bronze": 43
+   },
+   "owners": 1832,
+   "plat_count": 98,
+   "full_count": null,
+   "avg_completion": 20,
+   "avg_plat_hours": 70
+  }
  },
  "/ps5/games/mortal_shell_ii": {
   "type": "Диск, Цифровая версия",
@@ -957,7 +2457,27 @@
   "votes": [
    46,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.2,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 53,
+    "base": 53,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 1,
+    "silver": 10,
+    "bronze": 41
+   },
+   "owners": 1213,
+   "plat_count": 526,
+   "full_count": null,
+   "avg_completion": 62,
+   "avg_plat_hours": 55
+  }
  },
  "/ps5/games/mouse_pi_for_hire": {
   "type": "Диск, Цифровая версия",
@@ -965,7 +2485,27 @@
   "votes": [
    26,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.35,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 35,
+    "base": 35,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 18,
+    "bronze": 13
+   },
+   "owners": 881,
+   "plat_count": 292,
+   "full_count": null,
+   "avg_completion": 48,
+   "avg_plat_hours": 29
+  }
  },
  "/ps5/games/neva": {
   "type": "Диск, Цифровая версия",
@@ -977,7 +2517,27 @@
   "votes": [
    25,
    8
-  ]
+  ],
+  "stats": {
+   "diff_base": 7.2,
+   "dur_base": "50+",
+   "diff_dlc": 8.25,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 53,
+    "base": 45,
+    "dlc": 8,
+    "plat": 1,
+    "gold": 4,
+    "silver": 5,
+    "bronze": 43
+   },
+   "owners": 672,
+   "plat_count": 110,
+   "full_count": 25,
+   "avg_completion": 32,
+   "avg_plat_hours": 62
+  }
  },
  "/ps5/games/no_mans_sky": {
   "type": "Диск, Цифровая версия",
@@ -985,15 +2545,55 @@
   "votes": [
    174,
    28
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.48,
+   "dur_base": "50+",
+   "diff_dlc": 4.5,
+   "dur_dlc": "50+",
+   "trophies": {
+    "total": 28,
+    "base": 23,
+    "dlc": 5,
+    "plat": 1,
+    "gold": 8,
+    "silver": 9,
+    "bronze": 10
+   },
+   "owners": 4609,
+   "plat_count": 571,
+   "full_count": 136,
+   "avg_completion": 24,
+   "avg_plat_hours": 113
+  }
  },
  "/ps5/games/onimusha_way_of_the_sword": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   54,
+   58,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 7.36,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 52,
+    "base": 52,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 9,
+    "bronze": 40
+   },
+   "owners": 2046,
+   "plat_count": 398,
+   "full_count": null,
+   "avg_completion": 49,
+   "avg_plat_hours": 75
+  }
  },
  "/ps5/games/pacific_drive": {
   "type": "Диск, Цифровая версия",
@@ -1005,7 +2605,27 @@
   "votes": [
    2,
    2
-  ]
+  ],
+  "stats": {
+   "diff_base": 8.0,
+   "dur_base": "350+",
+   "diff_dlc": 3.0,
+   "dur_dlc": "100+",
+   "trophies": {
+    "total": 127,
+    "base": 40,
+    "dlc": 87,
+    "plat": 1,
+    "gold": 8,
+    "silver": 3,
+    "bronze": 115
+   },
+   "owners": 1103,
+   "plat_count": 8,
+   "full_count": 5,
+   "avg_completion": 2,
+   "avg_plat_hours": 299
+  }
  },
  "/ps5/games/persona_5_royal": {
   "type": "Цифровая версия",
@@ -1017,7 +2637,27 @@
   "votes": [
    101,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.95,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 36,
+    "base": 36,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 5,
+    "silver": 9,
+    "bronze": 21
+   },
+   "owners": 4187,
+   "plat_count": 888,
+   "full_count": null,
+   "avg_completion": 53,
+   "avg_plat_hours": 49
+  }
  },
  "/ps5/games/project_eve": {
   "type": "Диск, Цифровая версия",
@@ -1033,7 +2673,27 @@
   "votes": [
    59,
    4
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.83,
+   "dur_base": "0+",
+   "diff_dlc": 1.75,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 42,
+    "base": 32,
+    "dlc": 10,
+    "plat": 1,
+    "gold": 4,
+    "silver": 17,
+    "bronze": 20
+   },
+   "owners": 2866,
+   "plat_count": 936,
+   "full_count": 175,
+   "avg_completion": 41,
+   "avg_plat_hours": 11
+  }
  },
  "/ps5/games/remnant_ii": {
   "type": "Диск, Цифровая версия",
@@ -1045,7 +2705,27 @@
   "votes": [
    803,
    271
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.39,
+   "dur_base": "25+",
+   "diff_dlc": 5.84,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 45,
+    "base": 42,
+    "dlc": 3,
+    "plat": 1,
+    "gold": 4,
+    "silver": 10,
+    "bronze": 30
+   },
+   "owners": 11385,
+   "plat_count": 2542,
+   "full_count": 950,
+   "avg_completion": 38,
+   "avg_plat_hours": 25
+  }
  },
  "/ps5/games/resident_evil_3_remake": {
   "type": "Цифровая версия",
@@ -1053,7 +2733,27 @@
   "votes": [
    716,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.3,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 33,
+    "base": 33,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 12,
+    "bronze": 16
+   },
+   "owners": 9182,
+   "plat_count": 2841,
+   "full_count": null,
+   "avg_completion": 46,
+   "avg_plat_hours": 14
+  }
  },
  "/ps5/games/resident_evil_4_remake": {
   "type": "Диск, Цифровая версия",
@@ -1061,7 +2761,27 @@
   "votes": [
    375,
    152
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.26,
+   "dur_base": "50+",
+   "diff_dlc": 6.28,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 47,
+    "base": 40,
+    "dlc": 7,
+    "plat": 1,
+    "gold": 5,
+    "silver": 11,
+    "bronze": 30
+   },
+   "owners": 13782,
+   "plat_count": 2862,
+   "full_count": 1050,
+   "avg_completion": 38,
+   "avg_plat_hours": 89
+  }
  },
  "/ps5/games/resident_evil_7": {
   "type": "Цифровая версия",
@@ -1069,15 +2789,55 @@
   "votes": [
    724,
    184
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.57,
+   "dur_base": "25+",
+   "diff_dlc": 7.57,
+   "dur_dlc": "50+",
+   "trophies": {
+    "total": 59,
+    "base": 38,
+    "dlc": 21,
+    "plat": 1,
+    "gold": 5,
+    "silver": 19,
+    "bronze": 34
+   },
+   "owners": 3908,
+   "plat_count": 988,
+   "full_count": 269,
+   "avg_completion": 33,
+   "avg_plat_hours": 33
+  }
  },
  "/ps5/games/resident_evil_requiem": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   276,
+   277,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.84,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 50,
+    "base": 50,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 6,
+    "bronze": 40
+   },
+   "owners": 8545,
+   "plat_count": 3538,
+   "full_count": null,
+   "avg_completion": 62,
+   "avg_plat_hours": 37
+  }
  },
  "/ps5/games/resonance_a_plague_tale_legacy": {
   "type": "Диск, Цифровая версия",
@@ -1085,7 +2845,27 @@
   "votes": [
    38,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.08,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 37,
+    "base": 37,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 5,
+    "silver": 9,
+    "bronze": 22
+   },
+   "owners": 716,
+   "plat_count": 369,
+   "full_count": null,
+   "avg_completion": 64,
+   "avg_plat_hours": 20
+  }
  },
  "/ps5/games/returnal": {
   "type": "Диск, Цифровая версия",
@@ -1093,7 +2873,27 @@
   "votes": [
    376,
    209
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.05,
+   "dur_base": "50+",
+   "diff_dlc": 4.45,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 38,
+    "base": 31,
+    "dlc": 7,
+    "plat": 1,
+    "gold": 8,
+    "silver": 6,
+    "bronze": 23
+   },
+   "owners": 17838,
+   "plat_count": 2652,
+   "full_count": 1519,
+   "avg_completion": 24,
+   "avg_plat_hours": 83
+  }
  },
  "/ps5/games/rise_of_the_ronin": {
   "type": "Диск, Цифровая версия",
@@ -1105,7 +2905,27 @@
   "votes": [
    481,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.07,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 28,
+    "base": 28,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 10,
+    "bronze": 11
+   },
+   "owners": 10176,
+   "plat_count": 5230,
+   "full_count": null,
+   "avg_completion": 60,
+   "avg_plat_hours": 19
+  }
  },
  "/ps5/games/romeo_is_a_dead_man": {
   "type": "Цифровая версия",
@@ -1113,7 +2933,27 @@
   "votes": [
    3,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.33,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 44,
+    "base": 44,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 5,
+    "bronze": 34
+   },
+   "owners": 77,
+   "plat_count": 21,
+   "full_count": null,
+   "avg_completion": 45,
+   "avg_plat_hours": 36
+  }
  },
  "/ps5/games/sackboy_a_big_adventure": {
   "type": "PS ПК, Диск, Цифровая версия",
@@ -1121,15 +2961,55 @@
   "votes": [
    178,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 6.79,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 46,
+    "base": 46,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 10,
+    "bronze": 32
+   },
+   "owners": 13839,
+   "plat_count": 994,
+   "full_count": null,
+   "avg_completion": 22,
+   "avg_plat_hours": 43
+  }
  },
  "/ps5/games/saros": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   73,
-   null
-  ]
+   74,
+   3
+  ],
+  "stats": {
+   "diff_base": 4.03,
+   "dur_base": "25+",
+   "diff_dlc": 5.0,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 60,
+    "base": 45,
+    "dlc": 15,
+    "plat": 1,
+    "gold": 3,
+    "silver": 19,
+    "bronze": 37
+   },
+   "owners": 2045,
+   "plat_count": 879,
+   "full_count": 11,
+   "avg_completion": 51,
+   "avg_plat_hours": 37
+  }
  },
  "/ps5/games/scars_above": {
   "type": "Диск, Цифровая версия",
@@ -1137,7 +3017,27 @@
   "votes": [
    24,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.25,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 46,
+    "base": 46,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 13,
+    "bronze": 30
+   },
+   "owners": 347,
+   "plat_count": 179,
+   "full_count": null,
+   "avg_completion": 64,
+   "avg_plat_hours": 12
+  }
  },
  "/ps5/games/senuas_saga_hellblade_ii": {
   "type": "Цифровая версия",
@@ -1145,7 +3045,27 @@
   "votes": [
    16,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 7.44,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 13,
+    "base": 13,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 10,
+    "silver": 2,
+    "bronze": 0
+   },
+   "owners": 684,
+   "plat_count": 73,
+   "full_count": null,
+   "avg_completion": 52,
+   "avg_plat_hours": 22
+  }
  },
  "/ps5/games/sherlock_holmes_chapter_one": {
   "type": "Цифровая версия",
@@ -1153,7 +3073,27 @@
   "votes": [
    43,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.19,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 39,
+    "base": 39,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 10,
+    "bronze": 24
+   },
+   "owners": 1114,
+   "plat_count": 328,
+   "full_count": null,
+   "avg_completion": 41,
+   "avg_plat_hours": 32
+  }
  },
  "/ps5/games/silent_hill_2": {
   "type": "Диск, Цифровая версия",
@@ -1165,15 +3105,55 @@
   "votes": [
    97,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.43,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 57,
+    "base": 57,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 1,
+    "silver": 9,
+    "bronze": 46
+   },
+   "owners": 3039,
+   "plat_count": 733,
+   "full_count": null,
+   "avg_completion": 39,
+   "avg_plat_hours": 51
+  }
  },
  "/ps5/games/silent_hill_townfall": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   18,
+   19,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.0,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 37,
+    "base": 37,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 5,
+    "silver": 9,
+    "bronze": 22
+   },
+   "owners": 933,
+   "plat_count": 174,
+   "full_count": null,
+   "avg_completion": 32,
+   "avg_plat_hours": 34
+  }
  },
  "/ps5/games/south_of_midnight": {
   "type": "Цифровая версия",
@@ -1181,7 +3161,27 @@
   "votes": [
    17,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.94,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 41,
+    "base": 41,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 4,
+    "bronze": 32
+   },
+   "owners": 233,
+   "plat_count": 74,
+   "full_count": null,
+   "avg_completion": 49,
+   "avg_plat_hours": 19
+  }
  },
  "/ps5/games/stalker_2_heart_of_chornobyl": {
   "type": "Цифровая версия",
@@ -1189,7 +3189,27 @@
   "votes": [
    45,
    4
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.91,
+   "dur_base": "100+",
+   "diff_dlc": 3.25,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 77,
+    "base": 59,
+    "dlc": 18,
+    "plat": 1,
+    "gold": 0,
+    "silver": 8,
+    "bronze": 68
+   },
+   "owners": 2710,
+   "plat_count": 306,
+   "full_count": 83,
+   "avg_completion": 28,
+   "avg_plat_hours": 190
+  }
  },
  "/ps5/games/star_wars_jedi_fallen_order": {
   "type": "Диск, Цифровая версия",
@@ -1201,7 +3221,27 @@
   "votes": [
    267,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.75,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 54,
+    "base": 54,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 7,
+    "bronze": 44
+   },
+   "owners": 8604,
+   "plat_count": 2720,
+   "full_count": null,
+   "avg_completion": 43,
+   "avg_plat_hours": 61
+  }
  },
  "/ps5/games/star_wars_outlaws": {
   "type": "Диск, Цифровая версия",
@@ -1217,7 +3257,27 @@
   "votes": [
    13,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.15,
+   "dur_base": "100+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 83,
+    "base": 51,
+    "dlc": 32,
+    "plat": 1,
+    "gold": 1,
+    "silver": 10,
+    "bronze": 71
+   },
+   "owners": 333,
+   "plat_count": 27,
+   "full_count": 8,
+   "avg_completion": 13,
+   "avg_plat_hours": 184
+  }
  },
  "/ps5/games/steelrising": {
   "type": "Диск, Цифровая версия",
@@ -1225,7 +3285,27 @@
   "votes": [
    80,
    29
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.35,
+   "dur_base": "25+",
+   "diff_dlc": 3.31,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 56,
+    "base": 50,
+    "dlc": 6,
+    "plat": 1,
+    "gold": 3,
+    "silver": 9,
+    "bronze": 43
+   },
+   "owners": 3313,
+   "plat_count": 573,
+   "full_count": 198,
+   "avg_completion": 23,
+   "avg_plat_hours": 49
+  }
  },
  "/ps5/games/still_wakes_the_deep": {
   "type": "Диск, Цифровая версия",
@@ -1249,7 +3329,27 @@
   "votes": [
    115,
    11
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.75,
+   "dur_base": "50+",
+   "diff_dlc": 3.0,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 59,
+    "base": 48,
+    "dlc": 11,
+    "plat": 1,
+    "gold": 2,
+    "silver": 13,
+    "bronze": 43
+   },
+   "owners": 2645,
+   "plat_count": 649,
+   "full_count": 91,
+   "avg_completion": 28,
+   "avg_plat_hours": 68
+  }
  },
  "/ps5/games/tchia": {
   "type": "Диск, Цифровая версия",
@@ -1257,7 +3357,27 @@
   "votes": [
    84,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.14,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 22,
+    "base": 22,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 7,
+    "silver": 10,
+    "bronze": 4
+   },
+   "owners": 2548,
+   "plat_count": 381,
+   "full_count": null,
+   "avg_completion": 16,
+   "avg_plat_hours": 25
+  }
  },
  "/ps5/games/terminator_2d_no_fate": {
   "type": "Диск, Цифровая версия",
@@ -1265,7 +3385,27 @@
   "votes": [
    30,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.07,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 33,
+    "base": 33,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 5,
+    "silver": 12,
+    "bronze": 15
+   },
+   "owners": 405,
+   "plat_count": 155,
+   "full_count": null,
+   "avg_completion": 52,
+   "avg_plat_hours": 13
+  }
  },
  "/ps5/games/terminator_resistance": {
   "type": "Цифровая версия",
@@ -1273,7 +3413,27 @@
   "votes": [
    190,
    38
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.04,
+   "dur_base": "10+",
+   "diff_dlc": 2.97,
+   "dur_dlc": "0+",
+   "trophies": {
+    "total": 37,
+    "base": 28,
+    "dlc": 9,
+    "plat": 1,
+    "gold": 7,
+    "silver": 9,
+    "bronze": 20
+   },
+   "owners": 1651,
+   "plat_count": 998,
+   "full_count": 310,
+   "avg_completion": 67,
+   "avg_plat_hours": 19
+  }
  },
  "/ps5/games/thank_goodness_youre_here_voskl": {
   "type": "Цифровая версия",
@@ -1285,7 +3445,27 @@
   "votes": [
    15,
    2
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.53,
+   "dur_base": "50+",
+   "diff_dlc": 2.5,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 63,
+    "base": 56,
+    "dlc": 7,
+    "plat": 1,
+    "gold": 3,
+    "silver": 6,
+    "bronze": 53
+   },
+   "owners": 1017,
+   "plat_count": 156,
+   "full_count": 47,
+   "avg_completion": 32,
+   "avg_plat_hours": 62
+  }
  },
  "/ps5/games/the_blood_of_dawnwalker": {
   "type": "Цифровая версия",
@@ -1293,7 +3473,27 @@
   "votes": [
    7,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.29,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 47,
+    "base": 47,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 3,
+    "silver": 5,
+    "bronze": 38
+   },
+   "owners": 458,
+   "plat_count": 75,
+   "full_count": null,
+   "avg_completion": 37,
+   "avg_plat_hours": 69
+  }
  },
  "/ps5/games/the_callisto_protocol": {
   "type": "Диск, Цифровая версия",
@@ -1301,7 +3501,27 @@
   "votes": [
    412,
    37
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.37,
+   "dur_base": "10+",
+   "diff_dlc": 6.81,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 47,
+    "base": 27,
+    "dlc": 20,
+    "plat": 1,
+    "gold": 11,
+    "silver": 11,
+    "bronze": 24
+   },
+   "owners": 12250,
+   "plat_count": 3354,
+   "full_count": 189,
+   "avg_completion": 35,
+   "avg_plat_hours": 28
+  }
  },
  "/ps5/games/the_dark_pictures_-_man_of_medan": {
   "type": "Диск, Цифровая версия",
@@ -1309,7 +3529,27 @@
   "votes": [
    202,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.5,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 31,
+    "base": 31,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 7,
+    "bronze": 17
+   },
+   "owners": 5131,
+   "plat_count": 332,
+   "full_count": null,
+   "avg_completion": 16,
+   "avg_plat_hours": 27
+  }
  },
  "/ps5/games/the_dark_pictures_anthology_house_of_ashes": {
   "type": "Цифровая версия",
@@ -1321,7 +3561,27 @@
   "votes": [
    178,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.28,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 31,
+    "base": 31,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 7,
+    "bronze": 17
+   },
+   "owners": 5473,
+   "plat_count": 505,
+   "full_count": null,
+   "avg_completion": 20,
+   "avg_plat_hours": 25
+  }
  },
  "/ps5/games/the_dark_pictures_anthology_the_devil_in_me": {
   "type": "Цифровая версия",
@@ -1329,7 +3589,27 @@
   "votes": [
    117,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.98,
+   "dur_base": "25+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 31,
+    "base": 31,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 17,
+    "bronze": 9
+   },
+   "owners": 5620,
+   "plat_count": 827,
+   "full_count": null,
+   "avg_completion": 30,
+   "avg_plat_hours": 24
+  }
  },
  "/ps5/games/the_invincible": {
   "type": "Диск, Цифровая версия",
@@ -1349,7 +3629,27 @@
   "votes": [
    4,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.5,
+   "dur_base": "75+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 49,
+    "base": 49,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 1,
+    "silver": 13,
+    "bronze": 34
+   },
+   "owners": 403,
+   "plat_count": 39,
+   "full_count": null,
+   "avg_completion": 29,
+   "avg_plat_hours": 107
+  }
  },
  "/ps5/games/the_outer_worlds_spacers_choise_edition": {
   "type": "Цифровая версия",
@@ -1357,7 +3657,27 @@
   "votes": [
    218,
    68
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.2,
+   "dur_base": "25+",
+   "diff_dlc": 3.62,
+   "dur_dlc": "10+",
+   "trophies": {
+    "total": 69,
+    "base": 49,
+    "dlc": 20,
+    "plat": 1,
+    "gold": 1,
+    "silver": 17,
+    "bronze": 50
+   },
+   "owners": 4180,
+   "plat_count": 426,
+   "full_count": 279,
+   "avg_completion": 19,
+   "avg_plat_hours": 55
+  }
  },
  "/ps5/games/the_quarry": {
   "type": "Цифровая версия",
@@ -1365,15 +3685,55 @@
   "votes": [
    155,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.26,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 41,
+    "base": 41,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 7,
+    "bronze": 29
+   },
+   "owners": 8619,
+   "plat_count": 815,
+   "full_count": null,
+   "avg_completion": 29,
+   "avg_plat_hours": 47
+  }
  },
  "/ps5/games/the_sinking_city": {
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   138,
+   139,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.22,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 28,
+    "base": 28,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 7,
+    "bronze": 14
+   },
+   "owners": 981,
+   "plat_count": 249,
+   "full_count": null,
+   "avg_completion": 33,
+   "avg_plat_hours": 27
+  }
  },
  "/ps5/games/the_thaumaturge": {
   "type": "Цифровая версия",
@@ -1385,7 +3745,27 @@
   "votes": [
    1246,
    312
-  ]
+  ],
+  "stats": {
+   "diff_base": 5.12,
+   "dur_base": "100+",
+   "diff_dlc": 4.2,
+   "dur_dlc": "25+",
+   "trophies": {
+    "total": 79,
+    "base": 53,
+    "dlc": 26,
+    "plat": 1,
+    "gold": 2,
+    "silver": 8,
+    "bronze": 68
+   },
+   "owners": 16423,
+   "plat_count": 3170,
+   "full_count": 1893,
+   "avg_completion": 30,
+   "avg_plat_hours": 142
+  }
  },
  "/ps5/games/under_the_waves": {
   "type": "Диск, Цифровая версия",
@@ -1397,7 +3777,27 @@
   "votes": [
    2,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 2.0,
+   "dur_base": "0+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 28,
+    "base": 28,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 5,
+    "silver": 14,
+    "bronze": 8
+   },
+   "owners": 23,
+   "plat_count": 11,
+   "full_count": null,
+   "avg_completion": 57,
+   "avg_plat_hours": 8
+  }
  },
  "/ps5/games/unicorn_overlord": {
   "type": "Диск, Цифровая версия",
@@ -1405,7 +3805,27 @@
   "votes": [
    14,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.21,
+   "dur_base": "50+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 51,
+    "base": 51,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 2,
+    "silver": 10,
+    "bronze": 38
+   },
+   "owners": 451,
+   "plat_count": 144,
+   "full_count": null,
+   "avg_completion": 36,
+   "avg_plat_hours": 49
+  }
  },
  "/ps5/games/unknown_9_awakening": {
   "type": "Диск, Цифровая версия",
@@ -1413,7 +3833,27 @@
   "votes": [
    5,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 3.2,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 38,
+    "base": 38,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 4,
+    "silver": 9,
+    "bronze": 24
+   },
+   "owners": 132,
+   "plat_count": 47,
+   "full_count": null,
+   "avg_completion": 46,
+   "avg_plat_hours": 23
+  }
  },
  "/ps5/games/warhammer_40000_rogue_trader": {
   "type": "Цифровая версия",
@@ -1421,6 +3861,26 @@
   "votes": [
    7,
    null
-  ]
+  ],
+  "stats": {
+   "diff_base": 4.71,
+   "dur_base": "200+",
+   "diff_dlc": null,
+   "dur_dlc": null,
+   "trophies": {
+    "total": 68,
+    "base": 41,
+    "dlc": 27,
+    "plat": 1,
+    "gold": 5,
+    "silver": 17,
+    "bronze": 45
+   },
+   "owners": 386,
+   "plat_count": 26,
+   "full_count": 9,
+   "avg_completion": 21,
+   "avg_plat_hours": 279
+  }
  }
 }
