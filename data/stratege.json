@@ -28,7 +28,7 @@
     "silver": 11,
     "bronze": 36
    },
-   "owners": 5417,
+   "owners": 5421,
    "plat_count": 88,
    "full_count": null,
    "avg_completion": 12,
@@ -164,9 +164,9 @@
     "silver": 15,
     "bronze": 28
    },
-   "owners": 5328,
-   "plat_count": 879,
-   "full_count": 529,
+   "owners": 5331,
+   "plat_count": 882,
+   "full_count": 530,
    "avg_completion": 23,
    "avg_plat_hours": 41
   }
@@ -179,7 +179,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   878,
+   877,
    null
   ],
   "stats": {
@@ -196,8 +196,8 @@
     "silver": 5,
     "bronze": 0
    },
-   "owners": 11472,
-   "plat_count": 5392,
+   "owners": 11475,
+   "plat_count": 5396,
    "full_count": null,
    "avg_completion": 66,
    "avg_plat_hours": 12
@@ -228,8 +228,8 @@
     "silver": 11,
     "bronze": 6
    },
-   "owners": 31590,
-   "plat_count": 11544,
+   "owners": 31609,
+   "plat_count": 11549,
    "full_count": null,
    "avg_completion": 46,
    "avg_plat_hours": 18
@@ -239,7 +239,7 @@
   "type": "Диск",
   "lang": "Русский",
   "votes": [
-   2206,
+   2205,
    null
   ],
   "stats": {
@@ -256,8 +256,8 @@
     "silver": 11,
     "bronze": 34
    },
-   "owners": 52375,
-   "plat_count": 22609,
+   "owners": 52396,
+   "plat_count": 22616,
    "full_count": null,
    "avg_completion": 57,
    "avg_plat_hours": 43
@@ -304,11 +304,11 @@
     "silver": 14,
     "bronze": 51
    },
-   "owners": 17413,
-   "plat_count": 5087,
-   "full_count": 1032,
+   "owners": 17441,
+   "plat_count": 5095,
+   "full_count": 1035,
    "avg_completion": 43,
-   "avg_plat_hours": 49
+   "avg_plat_hours": 50
   }
  },
  "/ps4/games/marvels_spider-man": {
@@ -384,10 +384,10 @@
   "lang": "Русский",
   "votes": [
    641,
-   232
+   231
   ],
   "stats": {
-   "diff_base": 4.57,
+   "diff_base": 4.56,
    "dur_base": "25+",
    "diff_dlc": 3.61,
    "dur_dlc": "10+",
@@ -400,9 +400,9 @@
     "silver": 9,
     "bronze": 82
    },
-   "owners": 28246,
-   "plat_count": 4338,
-   "full_count": 1256,
+   "owners": 28265,
+   "plat_count": 4342,
+   "full_count": 1257,
    "avg_completion": 27,
    "avg_plat_hours": 55
   }
@@ -440,7 +440,7 @@
     "silver": 12,
     "bronze": 22
    },
-   "owners": 1699,
+   "owners": 1701,
    "plat_count": 272,
    "full_count": null,
    "avg_completion": 24,
@@ -476,8 +476,8 @@
     "silver": 7,
     "bronze": 9
    },
-   "owners": 14438,
-   "plat_count": 425,
+   "owners": 14446,
+   "plat_count": 427,
    "full_count": null,
    "avg_completion": 7,
    "avg_plat_hours": 51
@@ -491,7 +491,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   2021,
+   2020,
    null
   ],
   "stats": {
@@ -508,8 +508,8 @@
     "silver": 14,
     "bronze": 0
    },
-   "owners": 34818,
-   "plat_count": 17579,
+   "owners": 34829,
+   "plat_count": 17588,
    "full_count": null,
    "avg_completion": 66,
    "avg_plat_hours": 19
@@ -535,7 +535,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   1131,
+   1130,
    null
   ],
   "stats": {
@@ -552,8 +552,8 @@
     "silver": 11,
     "bronze": 36
    },
-   "owners": 27709,
-   "plat_count": 7191,
+   "owners": 27724,
+   "plat_count": 7195,
    "full_count": null,
    "avg_completion": 39,
    "avg_plat_hours": null
@@ -588,7 +588,7 @@
     "silver": 5,
     "bronze": 80
    },
-   "owners": 1282,
+   "owners": 1284,
    "plat_count": 104,
    "full_count": 33,
    "avg_completion": 24,
@@ -616,7 +616,7 @@
     "silver": 18,
     "bronze": 60
    },
-   "owners": 15818,
+   "owners": 15823,
    "plat_count": 277,
    "full_count": 101,
    "avg_completion": 10,
@@ -627,7 +627,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   143,
+   142,
    null
   ],
   "stats": {
@@ -644,8 +644,8 @@
     "silver": 14,
     "bronze": 20
    },
-   "owners": 5151,
-   "plat_count": 1900,
+   "owners": 5202,
+   "plat_count": 1928,
    "full_count": null,
    "avg_completion": 59,
    "avg_plat_hours": 29
@@ -676,11 +676,11 @@
     "silver": 5,
     "bronze": 48
    },
-   "owners": 237,
-   "plat_count": 2,
+   "owners": 246,
+   "plat_count": 4,
    "full_count": null,
-   "avg_completion": 26,
-   "avg_plat_hours": 81
+   "avg_completion": 28,
+   "avg_plat_hours": 74
   }
  },
  "/ps5/games/aila": {
@@ -694,7 +694,21 @@
    "diff_base": 2.0,
    "dur_base": "10+",
    "diff_dlc": null,
-   "dur_dlc": null
+   "dur_dlc": null,
+   "trophies": {
+    "total": 30,
+    "base": 30,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 9,
+    "bronze": 14
+   },
+   "owners": 28,
+   "plat_count": 10,
+   "full_count": null,
+   "avg_completion": 52,
+   "avg_plat_hours": 14
   }
  },
  "/ps5/games/alan_wake_ii": {
@@ -738,10 +752,10 @@
     "silver": 13,
     "bronze": 61
    },
-   "owners": 5648,
-   "plat_count": 2331,
-   "full_count": 109,
-   "avg_completion": 48,
+   "owners": 5660,
+   "plat_count": 2340,
+   "full_count": 110,
+   "avg_completion": 49,
    "avg_plat_hours": 115
   }
  },
@@ -753,13 +767,13 @@
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   438,
-   107
+   440,
+   108
   ],
   "stats": {
    "diff_base": 3.88,
    "dur_base": "10+",
-   "diff_dlc": 4.63,
+   "diff_dlc": 4.62,
    "dur_dlc": "0+",
    "trophies": {
     "total": 63,
@@ -770,9 +784,9 @@
     "silver": 19,
     "bronze": 41
    },
-   "owners": 10089,
-   "plat_count": 6270,
-   "full_count": 1898,
+   "owners": 10120,
+   "plat_count": 6295,
+   "full_count": 1911,
    "avg_completion": 69,
    "avg_plat_hours": 37
   }
@@ -798,9 +812,9 @@
     "silver": 14,
     "bronze": 31
    },
-   "owners": 39243,
-   "plat_count": 20039,
-   "full_count": 1206,
+   "owners": 39304,
+   "plat_count": 20071,
+   "full_count": 1212,
    "avg_completion": 55,
    "avg_plat_hours": 15
   }
@@ -826,7 +840,7 @@
     "silver": 11,
     "bronze": 37
    },
-   "owners": 353,
+   "owners": 355,
    "plat_count": 81,
    "full_count": 14,
    "avg_completion": 28,
@@ -837,13 +851,13 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   316,
-   30
+   317,
+   31
   ],
   "stats": {
    "diff_base": 4.26,
    "dur_base": "25+",
-   "diff_dlc": 4.83,
+   "diff_dlc": 4.84,
    "dur_dlc": "25+",
    "trophies": {
     "total": 82,
@@ -854,9 +868,9 @@
     "silver": 12,
     "bronze": 65
    },
-   "owners": 13023,
-   "plat_count": 2978,
-   "full_count": 351,
+   "owners": 13051,
+   "plat_count": 2989,
+   "full_count": 354,
    "avg_completion": 30,
    "avg_plat_hours": 61
   }
@@ -866,12 +880,12 @@
   "lang": "Русский",
   "votes": [
    58,
-   6
+   7
   ],
   "stats": {
-   "diff_base": 3.57,
+   "diff_base": 3.55,
    "dur_base": "75+",
-   "diff_dlc": 3.67,
+   "diff_dlc": 3.57,
    "dur_dlc": "25+",
    "trophies": {
     "total": 53,
@@ -882,9 +896,9 @@
     "silver": 21,
     "bronze": 25
    },
-   "owners": 4084,
-   "plat_count": 649,
-   "full_count": 87,
+   "owners": 4116,
+   "plat_count": 655,
+   "full_count": 90,
    "avg_completion": 15,
    "avg_plat_hours": 79
   }
@@ -910,7 +924,7 @@
     "silver": 10,
     "bronze": 38
    },
-   "owners": 215,
+   "owners": 216,
    "plat_count": 35,
    "full_count": null,
    "avg_completion": 29,
@@ -928,18 +942,32 @@
    "diff_base": null,
    "dur_base": null,
    "diff_dlc": null,
-   "dur_dlc": null
+   "dur_dlc": null,
+   "trophies": {
+    "total": 18,
+    "base": 18,
+    "dlc": 0,
+    "plat": 0,
+    "gold": 1,
+    "silver": 9,
+    "bronze": 8
+   },
+   "owners": 40,
+   "plat_count": null,
+   "full_count": 0,
+   "avg_completion": 22,
+   "avg_plat_hours": null
   }
  },
  "/ps5/games/baldurs_gate_3": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   83,
+   82,
    27
   ],
   "stats": {
-   "diff_base": 6.12,
+   "diff_base": 6.07,
    "dur_base": "100+",
    "diff_dlc": 6.85,
    "dur_dlc": "100+",
@@ -952,8 +980,8 @@
     "silver": 4,
     "bronze": 47
    },
-   "owners": 7483,
-   "plat_count": 656,
+   "owners": 7494,
+   "plat_count": 659,
    "full_count": 284,
    "avg_completion": 25,
    "avg_plat_hours": 322
@@ -967,11 +995,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   225,
+   226,
    null
   ],
   "stats": {
-   "diff_base": 5.59,
+   "diff_base": 5.6,
    "dur_base": "75+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -984,8 +1012,8 @@
     "silver": 9,
     "bronze": 22
    },
-   "owners": 7398,
-   "plat_count": 2479,
+   "owners": 7407,
+   "plat_count": 2486,
    "full_count": null,
    "avg_completion": 45,
    "avg_plat_hours": 88
@@ -1007,11 +1035,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   49,
+   56,
    null
   ],
   "stats": {
-   "diff_base": 3.51,
+   "diff_base": 3.52,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -1024,10 +1052,10 @@
     "silver": 16,
     "bronze": 32
    },
-   "owners": 1746,
-   "plat_count": 666,
+   "owners": 1844,
+   "plat_count": 736,
    "full_count": null,
-   "avg_completion": 55,
+   "avg_completion": 56,
    "avg_plat_hours": 46
   }
  },
@@ -1048,30 +1076,30 @@
    "diff_dlc": null,
    "dur_dlc": null,
    "trophies": {
-    "total": 35,
+    "total": 42,
     "base": 35,
-    "dlc": 0,
+    "dlc": 7,
     "plat": 1,
     "gold": 4,
-    "silver": 10,
-    "bronze": 20
+    "silver": 14,
+    "bronze": 23
    },
-   "owners": 2739,
-   "plat_count": 157,
-   "full_count": null,
-   "avg_completion": 11,
-   "avg_plat_hours": 288
+   "owners": 2767,
+   "plat_count": 161,
+   "full_count": 0,
+   "avg_completion": 9,
+   "avg_plat_hours": 289
   }
  },
  "/ps5/games/cronos_the_new_dawn": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   86,
+   87,
    null
   ],
   "stats": {
-   "diff_base": 4.31,
+   "diff_base": 4.32,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -1084,8 +1112,8 @@
     "silver": 13,
     "bronze": 32
    },
-   "owners": 2296,
-   "plat_count": 772,
+   "owners": 2319,
+   "plat_count": 779,
    "full_count": null,
    "avg_completion": 53,
    "avg_plat_hours": 43
@@ -1116,22 +1144,22 @@
     "silver": 21,
     "bronze": 40
    },
-   "owners": 1759,
-   "plat_count": 832,
+   "owners": 1792,
+   "plat_count": 840,
    "full_count": 67,
    "avg_completion": 42,
-   "avg_plat_hours": 50
+   "avg_plat_hours": 49
   }
  },
  "/ps5/games/dead_space": {
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   203,
+   202,
    null
   ],
   "stats": {
-   "diff_base": 5.17,
+   "diff_base": 5.16,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -1144,8 +1172,8 @@
     "silver": 10,
     "bronze": 35
    },
-   "owners": 9566,
-   "plat_count": 1555,
+   "owners": 9579,
+   "plat_count": 1559,
    "full_count": null,
    "avg_completion": 32,
    "avg_plat_hours": 49
@@ -1155,7 +1183,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   269,
+   268,
    null
   ],
   "stats": {
@@ -1172,8 +1200,8 @@
     "silver": 6,
     "bronze": 46
    },
-   "owners": 9549,
-   "plat_count": 2967,
+   "owners": 9570,
+   "plat_count": 2983,
    "full_count": null,
    "avg_completion": 54,
    "avg_plat_hours": 140
@@ -1200,9 +1228,9 @@
     "silver": 11,
     "bronze": 46
    },
-   "owners": 10475,
-   "plat_count": 1593,
-   "full_count": 961,
+   "owners": 10480,
+   "plat_count": 1595,
+   "full_count": 963,
    "avg_completion": 27,
    "avg_plat_hours": 42
   }
@@ -1228,8 +1256,8 @@
     "silver": 9,
     "bronze": 22
    },
-   "owners": 22014,
-   "plat_count": 5133,
+   "owners": 22041,
+   "plat_count": 5143,
    "full_count": null,
    "avg_completion": 33,
    "avg_plat_hours": 72
@@ -1256,8 +1284,8 @@
     "silver": 5,
     "bronze": 19
    },
-   "owners": 761,
-   "plat_count": 149,
+   "owners": 772,
+   "plat_count": 151,
    "full_count": null,
    "avg_completion": 38,
    "avg_plat_hours": 29
@@ -1284,10 +1312,10 @@
     "silver": 16,
     "bronze": 14
    },
-   "owners": 39,
+   "owners": 40,
    "plat_count": 12,
    "full_count": null,
-   "avg_completion": 54,
+   "avg_completion": 53,
    "avg_plat_hours": 77
   }
  },
@@ -1295,11 +1323,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   27,
+   28,
    null
   ],
   "stats": {
-   "diff_base": 3.41,
+   "diff_base": 3.39,
    "dur_base": "100+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -1340,9 +1368,9 @@
     "silver": 13,
     "bronze": 26
    },
-   "owners": 5624,
-   "plat_count": 200,
-   "full_count": 130,
+   "owners": 5628,
+   "plat_count": 202,
+   "full_count": 132,
    "avg_completion": 8,
    "avg_plat_hours": 70
   }
@@ -1368,8 +1396,8 @@
     "silver": 16,
     "bronze": 16
    },
-   "owners": 2032,
-   "plat_count": 562,
+   "owners": 2037,
+   "plat_count": 566,
    "full_count": null,
    "avg_completion": 55,
    "avg_plat_hours": 27
@@ -1396,18 +1424,18 @@
     "silver": 5,
     "bronze": 42
    },
-   "owners": 712,
-   "plat_count": 32,
+   "owners": 717,
+   "plat_count": 33,
    "full_count": null,
    "avg_completion": 12,
-   "avg_plat_hours": 108
+   "avg_plat_hours": 105
   }
  },
  "/ps5/games/doom_the_dark_ages": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   167,
+   168,
    25
   ],
   "stats": {
@@ -1424,9 +1452,9 @@
     "silver": 15,
     "bronze": 18
    },
-   "owners": 3559,
-   "plat_count": 1853,
-   "full_count": 347,
+   "owners": 3568,
+   "plat_count": 1864,
+   "full_count": 349,
    "avg_completion": 57,
    "avg_plat_hours": 35
   }
@@ -1435,7 +1463,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   138,
+   137,
    null
   ],
   "stats": {
@@ -1452,8 +1480,8 @@
     "silver": 13,
     "bronze": 38
    },
-   "owners": 5035,
-   "plat_count": 1510,
+   "owners": 5045,
+   "plat_count": 1515,
    "full_count": null,
    "avg_completion": 39,
    "avg_plat_hours": 75
@@ -1482,7 +1510,21 @@
    "diff_base": null,
    "dur_base": null,
    "diff_dlc": null,
-   "dur_dlc": null
+   "dur_dlc": null,
+   "trophies": {
+    "total": 71,
+    "base": 71,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 0,
+    "silver": 0,
+    "bronze": 70
+   },
+   "owners": 91,
+   "plat_count": 2,
+   "full_count": null,
+   "avg_completion": 21,
+   "avg_plat_hours": 290
   }
  },
  "/ps5/games/dying_light_the_beast": {
@@ -1506,8 +1548,8 @@
     "silver": 11,
     "bronze": 24
    },
-   "owners": 1871,
-   "plat_count": 581,
+   "owners": 1880,
+   "plat_count": 584,
    "full_count": 36,
    "avg_completion": 40,
    "avg_plat_hours": 68
@@ -1517,11 +1559,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   14,
+   13,
    null
   ],
   "stats": {
-   "diff_base": 2.79,
+   "diff_base": 2.77,
    "dur_base": "10+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -1534,8 +1576,8 @@
     "silver": 6,
     "bronze": 36
    },
-   "owners": 150,
-   "plat_count": 111,
+   "owners": 151,
+   "plat_count": 112,
    "full_count": null,
    "avg_completion": 82,
    "avg_plat_hours": 12
@@ -1552,7 +1594,21 @@
    "diff_base": null,
    "dur_base": null,
    "diff_dlc": null,
-   "dur_dlc": null
+   "dur_dlc": null,
+   "trophies": {
+    "total": 35,
+    "base": 35,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 6,
+    "silver": 1,
+    "bronze": 27
+   },
+   "owners": 106,
+   "plat_count": 2,
+   "full_count": null,
+   "avg_completion": 27,
+   "avg_plat_hours": 47
   }
  },
  "/ps5/games/far_changing_tides": {
@@ -1580,18 +1636,18 @@
     "silver": 15,
     "bronze": 28
    },
-   "owners": 1173,
-   "plat_count": 90,
+   "owners": 1182,
+   "plat_count": 91,
    "full_count": null,
    "avg_completion": 11,
-   "avg_plat_hours": 178
+   "avg_plat_hours": 177
   }
  },
  "/ps5/games/final_fantasy_xvi": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   189,
+   188,
    42
   ],
   "stats": {
@@ -1608,9 +1664,9 @@
     "silver": 6,
     "bronze": 59
    },
-   "owners": 8425,
-   "plat_count": 1673,
-   "full_count": 360,
+   "owners": 8442,
+   "plat_count": 1681,
+   "full_count": 362,
    "avg_completion": 35,
    "avg_plat_hours": 104
   }
@@ -1635,7 +1691,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   199,
+   198,
    48
   ],
   "stats": {
@@ -1652,8 +1708,8 @@
     "silver": 6,
     "bronze": 58
    },
-   "owners": 7996,
-   "plat_count": 1774,
+   "owners": 8001,
+   "plat_count": 1777,
    "full_count": 291,
    "avg_completion": 30,
    "avg_plat_hours": 53
@@ -1684,11 +1740,11 @@
     "silver": 20,
     "bronze": 18
    },
-   "owners": 1567,
-   "plat_count": 179,
+   "owners": 1578,
+   "plat_count": 182,
    "full_count": null,
    "avg_completion": 32,
-   "avg_plat_hours": 152
+   "avg_plat_hours": 153
   }
  },
  "/ps5/games/greedfall_2_the_dying_world": {
@@ -1712,7 +1768,7 @@
     "silver": 6,
     "bronze": 45
    },
-   "owners": 39,
+   "owners": 40,
    "plat_count": 5,
    "full_count": null,
    "avg_completion": 26,
@@ -1744,11 +1800,11 @@
     "silver": 3,
     "bronze": 52
    },
-   "owners": 414,
-   "plat_count": 76,
+   "owners": 413,
+   "plat_count": 77,
    "full_count": null,
    "avg_completion": 33,
-   "avg_plat_hours": 37
+   "avg_plat_hours": 39
   }
  },
  "/ps5/games/hardspace_shipbreaker": {
@@ -1759,11 +1815,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   58,
+   59,
    null
   ],
   "stats": {
-   "diff_base": 3.6,
+   "diff_base": 3.61,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -1776,11 +1832,11 @@
     "silver": 10,
     "bronze": 26
    },
-   "owners": 3268,
-   "plat_count": 756,
+   "owners": 3306,
+   "plat_count": 765,
    "full_count": null,
    "avg_completion": 31,
-   "avg_plat_hours": 38
+   "avg_plat_hours": 37
   }
  },
  "/ps5/games/hogwarts_legacy": {
@@ -1795,13 +1851,13 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   3618,
-   1053
+   3617,
+   1052
   ],
   "stats": {
    "diff_base": 3.63,
    "dur_base": "50+",
-   "diff_dlc": 3.91,
+   "diff_dlc": 3.9,
    "dur_dlc": "25+",
    "trophies": {
     "total": 79,
@@ -1812,9 +1868,9 @@
     "silver": 11,
     "bronze": 65
    },
-   "owners": 5242,
-   "plat_count": 1585,
-   "full_count": 498,
+   "owners": 5291,
+   "plat_count": 1603,
+   "full_count": 507,
    "avg_completion": 35,
    "avg_plat_hours": 56
   }
@@ -1823,13 +1879,13 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   202,
-   42
+   203,
+   41
   ],
   "stats": {
    "diff_base": 3.47,
    "dur_base": "25+",
-   "diff_dlc": 3.31,
+   "diff_dlc": 3.32,
    "dur_dlc": "0+",
    "trophies": {
     "total": 56,
@@ -1840,9 +1896,9 @@
     "silver": 18,
     "bronze": 35
    },
-   "owners": 3226,
-   "plat_count": 1539,
-   "full_count": 446,
+   "owners": 3245,
+   "plat_count": 1552,
+   "full_count": 453,
    "avg_completion": 57,
    "avg_plat_hours": 48
   }
@@ -1855,7 +1911,7 @@
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   668,
+   667,
    null
   ],
   "stats": {
@@ -1872,8 +1928,8 @@
     "silver": 0,
     "bronze": 10
    },
-   "owners": 19986,
-   "plat_count": 5631,
+   "owners": 20011,
+   "plat_count": 5635,
    "full_count": null,
    "avg_completion": 40,
    "avg_plat_hours": 20
@@ -1904,7 +1960,7 @@
    "plat_count": 19,
    "full_count": null,
    "avg_completion": 18,
-   "avg_plat_hours": 173
+   "avg_plat_hours": 176
   }
  },
  "/ps5/games/jusant": {
@@ -1915,7 +1971,7 @@
    null
   ],
   "stats": {
-   "diff_base": 2.69,
+   "diff_base": 2.68,
    "dur_base": "0+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -1928,8 +1984,8 @@
     "silver": 8,
     "bronze": 6
    },
-   "owners": 2332,
-   "plat_count": 785,
+   "owners": 2336,
+   "plat_count": 790,
    "full_count": null,
    "avg_completion": 39,
    "avg_plat_hours": 9
@@ -1939,7 +1995,7 @@
   "type": "Цифровая версия",
   "lang": "Английский",
   "votes": [
-   352,
+   351,
    null
   ],
   "stats": {
@@ -1956,8 +2012,8 @@
     "silver": 9,
     "bronze": 29
    },
-   "owners": 11957,
-   "plat_count": 2366,
+   "owners": 11964,
+   "plat_count": 2370,
    "full_count": null,
    "avg_completion": 34,
    "avg_plat_hours": 27
@@ -1984,7 +2040,7 @@
     "silver": 10,
     "bronze": 46
    },
-   "owners": 93,
+   "owners": 94,
    "plat_count": 16,
    "full_count": 5,
    "avg_completion": 31,
@@ -1995,14 +2051,14 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   83,
-   10
+   82,
+   9
   ],
   "stats": {
    "diff_base": 4.05,
    "dur_base": "100+",
-   "diff_dlc": 4.9,
-   "dur_dlc": "50+",
+   "diff_dlc": 4.89,
+   "dur_dlc": "25+",
    "trophies": {
     "total": 84,
     "base": 49,
@@ -2012,8 +2068,8 @@
     "silver": 21,
     "bronze": 60
    },
-   "owners": 6132,
-   "plat_count": 762,
+   "owners": 6183,
+   "plat_count": 771,
    "full_count": 100,
    "avg_completion": 23,
    "avg_plat_hours": 192
@@ -2040,7 +2096,7 @@
     "silver": 6,
     "bronze": 40
    },
-   "owners": 394,
+   "owners": 395,
    "plat_count": 41,
    "full_count": null,
    "avg_completion": 20,
@@ -2051,7 +2107,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   20,
+   19,
    3
   ],
   "stats": {
@@ -2068,10 +2124,10 @@
     "silver": 5,
     "bronze": 55
    },
-   "owners": 1312,
-   "plat_count": 532,
-   "full_count": 51,
-   "avg_completion": 47,
+   "owners": 1324,
+   "plat_count": 541,
+   "full_count": 53,
+   "avg_completion": 48,
    "avg_plat_hours": 43
   }
  },
@@ -2079,7 +2135,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   123,
+   121,
    null
   ],
   "stats": {
@@ -2096,8 +2152,8 @@
     "silver": 8,
     "bronze": 8
    },
-   "owners": 6674,
-   "plat_count": 2035,
+   "owners": 6701,
+   "plat_count": 2045,
    "full_count": null,
    "avg_completion": 39,
    "avg_plat_hours": 16
@@ -2124,8 +2180,8 @@
     "silver": 0,
     "bronze": 34
    },
-   "owners": 3505,
-   "plat_count": 1900,
+   "owners": 3506,
+   "plat_count": 1901,
    "full_count": null,
    "avg_completion": 59,
    "avg_plat_hours": 13
@@ -2152,8 +2208,8 @@
     "silver": 5,
     "bronze": 67
    },
-   "owners": 2415,
-   "plat_count": 860,
+   "owners": 2424,
+   "plat_count": 863,
    "full_count": 154,
    "avg_completion": 47,
    "avg_plat_hours": 132
@@ -2180,7 +2236,7 @@
     "silver": 5,
     "bronze": 13
    },
-   "owners": 495,
+   "owners": 499,
    "plat_count": null,
    "full_count": 41,
    "avg_completion": 22,
@@ -2191,11 +2247,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   303,
+   302,
    null
   ],
   "stats": {
-   "diff_base": 3.03,
+   "diff_base": 3.02,
    "dur_base": "10+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2208,8 +2264,8 @@
     "silver": 15,
     "bronze": 16
    },
-   "owners": 5570,
-   "plat_count": 2058,
+   "owners": 5580,
+   "plat_count": 2062,
    "full_count": null,
    "avg_completion": 44,
    "avg_plat_hours": 9
@@ -2219,14 +2275,14 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   23,
-   null
+   22,
+   1
   ],
   "stats": {
-   "diff_base": 3.22,
+   "diff_base": 3.23,
    "dur_base": "10+",
-   "diff_dlc": null,
-   "dur_dlc": null,
+   "diff_dlc": 2.0,
+   "dur_dlc": "0+",
    "trophies": {
     "total": 44,
     "base": 32,
@@ -2236,9 +2292,9 @@
     "silver": 20,
     "bronze": 17
    },
-   "owners": 1059,
-   "plat_count": 272,
-   "full_count": 42,
+   "owners": 1068,
+   "plat_count": 277,
+   "full_count": 46,
    "avg_completion": 34,
    "avg_plat_hours": 15
   }
@@ -2247,11 +2303,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   85,
+   83,
    null
   ],
   "stats": {
-   "diff_base": 2.75,
+   "diff_base": 2.76,
    "dur_base": "10+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2264,8 +2320,8 @@
     "silver": 2,
     "bronze": 44
    },
-   "owners": 2999,
-   "plat_count": 909,
+   "owners": 3002,
+   "plat_count": 910,
    "full_count": null,
    "avg_completion": 42,
    "avg_plat_hours": 19
@@ -2275,8 +2331,8 @@
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   679,
-   297
+   680,
+   298
   ],
   "stats": {
    "diff_base": 3.78,
@@ -2292,22 +2348,22 @@
     "silver": 7,
     "bronze": 77
    },
-   "owners": 732,
-   "plat_count": 41,
-   "full_count": 27,
-   "avg_completion": 14,
-   "avg_plat_hours": 57
+   "owners": 791,
+   "plat_count": 57,
+   "full_count": 40,
+   "avg_completion": 15,
+   "avg_plat_hours": 59
   }
  },
  "/ps5/games/mafia_definitive_edition": {
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   839,
+   838,
    null
   ],
   "stats": {
-   "diff_base": 4.49,
+   "diff_base": 4.48,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2320,10 +2376,10 @@
     "silver": 7,
     "bronze": 33
    },
-   "owners": 1381,
-   "plat_count": 315,
+   "owners": 1418,
+   "plat_count": 327,
    "full_count": null,
-   "avg_completion": 36,
+   "avg_completion": 37,
    "avg_plat_hours": 21
   }
  },
@@ -2331,11 +2387,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   206,
-   11
+   215,
+   12
   ],
   "stats": {
-   "diff_base": 3.29,
+   "diff_base": 3.31,
    "dur_base": "25+",
    "diff_dlc": 3.0,
    "dur_dlc": "10+",
@@ -2348,9 +2404,9 @@
     "silver": 12,
     "bronze": 47
    },
-   "owners": 8004,
-   "plat_count": 2402,
-   "full_count": 184,
+   "owners": 8667,
+   "plat_count": 2591,
+   "full_count": 208,
    "avg_completion": 44,
    "avg_plat_hours": 34
   }
@@ -2359,11 +2415,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   8,
+   7,
    null
   ],
   "stats": {
-   "diff_base": 3.25,
+   "diff_base": 3.14,
    "dur_base": "10+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2409,7 +2465,7 @@
     "bronze": 54
    },
    "owners": 2313,
-   "plat_count": 269,
+   "plat_count": 270,
    "full_count": 111,
    "avg_completion": 17,
    "avg_plat_hours": 97
@@ -2427,7 +2483,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   132,
+   142,
    null
   ],
   "stats": {
@@ -2444,10 +2500,10 @@
     "silver": 9,
     "bronze": 28
    },
-   "owners": 5155,
-   "plat_count": 3101,
+   "owners": 5273,
+   "plat_count": 3227,
    "full_count": null,
-   "avg_completion": 75,
+   "avg_completion": 76,
    "avg_plat_hours": 23
   }
  },
@@ -2472,7 +2528,7 @@
     "silver": 5,
     "bronze": 36
    },
-   "owners": 2372,
+   "owners": 2380,
    "plat_count": 429,
    "full_count": null,
    "avg_completion": 39,
@@ -2511,11 +2567,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   46,
+   47,
    null
   ],
   "stats": {
-   "diff_base": 5.2,
+   "diff_base": 5.17,
    "dur_base": "50+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2528,10 +2584,10 @@
     "silver": 10,
     "bronze": 41
    },
-   "owners": 1213,
-   "plat_count": 526,
+   "owners": 1243,
+   "plat_count": 536,
    "full_count": null,
-   "avg_completion": 62,
+   "avg_completion": 61,
    "avg_plat_hours": 55
   }
  },
@@ -2556,8 +2612,8 @@
     "silver": 18,
     "bronze": 13
    },
-   "owners": 881,
-   "plat_count": 292,
+   "owners": 891,
+   "plat_count": 294,
    "full_count": null,
    "avg_completion": 48,
    "avg_plat_hours": 29
@@ -2588,7 +2644,7 @@
     "silver": 5,
     "bronze": 43
    },
-   "owners": 672,
+   "owners": 677,
    "plat_count": 110,
    "full_count": 25,
    "avg_completion": 32,
@@ -2599,11 +2655,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   174,
+   173,
    28
   ],
   "stats": {
-   "diff_base": 3.48,
+   "diff_base": 3.47,
    "dur_base": "50+",
    "diff_dlc": 4.5,
    "dur_dlc": "50+",
@@ -2616,9 +2672,9 @@
     "silver": 9,
     "bronze": 10
    },
-   "owners": 4609,
-   "plat_count": 571,
-   "full_count": 136,
+   "owners": 4614,
+   "plat_count": 572,
+   "full_count": 137,
    "avg_completion": 24,
    "avg_plat_hours": 113
   }
@@ -2627,11 +2683,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   58,
+   60,
    null
   ],
   "stats": {
-   "diff_base": 7.36,
+   "diff_base": 7.33,
    "dur_base": "50+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2644,8 +2700,8 @@
     "silver": 9,
     "bronze": 40
    },
-   "owners": 2046,
-   "plat_count": 398,
+   "owners": 2101,
+   "plat_count": 425,
    "full_count": null,
    "avg_completion": 49,
    "avg_plat_hours": 75
@@ -2676,7 +2732,7 @@
     "silver": 3,
     "bronze": 115
    },
-   "owners": 1103,
+   "owners": 1106,
    "plat_count": 8,
    "full_count": 5,
    "avg_completion": 2,
@@ -2691,11 +2747,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   101,
+   102,
    null
   ],
   "stats": {
-   "diff_base": 5.95,
+   "diff_base": 5.96,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2708,11 +2764,11 @@
     "silver": 9,
     "bronze": 21
    },
-   "owners": 4187,
-   "plat_count": 888,
+   "owners": 4235,
+   "plat_count": 904,
    "full_count": null,
    "avg_completion": 53,
-   "avg_plat_hours": 49
+   "avg_plat_hours": 48
   }
  },
  "/ps5/games/project_eve": {
@@ -2727,7 +2783,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   59,
+   60,
    4
   ],
   "stats": {
@@ -2744,9 +2800,9 @@
     "silver": 17,
     "bronze": 20
    },
-   "owners": 2866,
-   "plat_count": 936,
-   "full_count": 175,
+   "owners": 2909,
+   "plat_count": 952,
+   "full_count": 186,
    "avg_completion": 41,
    "avg_plat_hours": 11
   }
@@ -2759,7 +2815,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   803,
+   804,
    271
   ],
   "stats": {
@@ -2776,9 +2832,9 @@
     "silver": 10,
     "bronze": 30
    },
-   "owners": 11385,
-   "plat_count": 2542,
-   "full_count": 950,
+   "owners": 11413,
+   "plat_count": 2551,
+   "full_count": 953,
    "avg_completion": 38,
    "avg_plat_hours": 25
   }
@@ -2791,7 +2847,7 @@
    null
   ],
   "stats": {
-   "diff_base": 4.3,
+   "diff_base": 4.31,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2804,8 +2860,8 @@
     "silver": 12,
     "bronze": 16
    },
-   "owners": 9182,
-   "plat_count": 2841,
+   "owners": 9204,
+   "plat_count": 2851,
    "full_count": null,
    "avg_completion": 46,
    "avg_plat_hours": 14
@@ -2816,12 +2872,12 @@
   "lang": "Русский",
   "votes": [
    375,
-   152
+   153
   ],
   "stats": {
    "diff_base": 6.26,
    "dur_base": "50+",
-   "diff_dlc": 6.28,
+   "diff_dlc": 6.27,
    "dur_dlc": "10+",
    "trophies": {
     "total": 47,
@@ -2832,9 +2888,9 @@
     "silver": 11,
     "bronze": 30
    },
-   "owners": 13782,
-   "plat_count": 2862,
-   "full_count": 1050,
+   "owners": 13817,
+   "plat_count": 2872,
+   "full_count": 1055,
    "avg_completion": 38,
    "avg_plat_hours": 89
   }
@@ -2843,13 +2899,13 @@
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   724,
-   184
+   723,
+   183
   ],
   "stats": {
    "diff_base": 5.57,
    "dur_base": "25+",
-   "diff_dlc": 7.57,
+   "diff_dlc": 7.55,
    "dur_dlc": "50+",
    "trophies": {
     "total": 59,
@@ -2860,9 +2916,9 @@
     "silver": 19,
     "bronze": 34
    },
-   "owners": 3908,
-   "plat_count": 988,
-   "full_count": 269,
+   "owners": 3925,
+   "plat_count": 992,
+   "full_count": 270,
    "avg_completion": 33,
    "avg_plat_hours": 33
   }
@@ -2875,7 +2931,7 @@
    null
   ],
   "stats": {
-   "diff_base": 3.84,
+   "diff_base": 3.83,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2888,8 +2944,8 @@
     "silver": 6,
     "bronze": 40
    },
-   "owners": 8545,
-   "plat_count": 3538,
+   "owners": 8598,
+   "plat_count": 3554,
    "full_count": null,
    "avg_completion": 62,
    "avg_plat_hours": 37
@@ -2903,7 +2959,7 @@
    null
   ],
   "stats": {
-   "diff_base": 3.08,
+   "diff_base": 3.11,
    "dur_base": "10+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2916,19 +2972,19 @@
     "silver": 9,
     "bronze": 22
    },
-   "owners": 716,
-   "plat_count": 369,
+   "owners": 751,
+   "plat_count": 385,
    "full_count": null,
    "avg_completion": 64,
-   "avg_plat_hours": 20
+   "avg_plat_hours": 19
   }
  },
  "/ps5/games/returnal": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   376,
-   209
+   375,
+   208
   ],
   "stats": {
    "diff_base": 6.05,
@@ -2944,9 +3000,9 @@
     "silver": 6,
     "bronze": 23
    },
-   "owners": 17838,
-   "plat_count": 2652,
-   "full_count": 1519,
+   "owners": 17853,
+   "plat_count": 2654,
+   "full_count": 1521,
    "avg_completion": 24,
    "avg_plat_hours": 83
   }
@@ -2959,11 +3015,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   481,
+   479,
    null
   ],
   "stats": {
-   "diff_base": 3.07,
+   "diff_base": 3.08,
    "dur_base": "10+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -2976,8 +3032,8 @@
     "silver": 10,
     "bronze": 11
    },
-   "owners": 10176,
-   "plat_count": 5230,
+   "owners": 10206,
+   "plat_count": 5246,
    "full_count": null,
    "avg_completion": 60,
    "avg_plat_hours": 19
@@ -3032,8 +3088,8 @@
     "silver": 10,
     "bronze": 32
    },
-   "owners": 13839,
-   "plat_count": 994,
+   "owners": 13872,
+   "plat_count": 997,
    "full_count": null,
    "avg_completion": 22,
    "avg_plat_hours": 43
@@ -3043,11 +3099,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   74,
-   3
+   75,
+   6
   ],
   "stats": {
-   "diff_base": 4.03,
+   "diff_base": 4.04,
    "dur_base": "25+",
    "diff_dlc": 5.0,
    "dur_dlc": "10+",
@@ -3060,9 +3116,9 @@
     "silver": 19,
     "bronze": 37
    },
-   "owners": 2045,
-   "plat_count": 879,
-   "full_count": 11,
+   "owners": 2061,
+   "plat_count": 889,
+   "full_count": 23,
    "avg_completion": 51,
    "avg_plat_hours": 37
   }
@@ -3088,8 +3144,8 @@
     "silver": 13,
     "bronze": 30
    },
-   "owners": 347,
-   "plat_count": 179,
+   "owners": 348,
+   "plat_count": 180,
    "full_count": null,
    "avg_completion": 64,
    "avg_plat_hours": 12
@@ -3099,11 +3155,11 @@
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   16,
+   15,
    null
   ],
   "stats": {
-   "diff_base": 7.44,
+   "diff_base": 7.4,
    "dur_base": "10+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -3116,8 +3172,8 @@
     "silver": 2,
     "bronze": 0
    },
-   "owners": 684,
-   "plat_count": 73,
+   "owners": 686,
+   "plat_count": 74,
    "full_count": null,
    "avg_completion": 52,
    "avg_plat_hours": 22
@@ -3144,7 +3200,7 @@
     "silver": 10,
     "bronze": 24
    },
-   "owners": 1114,
+   "owners": 1117,
    "plat_count": 328,
    "full_count": null,
    "avg_completion": 41,
@@ -3159,11 +3215,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   97,
+   96,
    null
   ],
   "stats": {
-   "diff_base": 5.43,
+   "diff_base": 5.42,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -3176,8 +3232,8 @@
     "silver": 9,
     "bronze": 46
    },
-   "owners": 3039,
-   "plat_count": 733,
+   "owners": 3053,
+   "plat_count": 738,
    "full_count": null,
    "avg_completion": 39,
    "avg_plat_hours": 51
@@ -3191,7 +3247,7 @@
    null
   ],
   "stats": {
-   "diff_base": 4.0,
+   "diff_base": 4.05,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -3204,11 +3260,11 @@
     "silver": 9,
     "bronze": 22
    },
-   "owners": 933,
-   "plat_count": 174,
+   "owners": 958,
+   "plat_count": 190,
    "full_count": null,
-   "avg_completion": 32,
-   "avg_plat_hours": 34
+   "avg_completion": 33,
+   "avg_plat_hours": 33
   }
  },
  "/ps5/games/south_of_midnight": {
@@ -3232,10 +3288,10 @@
     "silver": 4,
     "bronze": 32
    },
-   "owners": 233,
-   "plat_count": 74,
+   "owners": 234,
+   "plat_count": 76,
    "full_count": null,
-   "avg_completion": 49,
+   "avg_completion": 50,
    "avg_plat_hours": 19
   }
  },
@@ -3260,11 +3316,11 @@
     "silver": 8,
     "bronze": 68
    },
-   "owners": 2710,
-   "plat_count": 306,
-   "full_count": 83,
+   "owners": 2732,
+   "plat_count": 312,
+   "full_count": 88,
    "avg_completion": 28,
-   "avg_plat_hours": 190
+   "avg_plat_hours": 191
   }
  },
  "/ps5/games/star_wars_jedi_fallen_order": {
@@ -3275,11 +3331,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   267,
+   266,
    null
   ],
   "stats": {
-   "diff_base": 3.75,
+   "diff_base": 3.74,
    "dur_base": "50+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -3292,8 +3348,8 @@
     "silver": 7,
     "bronze": 44
    },
-   "owners": 8604,
-   "plat_count": 2720,
+   "owners": 8610,
+   "plat_count": 2726,
    "full_count": null,
    "avg_completion": 43,
    "avg_plat_hours": 61
@@ -3328,7 +3384,7 @@
     "silver": 10,
     "bronze": 71
    },
-   "owners": 333,
+   "owners": 335,
    "plat_count": 27,
    "full_count": 8,
    "avg_completion": 13,
@@ -3356,9 +3412,9 @@
     "silver": 9,
     "bronze": 43
    },
-   "owners": 3313,
-   "plat_count": 573,
-   "full_count": 198,
+   "owners": 3321,
+   "plat_count": 575,
+   "full_count": 199,
    "avg_completion": 23,
    "avg_plat_hours": 49
   }
@@ -3400,9 +3456,9 @@
     "silver": 13,
     "bronze": 43
    },
-   "owners": 2645,
-   "plat_count": 649,
-   "full_count": 91,
+   "owners": 2674,
+   "plat_count": 655,
+   "full_count": 94,
    "avg_completion": 28,
    "avg_plat_hours": 68
   }
@@ -3411,11 +3467,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   84,
+   83,
    null
   ],
   "stats": {
-   "diff_base": 3.14,
+   "diff_base": 3.12,
    "dur_base": "10+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -3428,8 +3484,8 @@
     "silver": 10,
     "bronze": 4
    },
-   "owners": 2548,
-   "plat_count": 381,
+   "owners": 2551,
+   "plat_count": 382,
    "full_count": null,
    "avg_completion": 16,
    "avg_plat_hours": 25
@@ -3456,7 +3512,7 @@
     "silver": 12,
     "bronze": 15
    },
-   "owners": 405,
+   "owners": 408,
    "plat_count": 155,
    "full_count": null,
    "avg_completion": 52,
@@ -3467,7 +3523,7 @@
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   190,
+   189,
    38
   ],
   "stats": {
@@ -3484,9 +3540,9 @@
     "silver": 9,
     "bronze": 20
    },
-   "owners": 1651,
-   "plat_count": 998,
-   "full_count": 310,
+   "owners": 1656,
+   "plat_count": 1003,
+   "full_count": 312,
    "avg_completion": 67,
    "avg_plat_hours": 19
   }
@@ -3516,9 +3572,9 @@
     "silver": 6,
     "bronze": 53
    },
-   "owners": 1017,
-   "plat_count": 156,
-   "full_count": 47,
+   "owners": 1020,
+   "plat_count": 158,
+   "full_count": 49,
    "avg_completion": 32,
    "avg_plat_hours": 62
   }
@@ -3544,11 +3600,11 @@
     "silver": 5,
     "bronze": 38
    },
-   "owners": 458,
-   "plat_count": 75,
+   "owners": 469,
+   "plat_count": 78,
    "full_count": null,
    "avg_completion": 37,
-   "avg_plat_hours": 69
+   "avg_plat_hours": 68
   }
  },
  "/ps5/games/the_callisto_protocol": {
@@ -3572,8 +3628,8 @@
     "silver": 11,
     "bronze": 24
    },
-   "owners": 12250,
-   "plat_count": 3354,
+   "owners": 12261,
+   "plat_count": 3359,
    "full_count": 189,
    "avg_completion": 35,
    "avg_plat_hours": 28
@@ -3583,7 +3639,7 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
   "votes": [
-   202,
+   201,
    null
   ],
   "stats": {
@@ -3600,10 +3656,10 @@
     "silver": 7,
     "bronze": 17
    },
-   "owners": 5131,
-   "plat_count": 332,
+   "owners": 5139,
+   "plat_count": 336,
    "full_count": null,
-   "avg_completion": 16,
+   "avg_completion": 17,
    "avg_plat_hours": 27
   }
  },
@@ -3615,11 +3671,11 @@
   "type": "Диск, Цифровая версия",
   "lang": "Английский",
   "votes": [
-   178,
+   177,
    null
   ],
   "stats": {
-   "diff_base": 3.28,
+   "diff_base": 3.27,
    "dur_base": "25+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -3632,8 +3688,8 @@
     "silver": 7,
     "bronze": 17
    },
-   "owners": 5473,
-   "plat_count": 505,
+   "owners": 5480,
+   "plat_count": 508,
    "full_count": null,
    "avg_completion": 20,
    "avg_plat_hours": 25
@@ -3643,7 +3699,7 @@
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   117,
+   116,
    null
   ],
   "stats": {
@@ -3660,8 +3716,8 @@
     "silver": 17,
     "bronze": 9
    },
-   "owners": 5620,
-   "plat_count": 827,
+   "owners": 5628,
+   "plat_count": 830,
    "full_count": null,
    "avg_completion": 30,
    "avg_plat_hours": 24
@@ -3700,7 +3756,7 @@
     "silver": 13,
     "bronze": 34
    },
-   "owners": 403,
+   "owners": 404,
    "plat_count": 39,
    "full_count": null,
    "avg_completion": 29,
@@ -3739,11 +3795,11 @@
   "type": "Цифровая версия",
   "lang": "Русский",
   "votes": [
-   155,
+   154,
    null
   ],
   "stats": {
-   "diff_base": 3.26,
+   "diff_base": 3.25,
    "dur_base": "50+",
    "diff_dlc": null,
    "dur_dlc": null,
@@ -3756,8 +3812,8 @@
     "silver": 7,
     "bronze": 29
    },
-   "owners": 8619,
-   "plat_count": 815,
+   "owners": 8634,
+   "plat_count": 818,
    "full_count": null,
    "avg_completion": 29,
    "avg_plat_hours": 47
@@ -3784,8 +3840,8 @@
     "silver": 7,
     "bronze": 14
    },
-   "owners": 981,
-   "plat_count": 249,
+   "owners": 988,
+   "plat_count": 251,
    "full_count": null,
    "avg_completion": 33,
    "avg_plat_hours": 27
@@ -3800,12 +3856,12 @@
   "lang": "Русский",
   "votes": [
    1246,
-   312
+   313
   ],
   "stats": {
    "diff_base": 5.12,
    "dur_base": "100+",
-   "diff_dlc": 4.2,
+   "diff_dlc": 4.19,
    "dur_dlc": "25+",
    "trophies": {
     "total": 79,
@@ -3816,9 +3872,9 @@
     "silver": 8,
     "bronze": 68
    },
-   "owners": 16423,
-   "plat_count": 3170,
-   "full_count": 1893,
+   "owners": 16470,
+   "plat_count": 3186,
+   "full_count": 1914,
    "avg_completion": 30,
    "avg_plat_hours": 142
   }
@@ -3904,8 +3960,8 @@
     "silver": 9,
     "bronze": 24
    },
-   "owners": 132,
-   "plat_count": 47,
+   "owners": 133,
+   "plat_count": 48,
    "full_count": null,
    "avg_completion": 46,
    "avg_plat_hours": 23
@@ -3922,7 +3978,21 @@
    "diff_base": 3.71,
    "dur_base": "10+",
    "diff_dlc": null,
-   "dur_dlc": null
+   "dur_dlc": null,
+   "trophies": {
+    "total": 28,
+    "base": 28,
+    "dlc": 0,
+    "plat": 1,
+    "gold": 8,
+    "silver": 3,
+    "bronze": 16
+   },
+   "owners": 253,
+   "plat_count": 64,
+   "full_count": null,
+   "avg_completion": 34,
+   "avg_plat_hours": 16
   }
  },
  "/ps5/games/warhammer_40000_rogue_trader": {
@@ -3946,10 +4016,10 @@
     "silver": 17,
     "bronze": 45
    },
-   "owners": 386,
+   "owners": 389,
    "plat_count": 26,
    "full_count": 9,
-   "avg_completion": 21,
+   "avg_completion": 20,
    "avg_plat_hours": 279
   }
  }

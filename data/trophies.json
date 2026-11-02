@@ -9520,7 +9520,48 @@
     "online": false
    }
   ],
-  "dlcs": []
+  "dlcs": [
+   {
+    "name": "Charting the Unknown",
+    "trophies": [
+     {
+      "name": "Over the Horizon / За горизонтом",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Deep-sea Wanderer / Странник бездны",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Management Tycoon / Мастер управления",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Trial by Flower / Испытание цветком",
+      "grade": "silver",
+      "online": false
+     },
+     {
+      "name": "Dawn Politician / Вестник нового рассвета",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Charter / Основоположник",
+      "grade": "bronze",
+      "online": false
+     },
+     {
+      "name": "Forger of Tomorrow / Творец будущего",
+      "grade": "bronze",
+      "online": false
+     }
+    ]
+   }
+  ]
  },
  "/ps5/games/cronos_the_new_dawn": {
   "base": [
