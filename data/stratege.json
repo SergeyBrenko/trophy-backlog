@@ -683,6 +683,20 @@
    "avg_plat_hours": 81
   }
  },
+ "/ps5/games/aila": {
+  "type": "Цифровая версия",
+  "lang": null,
+  "votes": [
+   1,
+   null
+  ],
+  "stats": {
+   "diff_base": 2.0,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null
+  }
+ },
  "/ps5/games/alan_wake_ii": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
@@ -901,6 +915,20 @@
    "full_count": null,
    "avg_completion": 29,
    "avg_plat_hours": 68
+  }
+ },
+ "/ps5/games/backrooms_escape_together": {
+  "type": "Цифровая версия",
+  "lang": "Русский",
+  "votes": [
+   null,
+   null
+  ],
+  "stats": {
+   "diff_base": null,
+   "dur_base": null,
+   "diff_dlc": null,
+   "dur_dlc": null
   }
  },
  "/ps5/games/baldurs_gate_3": {
@@ -1443,6 +1471,20 @@
   "type": "Диск, Цифровая версия",
   "lang": "Русский"
  },
+ "/ps5/games/dune_awakening": {
+  "type": "Диск, Цифровая версия",
+  "lang": "Русский",
+  "votes": [
+   null,
+   null
+  ],
+  "stats": {
+   "diff_base": null,
+   "dur_base": null,
+   "diff_dlc": null,
+   "dur_dlc": null
+  }
+ },
  "/ps5/games/dying_light_the_beast": {
   "type": "Диск, Цифровая версия",
   "lang": "Русский",
@@ -1497,6 +1539,20 @@
    "full_count": null,
    "avg_completion": 82,
    "avg_plat_hours": 12
+  }
+ },
+ "/ps5/games/escape_the_backrooms": {
+  "type": "Цифровая версия",
+  "lang": "Английский",
+  "votes": [
+   null,
+   null
+  ],
+  "stats": {
+   "diff_base": null,
+   "dur_base": null,
+   "diff_dlc": null,
+   "dur_dlc": null
   }
  },
  "/ps5/games/far_changing_tides": {
@@ -3853,6 +3909,20 @@
    "full_count": null,
    "avg_completion": 46,
    "avg_plat_hours": 23
+  }
+ },
+ "/ps5/games/visage": {
+  "type": "Цифровая версия",
+  "lang": "Русский",
+  "votes": [
+   21,
+   null
+  ],
+  "stats": {
+   "diff_base": 3.71,
+   "dur_base": "10+",
+   "diff_dlc": null,
+   "dur_dlc": null
   }
  },
  "/ps5/games/warhammer_40000_rogue_trader": {

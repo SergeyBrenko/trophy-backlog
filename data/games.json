@@ -155,6 +155,137 @@
   }
  },
  {
+  "section": "backlog",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": "",
+  "added": "2026-11-02",
+  "updated": "2026-11-02",
+  "dlcs": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "id": "aila",
+  "title": "A.I.L.A",
+  "platform": "PS5",
+  "release": "2025-11-25",
+  "genre": "Хоррор от первого лица",
+  "developer": "Pulsatrix Studios",
+  "stratege_url": "https://stratege.ru/ps5/games/aila/trophies",
+  "trophies": {
+   "total": 30,
+   "base": 30,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 6,
+   "silver": 9,
+   "bronze": 14
+  },
+  "diff_base": 2.0,
+  "diff_base_votes": 1,
+  "dur_base": "10+",
+  "avg_plat_hours": 14,
+  "owners": 28,
+  "plat_count": 10,
+  "full_count": null,
+  "avg_completion": 52,
+  "critic": 68,
+  "critic_src": "OpenCritic",
+  "user_score": 7.4,
+  "quality": 7.0,
+  "quality_note": "OC 68 (38% рекомендуют; MC PS5 68), MC user 7.4 (138 оценок); Steam 83% положительных; обзор stratege 70/100; критики ругают боёвку и шероховатости, игроки добрее. Комментариев на stratege почти нет",
+  "missables": "Нет (по гайду Knoef); выбора глав нет — пропущенное досбирается через ручные сохранения",
+  "playthroughs": "1 (+ загрузки сохранений для концовок и «Гроза дедлайнов»)",
+  "difficulty_trophy": "Нет",
+  "glitched": "Нет известных",
+  "ru": "subs",
+  "ru_loc": "Субтитры (PS Store и Steam: текст на русском, озвучка английская и бразильская португальская)",
+  "disc_note": "Цифровая версия; по одному источнику, в марте 2026 Super Rare Games выпустила лимитированный диск PS5 (3500 копий) — не подтверждено; DLC нет",
+  "pros": [
+   "Разные сеттинги в каждом «тесте»: лес, средневековье, море",
+   "Хорошая атмосфера и озвучка",
+   "Лёгкая платина без пропускаемых",
+   "Русские субтитры"
+  ],
+  "cons": [
+   "Слабая боёвка и деревянные анимации",
+   "Предсказуемый сюжет",
+   "Диск — только малый тираж, если вообще найдётся"
+  ],
+  "about": "Сюжетный хоррор от первого лица бразильской студии Pulsatrix Studios, издатель — Fireshine Games. Сэмюэл становится единственным тестировщиком A.I.L.A — искусственного интеллекта, который создаёт хоррор-игры под страхи конкретного игрока, — и чем дальше идут тесты, тем сильнее кошмары просачиваются в его реальную жизнь. Каждый тест — отдельная история со своим сеттингом, от тёмного леса до средневекового замка и моря, а между ними — будни героя в квартире. Ждёт линейное прохождение эпизодами: исследование, головоломки, ближний бой и огнестрел, скрытные убийства и моральные выборы, влияющие на концовку.",
+  "trophy_summary": "Платина в среднем за 14 ч, без пропускаемых: 15 спрятанных страниц, несколько ситуативок в главе «Средневековье», морально правильные выборы для «Искупления» и прохождение сюжета быстрее 10 ч. Для «You're Fired!» нужно 20–30 минут простоять на балконе без действий — это отдельная концовка, лучше сохраниться заранее.",
+  "why": "Атмосферный сюжетный хоррор средней длины — в духе Still Wakes the Deep, которая у тебя уже пройдена, и Cronos: The New Dawn, но с разными мирами-эпизодами и боёвкой. Платина лёгкая (оценка 2.0 по одному голосу, гайд даёт 3/10), но диска на полке почти наверняка не будет.",
+  "sources": [
+   {
+    "name": "Stratege трофеи",
+    "url": "https://stratege.ru/ps5/games/aila/trophies"
+   },
+   {
+    "name": "Stratege сложность",
+    "url": "https://stratege.ru/ps5/games/aila/difficulty"
+   },
+   {
+    "name": "Knoef (гайд)",
+    "url": "https://knoef.info/?p=89821"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/19738/aila"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/aila/"
+   },
+   {
+    "name": "Steambase (Steam %)",
+    "url": "https://steambase.io/games/aila/reviews"
+   },
+   {
+    "name": "Gematsu (дата выхода)",
+    "url": "https://www.gematsu.com/2025/10/aila-launches-november-25"
+   },
+   {
+    "name": "17173 (лимитированный диск SRG)",
+    "url": "https://news.17173.com/content/03282026/071615267.shtml"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-tr/product/UP2660-PPSA28503_00-SIEESIEAAILA0000"
+   }
+  ],
+  "store": {
+   "game": {
+    "ua": "concept/10014194",
+    "tr": "concept/10014194"
+   }
+  },
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 6,
+     "s": 9,
+     "b": 14
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  },
+  "plat_pct": 35.7,
+  "est_100_hours": 14,
+  "dlc_count": 0
+ },
+ {
   "added": "2026-10-24",
   "avg_completion": 69,
   "avg_plat_hours": 37,
@@ -781,6 +912,137 @@
     }
    ]
   }
+ },
+ {
+  "id": "backrooms_escape_together",
+  "title": "Backrooms: Escape Together",
+  "section": "backlog",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": "",
+  "added": "2026-11-02",
+  "updated": "2026-11-02",
+  "platform": "PS5",
+  "release": "2026-06-18",
+  "genre": "Кооперативный survival-хоррор",
+  "developer": "Triiodide Studios",
+  "stratege_url": "https://stratege.ru/ps5/games/backrooms_escape_together/trophies",
+  "trophies": {
+   "total": 18,
+   "base": 18,
+   "dlc": 0,
+   "plat": 0,
+   "gold": 1,
+   "silver": 9,
+   "bronze": 8
+  },
+  "dlcs": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_base": null,
+  "diff_base_votes": null,
+  "dur_base": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "avg_plat_hours": null,
+  "owners": 40,
+  "plat_count": null,
+  "full_count": 0,
+  "avg_completion": 22,
+  "critic": null,
+  "critic_src": null,
+  "user_score": 8.9,
+  "quality": 7.0,
+  "quality_note": "Обзоров критиков нет (Metacritic tbd, OpenCritic пусто), формула неприменима — оценка ориентировочная по игрокам: Steam 89% положительных (15 тыс. англоязычных отзывов, за последние 30 дней 87%), PS Store ~4.3/5. Минус за ранний доступ на ПК, короткий забег и жалобы на вылеты, сбрасывающие забег в «Чистилище». Комментарии stratege не учтены (грузятся скриптом)",
+  "online": false,
+  "online_note": "Онлайн-кооператив до 6 игроков (PS Plus) необязателен: все трофеи можно получить в одиночку. В «Чистилище» напарники помогают, но, по отзывам в Steam, смерть любого из команды откатывает забег к уровню 0, а вылет у одного игрока может сорвать попытку",
+  "online_trophies": [],
+  "missables": "Нет: забеги можно повторять, уровни генерируются заново",
+  "playthroughs": "2: обычный забег через все уровни + забег на «Чистилище» без смертей",
+  "difficulty_trophy": "Да: 9 трофеев за прохождение уровней на сложности «Чистилище» (смерть откатывает к уровню 0)",
+  "glitched": "На ПК жаловались, что трофей за уровень FUN на «Чистилище» иногда не выдаётся, а забег сбрасывается из-за багов; по PS5 данных нет",
+  "ru": "subs",
+  "ru_loc": "Субтитры (по PS Store; в Steam заявлена и русская озвучка)",
+  "disc_note": "Только цифровая версия, диска нет",
+  "pros": [
+   "Реалистичная картинка на Unreal Engine 5",
+   "Кооп до 6 игроков, можно и соло",
+   "Процедурные уровни: каждый забег разный",
+   "Русские субтитры"
+  ],
+  "cons": [
+   "Платины нет",
+   "«Чистилище»: забег без единой смерти",
+   "На ПК ещё ранний доступ, контента немного",
+   "Обычный забег — пара часов"
+  ],
+  "about": "Кооперативный survival-хоррор от небольшой студии Triiodide Studios по мотивам интернет-вселенной Backrooms (Закулисье), сделанный на Unreal Engine 5. Команда до шести исследователей спускается всё глубже по процедурно генерируемым уровням — от жёлтых коридоров уровня 0 до парковки, тоннелей, электростанции, офиса и «Весёлого» уровня, — и на каждом свои головоломки, предметы и существа. Играть можно в одиночку или по сети с голосовым чатом, который учитывает стены и расстояние. Обычный забег занимает пару часов, а на ПК игра всё ещё в раннем доступе и пополняется уровнями.",
+  "trophy_summary": "Платины нет, 18 трофеев. Обычные уровни проходятся за вечер, но 9 трофеев требуют пройти уровни на «Чистилище», где смерть откатывает к уровню 0: на stratege 100% нет ни у кого из 40 владельцев, трофеев «Чистилища» дальше уровня 1 нет ни у кого. Оценки сложности нет; игра в раннем доступе на ПК, так что новые уровни могут добавить трофеи.",
+  "why": "Короткий кооперативный хоррор о Закулисье, который можно пройти и одному: по атмосфере пустых пространств близок к Still Wakes the Deep и The Medium из твоего профиля. Учти: платины нет, а 100% упирается в «Чистилище» без смертей, в котором дальше уровня 1 на PS5 пока не продвинулся ни один владелец на stratege.",
+  "sources": [
+   {
+    "name": "Stratege трофеи",
+    "url": "https://stratege.ru/ps5/games/backrooms_escape_together/trophies"
+   },
+   {
+    "name": "Stratege сложность",
+    "url": "https://stratege.ru/ps5/games/backrooms_escape_together/difficulty"
+   },
+   {
+    "name": "Stratege игра",
+    "url": "https://stratege.ru/ps5/games/backrooms_escape_together"
+   },
+   {
+    "name": "Steam",
+    "url": "https://store.steampowered.com/app/2141730/"
+   },
+   {
+    "name": "Steam: правило «Чистилища»",
+    "url": "https://steamcommunity.com/app/2141730/discussions/0/640179995535219384/"
+   },
+   {
+    "name": "Steam: «Чистилище» соло",
+    "url": "https://steamcommunity.com/app/2141730/discussions/0/601903513921947858/"
+   },
+   {
+    "name": "Steam: трофей Level FUN не выдаётся",
+    "url": "https://steamcommunity.com/app/2141730/discussions/0/567036355935216535/"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/backrooms-escape-together/"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/product/UB1588-PPSA29906_00-0549164535498989"
+   }
+  ],
+  "store": {
+   "game": {
+    "ua": "concept/10015041",
+    "tr": "concept/10015041"
+   }
+  },
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "g": 1,
+     "s": 9,
+     "b": 8
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  },
+  "plat_pct": null,
+  "est_100_hours": null,
+  "dlc_count": 0
  },
  {
   "added": "2026-10-24",
@@ -1429,6 +1691,321 @@
     "tr": "concept/10000586"
    }
   }
+ },
+ {
+  "id": "dune_awakening",
+  "title": "Dune: Awakening",
+  "section": "backlog",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": "",
+  "added": "2026-11-02",
+  "updated": "2026-11-02",
+  "platform": "PS5",
+  "release": "2026-09-22",
+  "genre": "Сетевое выживание в открытом мире",
+  "developer": "Funcom",
+  "stratege_url": "https://stratege.ru/ps5/games/dune_awakening/trophies",
+  "trophies": {
+   "total": 71,
+   "base": 71,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 0,
+   "silver": 0,
+   "bronze": 70
+  },
+  "dlcs": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_base": null,
+  "dur_base": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "avg_plat_hours": 290,
+  "owners": 91,
+  "plat_count": 2,
+  "full_count": null,
+  "avg_completion": 21,
+  "critic": 80,
+  "critic_src": "OpenCritic",
+  "user_score": 7.3,
+  "quality": 7.6,
+  "quality_note": "OC 80 (101 рецензия, в основном ПК; MC PS5 79 по 24 рецензиям), Steam 73% положительных из 48 тыс. (за 30 дней 80%), MC user ПК 6.1 (−0.1); комментариев на stratege пока нет",
+  "online": true,
+  "online_note": "Даже в одиночном режиме нужен интернет: по обзору Multiplayer.it — для запуска и создания персонажа, Funcom обещает это изменить. PS Plus для одиночного режима не нужен. Трофеев, где нужны другие игроки, PvP или гильдия, в PS5-листе нет: гильдейские и торговые ачивки ПК-версии в него не вошли, а Глубокая пустыня («Sea of Sand / Море песка», лучемёт, передовые постройки) в одиночном режиме открыта целиком и без PvP. Риск: игра зависит от серверов Funcom, после их отключения платину, скорее всего, будет не получить.",
+  "online_trophies": [],
+  "missables": "Явно пропускаемых не отмечено (гайда по PS5 нет); почти всё накопительное. Под вопросом «Lisan al-Gaib / Лисан аль-Гаиб» — отказаться от предложения червя в видении (выбор в диалоге)",
+  "playthroughs": "1 (один персонаж в одиночном режиме; сетевого персонажа туда не перенести)",
+  "difficulty_trophy": "Нет (сложность одиночного режима настраивается)",
+  "glitched": "Нет известных (данных по PS5 пока мало)",
+  "ru": "subs",
+  "ru_loc": "Субтитры (озвучка только английская)",
+  "disc_note": "Диск PS5 есть (в Европе издаёт Bandai Namco); DLC с трофеями нет, платные дополнения — только косметика",
+  "pros": [
+   "Атмосфера «Дюны»: черви, орнитоптеры, пряность",
+   "Одиночный режим с гибкими настройками сложности",
+   "Сюжет первой книги теперь завершён",
+   "Хорошо адаптирована под геймпад"
+  ],
+  "cons": [
+   "Платина ~290 ч почти чистого гринда",
+   "Интернет нужен даже для одиночной игры",
+   "Деревянная боёвка, провисания в прогрессии",
+   "Только английская озвучка"
+  ],
+  "about": "Сетевая игра на выживание в открытом мире от Funcom, авторов Conan Exiles, по вселенной «Дюны» Фрэнка Герберта. Действие происходит в альтернативной ветке истории, где Пол Атрейдес так и не родился: заключённого отправляют на Арракис выяснить, куда исчезли фримены, а по ходу сюжета он встаёт на сторону Атрейдесов или Харконненов. В игре нужно добывать воду и ресурсы, крафтить снаряжение, строить базу и транспорт, от песчаных байков до орнитоптеров, избегать песчаных червей и выполнять сюжетные задания и контракты, а в эндгейме добывать пряность в Глубокой пустыне. На PS5 есть отдельный одиночный режим с настраиваемой сложностью, где соперничество гильдий симулирует компьютер, и сетевой режим с серверами до 60 игроков, гильдиями и PvP.",
+  "trophy_summary": "Сюжет и исследование Хагги — малая часть листа: платина — это сотни часов гринда счётчиков (семь трофеев по 500 убийств, 50 боссов, 10 000 ресурсов ручным инструментом, 100 блюд из муад’диба, 1000 глотков воды), полное обучение всех пяти школ, лучемёт и передовые постройки из эндгейма. Сложных трофеев нет, всё делается в одиночном режиме; ускоряют ли гринд множители добычи в настройках без риска для трофеев, не подтверждено.",
+  "why": "Выживание с крафтом и базой, как в Subnautica и Subnautica: Below Zero, в масштабе Fallout 4 с его строительством поселений — всё это у тебя уже пройдено. Сложных трофеев нет, и всё можно сделать в одиночном режиме без PS Plus, но это одна из самых долгих платин в списке: по stratege в среднем 290 ч (пока всего две платины), почти весь лист — гринд счётчиков. Нужен постоянный интернет, есть риск закрытия серверов.",
+  "sources": [
+   {
+    "name": "Stratege трофеи",
+    "url": "https://stratege.ru/ps5/games/dune_awakening/trophies"
+   },
+   {
+    "name": "Stratege игра (тип, язык)",
+    "url": "https://stratege.ru/ps5/games/dune_awakening"
+   },
+   {
+    "name": "PlayStation Blog (выход на PS5)",
+    "url": "https://blog.playstation.com/?p=420335"
+   },
+   {
+    "name": "Funcom: патчноуты консольного релиза",
+    "url": "https://duneawakening.com/news/dune-awakening-console-release-patch-notes/"
+   },
+   {
+    "name": "PS Store (языки, PS Plus)",
+    "url": "https://store.playstation.com/en-gb/product/EP1833-PPSA02391_00-DUNEAWAKENING000"
+   },
+   {
+    "name": "Steam (языки, отзывы)",
+    "url": "https://store.steampowered.com/app/1172710/"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/18178/dune-awakening"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/dune-awakening/"
+   },
+   {
+    "name": "Multiplayer.it (обзор PS5, интернет)",
+    "url": "https://multiplayer.it/recensioni/dune-awakening-recensione-ps5-xbox-series-xs.html"
+   },
+   {
+    "name": "IGM: все достижения",
+    "url": "https://igm.gg/media/d/dune-awakening-kak-poluchit-vse-dostizheniia-df4bd76f"
+   },
+   {
+    "name": "Final Weapon (диск PS5)",
+    "url": "https://finalweapon.net/2026/07/03/dune-awakening-physical-edition-playstation-5/"
+   }
+  ],
+  "store": {
+   "game": {
+    "ua": "concept/10001899",
+    "tr": "concept/10001899"
+   }
+  },
+  "diff_base_votes": null,
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "b": 70
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  },
+  "plat_pct": 2.2,
+  "est_100_hours": 290,
+  "dlc_count": 0
+ },
+ {
+  "id": "escape_the_backrooms",
+  "title": "Escape the Backrooms",
+  "section": "backlog",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": "",
+  "added": "2026-11-02",
+  "updated": "2026-11-02",
+  "platform": "PS5",
+  "release": "2026-05-28",
+  "genre": "Кооперативный хоррор-головоломка",
+  "developer": "Fancy Games, Blackbird Interactive",
+  "stratege_url": "https://stratege.ru/ps5/games/escape_the_backrooms/trophies",
+  "trophies": {
+   "total": 35,
+   "base": 35,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 6,
+   "silver": 1,
+   "bronze": 27
+  },
+  "dlcs": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_base": null,
+  "diff_base_votes": null,
+  "dur_base": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "avg_plat_hours": 47,
+  "owners": 106,
+  "plat_count": 2,
+  "full_count": null,
+  "avg_completion": 27,
+  "critic": 80,
+  "critic_src": "OpenCritic (1 обзор: Push Square 8/10)",
+  "user_score": 8.8,
+  "quality": 7.8,
+  "quality_note": "OpenCritic: только один обзор (Push Square 8/10), Metascore не выставлен; Steam 88% положительных (47 тыс. англоязычных отзывов, за последние 30 дней 83%), MC user 7.4 (32 оценки), PS Store ~4.5/5. Расчёт 8.3, −0.5: один обзор критиков, свежие отзывы хуже, на PS5 слабая графика. Комментарии stratege не учтены (грузятся скриптом)",
+  "online": true,
+  "online_note": "Четыре трофея (и, значит, платина) требуют сетевого режима (мультиплеер по PS Plus, кроссплей с ПК, Xbox и Switch 2 по коду комнаты). Прохождения на Лёгкой, Нормальной и Сложной в мультиплеере, по отзывам игроков в Steam, засчитываются и при одиночной игре в сетевом лобби (не подтверждено для PS5). «Кошмар» требует пройти игру вчетвером. По отзывам Steam после версии 1.0 забег можно пройти одному, а троих позвать только на финал. Смерть в «Кошмаре» откатывает к самому началу",
+  "online_trophies": [
+   {
+    "name": "Completionist / Завершитель",
+    "grade": "platinum",
+    "part": "Основная игра",
+    "note": "Платина: нужны все трофеи, включая сетевые",
+    "got": null
+   },
+   {
+    "name": "Nightmare / Кошмар",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "Пройти игру вчетвером на сложности «Кошмар»; смерть откатывает к началу. На stratege у 2 из 106 владельцев",
+    "got": null
+   },
+   {
+    "name": "Group Effort / Групповые усилия",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "Пройти игру в мультиплеере на Сложной; вероятно, можно одному в сетевом лобби",
+    "got": null
+   },
+   {
+    "name": "Participation Trophy / Трофей за участие",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "Пройти игру в мультиплеере на Лёгкой; вероятно, можно одному в сетевом лобби",
+    "got": null
+   },
+   {
+    "name": "Squad / Отряд",
+    "grade": "gold",
+    "part": "Основная игра",
+    "note": "Пройти игру в мультиплеере на Нормальной; вероятно, можно одному в сетевом лобби",
+    "got": null
+   }
+  ],
+  "missables": "Нет данных о пропускаемых: трофеи за выходы с уровней, концовки и сложности добираются повторными забегами, но секретные уровни лежат на отдельных ветках маршрута",
+  "playthroughs": "Минимум 4 (мультиплеер на Лёгкой, Нормальной, Сложной и «Кошмар») + забеги по веткам к секретным уровням и финальной концовке",
+  "difficulty_trophy": "Да: прохождения в мультиплеере на Лёгкой, Нормальной и Сложной и «Кошмар» вчетвером без смертей",
+  "glitched": "Нет известных (по PS5 данных мало)",
+  "ru": "subs",
+  "ru_loc": "Субтитры (озвучка английская)",
+  "disc_note": "Только цифровая версия, диска нет",
+  "pros": [
+   "Атмосферное Закулисье, 30+ разных уровней",
+   "Кооп до 4 игроков с голосовым чатом по расстоянию",
+   "Кроссплей с ПК, Xbox и Switch 2",
+   "Недорогая, есть русские субтитры"
+  ],
+  "cons": [
+   "Платина упирается в «Кошмар» вчетвером",
+   "Без друзей теряется половина удовольствия",
+   "Скромная графика и звук на PS5"
+  ],
+  "about": "Кооперативный хоррор от Fancy Games и Blackbird Interactive (издатель Secret Mode) по мотивам интернет-крипипасты о Закулисье. Герои проваливаются в бесконечный лабиринт жёлтых офисных коридоров и ищут выходы через три десятка уровней — от залов с бассейнами и заброшенного офиса до отеля и пещер, — избегая сущностей, которые слышат каждый звук. Играть можно одному или вчетвером по сети с голосовым чатом по расстоянию: впереди головоломки, прятки и бегство, секретные уровни и несколько концовок. В режиме «Кошмар» любая смерть отправляет команду к самому началу.",
+  "trophy_summary": "Платину делают сложной сетевые прохождения: мультиплеер на Лёгкой, Нормальной и Сложной (по отзывам Steam можно одному в сетевом лобби) и «Кошмар», финал которого нужно пройти вчетвером, а любая смерть откатывает к началу. Оценки сложности на stratege нет, платина у 2 из 106 владельцев (в среднем 47 ч на этой малой выборке).",
+  "why": "Для тебя это новый жанр: в профиле есть одиночные хорроры вроде Still Wakes the Deep и Silent Hill 2, но нет сетевых кооперативных. Атмосфера пустых пространств близка к Pacific Drive и Still Wakes the Deep, а с друзьями игру хвалят как весёлый и страшный кооп. Учти: без компании из четырёх человек платину не взять, а оценки сложности на stratege ещё нет.",
+  "sources": [
+   {
+    "name": "Stratege трофеи",
+    "url": "https://stratege.ru/ps5/games/escape_the_backrooms/trophies"
+   },
+   {
+    "name": "Stratege сложность",
+    "url": "https://stratege.ru/ps5/games/escape_the_backrooms/difficulty"
+   },
+   {
+    "name": "Stratege игра",
+    "url": "https://stratege.ru/ps5/games/escape_the_backrooms"
+   },
+   {
+    "name": "Secret Mode (релиз на консолях)",
+    "url": "https://wearesecretmode.com/news/escape-the-backrooms-console-launch"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/20962/escape-the-backrooms"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/escape-the-backrooms/"
+   },
+   {
+    "name": "Steam",
+    "url": "https://store.steampowered.com/app/1943950/"
+   },
+   {
+    "name": "Steam: обсуждение «Кошмара» после 1.0",
+    "url": "https://steamcommunity.com/app/1943950/discussions/0/595163560549969403/"
+   },
+   {
+    "name": "Steam: мультиплеер в одиночку",
+    "url": "https://steamcommunity.com/app/1943950/discussions/0/3830915924694344987/"
+   },
+   {
+    "name": "Playnews (сложности и «Кошмар»)",
+    "url": "https://www.playnews.gg/en/guides/escape-the-backrooms-which-difficulty-to-choose-between-easy-normal-hard-and-nightmare-2026"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-gb/product/UP8634-PPSA23300_00-0097358964792948"
+   }
+  ],
+  "store": {
+   "game": {
+    "ua": "concept/10010992",
+    "tr": "concept/10010992"
+   }
+  },
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 2,
+     "s": 1,
+     "b": 27
+    },
+    "on": {
+     "g": 4
+    }
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  },
+  "plat_pct": 1.9,
+  "est_100_hours": 47,
+  "dlc_count": 0
  },
  {
   "added": "2026-10-24",
@@ -3464,6 +4041,133 @@
     "tr": "concept/10004825"
    }
   }
+ },
+ {
+  "section": "backlog",
+  "status": "planned",
+  "priority": null,
+  "my_rating": null,
+  "notes": "",
+  "added": "2026-11-02",
+  "updated": "2026-11-02",
+  "dlcs": [],
+  "dlc_pending": false,
+  "dlc_pending_note": null,
+  "diff_dlc": null,
+  "dur_dlc": null,
+  "online": false,
+  "online_note": null,
+  "online_trophies": [],
+  "id": "visage",
+  "title": "Visage",
+  "platform": "PS5",
+  "release": "2020-10-30",
+  "genre": "Психологический хоррор",
+  "developer": "SadSquare Studio",
+  "stratege_url": "https://stratege.ru/ps5/games/visage/trophies",
+  "trophies": {
+   "total": 28,
+   "base": 28,
+   "dlc": 0,
+   "plat": 1,
+   "gold": 8,
+   "silver": 3,
+   "bronze": 16
+  },
+  "diff_base": 3.71,
+  "diff_base_votes": 21,
+  "dur_base": "10+",
+  "avg_plat_hours": 16,
+  "owners": 253,
+  "plat_count": 64,
+  "full_count": null,
+  "avg_completion": 34,
+  "critic": 77,
+  "critic_src": "OpenCritic",
+  "user_score": 6.2,
+  "quality": 7.2,
+  "quality_note": "OC 77 (MC PS4 80), MC user 6.2 (PC, 187 оценок); Steam 84% положительных из 11 тыс. отзывов, но за последние 30 дней 64%; обзор stratege 80/100 (+0.1). Комментарии stratege не загрузились",
+  "missables": "Явно пропускаемых нет: выбора глав нет, но всё досбирается в том же сохранении; часть VHS-кассет появляется только после завершения соответствующей главы",
+  "playthroughs": "1 (гайд советует первое прохождение вслепую, второе — под трофеи)",
+  "difficulty_trophy": "Нет",
+  "glitched": "Нет известных",
+  "ru": "subs",
+  "ru_loc": "Субтитры (PS Store: текст на русском, озвучка только английская)",
+  "disc_note": "Диска нет: только цифра (PS4-версия с бесплатным апгрейдом до PS5 Enhanced Edition); DLC нет",
+  "pros": [
+   "Атмосфера в духе P.T., по-настоящему страшно",
+   "Три независимые истории о жильцах дома",
+   "Недлинная платина без онлайна",
+   "Русские субтитры"
+  ],
+  "cons": [
+   "Нет диска, только цифра",
+   "Почти нет подсказок, легко заблудиться",
+   "«Попался, мелочь зелёная...» зависит от случая"
+  ],
+  "about": "Психологический хоррор от первого лица канадской инди-студии SadSquare Studio, вдохновлённый P.T. Дуэйн Андерсон после трагедии с собственной семьёй оказывается заперт в старом доме, где десятилетиями умирали люди, и через проклятые вещи узнаёт истории прежних жильцов — девочки Люси, Долорес и Ракана. Главы можно начинать в любом порядке, бродя по постоянно меняющемуся дому со светильниками и зажигалкой: темнота пугает героя и подтачивает рассудок. Подсказок почти нет, темп медленный, упор на исследование, головоломки и скримеры.",
+  "trophy_summary": "Платина в среднем за 16 ч: матрёшки, кассеты Джорджа, комиксы, VHS-кассеты Дуэйна и куски зеркальной маски, несколько концовок. «Танцуй, танцуй» требует пройти все три главы в одном сохранении, а самый нудный трофей — крошечный инопланетянин Бернард, который появляется случайно.",
+  "why": "Медленный жуткий хоррор в духе P.T. — после Silent Hill 2, Still Wakes the Deep и The Medium, которые у тебя уже пройдены. Сложность 3.7 и платина примерно за 16 ч, но диска нет и навигация без подсказок может утомить.",
+  "sources": [
+   {
+    "name": "Stratege трофеи",
+    "url": "https://stratege.ru/ps5/games/visage/trophies"
+   },
+   {
+    "name": "Stratege сложность",
+    "url": "https://stratege.ru/ps5/games/visage/difficulty"
+   },
+   {
+    "name": "ProGameTalk (гайд)",
+    "url": "https://progametalk.com/guides/visage-achievement-guide/"
+   },
+   {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/game/10461/visage"
+   },
+   {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/game/visage/"
+   },
+   {
+    "name": "Steambase (Steam %)",
+    "url": "https://steambase.io/games/visage/reviews"
+   },
+   {
+    "name": "Gematsu (Enhanced Edition PS5)",
+    "url": "https://gematsu.com/2021/10/visage-enhanced-edition-now-available-for-xbox-series-launches-in-november-for-ps5"
+   },
+   {
+    "name": "PS Store (языки)",
+    "url": "https://store.playstation.com/en-tr/product/EP3236-PPSA04698_00-5793122806301854"
+   }
+  ],
+  "store": {
+   "game": {
+    "ua": "concept/10001581",
+    "tr": "concept/10001581"
+   }
+  },
+  "diff_dlc_votes": null,
+  "tro_split": {
+   "base": {
+    "off": {
+     "p": 1,
+     "g": 8,
+     "s": 3,
+     "b": 16
+    },
+    "on": {}
+   },
+   "dlc": {
+    "off": {},
+    "on": {}
+   },
+   "dlc_groups": 0
+  },
+  "plat_pct": 25.3,
+  "est_100_hours": 16,
+  "dlc_count": 0
  },
  {
   "added": "2026-10-24",

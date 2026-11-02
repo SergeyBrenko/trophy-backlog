@@ -66,8 +66,12 @@ def cmd_check():
             for e in [g.get("store", {}).get("game") or {}] + g.get("store", {}).get("dlc", []) for k in REGIONS if e.get(k)]
 
     def one(job):
-        h = page(REGIONS[job[2]], job[3])
-        return job, price(h) if h else "404"
+        for _ in range(2):  # the store sometimes returns a page without data: retry once
+            h = page(REGIONS[job[2]], job[3])
+            p = price(h) if h else "404"
+            if p not in (None, "404"):
+                break
+        return job, p
     with ThreadPoolExecutor(6) as ex:
         bad = [(j, p) for j, p in ex.map(one, jobs) if p in NOT_FOR_SALE or p in (None, "404")]
     print(f"{len(jobs)} links checked, problems: {len(bad)}")

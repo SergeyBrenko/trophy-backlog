@@ -69,6 +69,7 @@
  "/ps5/games/007_first_light": "img/covers/ps5_007_first_light.jpg",
  "/ps5/games/a_plague_tale_requiem": "img/covers/ps5_a_plague_tale_requiem.jpg",
  "/ps5/games/ace_combat_8_wings_of_theve": "img/covers/ps5_ace_combat_8_wings_of_theve.jpg",
+ "/ps5/games/aila": "img/covers/ps5_aila.jpg",
  "/ps5/games/alan_wake_ii": "img/covers/ps5_alan_wake_ii.jpg",
  "/ps5/games/alan_wake_remastered": "img/covers/ps5_alan_wake_remastered.jpg",
  "/ps5/games/as_dusk_falls": "img/covers/ps5_as_dusk_falls.jpg",
@@ -81,6 +82,7 @@
  "/ps5/games/atomic_heart": "img/covers/ps5_atomic_heart.jpg",
  "/ps5/games/avatar_frontiers_of_pandora": "img/covers/ps5_avatar_frontiers_of_pandora.jpg",
  "/ps5/games/avowed": "img/covers/ps5_avowed.jpg",
+ "/ps5/games/backrooms_escape_together": "img/covers/ps5_backrooms_escape_together.jpg",
  "/ps5/games/baldurs_gate_3": "img/covers/ps5_baldurs_gate_3.jpg",
  "/ps5/games/banishers_ghosts_of_new_eden": "img/covers/ps5_banishers_ghosts_of_new_eden.jpg",
  "/ps5/games/black_myth_wukong": "img/covers/ps5_black_myth_wukong.jpg",
@@ -107,8 +109,10 @@
  "/ps5/games/dragon_age_dreadwolf": "img/covers/ps5_dragon_age_dreadwolf.jpg",
  "/ps5/games/dragons_dogma_ii": "img/covers/ps5_dragons_dogma_ii.jpg",
  "/ps5/games/dredge": "img/covers/ps5_dredge.jpg",
+ "/ps5/games/dune_awakening": "img/covers/ps5_dune_awakening.jpg",
  "/ps5/games/dying_light_the_beast": "img/covers/ps5_dying_light_the_beast.jpg",
  "/ps5/games/eriksholm_the_stolen_dream": "img/covers/ps5_eriksholm_the_stolen_dream.jpg",
+ "/ps5/games/escape_the_backrooms": "img/covers/ps5_escape_the_backrooms.jpg",
  "/ps5/games/far_changing_tides": "img/covers/ps5_far_changing_tides.jpg",
  "/ps5/games/farming_simulator_25": "img/covers/ps5_farming_simulator_25.jpg",
  "/ps5/games/final_fantasy_xvi": "img/covers/ps5_final_fantasy_xvi.jpg",
@@ -222,5 +226,6 @@
  "/ps5/games/unholy": "img/covers/ps5_unholy.jpg",
  "/ps5/games/unicorn_overlord": "img/covers/ps5_unicorn_overlord.jpg",
  "/ps5/games/unknown_9_awakening": "img/covers/ps5_unknown_9_awakening.jpg",
+ "/ps5/games/visage": "img/covers/ps5_visage.jpg",
  "/ps5/games/warhammer_40000_rogue_trader": "img/covers/ps5_warhammer_40000_rogue_trader.jpg"
 }

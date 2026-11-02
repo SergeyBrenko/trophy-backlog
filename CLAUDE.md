@@ -104,11 +104,12 @@ docs/research-brief.md     как собирать карточку игры: и
 - `scripts/update.sh` сам делает коммиты «Статистика со stratege: <дата>»: перед работой делай `git pull`.
 - Контекстные файлы (`CLAUDE.md`, `README.md`, `docs/research-brief.md`) обновлять в том же коммите, что и изменение. Устаревшее удалять: здесь должна быть только актуальная информация.
 
-## Известные пробелы данных (на 2026-10-28)
+## Известные пробелы данных (на 2026-11-02)
 - S.T.A.L.K.E.R. 2 — карточка предварительная: нет оценок критиков, пропускаемых трофеев, наличия диска.
 - Мафии: у Mafia II DE пока нет PS5-листа (появится — перейти на него); статистика PS5-листа Mafia III (вышел 08.10.2026) на малой выборке, на PS4 платина в среднем 84 ч. Диски только PS4 (Mafia: Trilogy / отдельные), PS5-версии через бесплатный апгрейд.
 - Распределение трофеев по DLC у части игр выведено вычитанием из общего числа.
 - В `quality` у кандидатов, добавленных 2026-10-24, нет поправки по комментариям stratege (они грузятся скриптом), кроме групп «Тактика и RPG» и запасных.
+- Новые игры списка от 2026-11-02: у Dune: Awakening, Escape the Backrooms и Backrooms: Escape Together на stratege ещё нет оценки сложности, у A.I.L.A — один голос; среднее время платины по 1–2 платинам. Трофейных гайдов для них нет (данные по Steam-обсуждениям). Dune: Awakening — `online: true` без онлайн-трофеев: всё делается одному, но нужен постоянный интернет. У Backrooms: Escape Together нет платины, игра в раннем доступе на ПК — трофеи могут добавиться. Диск A.I.L.A (ограниченный тираж Super Rare Games) не подтверждён.
 - Мало голосов за сложность, оценка может сдвинуться: The Blood of Dawnwalker, Avowed, Disciples: Domination, Star Wars Zero Company, King Arthur, Romeo is a Dead Man, GreedFall II, Pathfinder (2 голоса), DLC Dying Light: The Beast (2 голоса). Нет оценки: Days Gone Remastered (в карточке цифры PS4-оригинала), DLC Rogue Trader, Atomfall, Little Nightmares III, King Arthur.
 - PS Store: у Atomic Heart DLC Annihilation Instinct не продаётся отдельно в Украине; у King Arthur DLC Silver Twilight не найдено в PS Store; у Spintires: MudRunner и Uncharted 4 (недоделанные) отдельной игры в магазине нет — ссылок нет.
 - Диска нет или он не подтверждён: Outer Worlds: Spacer's Choice (только PS4-диск + платный апгрейд), Avowed, South of Midnight, Sherlock Holmes: Chapter One (только азиатское издание), King's Bounty II и Divinity: OS2 (PS5 через PS4-диск), Pathfinder: WotR, King Arthur, Romeo is a Dead Man, Days Gone Remastered, Hellblade II (анонсирован LRG), The Alters (Complete Edition выходит 20.11.2026), Dying Light: The Beast (Definitive, декабрь 2026).

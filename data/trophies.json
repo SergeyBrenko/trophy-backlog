@@ -5714,6 +5714,161 @@
   ],
   "dlcs": []
  },
+ "/ps5/games/aila": {
+  "base": [
+   {
+    "name": "Platinum / Платина",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Collector / Коллекционер",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "You're Fired! / Ты уволена!",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Deadline Crusher / Гроза дедлайнов",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Redemption / Искупление",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Conscious Glith / Намеренный глюк",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Conephobia / Конусофобия",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Jonisvaldo / Жонисвальдо",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "With Bloodied Hands / По локоть в крови",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "One Spark, Two Graves / Одна искра — два трупа",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Whispering Death / Смерть шепчет",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "No More Lullabies / Колыбельная стихла",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Wicked End / Ужасный конец",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Captain's End / Смерть капитана",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Black Tide Falls / Чёрная волна отступает",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "This Is My Boomstick! / Это моя палка-стрелялка!",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Jigsaw / Головоломка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Detective / Детектив",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Commander / Комтур",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Sailor / Моряк",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Hiker / Походник",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "I'm Samuel / Я Сэмюэл",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "End game / Это конец",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Turbulent waters / Бурлящие воды",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Medicinal Overdose / Передозировка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "DIY Legend / На все руки мастер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Backup Plan / Резервное копирование",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Curiosity Department / Любопытная Варвара",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Marked by Fate / Меченные судьбой",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Purrfect Interaction / Замурчательное общение",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
  "/ps5/games/alan_wake_remastered": {
   "base": [
    {
@@ -8360,6 +8515,101 @@
    },
    {
     "name": "Get in the Statue, Envoy / Полезай в статую, Эмиссар",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/backrooms_escape_together": {
+  "base": [
+   {
+    "name": "Level FUN (Purgatory) / Уровень ВЕСЕЛЬЕ (чистилище)",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Confetti and Carnage / Конфетти и бойня",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Commencement / Посвящение",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Level 1 (Purgatory) / Уровень 1 (чистилище)",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Level 2 (Purgatory) / Уровень 2 (чистилище)",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Level 3 (Purgatory) / Уровень 3 (чистилище)",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Level 4 (Purgatory) / Уровень 4 (чистилище)",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Level 6 (Purgatory) / Уровень 6 (чистилище)",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Level 37 (Purgatory) / Уровень 37 (чистилище)",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Level ! (Purgatory) / Уровень ! (чистилище)",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Beginning / Начало",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Covenant of Thieves / Завет воров",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Rust and Rend / Ржавчина и разрушение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Circuit Breaker / Предохранитель",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Clerical Desolation / Офисное опустошение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Abyssal Echoes / Эхо бездны",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "A Tranquil Sojourn / Безмятежное пребывание",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Footsteps in Limbo / Шаги в неопределенности",
     "grade": "bronze",
     "online": false
    }
@@ -12982,6 +13232,366 @@
    }
   ]
  },
+ "/ps5/games/dune_awakening": {
+  "base": [
+   {
+    "name": "The Awakened / Пробуждение",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Welcome to Arrakis / Добро пожаловать на Арракис",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Echoes of the Past / Отголоски прошлого",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Assassin's Handbook / Справочник ассасина",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "In Their Footsteps / Их путь",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Job’s Done! / Дело сделано!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Scrap Mogul / Повелитель хлама",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Kirab Instigator / Провокатор кирабов",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Infiltrate and Neutralize / Внедриться и обезвредить",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Silver or Steel? / Серебро или сталь?",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Survivor’s Guilt / Вина выжившего",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Scorpion’s Sting / Укус скорпиона",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Intelligence and Counter-Intelligence / Разведка и контрразведка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Culling the Fanatics / Усмирение фанатиков",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Imperial Testing Station Investigator / Исследователь имперских станций",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Great Convention / Великая конвенция",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Among the Hawks / Среди ястребов",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Among the Griffins / Среди гриффонов",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Harko Village / Деревня Харко",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Arrakeen / Арракин",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Sea of Sand / Море песка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Desert's Grasp / Кулак пустыни",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "On Top of the World / На вершине мира",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Dentist / Дантист",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Explorer / Исследователь",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Merchant / Продавец",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Across the Sands / Через пески",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Above the Sands / Над песками",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Vehicle Master / Эксперт по транспорту",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Basic Machinery / Базовое оборудование",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Advanced Machinery / Улучшенное оборудование",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Ultimate Machinery / Передовое оборудование",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Weapons Manufacturer / Оружейник",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Stake Your Claim / Право на землю",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Feels Like Home / Домашний уют",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Reuse / Повторное использование",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Eco-Friendly / Экологичность",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Deathstiller / Эксперт по биодистилляции",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Miner / Шахтер",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Hawks and Griffins / Ястребы и гриффоны",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "House Operator / Оператор Дома",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Divided Messiah / Мессия питательный",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Staring Contest / Гляделки",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Those Who Control the Spice... / Те, кто управляют потоком пряности…",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Eye-Opening / Прозрение",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Thirst Quenched / Утоление жажды",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Past, Present, and Future / Прошлое, настоящее и будущее",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Pressures of Thirst / Гнет жажды",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Water Shippers Hate Him / Враг водоторговцев",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Vampire / Вампир",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Lisan al-Gaib / Лисан аль-Гаиб",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Silent Assassin / Бесшумный убийца",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Fear is the Mindkiller / Страх — убийца разума",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Blast Off / В отрыв",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Spin to Win / Не в бровь, а в глаз",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Planetologist / Планетолог",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Trooper / Пехотинец",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Mentat / Ментат",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Swordmaster / Мастер меча",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Bene Gesserit / Бене Гессерит",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Boss Rusher / Охотник на крупную дичь",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Second Chance / Второй шанс",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Own Medicine / Той же монетой",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Scrappy / Расхламление",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Kirab Killer / Убийца кирабов",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Slaver Slayer / Гроза работорговцев",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Desertion Equals Death / Предательство карается смертью",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Strike Breaker / Мухобойка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Heretic Hunter / Охотник на отступников",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Master Assassin / Мастер-ассасин",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Sardaukar Killer / Истребитель сардаукаров",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
  "/ps5/games/dying_light_the_beast": {
   "base": [
    {
@@ -13447,6 +14057,186 @@
    },
    {
     "name": "Stick It To The Man / Презрение к власти",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/escape_the_backrooms": {
+  "base": [
+   {
+    "name": "Completionist / Завершитель",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Escape Level 55.1 / Побег Уровень 55.1",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Nightmare / Кошмар",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Group Effort / Групповые усилия",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Participation Trophy / Трофей за участие",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Squad / Отряд",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Escaped! / Сбежал!",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Survivalist / Выживальщик",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Escape Level 0 / Побег Уровень 0",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape the Habitable Zone / Побег из зоны обитаемости",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Pipe Dreams / Побег из несбыточных мечтаний",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level Fun / Веселый уровень побега",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape the Poolrooms / Побег из бильярдной",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level ! / Уровень побега!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape The End / Побег из конца",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 9223372036854775807 / Уровень побега 9223372036854775807",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape The Hub / Побег из хаба",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 3 / Побег Уровень 3",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 4 / Побег Уровень 4",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 5 / Побег Уровень 5",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 6 / Побег Уровень 6",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 94 / Побег Уровень 94",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 7 / Побег Уровень 7",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 8 / Побег Уровень 8",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 188 / Побег Уровень 188",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 9 / Побег Уровень 9",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 10 / Побег Уровень 10",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 3999 / Побег Уровень 3999",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 0.2 / Побег Уровень 0.2",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape the Snackrooms / Побег из закусочных",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level !~! / Побег Уровень !~!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 52 / Побег Уровень 52",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape the Death Slides / Сбежать с горки смерти",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape the Grassrooms / Побег из комнат с травой",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Escape Level 974 / Побег Уровень 974",
     "grade": "bronze",
     "online": false
    }
@@ -34210,6 +35000,151 @@
    },
    {
     "name": "You Got Folded / Так сложилось",
+    "grade": "bronze",
+    "online": false
+   }
+  ],
+  "dlcs": []
+ },
+ "/ps5/games/visage": {
+  "base": [
+   {
+    "name": "Visage Master / Эксперт Visage",
+    "grade": "platinum",
+    "online": false
+   },
+   {
+    "name": "Matryoshka dolls master / Повелитель матрешек",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Chapter: Lucy / Глава: Люси",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Chapter: Dolores / Глава: Долорес",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Void / Вакуум",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Family reunion / Воссоединение семьи",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Dwayne's memento master / Хранитель памяток Дуэйна",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Mirror mask master / Хранитель зеркальной маски",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Chapter: Rakan / Глава: Ракан",
+    "grade": "gold",
+    "online": false
+   },
+   {
+    "name": "Dance, dance / Танцуй, танцуй",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "George's memento master / Хранитель памяток Джорджа",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "The Neighbors master / Хранитель «Соседей»",
+    "grade": "silver",
+    "online": false
+   },
+   {
+    "name": "Matryoshka doll / Матрешка",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "First reaction / Первая реакция",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Special recipe / Фирменный рецепт",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Novice electrician / Начинающий электрик",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "George's memento / Памятки Джорджа",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "The Neighbors / Соседей",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Gearing up! / Готовность номер один!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Dwayne's memento / Памятки Дуэйна",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Hot chocolate / Какао",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Smile! / Улыбку, пожалуйста!",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "10 on the 10th / Десятка десятого",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Mirror mask / Зеркальная маска",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Psychological evaluation / Психологическое освидетельствование",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Easy way out / Простой выход",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Gotcha, you little... / Попался, мелочь зеленая...",
+    "grade": "bronze",
+    "online": false
+   },
+   {
+    "name": "Special gift / Подарок со смыслом",
     "grade": "bronze",
     "online": false
    }
